@@ -1,4 +1,4 @@
-# s6-oki
+# SF6 OKI LOL
 
 ## Related
 

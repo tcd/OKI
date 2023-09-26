@@ -1,2 +1,0 @@
-x 2023-09-09 2023-09-09 Disable already selected heroes
-2023-09-09 Implement thunk `player1Spin`
