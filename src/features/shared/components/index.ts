@@ -1,6 +1,7 @@
 export * from "./ErrorBoundary"
 export * from "./Img"
 export * from "./JsonDisplay"
+export * from "./Link"
 export * from "./None"
 export * from "./OverlaySpinner"
 export * from "./AppPage"

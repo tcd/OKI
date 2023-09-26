@@ -1,6 +1,10 @@
+import { Link, type LinkProps } from "@app/features/shared"
+
 export const AppHeader = (): JSX.Element => {
 
-    const $links = links.map((link, i) => <HeaderLink key={i} {...link} />)
+    const $links = links.map((link, i) => (
+        <li key={i}><Link {...link}/></li>
+    ))
 
     return (
         <>
@@ -13,26 +17,10 @@ export const AppHeader = (): JSX.Element => {
 
 // =============================================================================
 
-const links: HeaderLinkProps[] = [
+const links: LinkProps[] = [
     {
         title: "SFV OKI LOL",
         url: "http://toolassisted.github.io/OKI",
     },
 ]
 
-// =============================================================================
-
-type HeaderLinkProps = {
-    title: string
-    url: string
-}
-
-const HeaderLink = (props: HeaderLinkProps): JSX.Element => {
-    return (
-        <li>
-            <a href={props.url}>
-                {props.title}
-            </a>
-        </li>
-    )
-}
