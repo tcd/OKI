@@ -1,0 +1,32 @@
+{
+    // -------------------------------------------------------------------------
+    // eslint
+    // -------------------------------------------------------------------------
+    "eslint.format.enable": true,
+    "[javascript]":      { "editor.defaultFormatter": "dbaeumer.vscode-eslint" },
+    "[typescript]":      { "editor.defaultFormatter": "dbaeumer.vscode-eslint" },
+    "[javascriptreact]": { "editor.defaultFormatter": "dbaeumer.vscode-eslint" },
+    "[typescriptreact]": { "editor.defaultFormatter": "dbaeumer.vscode-eslint" },
+    // -------------------------------------------------------------------------
+    // Other Settings
+    // -------------------------------------------------------------------------
+    "files.associations": {
+        "*.json": "jsonc",
+        "*.env.json": "json",
+        "*.env": "shellscript",
+    },
+    "files.exclude": {
+        "**/.git": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+    },
+    // =========================================================================
+    // Spelling
+    // =========================================================================
+    "cSpell.words": [
+        "Homewood",
+        "Northport",
+        "Trussville",
+        "Vestavia"
+    ]
+}

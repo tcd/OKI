@@ -1,0 +1,11 @@
+**/node_modules
+**/ignore/**
+**/dist
+**/build
+config/.env.json
+.npmrc
+.env
+./*.env
+./*.env.*
+!./config/.env.prod.json
+src/assets

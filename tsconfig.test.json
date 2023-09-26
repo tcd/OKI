@@ -1,0 +1,41 @@
+{
+    "ts-node": { // ts-node automated configuration using commonjs
+        "compilerOptions": {
+            "module": "CommonJS"
+        }
+    },
+    "compilerOptions": {
+        "moduleResolution": "node",
+        "target": "ES6",
+        "esModuleInterop": true,
+        "downlevelIteration": true,
+        "allowSyntheticDefaultImports": true,
+        "sourceMap": true,
+        "declaration": true,
+        "declarationMap": true,
+        "strict": false,
+        "lib": [
+            "ES2021"
+        ],
+        "types": [
+            "node",
+            "mocha",
+        ],
+        "typeRoots": [
+            "./node_modules/@types",
+        ],
+        "baseUrl": ".",
+        "paths": {
+            "@app/*": ["./src/*"],
+            "@fixtures": ["./test/fixtures/index.ts"],
+        },
+    },
+    "include": [
+        "src/**/*.ts",
+        "test",
+    ],
+    "exclude": [
+        "ignore",
+        "dist",
+    ]
+}
