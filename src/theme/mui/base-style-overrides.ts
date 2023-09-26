@@ -84,7 +84,7 @@ const _htmlAndBody: CSSObject = {
     // overflowX: "hidden",
     // overflow: "hidden",
 
-    backgroundColor: "#200205",
+    backgroundColor: "#000000",
 
     // "& *": {
     //     boxSizing: "border-box",
