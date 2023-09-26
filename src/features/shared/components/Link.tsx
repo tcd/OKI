@@ -21,8 +21,9 @@ export const Link = (props: LinkProps): JSX.Element => {
 
 // =============================================================================
 
-const color  = "#0000ee"
-const color2 = "#4c4ce9"
+const color1  = "#0079d3"
+const color2 = color1
+// const color2 = "#4c4ce9"
 
 const sx: SxProps = {
     // color,
@@ -48,7 +49,7 @@ const sx: SxProps = {
         textDecoration: "underline",
     },
     "&:visited": {
-        color: color,
+        color: color1,
     },
     "&:visited:hover": {
         color: color2,

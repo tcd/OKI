@@ -1,73 +1,8 @@
-import type { CSSObject, SxProps } from "@mui/material"
+import type { CSSObject } from "@mui/material"
 
 import type {
     ITheme as Theme,
 } from "../helpers"
-
-/**
- * - `<ul></ul>`
- * - `<ol></ol>`
- * - `<li></li>`
- */
-const lists: SxProps = {
-    display: "unset",
-    // listStyle: "unset",
-    listStylePosition: "unset",
-    paddingLeft: "unset",
-    marginLeft: "unset",
-    marginBottom: "unset",
-    marginBlockStart: "unset",
-    marginBlockEnd: "unset",
-    listStyle: "none",
-    // listStylePosition: "inside",
-    // paddingLeft: "0px",
-    // marginLeft: "0px",
-    // marginBottom: "default",
-    // marginBlockStart: "0px",
-    // marginBlockEnd: "0px",
-}
-
-/**
- * - `<a></a>`
- */
-const anchors = (_theme: Theme): SxProps => {
-    // const color =  theme.palette.mode === "dark" ? theme.palette.primary.main : theme.palette.primary.main
-    // const color =  theme.palette.mode === "dark" ? theme.palette.primary.light : theme.palette.primary.dark
-    // const color =  theme.palette.primary.main
-    // const color =  theme.palette.mode === "dark" ? "red" : "lime"
-    const color  = "#0000ee"
-    const color2 = "#4c4ce9"
-    return {
-        // color,
-        // textDecoration: "none",
-        // "&:hover, &:active, &:focused, &:visited": {
-        //     color,
-        //     cursor: "pointer",
-        //     textDecoration: "underline",
-        // },
-        "&:hover": {
-            color: color2,
-            cursor: "pointer",
-            textDecoration: "underline",
-        },
-        "&:active": {
-            color: color2,
-            cursor: "pointer",
-            textDecoration: "underline",
-        },
-        "&:focused": {
-            color: color2,
-            cursor: "pointer",
-            textDecoration: "underline",
-        },
-        "&:visited": {
-            color: color,
-        },
-        "&:visited:hover": {
-            color: color2,
-        },
-    }
-}
 
 // =============================================================================
 
@@ -99,10 +34,8 @@ const html: CSSObject = {
     ..._htmlAndBody,
 }
 
-const body = (theme: Theme): CSSObject => ({
+const body = (_theme: Theme): CSSObject => ({
     ..._htmlAndBody,
-    // "& ol, & ul, & li": lists,
-    "& a.link, & .snv__link": anchors(theme),
 })
 
 // =============================================================================
