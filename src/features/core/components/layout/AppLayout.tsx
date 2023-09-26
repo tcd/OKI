@@ -2,9 +2,9 @@ import { Box } from "@mui/material"
 
 import type { ISxProps as SxProps } from "@app/theme"
 import { ErrorBoundary } from "@app/features/shared"
+import { MainPage } from "@app/features/main"
 import { AppHeader } from "./AppHeader"
 import { AppFooter } from "./AppFooter"
-import { GamePage } from "@app/features/game"
 
 export const AppLayout = (): JSX.Element => {
     return (
@@ -12,7 +12,7 @@ export const AppLayout = (): JSX.Element => {
             <AppHeader />
             <Box sx={{ flexGrow: 1 }}>
                 <ErrorBoundary name="AppLayout">
-                    <GamePage />
+                    <MainPage />
                 </ErrorBoundary>
             </Box>
             <AppFooter />

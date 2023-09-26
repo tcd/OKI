@@ -1,6 +1,6 @@
 import type { ActionReducerMapBuilder, PayloadAction } from "@reduxjs/toolkit"
 
-import type { GameState } from "./state"
+import type { MainState } from "./state"
 import { INITIAL_GAME_STATE as INITIAL_STATE } from "./state"
 
 export const reducers = {
@@ -8,7 +8,7 @@ export const reducers = {
     // // -------------------------------------------------------------------------
     // // Spinning
     // // -------------------------------------------------------------------------
-    // toggleWheelLock: (state: GameState, { payload }: PayloadAction<number>) => {
+    // toggleWheelLock: (state: MainState, { payload }: PayloadAction<number>) => {
     //     if (state.player1.locked.includes(payload)) {
     //         state.player1.locked = state.player1.locked.filter(x => x != payload)
     //     } else {
@@ -18,4 +18,4 @@ export const reducers = {
 
 }
 
-export const extraReducers = (builder: ActionReducerMapBuilder<GameState>) => {}
+export const extraReducers = (builder: ActionReducerMapBuilder<MainState>) => {}

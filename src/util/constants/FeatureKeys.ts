@@ -1,6 +1,6 @@
 export const FeatureKeys = <const>{
     Core:          "Core",
-    Game:          "Game",
+    Main:          "Main",
     Notifications: "Notifications",
     Routing:       "Routing",
 }

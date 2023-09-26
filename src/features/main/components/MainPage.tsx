@@ -1,9 +1,9 @@
 import { Help } from "./Help"
 
-export const GamePage = (): JSX.Element => {
+export const MainPage = (): JSX.Element => {
     return (
         <>
-            <>Game Page</>
+            <h1>Main Page</h1>
             <Help />
         </>
     )

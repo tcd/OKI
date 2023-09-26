@@ -5,18 +5,18 @@ import { reducers, extraReducers } from "./reducers"
 
 // =============================================================================
 
-export interface GameState {
+export interface MainState {
 }
 
 // =============================================================================
 
-export const INITIAL_GAME_STATE: GameState = {
+export const INITIAL_GAME_STATE: MainState = {
 }
 
 // =============================================================================
 
-export const GameSlice = createSlice({
-    name: FeatureKeys.Game,
+export const MainSlice = createSlice({
+    name: FeatureKeys.Main,
     initialState: INITIAL_GAME_STATE,
     reducers,
     extraReducers,
