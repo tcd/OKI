@@ -9,7 +9,10 @@
         "Recovery.Block": -1,
         "Cancel": "C",
         "Damage": 300,
-        "Combo Scaling": "Starter scaling 10%"
+        "Combo Scaling": "Starter scaling 10%",
+        "Drive Gauge Increase.Hit": 250,
+        "Drive Gauge Decrease.Block": -500,
+        "Drive Gauge Decrease.Punish Counter": -2000
     },
     {
         "section": "Normal Moves",
@@ -21,7 +24,10 @@
         "Recovery.Block": -4,
         "Cancel": "C",
         "Damage": 300,
-        "Combo Scaling": "Starter scaling 10%"
+        "Combo Scaling": "Starter scaling 10%",
+        "Drive Gauge Increase.Hit": 250,
+        "Drive Gauge Decrease.Block": -500,
+        "Drive Gauge Decrease.Punish Counter": -2000
     },
     {
         "section": "Normal Moves",
@@ -33,7 +39,10 @@
         "Recovery.Block": -1,
         "Cancel": "C",
         "Damage": 600,
-        "Combo Scaling": null
+        "Combo Scaling": null,
+        "Drive Gauge Increase.Hit": 1500,
+        "Drive Gauge Decrease.Block": -3000,
+        "Drive Gauge Decrease.Punish Counter": -4000
     },
     {
         "section": "Normal Moves",
@@ -45,7 +54,10 @@
         "Recovery.Block": -4,
         "Cancel": "",
         "Damage": 700,
-        "Combo Scaling": null
+        "Combo Scaling": null,
+        "Drive Gauge Increase.Hit": 2000,
+        "Drive Gauge Decrease.Block": -4000,
+        "Drive Gauge Decrease.Punish Counter": -6000
     },
     {
         "section": "Normal Moves",
@@ -57,7 +69,10 @@
         "Recovery.Block": -2,
         "Cancel": "C",
         "Damage": 800,
-        "Combo Scaling": null
+        "Combo Scaling": null,
+        "Drive Gauge Increase.Hit": 2000,
+        "Drive Gauge Decrease.Block": -5000,
+        "Drive Gauge Decrease.Punish Counter": -8000
     },
     {
         "section": "Normal Moves",
@@ -69,7 +84,10 @@
         "Recovery.Block": 1,
         "Cancel": "",
         "Damage": 900,
-        "Combo Scaling": null
+        "Combo Scaling": null,
+        "Drive Gauge Increase.Hit": 3000,
+        "Drive Gauge Decrease.Block": -6000,
+        "Drive Gauge Decrease.Punish Counter": -10000
     },
     {
         "section": "Normal Moves",
@@ -81,7 +99,10 @@
         "Recovery.Block": -1,
         "Cancel": "C",
         "Damage": 300,
-        "Combo Scaling": "Starter scaling 10%"
+        "Combo Scaling": "Starter scaling 10%",
+        "Drive Gauge Increase.Hit": 250,
+        "Drive Gauge Decrease.Block": -500,
+        "Drive Gauge Decrease.Punish Counter": -2000
     },
     {
         "section": "Normal Moves",
@@ -93,7 +114,10 @@
         "Recovery.Block": -3,
         "Cancel": "",
         "Damage": 200,
-        "Combo Scaling": "Starter scaling 10%"
+        "Combo Scaling": "Starter scaling 10%",
+        "Drive Gauge Increase.Hit": 250,
+        "Drive Gauge Decrease.Block": -500,
+        "Drive Gauge Decrease.Punish Counter": -2000
     },
     {
         "section": "Normal Moves",
@@ -105,7 +129,10 @@
         "Recovery.Block": 0,
         "Cancel": "C",
         "Damage": 600,
-        "Combo Scaling": null
+        "Combo Scaling": null,
+        "Drive Gauge Increase.Hit": 1500,
+        "Drive Gauge Decrease.Block": -3000,
+        "Drive Gauge Decrease.Punish Counter": -4000
     },
     {
         "section": "Normal Moves",
@@ -117,7 +144,10 @@
         "Recovery.Block": -6,
         "Cancel": "C",
         "Damage": 500,
-        "Combo Scaling": "Starter scaling 20%"
+        "Combo Scaling": "Starter scaling 20%",
+        "Drive Gauge Increase.Hit": 1000,
+        "Drive Gauge Decrease.Block": -2000,
+        "Drive Gauge Decrease.Punish Counter": -4000
     },
     {
         "section": "Normal Moves",
@@ -129,7 +159,10 @@
         "Recovery.Block": -7,
         "Cancel": "C",
         "Damage": 800,
-        "Combo Scaling": null
+        "Combo Scaling": null,
+        "Drive Gauge Increase.Hit": 3000,
+        "Drive Gauge Decrease.Block": -6000,
+        "Drive Gauge Decrease.Punish Counter": -8000
     },
     {
         "section": "Normal Moves",
@@ -141,7 +174,10 @@
         "Recovery.Block": -12,
         "Cancel": "",
         "Damage": 900,
-        "Combo Scaling": null
+        "Combo Scaling": null,
+        "Drive Gauge Increase.Hit": 3000,
+        "Drive Gauge Decrease.Block": -4000,
+        "Drive Gauge Decrease.Punish Counter": -10000
     },
     {
         "section": "Normal Moves",
@@ -153,7 +189,10 @@
         "Recovery.Block": null,
         "Cancel": "",
         "Damage": 300,
-        "Combo Scaling": null
+        "Combo Scaling": null,
+        "Drive Gauge Increase.Hit": 500,
+        "Drive Gauge Decrease.Block": -1500,
+        "Drive Gauge Decrease.Punish Counter": -2000
     },
     {
         "section": "Normal Moves",
@@ -165,7 +204,10 @@
         "Recovery.Block": null,
         "Cancel": "",
         "Damage": 300,
-        "Combo Scaling": null
+        "Combo Scaling": null,
+        "Drive Gauge Increase.Hit": 500,
+        "Drive Gauge Decrease.Block": -1500,
+        "Drive Gauge Decrease.Punish Counter": -2000
     },
     {
         "section": "Normal Moves",
@@ -177,7 +219,10 @@
         "Recovery.Block": null,
         "Cancel": "C",
         "Damage": 700,
-        "Combo Scaling": null
+        "Combo Scaling": null,
+        "Drive Gauge Increase.Hit": 1000,
+        "Drive Gauge Decrease.Block": -3000,
+        "Drive Gauge Decrease.Punish Counter": -5000
     },
     {
         "section": "Normal Moves",
@@ -189,7 +234,10 @@
         "Recovery.Block": null,
         "Cancel": "",
         "Damage": 500,
-        "Combo Scaling": null
+        "Combo Scaling": null,
+        "Drive Gauge Increase.Hit": 1000,
+        "Drive Gauge Decrease.Block": -2500,
+        "Drive Gauge Decrease.Punish Counter": -4000
     },
     {
         "section": "Normal Moves",
@@ -201,7 +249,10 @@
         "Recovery.Block": null,
         "Cancel": "",
         "Damage": 800,
-        "Combo Scaling": null
+        "Combo Scaling": null,
+        "Drive Gauge Increase.Hit": 2000,
+        "Drive Gauge Decrease.Block": -4000,
+        "Drive Gauge Decrease.Punish Counter": -5000
     },
     {
         "section": "Normal Moves",
@@ -213,7 +264,10 @@
         "Recovery.Block": null,
         "Cancel": "",
         "Damage": 800,
-        "Combo Scaling": null
+        "Combo Scaling": null,
+        "Drive Gauge Increase.Hit": 2000,
+        "Drive Gauge Decrease.Block": -4000,
+        "Drive Gauge Decrease.Punish Counter": -5000
     },
     {
         "section": "Unique Attacks",
@@ -225,7 +279,10 @@
         "Recovery.Block": -3,
         "Cancel": "",
         "Damage": 600,
-        "Combo Scaling": null
+        "Combo Scaling": null,
+        "Drive Gauge Increase.Hit": 1500,
+        "Drive Gauge Decrease.Block": -2500,
+        "Drive Gauge Decrease.Punish Counter": -5000
     },
     {
         "section": "Unique Attacks",
@@ -237,7 +294,10 @@
         "Recovery.Block": 1,
         "Cancel": "",
         "Damage": 800,
-        "Combo Scaling": "Starter scaling 20%"
+        "Combo Scaling": "Starter scaling 20%",
+        "Drive Gauge Increase.Hit": 2500,
+        "Drive Gauge Decrease.Block": -5000,
+        "Drive Gauge Decrease.Punish Counter": -8000
     },
     {
         "section": "Unique Attacks",
@@ -249,7 +309,10 @@
         "Recovery.Block": -13,
         "Cancel": "C",
         "Damage": 800,
-        "Combo Scaling": null
+        "Combo Scaling": null,
+        "Drive Gauge Increase.Hit": 2000,
+        "Drive Gauge Decrease.Block": -5000,
+        "Drive Gauge Decrease.Punish Counter": -8000
     },
     {
         "section": "Unique Attacks",
@@ -261,7 +324,10 @@
         "Recovery.Block": -4,
         "Cancel": "C",
         "Damage": 800,
-        "Combo Scaling": null
+        "Combo Scaling": null,
+        "Drive Gauge Increase.Hit": 1500,
+        "Drive Gauge Decrease.Block": -3000,
+        "Drive Gauge Decrease.Punish Counter": -6000
     },
     {
         "section": "Unique Attacks",
@@ -273,7 +339,10 @@
         "Recovery.Block": -4,
         "Cancel": "※",
         "Damage": 800,
-        "Combo Scaling": null
+        "Combo Scaling": null,
+        "Drive Gauge Increase.Hit": 2500,
+        "Drive Gauge Decrease.Block": -5000,
+        "Drive Gauge Decrease.Punish Counter": -8000
     },
     {
         "section": "Unique Attacks",
@@ -285,7 +354,10 @@
         "Recovery.Block": -8,
         "Cancel": "",
         "Damage": 1000,
-        "Combo Scaling": null
+        "Combo Scaling": null,
+        "Drive Gauge Increase.Hit": 2500,
+        "Drive Gauge Decrease.Block": -7000,
+        "Drive Gauge Decrease.Punish Counter": -10000
     },
     {
         "section": "Unique Attacks",
@@ -297,7 +369,10 @@
         "Recovery.Block": -7,
         "Cancel": "",
         "Damage": 300,
-        "Combo Scaling": null
+        "Combo Scaling": null,
+        "Drive Gauge Increase.Hit": 1000,
+        "Drive Gauge Decrease.Block": -1000,
+        "Drive Gauge Decrease.Punish Counter": -2000
     },
     {
         "section": "Unique Attacks",
@@ -309,7 +384,10 @@
         "Recovery.Block": -8,
         "Cancel": "",
         "Damage": 900,
-        "Combo Scaling": null
+        "Combo Scaling": null,
+        "Drive Gauge Increase.Hit": 2500,
+        "Drive Gauge Decrease.Block": -3000,
+        "Drive Gauge Decrease.Punish Counter": -10000
     },
     {
         "section": "Special Moves",
@@ -321,7 +399,10 @@
         "Recovery.Block": -5,
         "Cancel": "SA3",
         "Damage": 600,
-        "Combo Scaling": null
+        "Combo Scaling": null,
+        "Drive Gauge Increase.Hit": 1000,
+        "Drive Gauge Decrease.Block": -2500,
+        "Drive Gauge Decrease.Punish Counter": -3000
     },
     {
         "section": "Special Moves",
@@ -333,7 +414,10 @@
         "Recovery.Block": -7,
         "Cancel": "SA3",
         "Damage": 600,
-        "Combo Scaling": null
+        "Combo Scaling": null,
+        "Drive Gauge Increase.Hit": 1000,
+        "Drive Gauge Decrease.Block": -2500,
+        "Drive Gauge Decrease.Punish Counter": -3000
     },
     {
         "section": "Special Moves",
@@ -345,7 +429,10 @@
         "Recovery.Block": -9,
         "Cancel": "SA3",
         "Damage": 600,
-        "Combo Scaling": null
+        "Combo Scaling": null,
+        "Drive Gauge Increase.Hit": 1000,
+        "Drive Gauge Decrease.Block": -2500,
+        "Drive Gauge Decrease.Punish Counter": -3000
     },
     {
         "section": "Special Moves",
@@ -357,7 +444,10 @@
         "Recovery.Block": -3,
         "Cancel": "SA3",
         "Damage": 800,
-        "Combo Scaling": "Starter scaling 20％, Combo scaling 20％"
+        "Combo Scaling": "Starter scaling 20％, Combo scaling 20％",
+        "Drive Gauge Increase.Hit": 1000,
+        "Drive Gauge Decrease.Block": -2500,
+        "Drive Gauge Decrease.Punish Counter": -3000
     },
     {
         "section": "Special Moves",
@@ -369,7 +459,10 @@
         "Recovery.Block": -1,
         "Cancel": "SA2",
         "Damage": 800,
-        "Combo Scaling": "Starter scaling 20％, Combo scaling 20％"
+        "Combo Scaling": "Starter scaling 20％, Combo scaling 20％",
+        "Drive Gauge Increase.Hit": 0,
+        "Drive Gauge Decrease.Block": -2500,
+        "Drive Gauge Decrease.Punish Counter": -5000
     },
     {
         "section": "Special Moves",
@@ -381,7 +474,10 @@
         "Recovery.Block": 2,
         "Cancel": "SA2",
         "Damage": 1000,
-        "Combo Scaling": "Starter scaling 20％, Combo scaling 20％"
+        "Combo Scaling": "Starter scaling 20％, Combo scaling 20％",
+        "Drive Gauge Increase.Hit": 0,
+        "Drive Gauge Decrease.Block": -3750,
+        "Drive Gauge Decrease.Punish Counter": -7000
     },
     {
         "section": "Special Moves",
@@ -393,7 +489,10 @@
         "Recovery.Block": -23,
         "Cancel": "SA3",
         "Damage": "※1100",
-        "Combo Scaling": "Starter scaling 30%"
+        "Combo Scaling": "Starter scaling 30%",
+        "Drive Gauge Increase.Hit": 2000,
+        "Drive Gauge Decrease.Block": -4000,
+        "Drive Gauge Decrease.Punish Counter": -5000
     },
     {
         "section": "Special Moves",
@@ -405,7 +504,10 @@
         "Recovery.Block": -32,
         "Cancel": "SA3",
         "Damage": "※1200",
-        "Combo Scaling": "Starter scaling 30%"
+        "Combo Scaling": "Starter scaling 30%",
+        "Drive Gauge Increase.Hit": 2000,
+        "Drive Gauge Decrease.Block": -4000,
+        "Drive Gauge Decrease.Punish Counter": -5000
     },
     {
         "section": "Special Moves",
@@ -417,7 +519,10 @@
         "Recovery.Block": -39,
         "Cancel": "SA3",
         "Damage": "※1400",
-        "Combo Scaling": "Starter scaling 30%"
+        "Combo Scaling": "Starter scaling 30%",
+        "Drive Gauge Increase.Hit": 2000,
+        "Drive Gauge Decrease.Block": -4000,
+        "Drive Gauge Decrease.Punish Counter": -5000
     },
     {
         "section": "Special Moves",
@@ -429,7 +534,10 @@
         "Recovery.Block": -40,
         "Cancel": "",
         "Damage": 1600,
-        "Combo Scaling": null
+        "Combo Scaling": null,
+        "Drive Gauge Increase.Hit": 0,
+        "Drive Gauge Decrease.Block": -2000,
+        "Drive Gauge Decrease.Punish Counter": 0
     },
     {
         "section": "Special Moves",
@@ -441,7 +549,10 @@
         "Recovery.Block": -15,
         "Cancel": "",
         "Damage": 800,
-        "Combo Scaling": null
+        "Combo Scaling": null,
+        "Drive Gauge Increase.Hit": 2000,
+        "Drive Gauge Decrease.Block": -4000,
+        "Drive Gauge Decrease.Punish Counter": -5000
     },
     {
         "section": "Special Moves",
@@ -453,7 +564,10 @@
         "Recovery.Block": -13,
         "Cancel": "",
         "Damage": 900,
-        "Combo Scaling": null
+        "Combo Scaling": null,
+        "Drive Gauge Increase.Hit": 2000,
+        "Drive Gauge Decrease.Block": -2500,
+        "Drive Gauge Decrease.Punish Counter": -5000
     },
     {
         "section": "Special Moves",
@@ -465,7 +579,10 @@
         "Recovery.Block": -13,
         "Cancel": "",
         "Damage": 1000,
-        "Combo Scaling": null
+        "Combo Scaling": null,
+        "Drive Gauge Increase.Hit": 2000,
+        "Drive Gauge Decrease.Block": -2000,
+        "Drive Gauge Decrease.Punish Counter": -5000
     },
     {
         "section": "Special Moves",
@@ -477,7 +594,10 @@
         "Recovery.Block": -14,
         "Cancel": "",
         "Damage": 1000,
-        "Combo Scaling": null
+        "Combo Scaling": null,
+        "Drive Gauge Increase.Hit": 0,
+        "Drive Gauge Decrease.Block": -4000,
+        "Drive Gauge Decrease.Punish Counter": -5000
     },
     {
         "section": "Special Moves",
@@ -489,7 +609,10 @@
         "Recovery.Block": null,
         "Cancel": "",
         "Damage": 900,
-        "Combo Scaling": "Starter scaling 30%"
+        "Combo Scaling": "Starter scaling 30%",
+        "Drive Gauge Increase.Hit": 2000,
+        "Drive Gauge Decrease.Block": -4000,
+        "Drive Gauge Decrease.Punish Counter": -5000
     },
     {
         "section": "Special Moves",
@@ -501,7 +624,10 @@
         "Recovery.Block": null,
         "Cancel": "",
         "Damage": 1500,
-        "Combo Scaling": "Combo scaling 25%"
+        "Combo Scaling": "Combo scaling 25%",
+        "Drive Gauge Increase.Hit": 0,
+        "Drive Gauge Decrease.Block": -4000,
+        "Drive Gauge Decrease.Punish Counter": -5000
     },
     {
         "section": "Special Moves",
@@ -513,7 +639,10 @@
         "Recovery.Block": -11,
         "Cancel": "SA3",
         "Damage": 1000,
-        "Combo Scaling": null
+        "Combo Scaling": null,
+        "Drive Gauge Increase.Hit": 2000,
+        "Drive Gauge Decrease.Block": -4000,
+        "Drive Gauge Decrease.Punish Counter": -5000
     },
     {
         "section": "Special Moves",
@@ -525,7 +654,10 @@
         "Recovery.Block": -8,
         "Cancel": "SA3",
         "Damage": 1100,
-        "Combo Scaling": null
+        "Combo Scaling": null,
+        "Drive Gauge Increase.Hit": 3000,
+        "Drive Gauge Decrease.Block": -6000,
+        "Drive Gauge Decrease.Punish Counter": -7000
     },
     {
         "section": "Special Moves",
@@ -537,7 +669,10 @@
         "Recovery.Block": -5,
         "Cancel": "SA3",
         "Damage": 1300,
-        "Combo Scaling": null
+        "Combo Scaling": null,
+        "Drive Gauge Increase.Hit": 5000,
+        "Drive Gauge Decrease.Block": -8000,
+        "Drive Gauge Decrease.Punish Counter": -10000
     },
     {
         "section": "Special Moves",
@@ -549,7 +684,10 @@
         "Recovery.Block": -18,
         "Cancel": "SA2",
         "Damage": 800,
-        "Combo Scaling": "Combo scaling 20%"
+        "Combo Scaling": "Combo scaling 20%",
+        "Drive Gauge Increase.Hit": 0,
+        "Drive Gauge Decrease.Block": -4000,
+        "Drive Gauge Decrease.Punish Counter": -5000
     },
     {
         "section": "Special Moves",
@@ -561,7 +699,10 @@
         "Recovery.Block": -4,
         "Cancel": "SA3",
         "Damage": 700,
-        "Combo Scaling": null
+        "Combo Scaling": null,
+        "Drive Gauge Increase.Hit": 2000,
+        "Drive Gauge Decrease.Block": -4000,
+        "Drive Gauge Decrease.Punish Counter": -5000
     },
     {
         "section": "Special Moves",
@@ -573,7 +714,10 @@
         "Recovery.Block": -6,
         "Cancel": "SA3",
         "Damage": 800,
-        "Combo Scaling": null
+        "Combo Scaling": null,
+        "Drive Gauge Increase.Hit": 2000,
+        "Drive Gauge Decrease.Block": -4000,
+        "Drive Gauge Decrease.Punish Counter": -5000
     },
     {
         "section": "Special Moves",
@@ -585,7 +729,10 @@
         "Recovery.Block": 2,
         "Cancel": "SA3",
         "Damage": 800,
-        "Combo Scaling": null
+        "Combo Scaling": null,
+        "Drive Gauge Increase.Hit": 2000,
+        "Drive Gauge Decrease.Block": -4000,
+        "Drive Gauge Decrease.Punish Counter": -5000
     },
     {
         "section": "Special Moves",
@@ -597,7 +744,10 @@
         "Recovery.Block": 3,
         "Cancel": "SA3",
         "Damage": 800,
-        "Combo Scaling": null
+        "Combo Scaling": null,
+        "Drive Gauge Increase.Hit": 2000,
+        "Drive Gauge Decrease.Block": -4000,
+        "Drive Gauge Decrease.Punish Counter": -5000
     },
     {
         "section": "Special Moves",
@@ -609,7 +759,10 @@
         "Recovery.Block": 3,
         "Cancel": "SA2",
         "Damage": 900,
-        "Combo Scaling": "Combo scaling 20％"
+        "Combo Scaling": "Combo scaling 20％",
+        "Drive Gauge Increase.Hit": 0,
+        "Drive Gauge Decrease.Block": -4000,
+        "Drive Gauge Decrease.Punish Counter": -5000
     },
     {
         "section": "Special Moves",
@@ -621,7 +774,10 @@
         "Recovery.Block": 4,
         "Cancel": "SA2",
         "Damage": 600,
-        "Combo Scaling": null
+        "Combo Scaling": null,
+        "Drive Gauge Increase.Hit": 0,
+        "Drive Gauge Decrease.Block": -4000,
+        "Drive Gauge Decrease.Punish Counter": -5000
     },
     {
         "section": "Special Moves",
@@ -633,7 +789,10 @@
         "Recovery.Block": null,
         "Cancel": "",
         "Damage": 0,
-        "Combo Scaling": null
+        "Combo Scaling": null,
+        "Drive Gauge Increase.Hit": 0,
+        "Drive Gauge Decrease.Block": 0,
+        "Drive Gauge Decrease.Punish Counter": 0
     },
     {
         "section": "Super Arts",
@@ -645,7 +804,10 @@
         "Recovery.Block": -24,
         "Cancel": "",
         "Damage": 2000,
-        "Combo Scaling": null
+        "Combo Scaling": null,
+        "Drive Gauge Increase.Hit": 0,
+        "Drive Gauge Decrease.Block": -2500,
+        "Drive Gauge Decrease.Punish Counter": -5000
     },
     {
         "section": "Super Arts",
@@ -657,7 +819,10 @@
         "Recovery.Block": -24,
         "Cancel": "",
         "Damage": 2400,
-        "Combo Scaling": null
+        "Combo Scaling": null,
+        "Drive Gauge Increase.Hit": 0,
+        "Drive Gauge Decrease.Block": -2500,
+        "Drive Gauge Decrease.Punish Counter": -5000
     },
     {
         "section": "Super Arts",
@@ -669,7 +834,10 @@
         "Recovery.Block": -20,
         "Cancel": "",
         "Damage": 2600,
-        "Combo Scaling": null
+        "Combo Scaling": null,
+        "Drive Gauge Increase.Hit": 0,
+        "Drive Gauge Decrease.Block": -4000,
+        "Drive Gauge Decrease.Punish Counter": -10000
     },
     {
         "section": "Super Arts",
@@ -681,7 +849,10 @@
         "Recovery.Block": -20,
         "Cancel": "",
         "Damage": 2800,
-        "Combo Scaling": null
+        "Combo Scaling": null,
+        "Drive Gauge Increase.Hit": 0,
+        "Drive Gauge Decrease.Block": -6000,
+        "Drive Gauge Decrease.Punish Counter": -10000
     },
     {
         "section": "Super Arts",
@@ -693,7 +864,10 @@
         "Recovery.Block": -20,
         "Cancel": "",
         "Damage": 3000,
-        "Combo Scaling": null
+        "Combo Scaling": null,
+        "Drive Gauge Increase.Hit": 0,
+        "Drive Gauge Decrease.Block": -10000,
+        "Drive Gauge Decrease.Punish Counter": -10000
     },
     {
         "section": "Super Arts",
@@ -705,7 +879,10 @@
         "Recovery.Block": -20,
         "Cancel": "",
         "Damage": 3000,
-        "Combo Scaling": null
+        "Combo Scaling": null,
+        "Drive Gauge Increase.Hit": 0,
+        "Drive Gauge Decrease.Block": -4000,
+        "Drive Gauge Decrease.Punish Counter": -10000
     },
     {
         "section": "Super Arts",
@@ -717,7 +894,10 @@
         "Recovery.Block": -20,
         "Cancel": "",
         "Damage": 3200,
-        "Combo Scaling": null
+        "Combo Scaling": null,
+        "Drive Gauge Increase.Hit": 0,
+        "Drive Gauge Decrease.Block": -6000,
+        "Drive Gauge Decrease.Punish Counter": -10000
     },
     {
         "section": "Super Arts",
@@ -729,7 +909,10 @@
         "Recovery.Block": -20,
         "Cancel": "",
         "Damage": 3400,
-        "Combo Scaling": null
+        "Combo Scaling": null,
+        "Drive Gauge Increase.Hit": 0,
+        "Drive Gauge Decrease.Block": -10000,
+        "Drive Gauge Decrease.Punish Counter": -10000
     },
     {
         "section": "Super Arts",
@@ -741,7 +924,10 @@
         "Recovery.Block": -52,
         "Cancel": "",
         "Damage": 4000,
-        "Combo Scaling": "*Immediate scaling 10%"
+        "Combo Scaling": "*Immediate scaling 10%",
+        "Drive Gauge Increase.Hit": 0,
+        "Drive Gauge Decrease.Block": -7500,
+        "Drive Gauge Decrease.Punish Counter": -15000
     },
     {
         "section": "Super Arts",
@@ -753,7 +939,10 @@
         "Recovery.Block": -52,
         "Cancel": "",
         "Damage": 4500,
-        "Combo Scaling": "*Immediate scaling 10%"
+        "Combo Scaling": "*Immediate scaling 10%",
+        "Drive Gauge Increase.Hit": 0,
+        "Drive Gauge Decrease.Block": -10000,
+        "Drive Gauge Decrease.Punish Counter": -20000
     },
     {
         "section": "Throws",
@@ -765,7 +954,10 @@
         "Recovery.Block": null,
         "Cancel": "",
         "Damage": 1200,
-        "Combo Scaling": "Immediate scaling 20%"
+        "Combo Scaling": "Immediate scaling 20%",
+        "Drive Gauge Increase.Hit": 2000,
+        "Drive Gauge Decrease.Block": 0,
+        "Drive Gauge Decrease.Punish Counter": -10000
     },
     {
         "section": "Throws",
@@ -777,7 +969,10 @@
         "Recovery.Block": null,
         "Cancel": "",
         "Damage": 1200,
-        "Combo Scaling": "Immediate scaling 20%"
+        "Combo Scaling": "Immediate scaling 20%",
+        "Drive Gauge Increase.Hit": 2000,
+        "Drive Gauge Decrease.Block": 0,
+        "Drive Gauge Decrease.Punish Counter": -10000
     },
     {
         "section": "Common Moves",
@@ -789,7 +984,10 @@
         "Recovery.Block": null,
         "Cancel": "",
         "Damage": 0,
-        "Combo Scaling": null
+        "Combo Scaling": null,
+        "Drive Gauge Increase.Hit": 0,
+        "Drive Gauge Decrease.Block": 0,
+        "Drive Gauge Decrease.Punish Counter": 0
     },
     {
         "section": "Common Moves",
@@ -801,7 +999,10 @@
         "Recovery.Block": null,
         "Cancel": "",
         "Damage": 0,
-        "Combo Scaling": null
+        "Combo Scaling": null,
+        "Drive Gauge Increase.Hit": 0,
+        "Drive Gauge Decrease.Block": 0,
+        "Drive Gauge Decrease.Punish Counter": 0
     },
     {
         "section": "Common Moves",
@@ -813,7 +1014,10 @@
         "Recovery.Block": -3,
         "Cancel": "",
         "Damage": 800,
-        "Combo Scaling": "Starter scaling 20%"
+        "Combo Scaling": "Starter scaling 20%",
+        "Drive Gauge Increase.Hit": 0,
+        "Drive Gauge Decrease.Block": -5000,
+        "Drive Gauge Decrease.Punish Counter": -15000
     },
     {
         "section": "Common Moves",
@@ -825,7 +1029,10 @@
         "Recovery.Block": -8,
         "Cancel": "",
         "Damage": 500,
-        "Combo Scaling": null
+        "Combo Scaling": null,
+        "Drive Gauge Increase.Hit": 0,
+        "Drive Gauge Decrease.Block": 0,
+        "Drive Gauge Decrease.Punish Counter": 0
     },
     {
         "section": "Common Moves",
@@ -837,7 +1044,10 @@
         "Recovery.Block": null,
         "Cancel": "※2",
         "Damage": 0,
-        "Combo Scaling": null
+        "Combo Scaling": null,
+        "Drive Gauge Increase.Hit": 0,
+        "Drive Gauge Decrease.Block": 0,
+        "Drive Gauge Decrease.Punish Counter": 0
     },
     {
         "section": "Common Moves",
@@ -849,7 +1059,10 @@
         "Recovery.Block": null,
         "Cancel": "",
         "Damage": 0,
-        "Combo Scaling": "Starter scaling 50％"
+        "Combo Scaling": "Starter scaling 50％",
+        "Drive Gauge Increase.Hit": null,
+        "Drive Gauge Decrease.Block": null,
+        "Drive Gauge Decrease.Punish Counter": null
     },
     {
         "section": "Common Moves",
@@ -861,7 +1074,10 @@
         "Recovery.Block": null,
         "Cancel": "",
         "Damage": 0,
-        "Combo Scaling": "Starter scaling 50％"
+        "Combo Scaling": "Starter scaling 50％",
+        "Drive Gauge Increase.Hit": null,
+        "Drive Gauge Decrease.Block": null,
+        "Drive Gauge Decrease.Punish Counter": null
     },
     {
         "section": "Common Moves",
@@ -873,7 +1089,10 @@
         "Recovery.Block": null,
         "Cancel": "※",
         "Damage": 0,
-        "Combo Scaling": "Multiplier scaling 15％"
+        "Combo Scaling": "Multiplier scaling 15％",
+        "Drive Gauge Increase.Hit": 0,
+        "Drive Gauge Decrease.Block": 0,
+        "Drive Gauge Decrease.Punish Counter": 0
     },
     {
         "section": "Common Moves",
@@ -885,6 +1104,9 @@
         "Recovery.Block": null,
         "Cancel": "※",
         "Damage": 0,
-        "Combo Scaling": "Multiplier scaling 15％"
+        "Combo Scaling": "Multiplier scaling 15％",
+        "Drive Gauge Increase.Hit": 0,
+        "Drive Gauge Decrease.Block": 0,
+        "Drive Gauge Decrease.Punish Counter": 0
     }
 ]
