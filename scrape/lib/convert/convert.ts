@@ -1,4 +1,4 @@
-import type { CharacterNameClean } from "../types"
+import type { CharacterNameClean } from "../util"
 import { Converter } from "./Converter"
 
 export const convert = async () => {

@@ -3,6 +3,7 @@ import * as cheerio from "cheerio"
 
 import {
     Processor,
+    tryParseInt,
     type CharacterNameClean,
     type ICharacterTableRow,
 } from "../util"
@@ -197,11 +198,6 @@ export class Parser extends Processor {
         return this.col__string(cell)
         const $cell = this.$(cell)
     }
-}
-
-const tryParseInt = (str: string): number | null => {
-    const tried = parseInt(str)
-    return isNaN(tried) ? null : tried
 }
 
 const ASTERISK_I_GUESS = "※"
