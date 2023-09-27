@@ -26,20 +26,15 @@ export const Oki = (): JSX.Element => {
     )
 }
 
-
 // =============================================================================
-
-const color1  = "#0079d3"
-const color2 = color1
-// const color2 = "#4c4ce9"
 
 const sx: SxProps = {
     display: "flex",
     flexFlow: "column nowrap",
     fontFamily: "monospace",
     whiteSpace: "pre-line",
-    "& > span::after": {
-        // content: "\a",
-        whiteSpace: "pre",
-    },
+    // "& > span::after": {
+    //     content: "\n",
+    //     // whiteSpace: "pre",
+    // },
 }
