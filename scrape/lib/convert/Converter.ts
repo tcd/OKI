@@ -10,16 +10,36 @@ import {
 // FIXME: replace `U+ff05 "％"`
 export class Converter extends Processor {
 
-    public result: ICharacterFrameData
-    public rawData: ICharacterTableRow
+    public results: ICharacterFrameData[]
 
     constructor(character: CharacterNameClean) {
         super(character)
-        this.result = {}
+        this.results = []
     }
 
     public async convert() {
-        this.rawData = await this.jsonFilePathV1.readJSON<ICharacterTableRow>()
+        const rawData = await this.jsonFilePathV1.readJSON<ICharacterTableRow[]>()
+
+        for (const move of rawData) {
+            const result = new _Converter(move).convert()
+            this.results.push(result)
+        }
+
+        await this.jsonFilePathV2.writeJSON(this.results)
+    }
+}
+
+class _Converter {
+
+    public result: ICharacterFrameData
+    public rawData: ICharacterTableRow
+
+    constructor(rawData: ICharacterTableRow) {
+        this.rawData = rawData
+        this.result = {}
+    }
+
+    public convert() {
 
         this.result = {
             section: this.rawData["section"],
@@ -33,18 +53,15 @@ export class Converter extends Processor {
             driveDrain_block: this.rawData["Drive Gauge Decrease.Block"],
             driveDrain_punishCounter: this.rawData["Drive Gauge Decrease.Punish Counter"],
             superGain: this.rawData["Super Art Gauge Increase"],
-            notes: this.rawData.Miscellaneous,
-        }
-
-        if (this.rawData.Properties != null) {
-            this.result.properties = this.rawData.Properties.split(" ")
+            // notes: this.rawData.Miscellaneous,
         }
 
         this.setActiveFrames()
         this.setRecoveryFrames()
         this.setDamage()
+        // this.setProperties()
 
-        this.jsonFilePathV2.writeJSON(this.result)
+        return this.result
     }
 
     private setActiveFrames() {
@@ -57,5 +74,14 @@ export class Converter extends Processor {
 
     private setDamage() {
         this.result.damage = this.rawData["Damage"]
+    }
+
+    private setProperties() {
+        if (this.rawData.Properties == null || this.rawData.Properties == "") {
+            this.result.properties = []
+            return
+        }
+
+        this.result.properties = this.rawData.Properties.split(" ")
     }
 }
