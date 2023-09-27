@@ -1,8 +1,8 @@
 import type { CheerioAPI } from "cheerio"
 import * as cheerio from "cheerio"
 
-import type { CharacterNameClean, ICharacterTableRow } from "./types"
-import { Processor } from "./Processor"
+import type { CharacterNameClean, ICharacterTableRow } from "../types"
+import { Processor } from "../Processor"
 
 // FIXME: replace `U+ff08 "（"`
 // FIXME: replace `U+ff05 "％"`
