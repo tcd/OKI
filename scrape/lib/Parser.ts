@@ -43,6 +43,7 @@ export class Parser extends Processor {
         const row: ICharacterTableRow = {
             section:     this.currentSection,
             "Move Name": this.col_1_moveName(cells[0]),
+            "Frame.Start-up": this.col_2_frame_startup(cells[1]),
         }
         this.results.push(row)
     }
@@ -52,4 +53,36 @@ export class Parser extends Processor {
         const moveName = $cell.find("span").first().text().trim()
         return moveName
     }
+
+    private col_2_frame_startup(cell: cheerio.Element) {
+        const $cell = this.$(cell)
+        const startup_string = $cell.text().trim()
+        const startup_int = tryParseInt(startup_string)
+        return startup_int
+    }
+}
+
+const tryParseInt = (str: string): number | null => {
+    const tried = parseInt(str)
+    return isNaN(tried) ? null : tried
+}
+
+const IMG_SRC_NAMES = {
+    "/6/assets/images/common/controller/icon_punch_l.png": "LP",
+    "/6/assets/images/common/controller/icon_kick_l.png":  "LK",
+    "/6/assets/images/common/controller/icon_punch_m.png": "MP",
+    "/6/assets/images/common/controller/icon_kick_m.png":  "MK",
+    "/6/assets/images/common/controller/icon_punch_h.png": "HP",
+    "/6/assets/images/common/controller/icon_kick_h.png":  "HK",
+
+    "/6/assets/images/common/controller/icon_punch.png": "P",
+    "/6/assets/images/common/controller/icon_kick.png":  "K",
+
+    "/6/assets/images/common/controller/key-d.png":  "2",
+    "/6/assets/images/common/controller/key-r.png":  "6",
+    "/6/assets/images/common/controller/key-l.png":  "4",
+    "/6/assets/images/common/controller/key-dr.png": "3",
+    "/6/assets/images/common/controller/key-dl.png": "1",
+
+    "/6/assets/images/common/controller/key-plus.png": "+",
 }

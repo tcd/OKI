@@ -1,298 +1,372 @@
 [
     {
         "section": "Normal Moves",
-        "Move Name": "Standing Light Punch"
+        "Move Name": "Standing Light Punch",
+        "Frame.Start-up": 4
     },
     {
         "section": "Normal Moves",
-        "Move Name": "Standing Light Kick"
+        "Move Name": "Standing Light Kick",
+        "Frame.Start-up": 5
     },
     {
         "section": "Normal Moves",
-        "Move Name": "Standing Medium Punch"
+        "Move Name": "Standing Medium Punch",
+        "Frame.Start-up": 6
     },
     {
         "section": "Normal Moves",
-        "Move Name": "Standing Medium Kick"
+        "Move Name": "Standing Medium Kick",
+        "Frame.Start-up": 9
     },
     {
         "section": "Normal Moves",
-        "Move Name": "Standing Heavy Punch"
+        "Move Name": "Standing Heavy Punch",
+        "Frame.Start-up": 10
     },
     {
         "section": "Normal Moves",
-        "Move Name": "Standing Heavy Kick"
+        "Move Name": "Standing Heavy Kick",
+        "Frame.Start-up": 12
     },
     {
         "section": "Normal Moves",
-        "Move Name": "Crouching Light Punch"
+        "Move Name": "Crouching Light Punch",
+        "Frame.Start-up": 4
     },
     {
         "section": "Normal Moves",
-        "Move Name": "Crouching Light Kick"
+        "Move Name": "Crouching Light Kick",
+        "Frame.Start-up": 5
     },
     {
         "section": "Normal Moves",
-        "Move Name": "Crouching Medium Punch"
+        "Move Name": "Crouching Medium Punch",
+        "Frame.Start-up": 6
     },
     {
         "section": "Normal Moves",
-        "Move Name": "Crouching Medium Kick"
+        "Move Name": "Crouching Medium Kick",
+        "Frame.Start-up": 8
     },
     {
         "section": "Normal Moves",
-        "Move Name": "Crouching Heavy Punch"
+        "Move Name": "Crouching Heavy Punch",
+        "Frame.Start-up": 9
     },
     {
         "section": "Normal Moves",
-        "Move Name": "Crouching Heavy Kick"
+        "Move Name": "Crouching Heavy Kick",
+        "Frame.Start-up": 9
     },
     {
         "section": "Normal Moves",
-        "Move Name": "Jumping Light Punch"
+        "Move Name": "Jumping Light Punch",
+        "Frame.Start-up": 4
     },
     {
         "section": "Normal Moves",
-        "Move Name": "Jumping Light Kick"
+        "Move Name": "Jumping Light Kick",
+        "Frame.Start-up": 6
     },
     {
         "section": "Normal Moves",
-        "Move Name": "Jumping Medium Punch"
+        "Move Name": "Jumping Medium Punch",
+        "Frame.Start-up": 8
     },
     {
         "section": "Normal Moves",
-        "Move Name": "Jumping Medium Kick"
+        "Move Name": "Jumping Medium Kick",
+        "Frame.Start-up": 7
     },
     {
         "section": "Normal Moves",
-        "Move Name": "Jumping Heavy Punch"
+        "Move Name": "Jumping Heavy Punch",
+        "Frame.Start-up": 9
     },
     {
         "section": "Normal Moves",
-        "Move Name": "Jumping Heavy Kick"
+        "Move Name": "Jumping Heavy Kick",
+        "Frame.Start-up": 12
     },
     {
         "section": "Unique Attacks",
-        "Move Name": "Collarbone Breaker"
+        "Move Name": "Collarbone Breaker",
+        "Frame.Start-up": 20
     },
     {
         "section": "Unique Attacks",
-        "Move Name": "Solar Plexus Strike"
+        "Move Name": "Solar Plexus Strike",
+        "Frame.Start-up": 20
     },
     {
         "section": "Unique Attacks",
-        "Move Name": "Short Uppercut"
+        "Move Name": "Short Uppercut",
+        "Frame.Start-up": 7
     },
     {
         "section": "Unique Attacks",
-        "Move Name": "Axe Kick"
+        "Move Name": "Axe Kick",
+        "Frame.Start-up": 10
     },
     {
         "section": "Unique Attacks",
-        "Move Name": "Whirlwind Kick"
+        "Move Name": "Whirlwind Kick",
+        "Frame.Start-up": 16
     },
     {
         "section": "Unique Attacks",
-        "Move Name": "High Double Strike"
+        "Move Name": "High Double Strike",
+        "Frame.Start-up": 9
     },
     {
         "section": "Unique Attacks",
-        "Move Name": "Fuwa Triple Strike(2)"
+        "Move Name": "Fuwa Triple Strike(2)",
+        "Frame.Start-up": 5
     },
     {
         "section": "Unique Attacks",
-        "Move Name": "Fuwa Triple Strike(3)"
+        "Move Name": "Fuwa Triple Strike(3)",
+        "Frame.Start-up": 17
     },
     {
         "section": "Special Moves",
-        "Move Name": "L Hadoken"
+        "Move Name": "L Hadoken",
+        "Frame.Start-up": 16
     },
     {
         "section": "Special Moves",
-        "Move Name": "M Hadoken"
+        "Move Name": "M Hadoken",
+        "Frame.Start-up": 14
     },
     {
         "section": "Special Moves",
-        "Move Name": "H Hadoken"
+        "Move Name": "H Hadoken",
+        "Frame.Start-up": 12
     },
     {
         "section": "Special Moves",
-        "Move Name": "[Denjin Charge]Hadoken"
+        "Move Name": "[Denjin Charge]Hadoken",
+        "Frame.Start-up": 12
     },
     {
         "section": "Special Moves",
-        "Move Name": "OD Hadoken"
+        "Move Name": "OD Hadoken",
+        "Frame.Start-up": 12
     },
     {
         "section": "Special Moves",
-        "Move Name": "[Denjin Charge]OD Hadoken"
+        "Move Name": "[Denjin Charge]OD Hadoken",
+        "Frame.Start-up": 12
     },
     {
         "section": "Special Moves",
-        "Move Name": "L Shoryuken"
+        "Move Name": "L Shoryuken",
+        "Frame.Start-up": 5
     },
     {
         "section": "Special Moves",
-        "Move Name": "M Shoryuken"
+        "Move Name": "M Shoryuken",
+        "Frame.Start-up": 6
     },
     {
         "section": "Special Moves",
-        "Move Name": "H Shoryuken"
+        "Move Name": "H Shoryuken",
+        "Frame.Start-up": 7
     },
     {
         "section": "Special Moves",
-        "Move Name": "OD Shoryuken"
+        "Move Name": "OD Shoryuken",
+        "Frame.Start-up": 6
     },
     {
         "section": "Special Moves",
-        "Move Name": "L Tatsumaki Senpu-kyaku"
+        "Move Name": "L Tatsumaki Senpu-kyaku",
+        "Frame.Start-up": 12
     },
     {
         "section": "Special Moves",
-        "Move Name": "M Tatsumaki Senpu-kyaku"
+        "Move Name": "M Tatsumaki Senpu-kyaku",
+        "Frame.Start-up": 14
     },
     {
         "section": "Special Moves",
-        "Move Name": "H Tatsumaki Senpu-kyaku"
+        "Move Name": "H Tatsumaki Senpu-kyaku",
+        "Frame.Start-up": 16
     },
     {
         "section": "Special Moves",
-        "Move Name": "OD Tatsumaki Senpu-kyaku"
+        "Move Name": "OD Tatsumaki Senpu-kyaku",
+        "Frame.Start-up": 13
     },
     {
         "section": "Special Moves",
-        "Move Name": "Aerial Tatsumaki Senpu-kyaku"
+        "Move Name": "Aerial Tatsumaki Senpu-kyaku",
+        "Frame.Start-up": 11
     },
     {
         "section": "Special Moves",
-        "Move Name": "OD Aerial Tatsumaki Senpu-kyaku"
+        "Move Name": "OD Aerial Tatsumaki Senpu-kyaku",
+        "Frame.Start-up": 11
     },
     {
         "section": "Special Moves",
-        "Move Name": "L High Blade Kick"
+        "Move Name": "L High Blade Kick",
+        "Frame.Start-up": 15
     },
     {
         "section": "Special Moves",
-        "Move Name": "M High Blade Kick"
+        "Move Name": "M High Blade Kick",
+        "Frame.Start-up": 18
     },
     {
         "section": "Special Moves",
-        "Move Name": "H High Blade Kick"
+        "Move Name": "H High Blade Kick",
+        "Frame.Start-up": 29
     },
     {
         "section": "Special Moves",
-        "Move Name": "OD High Blade Kick"
+        "Move Name": "OD High Blade Kick",
+        "Frame.Start-up": 18
     },
     {
         "section": "Special Moves",
-        "Move Name": "L Hashogeki"
+        "Move Name": "L Hashogeki",
+        "Frame.Start-up": 12
     },
     {
         "section": "Special Moves",
-        "Move Name": "M Hashogeki"
+        "Move Name": "M Hashogeki",
+        "Frame.Start-up": 19
     },
     {
         "section": "Special Moves",
-        "Move Name": "H Hashogeki"
+        "Move Name": "H Hashogeki",
+        "Frame.Start-up": 30
     },
     {
         "section": "Special Moves",
-        "Move Name": "[Denjin Charge]Hashogeki"
+        "Move Name": "[Denjin Charge]Hashogeki",
+        "Frame.Start-up": 21
     },
     {
         "section": "Special Moves",
-        "Move Name": "OD Hashogeki"
+        "Move Name": "OD Hashogeki",
+        "Frame.Start-up": 18
     },
     {
         "section": "Special Moves",
-        "Move Name": "[Denjin Charge]OD Hashogeki"
+        "Move Name": "[Denjin Charge]OD Hashogeki",
+        "Frame.Start-up": 18
     },
     {
         "section": "Special Moves",
-        "Move Name": "Denjin Charge"
+        "Move Name": "Denjin Charge",
+        "Frame.Start-up": null
     },
     {
         "section": "Super Arts",
-        "Move Name": "SA1 Shinku Hadoken"
+        "Move Name": "SA1 Shinku Hadoken",
+        "Frame.Start-up": 8
     },
     {
         "section": "Super Arts",
-        "Move Name": "[Denjin Charge]SA1 Shinku Hadoken"
+        "Move Name": "[Denjin Charge]SA1 Shinku Hadoken",
+        "Frame.Start-up": 8
     },
     {
         "section": "Super Arts",
-        "Move Name": "SA2 Shin Hashogeki（Lv1）"
+        "Move Name": "SA2 Shin Hashogeki（Lv1）",
+        "Frame.Start-up": 12
     },
     {
         "section": "Super Arts",
-        "Move Name": "SA2 Shin Hashogeki（Lv2）"
+        "Move Name": "SA2 Shin Hashogeki（Lv2）",
+        "Frame.Start-up": 20
     },
     {
         "section": "Super Arts",
-        "Move Name": "SA2 Shin Hashogeki（Lv3）"
+        "Move Name": "SA2 Shin Hashogeki（Lv3）",
+        "Frame.Start-up": 70
     },
     {
         "section": "Super Arts",
-        "Move Name": "[Denjin Charge]SA2 Shin Hashogeki（Lv1）"
+        "Move Name": "[Denjin Charge]SA2 Shin Hashogeki（Lv1）",
+        "Frame.Start-up": 12
     },
     {
         "section": "Super Arts",
-        "Move Name": "[Denjin Charge]SA2 Shin Hashogeki（Lv2）"
+        "Move Name": "[Denjin Charge]SA2 Shin Hashogeki（Lv2）",
+        "Frame.Start-up": 20
     },
     {
         "section": "Super Arts",
-        "Move Name": "[Denjin Charge]SA2 Shin Hashogeki（Lv3）"
+        "Move Name": "[Denjin Charge]SA2 Shin Hashogeki（Lv3）",
+        "Frame.Start-up": 70
     },
     {
         "section": "Super Arts",
-        "Move Name": "SA3 Shin Shoryuken"
+        "Move Name": "SA3 Shin Shoryuken",
+        "Frame.Start-up": 5
     },
     {
         "section": "Super Arts",
-        "Move Name": "CA Shin Shoryuken"
+        "Move Name": "CA Shin Shoryuken",
+        "Frame.Start-up": 5
     },
     {
         "section": "Throws",
-        "Move Name": "Shoulder Throw"
+        "Move Name": "Shoulder Throw",
+        "Frame.Start-up": 5
     },
     {
         "section": "Throws",
-        "Move Name": "Somersault Throw"
+        "Move Name": "Somersault Throw",
+        "Frame.Start-up": 5
     },
     {
         "section": "Common Moves",
-        "Move Name": "Forward Dash"
+        "Move Name": "Forward Dash",
+        "Frame.Start-up": null
     },
     {
         "section": "Common Moves",
-        "Move Name": "Backward Dash"
+        "Move Name": "Backward Dash",
+        "Frame.Start-up": null
     },
     {
         "section": "Common Moves",
-        "Move Name": "Drive Impact: Shingeki"
+        "Move Name": "Drive Impact: Shingeki",
+        "Frame.Start-up": 26
     },
     {
         "section": "Common Moves",
-        "Move Name": "Drive Reversal: Chest Strike"
+        "Move Name": "Drive Reversal: Chest Strike",
+        "Frame.Start-up": 20
     },
     {
         "section": "Common Moves",
-        "Move Name": "Drive Parry"
+        "Move Name": "Drive Parry",
+        "Frame.Start-up": 1
     },
     {
         "section": "Common Moves",
-        "Move Name": "Perfect Parry (strike)"
+        "Move Name": "Perfect Parry (strike)",
+        "Frame.Start-up": 1
     },
     {
         "section": "Common Moves",
-        "Move Name": "Perfect Parry (projectile)"
+        "Move Name": "Perfect Parry (projectile)",
+        "Frame.Start-up": 1
     },
     {
         "section": "Common Moves",
-        "Move Name": "Parry Drive Rush"
+        "Move Name": "Parry Drive Rush",
+        "Frame.Start-up": null
     },
     {
         "section": "Common Moves",
-        "Move Name": "Cancel Drive Rush"
+        "Move Name": "Cancel Drive Rush",
+        "Frame.Start-up": null
     }
 ]
