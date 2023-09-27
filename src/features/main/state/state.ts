@@ -6,11 +6,15 @@ import { reducers, extraReducers } from "./reducers"
 // =============================================================================
 
 export interface MainState {
+    character1: SF6.CharacterNameClean
+    character2: SF6.CharacterNameClean
 }
 
 // =============================================================================
 
 export const INITIAL_GAME_STATE: MainState = {
+    character1: "ryu",
+    character2: "ryu",
 }
 
 // =============================================================================

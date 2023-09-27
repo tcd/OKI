@@ -1,22 +1,12 @@
 import type { RootState } from "@app/state"
-// import { selectSlice } from "./select-slice"
+import { selectSlice } from "./select-slice"
 
-const mainWon = (_s: RootState): boolean => {
-    return false
-}
-
-const mainLost = (_s: RootState): boolean => {
-    return false
-}
-
-const mainTied = (_s: RootState): boolean => {
-    return false
-}
+const character1 = (s: RootState) => selectSlice(s).character1
+const character2 = (s: RootState) => selectSlice(s).character2
 
 // =============================================================================
 
 export default {
-    mainWon,
-    mainLost,
-    mainTied,
+    character1,
+    character2,
 }

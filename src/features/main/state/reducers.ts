@@ -5,16 +5,12 @@ import { INITIAL_GAME_STATE as INITIAL_STATE } from "./state"
 
 export const reducers = {
     resetState: () => INITIAL_STATE,
-    // // -------------------------------------------------------------------------
-    // // Spinning
-    // // -------------------------------------------------------------------------
-    // toggleWheelLock: (state: MainState, { payload }: PayloadAction<number>) => {
-    //     if (state.player1.locked.includes(payload)) {
-    //         state.player1.locked = state.player1.locked.filter(x => x != payload)
-    //     } else {
-    //         state.player1.locked = [...state.player1.locked, payload]
-    //     }
-    // },
+    setPlayer1: (state: MainState, { payload }: PayloadAction<SF6.CharacterNameClean>) => {
+        state.character1 = payload
+    },
+    setPlayer2: (state: MainState, { payload }: PayloadAction<SF6.CharacterNameClean>) => {
+        state.character1 = payload
+    },
 
 }
 
