@@ -8,4 +8,3 @@ config/.env.json
 ./*.env
 ./*.env.*
 !./config/.env.prod.json
-src/assets
