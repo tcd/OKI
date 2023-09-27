@@ -4,7 +4,10 @@ import type { ISxProps as SxProps } from "@app/theme"
 
 export const Help = (): JSX.Element => {
     return (
-        <Box sx={rootSx}>
+        <Box
+            id="help"
+            sx={rootSx}
+        >
             <span>SF6 OKI LOL</span>
 
             <Box sx={pSx}>
