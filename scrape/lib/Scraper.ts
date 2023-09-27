@@ -59,5 +59,5 @@ export class Scraper {
 
     public streetFighterDotComUrl() { return `https://www.streetfighter.com/6/en-us/character/${this.character}/frame` }
     // public streetFighterDotComUrl() { return `https://www.streetfighter.com/6/character/${this.character}/frame` }
-    public htmlFilePath() { return PATHS.TMP_FOLDER.join("html", `${this.character}.html`)}
+    public htmlFilePath() { return PATHS.TMP_FOLDER.join("html", "street-fighter-dotcom", `${this.character}.html`)}
 }
