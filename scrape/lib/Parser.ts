@@ -104,7 +104,13 @@ export class Parser extends Processor {
     }
 
     private col_4_frame_recovery(cell: cheerio.Element) {
-        return this.col__string(cell)
+        const $cell = this.$(cell)
+        const string = $cell.text().trim()
+        const onlyNumbers = /[\d-]+/
+        if (onlyNumbers.test(string)) {
+            return tryParseInt(string)
+        }
+        return string
     }
 
     private col_5_recovery_hit(cell: cheerio.Element) {
