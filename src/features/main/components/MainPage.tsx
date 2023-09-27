@@ -10,7 +10,6 @@ import { Table1 } from "./Table1"
 export const MainPage = (): JSX.Element => {
     return (
         <Box sx={rootSx}>
-            <h1>Main Page</h1>
             <AboveTable />
             <Table1 />
             <Oki />

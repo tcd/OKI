@@ -6,14 +6,18 @@ import {
 import { Selectors } from "@app/state"
 import type { ISxProps as SxProps } from "@app/theme"
 
+const skips = [
+    "section",
+    "Combo Scaling",
+    "Properties",
+    "Miscellaneous",
+]
+
 export const Table1 = (): JSX.Element => {
 
-    const character1 = useSelector(Selectors.Main.character1)
     const frameData = useSelector(Selectors.Main.frameData.character1)
 
-    console.log(frameData)
-
-    const columns = Object.keys(frameData[0])
+    const columns = Object.keys(frameData[0]).filter(x => !skips.includes(x))
 
     const $headers = columns.map((col, i) => (
         <td key={i}>{col}</td>
@@ -31,7 +35,7 @@ export const Table1 = (): JSX.Element => {
 
     return (
         <Box sx={rootSx}>
-            <table>
+            <Box component="table" sx={tableSx}>
                 <thead>
                     <tr>
                         {$headers}
@@ -40,7 +44,7 @@ export const Table1 = (): JSX.Element => {
                 <tbody>
                     {$rows}
                 </tbody>
-            </table>
+            </Box>
         </Box>
     )
 }
@@ -50,4 +54,31 @@ export const Table1 = (): JSX.Element => {
 const rootSx: SxProps = {
     display: "block",
     p: 2,
+}
+
+const tableSx: SxProps = {
+    color: "#ccc",
+    fontSize: "10px",
+    "& thead": {
+        backgroundColor: "#111111",
+        "& tr > td": {
+            textAlign: "center",
+            fontWeight: "bold",
+        },
+    },
+    "& tbody": {
+        backgroundColor: "#333333",
+        textAlign: "center",
+        "& tr": {
+            "&:nth-child(even)": {
+                backgroundColor: "#333333",
+            },
+            "&:nth-child(odd)": {
+                backgroundColor: "#111111",
+            },
+            "&:hover": {
+                backgroundColor: "#003300",
+            },
+        },
+    },
 }
