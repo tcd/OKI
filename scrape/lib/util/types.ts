@@ -50,9 +50,9 @@ export interface ICharacterFrameData {
     "cancel"?: any
     damage?: any
     scaling?: any
-    "Drive Gauge Increase.Hit"?: any
-    "Drive Gauge Decrease.Block"?: any
-    "Drive Gauge Decrease.Punish Counter"?: any
+    driveGain_hit?: any
+    driveDrain_block?: any
+    driveDrain_punishCounter?: any
     superGain?: any
     properties?: string[]
     notes?: any

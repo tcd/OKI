@@ -21,7 +21,7 @@ export class Parser extends Processor {
     }
 
     public async parse() {
-        const html = await this.htmlFilePath().read()
+        const html = await this.htmlFilePath.read()
         this.$ = cheerio.load(html)
         const $table = this.$("#framearea > div > table")?.first()
         if (!$table) {
@@ -33,7 +33,7 @@ export class Parser extends Processor {
         for (const row of rows.toArray()) {
             this.processRow(row)
         }
-        await this.jsonFilePathV1().writeJSON(this.results)
+        await this.jsonFilePathV1.writeJSON(this.results)
     }
 
     private processRow(el: cheerio.Element) {
