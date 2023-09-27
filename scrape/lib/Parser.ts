@@ -38,7 +38,6 @@ export class Parser extends Processor {
         const cells = $el.find("td") // should be 1 or 15
         if (cells.length == 1) {
             this.currentSection = cells.first().text().trim()
-            console.log(this.currentSection)
             return
         }
         const row: ICharacterTableRow = {
