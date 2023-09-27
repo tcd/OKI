@@ -41,6 +41,7 @@
         "lodash": "^4.17.21",
         "luxon": "^3.4.2",
         "material-ui-confirm": "^3.0.9",
+        "pathname-ts": "^0.3.0",
         "process": "^0.11.10",
         "react": "^18.2.0",
         "react-dom": "^18.2.0",
