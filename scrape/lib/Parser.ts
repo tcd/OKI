@@ -4,6 +4,7 @@ import * as cheerio from "cheerio"
 import type { CharacterNameClean, ICharacterTableRow } from "./types"
 import { Processor } from "./Processor"
 
+// FIXME: replace `U+ff08 "（"`
 export class Parser extends Processor {
 
     public $: CheerioAPI
@@ -26,11 +27,12 @@ export class Parser extends Processor {
         const rows = $table.find("tbody tr")
         // console.log(rows.length)
         for (const row of rows.toArray()) {
-            this.processSingle(row)
+            this.processRow(row)
         }
+        await this.jsonFilePath().writeJSON(this.results)
     }
 
-    private processSingle(el: cheerio.Element) {
+    private processRow(el: cheerio.Element) {
         const $el = this.$(el)
         const cells = $el.find("td") // should be 1 or 15
         if (cells.length == 1) {
@@ -38,7 +40,16 @@ export class Parser extends Processor {
             console.log(this.currentSection)
             return
         }
-        // console.log(cells.length)
-        debugger
+        const row: ICharacterTableRow = {
+            section:     this.currentSection,
+            "Move Name": this.col_1_moveName(cells[0]),
+        }
+        this.results.push(row)
+    }
+
+    private col_1_moveName(cell: cheerio.Element) {
+        const $cell = this.$(cell)
+        const moveName = $cell.find("span").first().text().trim()
+        return moveName
     }
 }

@@ -1,0 +1,298 @@
+[
+    {
+        "section": "Normal Moves",
+        "Move Name": "Standing Light Punch"
+    },
+    {
+        "section": "Normal Moves",
+        "Move Name": "Standing Light Kick"
+    },
+    {
+        "section": "Normal Moves",
+        "Move Name": "Standing Medium Punch"
+    },
+    {
+        "section": "Normal Moves",
+        "Move Name": "Standing Medium Kick"
+    },
+    {
+        "section": "Normal Moves",
+        "Move Name": "Standing Heavy Punch"
+    },
+    {
+        "section": "Normal Moves",
+        "Move Name": "Standing Heavy Kick"
+    },
+    {
+        "section": "Normal Moves",
+        "Move Name": "Crouching Light Punch"
+    },
+    {
+        "section": "Normal Moves",
+        "Move Name": "Crouching Light Kick"
+    },
+    {
+        "section": "Normal Moves",
+        "Move Name": "Crouching Medium Punch"
+    },
+    {
+        "section": "Normal Moves",
+        "Move Name": "Crouching Medium Kick"
+    },
+    {
+        "section": "Normal Moves",
+        "Move Name": "Crouching Heavy Punch"
+    },
+    {
+        "section": "Normal Moves",
+        "Move Name": "Crouching Heavy Kick"
+    },
+    {
+        "section": "Normal Moves",
+        "Move Name": "Jumping Light Punch"
+    },
+    {
+        "section": "Normal Moves",
+        "Move Name": "Jumping Light Kick"
+    },
+    {
+        "section": "Normal Moves",
+        "Move Name": "Jumping Medium Punch"
+    },
+    {
+        "section": "Normal Moves",
+        "Move Name": "Jumping Medium Kick"
+    },
+    {
+        "section": "Normal Moves",
+        "Move Name": "Jumping Heavy Punch"
+    },
+    {
+        "section": "Normal Moves",
+        "Move Name": "Jumping Heavy Kick"
+    },
+    {
+        "section": "Unique Attacks",
+        "Move Name": "Collarbone Breaker"
+    },
+    {
+        "section": "Unique Attacks",
+        "Move Name": "Solar Plexus Strike"
+    },
+    {
+        "section": "Unique Attacks",
+        "Move Name": "Short Uppercut"
+    },
+    {
+        "section": "Unique Attacks",
+        "Move Name": "Axe Kick"
+    },
+    {
+        "section": "Unique Attacks",
+        "Move Name": "Whirlwind Kick"
+    },
+    {
+        "section": "Unique Attacks",
+        "Move Name": "High Double Strike"
+    },
+    {
+        "section": "Unique Attacks",
+        "Move Name": "Fuwa Triple Strike(2)"
+    },
+    {
+        "section": "Unique Attacks",
+        "Move Name": "Fuwa Triple Strike(3)"
+    },
+    {
+        "section": "Special Moves",
+        "Move Name": "L Hadoken"
+    },
+    {
+        "section": "Special Moves",
+        "Move Name": "M Hadoken"
+    },
+    {
+        "section": "Special Moves",
+        "Move Name": "H Hadoken"
+    },
+    {
+        "section": "Special Moves",
+        "Move Name": "[Denjin Charge]Hadoken"
+    },
+    {
+        "section": "Special Moves",
+        "Move Name": "OD Hadoken"
+    },
+    {
+        "section": "Special Moves",
+        "Move Name": "[Denjin Charge]OD Hadoken"
+    },
+    {
+        "section": "Special Moves",
+        "Move Name": "L Shoryuken"
+    },
+    {
+        "section": "Special Moves",
+        "Move Name": "M Shoryuken"
+    },
+    {
+        "section": "Special Moves",
+        "Move Name": "H Shoryuken"
+    },
+    {
+        "section": "Special Moves",
+        "Move Name": "OD Shoryuken"
+    },
+    {
+        "section": "Special Moves",
+        "Move Name": "L Tatsumaki Senpu-kyaku"
+    },
+    {
+        "section": "Special Moves",
+        "Move Name": "M Tatsumaki Senpu-kyaku"
+    },
+    {
+        "section": "Special Moves",
+        "Move Name": "H Tatsumaki Senpu-kyaku"
+    },
+    {
+        "section": "Special Moves",
+        "Move Name": "OD Tatsumaki Senpu-kyaku"
+    },
+    {
+        "section": "Special Moves",
+        "Move Name": "Aerial Tatsumaki Senpu-kyaku"
+    },
+    {
+        "section": "Special Moves",
+        "Move Name": "OD Aerial Tatsumaki Senpu-kyaku"
+    },
+    {
+        "section": "Special Moves",
+        "Move Name": "L High Blade Kick"
+    },
+    {
+        "section": "Special Moves",
+        "Move Name": "M High Blade Kick"
+    },
+    {
+        "section": "Special Moves",
+        "Move Name": "H High Blade Kick"
+    },
+    {
+        "section": "Special Moves",
+        "Move Name": "OD High Blade Kick"
+    },
+    {
+        "section": "Special Moves",
+        "Move Name": "L Hashogeki"
+    },
+    {
+        "section": "Special Moves",
+        "Move Name": "M Hashogeki"
+    },
+    {
+        "section": "Special Moves",
+        "Move Name": "H Hashogeki"
+    },
+    {
+        "section": "Special Moves",
+        "Move Name": "[Denjin Charge]Hashogeki"
+    },
+    {
+        "section": "Special Moves",
+        "Move Name": "OD Hashogeki"
+    },
+    {
+        "section": "Special Moves",
+        "Move Name": "[Denjin Charge]OD Hashogeki"
+    },
+    {
+        "section": "Special Moves",
+        "Move Name": "Denjin Charge"
+    },
+    {
+        "section": "Super Arts",
+        "Move Name": "SA1 Shinku Hadoken"
+    },
+    {
+        "section": "Super Arts",
+        "Move Name": "[Denjin Charge]SA1 Shinku Hadoken"
+    },
+    {
+        "section": "Super Arts",
+        "Move Name": "SA2 Shin Hashogeki（Lv1）"
+    },
+    {
+        "section": "Super Arts",
+        "Move Name": "SA2 Shin Hashogeki（Lv2）"
+    },
+    {
+        "section": "Super Arts",
+        "Move Name": "SA2 Shin Hashogeki（Lv3）"
+    },
+    {
+        "section": "Super Arts",
+        "Move Name": "[Denjin Charge]SA2 Shin Hashogeki（Lv1）"
+    },
+    {
+        "section": "Super Arts",
+        "Move Name": "[Denjin Charge]SA2 Shin Hashogeki（Lv2）"
+    },
+    {
+        "section": "Super Arts",
+        "Move Name": "[Denjin Charge]SA2 Shin Hashogeki（Lv3）"
+    },
+    {
+        "section": "Super Arts",
+        "Move Name": "SA3 Shin Shoryuken"
+    },
+    {
+        "section": "Super Arts",
+        "Move Name": "CA Shin Shoryuken"
+    },
+    {
+        "section": "Throws",
+        "Move Name": "Shoulder Throw"
+    },
+    {
+        "section": "Throws",
+        "Move Name": "Somersault Throw"
+    },
+    {
+        "section": "Common Moves",
+        "Move Name": "Forward Dash"
+    },
+    {
+        "section": "Common Moves",
+        "Move Name": "Backward Dash"
+    },
+    {
+        "section": "Common Moves",
+        "Move Name": "Drive Impact: Shingeki"
+    },
+    {
+        "section": "Common Moves",
+        "Move Name": "Drive Reversal: Chest Strike"
+    },
+    {
+        "section": "Common Moves",
+        "Move Name": "Drive Parry"
+    },
+    {
+        "section": "Common Moves",
+        "Move Name": "Perfect Parry (strike)"
+    },
+    {
+        "section": "Common Moves",
+        "Move Name": "Perfect Parry (projectile)"
+    },
+    {
+        "section": "Common Moves",
+        "Move Name": "Parry Drive Rush"
+    },
+    {
+        "section": "Common Moves",
+        "Move Name": "Cancel Drive Rush"
+    }
+]
