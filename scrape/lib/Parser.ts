@@ -162,6 +162,7 @@ export class Parser extends Processor {
         return this.col__int(cell)
     }
 
+    // FIXME: split values into array
     private col_14_properties(cell: cheerio.Element) {
         return this.col__string(cell, true)
     }
