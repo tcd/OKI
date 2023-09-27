@@ -1,6 +1,6 @@
 {
     "private": true,
-    "name": "react-wheels",
+    "name": "sf6-oki",
     "version": "0.0.0",
     "scripts": {
         "start": "npm run serve",
