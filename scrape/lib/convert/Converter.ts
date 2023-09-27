@@ -47,7 +47,6 @@ class _Converter {
             startup: this.rawData["Frame.Start-up"],
             // "Recovery.Hit"?: any
             // "Recovery.Block"?: any
-            cancel: this.rawData["Cancel"],
             // scaling?: any
             driveGain_hit: this.rawData["Drive Gauge Increase.Hit"],
             driveDrain_block: this.rawData["Drive Gauge Decrease.Block"],
@@ -56,12 +55,22 @@ class _Converter {
             // notes: this.rawData.Miscellaneous,
         }
 
+        this.setCancel()
         this.setActiveFrames()
         this.setRecoveryFrames()
         this.setDamage()
         // this.setProperties()
 
         return this.result
+    }
+
+    private setCancel() {
+        if (this.rawData.Cancel == null || this.rawData.Cancel == "") {
+            this.result.cancel = []
+            return
+        }
+
+        this.result.cancel = this.rawData.Cancel
     }
 
     private setActiveFrames() {
