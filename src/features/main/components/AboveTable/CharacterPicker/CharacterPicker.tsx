@@ -9,7 +9,7 @@ import {
 } from "@mui/material"
 
 import { Actions, Selectors } from "@app/state"
-import { CHARACTER_OPTIONS } from "./options"
+import { CHARACTER_OPTIONS, prettyCharacterName } from "./options"
 
 export const CharacterPicker = (): JSX.Element => {
 
@@ -20,7 +20,6 @@ export const CharacterPicker = (): JSX.Element => {
 
     const handleChange = (event: SelectChangeEvent<SF6.CharacterNameClean>, _child: React.ReactNode) => {
         dispatch(Actions.Main.setPlayer1(event.target.value as SF6.CharacterNameClean))
-
     }
 
     const $options = CHARACTER_OPTIONS.map((c, i) => (
@@ -33,7 +32,7 @@ export const CharacterPicker = (): JSX.Element => {
     ))
 
     return (
-        <FormControl>
+        <FormControl sx={{ p: 1, width: "120px" }}>
             <InputLabel id="demo-simple-select-label">Player 1</InputLabel>
             <Select
                 labelId="demo-simple-select-label"
@@ -43,9 +42,16 @@ export const CharacterPicker = (): JSX.Element => {
                 label="Player 1"
                 value={character1}
                 onChange={handleChange}
+                renderValue={renderValue}
             >
                 {$options}
             </Select>
         </FormControl>
+    )
+}
+
+const renderValue = (value: SF6.CharacterNameClean) => {
+    return (
+        <Box sx={{ color: "black" }}>{prettyCharacterName(value)}</Box>
     )
 }

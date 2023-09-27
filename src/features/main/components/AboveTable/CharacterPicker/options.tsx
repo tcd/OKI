@@ -21,4 +21,6 @@ const LONG_NAMES_MAP: Record<SF6.CharacterNameClean, string> = {
     zangief:  "Zangief",
 }
 
+export const prettyCharacterName = (cleanName: SF6.CharacterNameClean): string => LONG_NAMES_MAP[cleanName]
+
 export const CHARACTER_OPTIONS = Object.entries(LONG_NAMES_MAP).map(([value, title]) => ({ value, title }))
