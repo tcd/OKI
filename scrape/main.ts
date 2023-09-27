@@ -1,5 +1,7 @@
+import { scrape } from "./lib"
+
 const main = async () => {
-    console.log("scrape!")
+    await scrape()
 }
 
 (async () => {
