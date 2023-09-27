@@ -26,8 +26,10 @@ const color2 = color1
 // const color2 = "#4c4ce9"
 
 const sx: SxProps = {
-    // color,
-    // textDecoration: "none",
+    flexShrink: 1,
+    flexGrow: 0,
+    color: color1,
+    textDecoration: "underline",
     // "&:hover, &:active, &:focused, &:visited": {
     //     color,
     //     cursor: "pointer",
