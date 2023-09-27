@@ -2,371 +2,889 @@
     {
         "section": "Normal Moves",
         "Move Name": "Standing Light Punch",
-        "Frame.Start-up": 4
+        "Frame.Start-up": 4,
+        "Frame.Active": "4-6",
+        "Frame.Recovery": "7",
+        "Recovery.Hit": 4,
+        "Recovery.Block": -1,
+        "Cancel": "C",
+        "Damage": 300,
+        "Combo Scaling": "Starter scaling 10%"
     },
     {
         "section": "Normal Moves",
         "Move Name": "Standing Light Kick",
-        "Frame.Start-up": 5
+        "Frame.Start-up": 5,
+        "Frame.Active": "5-7",
+        "Frame.Recovery": "11",
+        "Recovery.Hit": 2,
+        "Recovery.Block": -4,
+        "Cancel": "C",
+        "Damage": 300,
+        "Combo Scaling": "Starter scaling 10%"
     },
     {
         "section": "Normal Moves",
         "Move Name": "Standing Medium Punch",
-        "Frame.Start-up": 6
+        "Frame.Start-up": 6,
+        "Frame.Active": "6-9",
+        "Frame.Recovery": "11",
+        "Recovery.Hit": 7,
+        "Recovery.Block": -1,
+        "Cancel": "C",
+        "Damage": 600,
+        "Combo Scaling": null
     },
     {
         "section": "Normal Moves",
         "Move Name": "Standing Medium Kick",
-        "Frame.Start-up": 9
+        "Frame.Start-up": 9,
+        "Frame.Active": "9-11",
+        "Frame.Recovery": "18",
+        "Recovery.Hit": 4,
+        "Recovery.Block": -4,
+        "Cancel": "",
+        "Damage": 700,
+        "Combo Scaling": null
     },
     {
         "section": "Normal Moves",
         "Move Name": "Standing Heavy Punch",
-        "Frame.Start-up": 10
+        "Frame.Start-up": 10,
+        "Frame.Active": "10-14",
+        "Frame.Recovery": "18",
+        "Recovery.Hit": 3,
+        "Recovery.Block": -2,
+        "Cancel": "C",
+        "Damage": 800,
+        "Combo Scaling": null
     },
     {
         "section": "Normal Moves",
         "Move Name": "Standing Heavy Kick",
-        "Frame.Start-up": 12
+        "Frame.Start-up": 12,
+        "Frame.Active": "12-15",
+        "Frame.Recovery": "20",
+        "Recovery.Hit": 9,
+        "Recovery.Block": 1,
+        "Cancel": "",
+        "Damage": 900,
+        "Combo Scaling": null
     },
     {
         "section": "Normal Moves",
         "Move Name": "Crouching Light Punch",
-        "Frame.Start-up": 4
+        "Frame.Start-up": 4,
+        "Frame.Active": "4-5",
+        "Frame.Recovery": "9",
+        "Recovery.Hit": 4,
+        "Recovery.Block": -1,
+        "Cancel": "C",
+        "Damage": 300,
+        "Combo Scaling": "Starter scaling 10%"
     },
     {
         "section": "Normal Moves",
         "Move Name": "Crouching Light Kick",
-        "Frame.Start-up": 5
+        "Frame.Start-up": 5,
+        "Frame.Active": "5-6",
+        "Frame.Recovery": "10",
+        "Recovery.Hit": 3,
+        "Recovery.Block": -3,
+        "Cancel": "",
+        "Damage": 200,
+        "Combo Scaling": "Starter scaling 10%"
     },
     {
         "section": "Normal Moves",
         "Move Name": "Crouching Medium Punch",
-        "Frame.Start-up": 6
+        "Frame.Start-up": 6,
+        "Frame.Active": "6-8",
+        "Frame.Recovery": "14",
+        "Recovery.Hit": 5,
+        "Recovery.Block": 0,
+        "Cancel": "C",
+        "Damage": 600,
+        "Combo Scaling": null
     },
     {
         "section": "Normal Moves",
         "Move Name": "Crouching Medium Kick",
-        "Frame.Start-up": 8
+        "Frame.Start-up": 8,
+        "Frame.Active": "8-10",
+        "Frame.Recovery": "19",
+        "Recovery.Hit": 1,
+        "Recovery.Block": -6,
+        "Cancel": "C",
+        "Damage": 500,
+        "Combo Scaling": "Starter scaling 20%"
     },
     {
         "section": "Normal Moves",
         "Move Name": "Crouching Heavy Punch",
-        "Frame.Start-up": 9
+        "Frame.Start-up": 9,
+        "Frame.Active": "9-14",
+        "Frame.Recovery": "22",
+        "Recovery.Hit": 1,
+        "Recovery.Block": -7,
+        "Cancel": "C",
+        "Damage": 800,
+        "Combo Scaling": null
     },
     {
         "section": "Normal Moves",
         "Move Name": "Crouching Heavy Kick",
-        "Frame.Start-up": 9
+        "Frame.Start-up": 9,
+        "Frame.Active": "9-11",
+        "Frame.Recovery": "23",
+        "Recovery.Hit": "D",
+        "Recovery.Block": -12,
+        "Cancel": "",
+        "Damage": 900,
+        "Combo Scaling": null
     },
     {
         "section": "Normal Moves",
         "Move Name": "Jumping Light Punch",
-        "Frame.Start-up": 4
+        "Frame.Start-up": 4,
+        "Frame.Active": "4-13",
+        "Frame.Recovery": "3 frame(s) after landing",
+        "Recovery.Hit": null,
+        "Recovery.Block": null,
+        "Cancel": "",
+        "Damage": 300,
+        "Combo Scaling": null
     },
     {
         "section": "Normal Moves",
         "Move Name": "Jumping Light Kick",
-        "Frame.Start-up": 6
+        "Frame.Start-up": 6,
+        "Frame.Active": "6-15",
+        "Frame.Recovery": "3 frame(s) after landing",
+        "Recovery.Hit": null,
+        "Recovery.Block": null,
+        "Cancel": "",
+        "Damage": 300,
+        "Combo Scaling": null
     },
     {
         "section": "Normal Moves",
         "Move Name": "Jumping Medium Punch",
-        "Frame.Start-up": 8
+        "Frame.Start-up": 8,
+        "Frame.Active": "8-12",
+        "Frame.Recovery": "3 frame(s) after landing",
+        "Recovery.Hit": null,
+        "Recovery.Block": null,
+        "Cancel": "C",
+        "Damage": 700,
+        "Combo Scaling": null
     },
     {
         "section": "Normal Moves",
         "Move Name": "Jumping Medium Kick",
-        "Frame.Start-up": 7
+        "Frame.Start-up": 7,
+        "Frame.Active": "7-12",
+        "Frame.Recovery": "3 frame(s) after landing",
+        "Recovery.Hit": null,
+        "Recovery.Block": null,
+        "Cancel": "",
+        "Damage": 500,
+        "Combo Scaling": null
     },
     {
         "section": "Normal Moves",
         "Move Name": "Jumping Heavy Punch",
-        "Frame.Start-up": 9
+        "Frame.Start-up": 9,
+        "Frame.Active": "9-14",
+        "Frame.Recovery": "3 frame(s) after landing",
+        "Recovery.Hit": null,
+        "Recovery.Block": null,
+        "Cancel": "",
+        "Damage": 800,
+        "Combo Scaling": null
     },
     {
         "section": "Normal Moves",
         "Move Name": "Jumping Heavy Kick",
-        "Frame.Start-up": 12
+        "Frame.Start-up": 12,
+        "Frame.Active": "12-19",
+        "Frame.Recovery": "3 frame(s) after landing",
+        "Recovery.Hit": null,
+        "Recovery.Block": null,
+        "Cancel": "",
+        "Damage": 800,
+        "Combo Scaling": null
     },
     {
         "section": "Unique Attacks",
         "Move Name": "Collarbone Breaker",
-        "Frame.Start-up": 20
+        "Frame.Start-up": 20,
+        "Frame.Active": "2-23",
+        "Frame.Recovery": "19",
+        "Recovery.Hit": 2,
+        "Recovery.Block": -3,
+        "Cancel": "",
+        "Damage": 600,
+        "Combo Scaling": null
     },
     {
         "section": "Unique Attacks",
         "Move Name": "Solar Plexus Strike",
-        "Frame.Start-up": 20
+        "Frame.Start-up": 20,
+        "Frame.Active": "20-24",
+        "Frame.Recovery": "16",
+        "Recovery.Hit": 6,
+        "Recovery.Block": 1,
+        "Cancel": "",
+        "Damage": 800,
+        "Combo Scaling": "Starter scaling 20%"
     },
     {
         "section": "Unique Attacks",
         "Move Name": "Short Uppercut",
-        "Frame.Start-up": 7
+        "Frame.Start-up": 7,
+        "Frame.Active": "7-10",
+        "Frame.Recovery": "26",
+        "Recovery.Hit": 1,
+        "Recovery.Block": -13,
+        "Cancel": "C",
+        "Damage": 800,
+        "Combo Scaling": null
     },
     {
         "section": "Unique Attacks",
         "Move Name": "Axe Kick",
-        "Frame.Start-up": 10
+        "Frame.Start-up": 10,
+        "Frame.Active": "10-23, 10-14, 20-23",
+        "Frame.Recovery": "21",
+        "Recovery.Hit": 0,
+        "Recovery.Block": -4,
+        "Cancel": "C",
+        "Damage": 800,
+        "Combo Scaling": null
     },
     {
         "section": "Unique Attacks",
         "Move Name": "Whirlwind Kick",
-        "Frame.Start-up": 16
+        "Frame.Start-up": 16,
+        "Frame.Active": "16-19",
+        "Frame.Recovery": "20",
+        "Recovery.Hit": 2,
+        "Recovery.Block": -4,
+        "Cancel": "※",
+        "Damage": 800,
+        "Combo Scaling": null
     },
     {
         "section": "Unique Attacks",
         "Move Name": "High Double Strike",
-        "Frame.Start-up": 9
+        "Frame.Start-up": 9,
+        "Frame.Active": "9-12",
+        "Frame.Recovery": "20",
+        "Recovery.Hit": "D",
+        "Recovery.Block": -8,
+        "Cancel": "",
+        "Damage": 1000,
+        "Combo Scaling": null
     },
     {
         "section": "Unique Attacks",
         "Move Name": "Fuwa Triple Strike(2)",
-        "Frame.Start-up": 5
+        "Frame.Start-up": 5,
+        "Frame.Active": "5-7",
+        "Frame.Recovery": "16",
+        "Recovery.Hit": 1,
+        "Recovery.Block": -7,
+        "Cancel": "",
+        "Damage": 300,
+        "Combo Scaling": null
     },
     {
         "section": "Unique Attacks",
         "Move Name": "Fuwa Triple Strike(3)",
-        "Frame.Start-up": 17
+        "Frame.Start-up": 17,
+        "Frame.Active": "17-20",
+        "Frame.Recovery": "20",
+        "Recovery.Hit": "D",
+        "Recovery.Block": -8,
+        "Cancel": "",
+        "Damage": 900,
+        "Combo Scaling": null
     },
     {
         "section": "Special Moves",
         "Move Name": "L Hadoken",
-        "Frame.Start-up": 16
+        "Frame.Start-up": 16,
+        "Frame.Active": null,
+        "Frame.Recovery": "47 total frames",
+        "Recovery.Hit": -1,
+        "Recovery.Block": -5,
+        "Cancel": "SA3",
+        "Damage": 600,
+        "Combo Scaling": null
     },
     {
         "section": "Special Moves",
         "Move Name": "M Hadoken",
-        "Frame.Start-up": 14
+        "Frame.Start-up": 14,
+        "Frame.Active": null,
+        "Frame.Recovery": "47 total frames",
+        "Recovery.Hit": -3,
+        "Recovery.Block": -7,
+        "Cancel": "SA3",
+        "Damage": 600,
+        "Combo Scaling": null
     },
     {
         "section": "Special Moves",
         "Move Name": "H Hadoken",
-        "Frame.Start-up": 12
+        "Frame.Start-up": 12,
+        "Frame.Active": null,
+        "Frame.Recovery": "47 total frames",
+        "Recovery.Hit": -5,
+        "Recovery.Block": -9,
+        "Cancel": "SA3",
+        "Damage": 600,
+        "Combo Scaling": null
     },
     {
         "section": "Special Moves",
         "Move Name": "[Denjin Charge]Hadoken",
-        "Frame.Start-up": 12
+        "Frame.Start-up": 12,
+        "Frame.Active": null,
+        "Frame.Recovery": "42 total frames",
+        "Recovery.Hit": "D",
+        "Recovery.Block": -3,
+        "Cancel": "SA3",
+        "Damage": 800,
+        "Combo Scaling": "Starter scaling 20％, Combo scaling 20％"
     },
     {
         "section": "Special Moves",
         "Move Name": "OD Hadoken",
-        "Frame.Start-up": 12
+        "Frame.Start-up": 12,
+        "Frame.Active": null,
+        "Frame.Recovery": "40 total frames",
+        "Recovery.Hit": "D",
+        "Recovery.Block": -1,
+        "Cancel": "SA2",
+        "Damage": 800,
+        "Combo Scaling": "Starter scaling 20％, Combo scaling 20％"
     },
     {
         "section": "Special Moves",
         "Move Name": "[Denjin Charge]OD Hadoken",
-        "Frame.Start-up": 12
+        "Frame.Start-up": 12,
+        "Frame.Active": null,
+        "Frame.Recovery": "38 total frames",
+        "Recovery.Hit": "D",
+        "Recovery.Block": 2,
+        "Cancel": "SA2",
+        "Damage": 1000,
+        "Combo Scaling": "Starter scaling 20％, Combo scaling 20％"
     },
     {
         "section": "Special Moves",
         "Move Name": "L Shoryuken",
-        "Frame.Start-up": 5
+        "Frame.Start-up": 5,
+        "Frame.Active": "5-14",
+        "Frame.Recovery": "21+12 frame(s) after landing",
+        "Recovery.Hit": "D",
+        "Recovery.Block": -23,
+        "Cancel": "SA3",
+        "Damage": "※1100",
+        "Combo Scaling": "Starter scaling 30%"
     },
     {
         "section": "Special Moves",
         "Move Name": "M Shoryuken",
-        "Frame.Start-up": 6
+        "Frame.Start-up": 6,
+        "Frame.Active": "6-15",
+        "Frame.Recovery": "30+12 frame(s) after landing",
+        "Recovery.Hit": "D",
+        "Recovery.Block": -32,
+        "Cancel": "SA3",
+        "Damage": "※1200",
+        "Combo Scaling": "Starter scaling 30%"
     },
     {
         "section": "Special Moves",
         "Move Name": "H Shoryuken",
-        "Frame.Start-up": 7
+        "Frame.Start-up": 7,
+        "Frame.Active": "7-16",
+        "Frame.Recovery": "34+15 frame(s) after landing",
+        "Recovery.Hit": "D",
+        "Recovery.Block": -39,
+        "Cancel": "SA3",
+        "Damage": "※1400",
+        "Combo Scaling": "Starter scaling 30%"
     },
     {
         "section": "Special Moves",
         "Move Name": "OD Shoryuken",
-        "Frame.Start-up": 6
+        "Frame.Start-up": 6,
+        "Frame.Active": "6-15, 6-7, 8-15",
+        "Frame.Recovery": "37+15 frame(s) after landing",
+        "Recovery.Hit": "D",
+        "Recovery.Block": -40,
+        "Cancel": "",
+        "Damage": 1600,
+        "Combo Scaling": null
     },
     {
         "section": "Special Moves",
         "Move Name": "L Tatsumaki Senpu-kyaku",
-        "Frame.Start-up": 12
+        "Frame.Start-up": 12,
+        "Frame.Active": "12-14",
+        "Frame.Recovery": "14+18 frame(s) after landing",
+        "Recovery.Hit": "D",
+        "Recovery.Block": -15,
+        "Cancel": "",
+        "Damage": 800,
+        "Combo Scaling": null
     },
     {
         "section": "Special Moves",
         "Move Name": "M Tatsumaki Senpu-kyaku",
-        "Frame.Start-up": 14
+        "Frame.Start-up": 14,
+        "Frame.Active": "14-30, 14-15, 29-30",
+        "Frame.Recovery": "11+20 frame(s) after landing",
+        "Recovery.Hit": "D",
+        "Recovery.Block": -13,
+        "Cancel": "",
+        "Damage": 900,
+        "Combo Scaling": null
     },
     {
         "section": "Special Moves",
         "Move Name": "H Tatsumaki Senpu-kyaku",
-        "Frame.Start-up": 16
+        "Frame.Start-up": 16,
+        "Frame.Active": "16-47, 16-17, 31-32, 46-47",
+        "Frame.Recovery": "14+17 frame(s) after landing",
+        "Recovery.Hit": "D",
+        "Recovery.Block": -13,
+        "Cancel": "",
+        "Damage": 1000,
+        "Combo Scaling": null
     },
     {
         "section": "Special Moves",
         "Move Name": "OD Tatsumaki Senpu-kyaku",
-        "Frame.Start-up": 13
+        "Frame.Start-up": 13,
+        "Frame.Active": "13-37, 13-14, 19-20, 25-26, 30-31, 36-37",
+        "Frame.Recovery": "10+13 frame(s) after landing",
+        "Recovery.Hit": "D",
+        "Recovery.Block": -14,
+        "Cancel": "",
+        "Damage": 1000,
+        "Combo Scaling": null
     },
     {
         "section": "Special Moves",
         "Move Name": "Aerial Tatsumaki Senpu-kyaku",
-        "Frame.Start-up": 11
+        "Frame.Start-up": 11,
+        "Frame.Active": "11-27, 11-12, 18-19, 26-27",
+        "Frame.Recovery": "16 frame(s) after landing",
+        "Recovery.Hit": "D",
+        "Recovery.Block": null,
+        "Cancel": "",
+        "Damage": 900,
+        "Combo Scaling": "Starter scaling 30%"
     },
     {
         "section": "Special Moves",
         "Move Name": "OD Aerial Tatsumaki Senpu-kyaku",
-        "Frame.Start-up": 11
+        "Frame.Start-up": 11,
+        "Frame.Active": "11-28, 11-12, 14-16, 18-20, 22-24, 27-28",
+        "Frame.Recovery": "16 frame(s) after landing",
+        "Recovery.Hit": "D",
+        "Recovery.Block": null,
+        "Cancel": "",
+        "Damage": 1500,
+        "Combo Scaling": "Combo scaling 25%"
     },
     {
         "section": "Special Moves",
         "Move Name": "L High Blade Kick",
-        "Frame.Start-up": 15
+        "Frame.Start-up": 15,
+        "Frame.Active": "15-23",
+        "Frame.Recovery": "22",
+        "Recovery.Hit": "D",
+        "Recovery.Block": -11,
+        "Cancel": "SA3",
+        "Damage": 1000,
+        "Combo Scaling": null
     },
     {
         "section": "Special Moves",
         "Move Name": "M High Blade Kick",
-        "Frame.Start-up": 18
+        "Frame.Start-up": 18,
+        "Frame.Active": "18-26",
+        "Frame.Recovery": "19",
+        "Recovery.Hit": "D",
+        "Recovery.Block": -8,
+        "Cancel": "SA3",
+        "Damage": 1100,
+        "Combo Scaling": null
     },
     {
         "section": "Special Moves",
         "Move Name": "H High Blade Kick",
-        "Frame.Start-up": 29
+        "Frame.Start-up": 29,
+        "Frame.Active": "29-37",
+        "Frame.Recovery": "16",
+        "Recovery.Hit": "D",
+        "Recovery.Block": -5,
+        "Cancel": "SA3",
+        "Damage": 1300,
+        "Combo Scaling": null
     },
     {
         "section": "Special Moves",
         "Move Name": "OD High Blade Kick",
-        "Frame.Start-up": 18
+        "Frame.Start-up": 18,
+        "Frame.Active": "18-22",
+        "Frame.Recovery": "33",
+        "Recovery.Hit": "D",
+        "Recovery.Block": -18,
+        "Cancel": "SA2",
+        "Damage": 800,
+        "Combo Scaling": "Combo scaling 20%"
     },
     {
         "section": "Special Moves",
         "Move Name": "L Hashogeki",
-        "Frame.Start-up": 12
+        "Frame.Start-up": 12,
+        "Frame.Active": "12-17",
+        "Frame.Recovery": "18",
+        "Recovery.Hit": 2,
+        "Recovery.Block": -4,
+        "Cancel": "SA3",
+        "Damage": 700,
+        "Combo Scaling": null
     },
     {
         "section": "Special Moves",
         "Move Name": "M Hashogeki",
-        "Frame.Start-up": 19
+        "Frame.Start-up": 19,
+        "Frame.Active": "19-24",
+        "Frame.Recovery": "17",
+        "Recovery.Hit": 2,
+        "Recovery.Block": -6,
+        "Cancel": "SA3",
+        "Damage": 800,
+        "Combo Scaling": null
     },
     {
         "section": "Special Moves",
         "Move Name": "H Hashogeki",
-        "Frame.Start-up": 30
+        "Frame.Start-up": 30,
+        "Frame.Active": "30-34.35",
+        "Frame.Recovery": "19",
+        "Recovery.Hit": "D",
+        "Recovery.Block": 2,
+        "Cancel": "SA3",
+        "Damage": 800,
+        "Combo Scaling": null
     },
     {
         "section": "Special Moves",
         "Move Name": "[Denjin Charge]Hashogeki",
-        "Frame.Start-up": 21
+        "Frame.Start-up": 21,
+        "Frame.Active": "21-26, 21-25, 26",
+        "Frame.Recovery": "18",
+        "Recovery.Hit": "D",
+        "Recovery.Block": 3,
+        "Cancel": "SA3",
+        "Damage": 800,
+        "Combo Scaling": null
     },
     {
         "section": "Special Moves",
         "Move Name": "OD Hashogeki",
-        "Frame.Start-up": 18
+        "Frame.Start-up": 18,
+        "Frame.Active": "18-22",
+        "Frame.Recovery": "20",
+        "Recovery.Hit": 3,
+        "Recovery.Block": 3,
+        "Cancel": "SA2",
+        "Damage": 900,
+        "Combo Scaling": "Combo scaling 20％"
     },
     {
         "section": "Special Moves",
         "Move Name": "[Denjin Charge]OD Hashogeki",
-        "Frame.Start-up": 18
+        "Frame.Start-up": 18,
+        "Frame.Active": "18-23",
+        "Frame.Recovery": "19",
+        "Recovery.Hit": "D",
+        "Recovery.Block": 4,
+        "Cancel": "SA2",
+        "Damage": 600,
+        "Combo Scaling": null
     },
     {
         "section": "Special Moves",
         "Move Name": "Denjin Charge",
-        "Frame.Start-up": null
+        "Frame.Start-up": null,
+        "Frame.Active": null,
+        "Frame.Recovery": "52 total frames",
+        "Recovery.Hit": null,
+        "Recovery.Block": null,
+        "Cancel": "",
+        "Damage": 0,
+        "Combo Scaling": null
     },
     {
         "section": "Super Arts",
         "Move Name": "SA1 Shinku Hadoken",
-        "Frame.Start-up": 8
+        "Frame.Start-up": 8,
+        "Frame.Active": null,
+        "Frame.Recovery": "87 total frames",
+        "Recovery.Hit": "D",
+        "Recovery.Block": -24,
+        "Cancel": "",
+        "Damage": 2000,
+        "Combo Scaling": null
     },
     {
         "section": "Super Arts",
         "Move Name": "[Denjin Charge]SA1 Shinku Hadoken",
-        "Frame.Start-up": 8
+        "Frame.Start-up": 8,
+        "Frame.Active": null,
+        "Frame.Recovery": "87 total frames",
+        "Recovery.Hit": "D",
+        "Recovery.Block": -24,
+        "Cancel": "",
+        "Damage": 2400,
+        "Combo Scaling": null
     },
     {
         "section": "Super Arts",
         "Move Name": "SA2 Shin Hashogeki（Lv1）",
-        "Frame.Start-up": 12
+        "Frame.Start-up": 12,
+        "Frame.Active": "12-17",
+        "Frame.Recovery": "39",
+        "Recovery.Hit": "D",
+        "Recovery.Block": -20,
+        "Cancel": "",
+        "Damage": 2600,
+        "Combo Scaling": null
     },
     {
         "section": "Super Arts",
         "Move Name": "SA2 Shin Hashogeki（Lv2）",
-        "Frame.Start-up": 20
+        "Frame.Start-up": 20,
+        "Frame.Active": "20-25",
+        "Frame.Recovery": "39",
+        "Recovery.Hit": "D",
+        "Recovery.Block": -20,
+        "Cancel": "",
+        "Damage": 2800,
+        "Combo Scaling": null
     },
     {
         "section": "Super Arts",
         "Move Name": "SA2 Shin Hashogeki（Lv3）",
-        "Frame.Start-up": 70
+        "Frame.Start-up": 70,
+        "Frame.Active": "70-75",
+        "Frame.Recovery": "39",
+        "Recovery.Hit": "D",
+        "Recovery.Block": -20,
+        "Cancel": "",
+        "Damage": 3000,
+        "Combo Scaling": null
     },
     {
         "section": "Super Arts",
         "Move Name": "[Denjin Charge]SA2 Shin Hashogeki（Lv1）",
-        "Frame.Start-up": 12
+        "Frame.Start-up": 12,
+        "Frame.Active": "12-17",
+        "Frame.Recovery": "39",
+        "Recovery.Hit": "D",
+        "Recovery.Block": -20,
+        "Cancel": "",
+        "Damage": 3000,
+        "Combo Scaling": null
     },
     {
         "section": "Super Arts",
         "Move Name": "[Denjin Charge]SA2 Shin Hashogeki（Lv2）",
-        "Frame.Start-up": 20
+        "Frame.Start-up": 20,
+        "Frame.Active": "20-25",
+        "Frame.Recovery": "39",
+        "Recovery.Hit": "D",
+        "Recovery.Block": -20,
+        "Cancel": "",
+        "Damage": 3200,
+        "Combo Scaling": null
     },
     {
         "section": "Super Arts",
         "Move Name": "[Denjin Charge]SA2 Shin Hashogeki（Lv3）",
-        "Frame.Start-up": 70
+        "Frame.Start-up": 70,
+        "Frame.Active": "70-75",
+        "Frame.Recovery": "39",
+        "Recovery.Hit": "D",
+        "Recovery.Block": -20,
+        "Cancel": "",
+        "Damage": 3400,
+        "Combo Scaling": null
     },
     {
         "section": "Super Arts",
         "Move Name": "SA3 Shin Shoryuken",
-        "Frame.Start-up": 5
+        "Frame.Start-up": 5,
+        "Frame.Active": "5-16, 5-6, 7-8, 9-10, 11-12, 13-14, 15-16",
+        "Frame.Recovery": "71",
+        "Recovery.Hit": "D",
+        "Recovery.Block": -52,
+        "Cancel": "",
+        "Damage": 4000,
+        "Combo Scaling": "*Immediate scaling 10%"
     },
     {
         "section": "Super Arts",
         "Move Name": "CA Shin Shoryuken",
-        "Frame.Start-up": 5
+        "Frame.Start-up": 5,
+        "Frame.Active": "5-16, 5-6, 7-8, 9-10, 11-12, 13-14, 15-16",
+        "Frame.Recovery": "71",
+        "Recovery.Hit": "D",
+        "Recovery.Block": -52,
+        "Cancel": "",
+        "Damage": 4500,
+        "Combo Scaling": "*Immediate scaling 10%"
     },
     {
         "section": "Throws",
         "Move Name": "Shoulder Throw",
-        "Frame.Start-up": 5
+        "Frame.Start-up": 5,
+        "Frame.Active": "5-7",
+        "Frame.Recovery": "23",
+        "Recovery.Hit": "D",
+        "Recovery.Block": null,
+        "Cancel": "",
+        "Damage": 1200,
+        "Combo Scaling": "Immediate scaling 20%"
     },
     {
         "section": "Throws",
         "Move Name": "Somersault Throw",
-        "Frame.Start-up": 5
+        "Frame.Start-up": 5,
+        "Frame.Active": "5-7",
+        "Frame.Recovery": "23",
+        "Recovery.Hit": "D",
+        "Recovery.Block": null,
+        "Cancel": "",
+        "Damage": 1200,
+        "Combo Scaling": "Immediate scaling 20%"
     },
     {
         "section": "Common Moves",
         "Move Name": "Forward Dash",
-        "Frame.Start-up": null
+        "Frame.Start-up": null,
+        "Frame.Active": null,
+        "Frame.Recovery": "19 total frames",
+        "Recovery.Hit": null,
+        "Recovery.Block": null,
+        "Cancel": "",
+        "Damage": 0,
+        "Combo Scaling": null
     },
     {
         "section": "Common Moves",
         "Move Name": "Backward Dash",
-        "Frame.Start-up": null
+        "Frame.Start-up": null,
+        "Frame.Active": null,
+        "Frame.Recovery": "23 total frames",
+        "Recovery.Hit": null,
+        "Recovery.Block": null,
+        "Cancel": "",
+        "Damage": 0,
+        "Combo Scaling": null
     },
     {
         "section": "Common Moves",
         "Move Name": "Drive Impact: Shingeki",
-        "Frame.Start-up": 26
+        "Frame.Start-up": 26,
+        "Frame.Active": "26-27",
+        "Frame.Recovery": "35",
+        "Recovery.Hit": null,
+        "Recovery.Block": -3,
+        "Cancel": "",
+        "Damage": 800,
+        "Combo Scaling": "Starter scaling 20%"
     },
     {
         "section": "Common Moves",
         "Move Name": "Drive Reversal: Chest Strike",
-        "Frame.Start-up": 20
+        "Frame.Start-up": 20,
+        "Frame.Active": "20-22",
+        "Frame.Recovery": "26",
+        "Recovery.Hit": "D",
+        "Recovery.Block": -8,
+        "Cancel": "",
+        "Damage": 500,
+        "Combo Scaling": null
     },
     {
         "section": "Common Moves",
         "Move Name": "Drive Parry",
-        "Frame.Start-up": 1
+        "Frame.Start-up": 1,
+        "Frame.Active": "[※1] 1-8",
+        "Frame.Recovery": "29",
+        "Recovery.Hit": null,
+        "Recovery.Block": null,
+        "Cancel": "※2",
+        "Damage": 0,
+        "Combo Scaling": null
     },
     {
         "section": "Common Moves",
         "Move Name": "Perfect Parry (strike)",
-        "Frame.Start-up": 1
+        "Frame.Start-up": 1,
+        "Frame.Active": null,
+        "Frame.Recovery": "1",
+        "Recovery.Hit": null,
+        "Recovery.Block": null,
+        "Cancel": "",
+        "Damage": 0,
+        "Combo Scaling": "Starter scaling 50％"
     },
     {
         "section": "Common Moves",
         "Move Name": "Perfect Parry (projectile)",
-        "Frame.Start-up": 1
+        "Frame.Start-up": 1,
+        "Frame.Active": null,
+        "Frame.Recovery": "10",
+        "Recovery.Hit": null,
+        "Recovery.Block": null,
+        "Cancel": "",
+        "Damage": 0,
+        "Combo Scaling": "Starter scaling 50％"
     },
     {
         "section": "Common Moves",
         "Move Name": "Parry Drive Rush",
-        "Frame.Start-up": null
+        "Frame.Start-up": null,
+        "Frame.Active": null,
+        "Frame.Recovery": "45 total frames",
+        "Recovery.Hit": null,
+        "Recovery.Block": null,
+        "Cancel": "※",
+        "Damage": 0,
+        "Combo Scaling": "Multiplier scaling 15％"
     },
     {
         "section": "Common Moves",
         "Move Name": "Cancel Drive Rush",
-        "Frame.Start-up": null
+        "Frame.Start-up": null,
+        "Frame.Active": null,
+        "Frame.Recovery": "46 total frames",
+        "Recovery.Hit": null,
+        "Recovery.Block": null,
+        "Cancel": "※",
+        "Damage": 0,
+        "Combo Scaling": "Multiplier scaling 15％"
     }
 ]
