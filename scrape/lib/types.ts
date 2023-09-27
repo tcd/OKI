@@ -38,3 +38,22 @@ export interface ICharacterTableRow {
     "Properties"?: any
     "Miscellaneous"?: any
 }
+
+export interface ICharacterFrameData {
+    section?: string
+    name?: any
+    startup?: any
+    active?: any
+    recovery?: any
+    "Recovery.Hit"?: any
+    "Recovery.Block"?: any
+    "cancel"?: any
+    damage?: any
+    scaling?: any
+    "Drive Gauge Increase.Hit"?: any
+    "Drive Gauge Decrease.Block"?: any
+    "Drive Gauge Decrease.Punish Counter"?: any
+    superGain?: any
+    properties?: string[]
+    notes?: any
+}

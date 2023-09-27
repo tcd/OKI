@@ -28,7 +28,10 @@ export const SecondMenu = (): JSX.Element => {
     ]
 
     const buttons = buttonPropses.map((btn, i) => (
-        <Button key={i} {...btn}/>
+        <Button
+            key={i}
+            {...btn}
+        />
     ))
 
     return (

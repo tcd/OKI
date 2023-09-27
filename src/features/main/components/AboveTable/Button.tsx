@@ -26,7 +26,12 @@ export const Button = (props: ButtonProps): JSX.Element => {
 // =============================================================================
 
 const sx: SxProps = {
-    p: 0.5,
     borderRadius: "0px",
     backgroundColor: "#999999",
+    p: 0.5,
+    px: 1,
+    // fix chrome user agent styles
+    height: "30px",
+    paddingBlock: "unset",
+    paddingInline: "5px",
 }

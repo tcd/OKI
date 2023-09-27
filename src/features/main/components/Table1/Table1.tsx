@@ -70,10 +70,10 @@ const tableSx: SxProps = {
         backgroundColor: "#333333",
         textAlign: "center",
         "& tr": {
-            "&:nth-child(even)": {
+            "&:nth-of-type(even)": {
                 backgroundColor: "#333333",
             },
-            "&:nth-child(odd)": {
+            "&:nth-of-type(odd)": {
                 backgroundColor: "#111111",
             },
             "&:hover": {

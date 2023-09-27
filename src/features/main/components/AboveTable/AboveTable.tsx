@@ -28,4 +28,5 @@ const rootSx: SxProps = {
 const buttonsSx: SxProps = {
     display: "flex",
     flexDirection: "row",
+    alignItems: "center",
 }
