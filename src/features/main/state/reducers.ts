@@ -14,6 +14,10 @@ export const reducers = {
     setActiveRow: (state: MainState, { payload }: PayloadAction<SF6.OkiRowNumber>) => {
         state.activeRow = payload
     },
+    handleExtra2Click: (state: MainState, { payload }: PayloadAction<number>) => {
+        // FIXME: implement
+        // state.activeRow = payload
+    },
 }
 
 export const extraReducers = (builder: ActionReducerMapBuilder<MainState>) => {}
