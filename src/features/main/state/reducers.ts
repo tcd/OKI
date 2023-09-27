@@ -11,7 +11,9 @@ export const reducers = {
     setPlayer2: (state: MainState, { payload }: PayloadAction<SF6.CharacterNameClean>) => {
         state.character2 = payload
     },
-
+    setActiveRow: (state: MainState, { payload }: PayloadAction<SF6.OkiRowNumber>) => {
+        state.activeRow = payload
+    },
 }
 
 export const extraReducers = (builder: ActionReducerMapBuilder<MainState>) => {}

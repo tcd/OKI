@@ -1,11 +1,19 @@
 import { Box } from "@mui/material"
 
 import type { ISxProps as SxProps } from "@app/theme"
+import { LeftCol } from "./LeftCol"
+import { Center } from "./Center"
 
 /**
  * FIXME: implement
  */
 export const Oki = (): JSX.Element => {
+    return (
+        <Box sx={sx}>
+            <LeftCol />
+            <Center />
+        </Box>
+    )
     return (
         <Box sx={sx}>
             <span>    0........1.........2.........3.........4.........5.........6.........7.........8.........9.........10........11........</span>
@@ -29,10 +37,13 @@ export const Oki = (): JSX.Element => {
 // =============================================================================
 
 const sx: SxProps = {
+    mx: 1,
     display: "flex",
-    flexFlow: "column nowrap",
+    flexFlow: "row nowrap",
+    fontSize: "13px",
     fontFamily: "monospace",
     whiteSpace: "pre-line",
+    color: "#ccc",
     // "& > span::after": {
     //     content: "\n",
     //     // whiteSpace: "pre",
