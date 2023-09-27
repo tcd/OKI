@@ -98,8 +98,25 @@ export class Parser extends Processor {
     private col_3_frame_active(cell: cheerio.Element) {
         const $cell = this.$(cell)
         // @ts-ignore: next-line
-        const value = $cell.text().trim().replaceAll(/\s*\n\s*/g, ",").replaceAll(/\s*,\s*/g, ", ")
+        const value: string = $cell.text().trim().replaceAll(/\s*\n\s*/g, ",").replaceAll(/\s*,\s*/g, ", ")
         if (value == "") { return null }
+        // if (!value.includes(",") || value.includes(ASTERISK_I_GUESS)) {
+        //     const onlyNumbers = /[\d-]+/
+        //     if (onlyNumbers.test(value)) {
+        //         const [
+        //             activeStart,
+        //             activeEnd
+        //         ] = value.split("-")
+        //         const activeStartInt = parseInt(activeStart) - 1
+        //         const activeEndInt = parseInt(activeEnd)
+        //         const totalActive = activeEndInt - activeStartInt
+        //         return totalActive
+        //         // return tryParseInt(string)
+        //     } else {
+        //         // TODO: handle these moves
+        //         debugger
+        //     }
+        // }
         return value
     }
 
