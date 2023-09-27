@@ -2,15 +2,14 @@ import type { CheerioAPI } from "cheerio"
 import * as cheerio from "cheerio"
 
 import type { CharacterNameClean, ICharacterTableRow } from "./types"
-import { PATHS } from "./paths"
+import { Processor } from "./Processor"
 
-export class Parser {
+export class Parser extends Processor {
 
-    public character: CharacterNameClean
     public $: CheerioAPI
 
     constructor(character: CharacterNameClean) {
-        this.character = character
+        super(character)
     }
 
     public async parse() {
@@ -22,6 +21,4 @@ export class Parser {
         }
         debugger
     }
-
-    public htmlFilePath() { return PATHS.TMP_FOLDER.join("html", "street-fighter-dotcom", `${this.character}.html`)}
 }

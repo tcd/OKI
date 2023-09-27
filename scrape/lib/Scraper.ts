@@ -2,7 +2,7 @@ import https from "https"
 import axios, { AxiosRequestConfig, AxiosResponse } from "axios"
 
 import type { CharacterNameClean, ICharacterTableRow } from "./types"
-import { PATHS } from "./paths"
+import { Processor } from "./Processor"
 
 const client = axios.create({
     httpsAgent: new https.Agent({
@@ -14,12 +14,12 @@ const client = axios.create({
     },
 })
 
-export class Scraper {
+export class Scraper extends Processor {
 
     public character: CharacterNameClean
 
     constructor(character: CharacterNameClean) {
-        this.character = character
+        super(character)
     }
 
     public async scrape() {
@@ -58,6 +58,4 @@ export class Scraper {
 
 
     public streetFighterDotComUrl() { return `https://www.streetfighter.com/6/en-us/character/${this.character}/frame` }
-    // public streetFighterDotComUrl() { return `https://www.streetfighter.com/6/character/${this.character}/frame` }
-    public htmlFilePath() { return PATHS.TMP_FOLDER.join("html", "street-fighter-dotcom", `${this.character}.html`)}
 }
