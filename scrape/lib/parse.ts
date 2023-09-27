@@ -1,9 +1,9 @@
 import type { CharacterNameClean } from "./types"
-import { Scraper } from "./Scraper"
+import { Parser } from "./Parser"
 
-export const scrape = async () => {
+export const parse = async () => {
     for (const character of ALL_CHARACTER_NAMES) {
-        await new Scraper(character).scrape()
+        await new Parser(character).parse()
     }
 }
 

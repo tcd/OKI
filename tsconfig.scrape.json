@@ -40,7 +40,7 @@
         "declarationMap": true,
     },
     "include": [
-        // "./src/**/*.ts",
+        "./src/**/*.ts",
         "./scrape/**/*.ts",
     ],
     "exclude": [

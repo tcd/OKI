@@ -16,6 +16,22 @@
                 "<node_internals>/**",
                 "node_modules/**"
             ]
-        }
+        },
+        {
+            "name": "scrape",
+            "type": "node",
+            "request": "launch",
+            "runtimeExecutable": "npm.cmd",
+            "runtimeArgs": [
+                "run-script",
+                "scrape"
+            ],
+            "cwd": "${workspaceRoot}",
+            "internalConsoleOptions": "openOnSessionStart",
+            "skipFiles": [
+                "<node_internals>/**",
+                "node_modules/**"
+            ]
+        },
     ]
 }
