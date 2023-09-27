@@ -10,5 +10,6 @@ export class Processor {
     }
 
     public htmlFilePath() { return PATHS.TMP_FOLDER.join("html", "street-fighter-dotcom", `${this.character}.html`)}
-    public jsonFilePath() { return PATHS.TMP_FOLDER.join("json", "street-fighter-dotcom", `${this.character}.json`)}
+    public jsonFilePathV1() { return PATHS.TMP_FOLDER.join("json", "street-fighter-dotcom", `${this.character}.json`)}
+    public jsonFilePathV2() { return PATHS.TMP_FOLDER.join("json", "street-fighter-dotcom", `${this.character}.v2.json`)}
 }

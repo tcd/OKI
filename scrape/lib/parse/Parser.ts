@@ -1,8 +1,11 @@
 import type { CheerioAPI } from "cheerio"
 import * as cheerio from "cheerio"
 
-import type { CharacterNameClean, ICharacterTableRow } from "../types"
-import { Processor } from "../Processor"
+import {
+    Processor,
+    type CharacterNameClean,
+    type ICharacterTableRow,
+} from "../util"
 
 // FIXME: replace `U+ff08 "（"`
 // FIXME: replace `U+ff05 "％"`
@@ -30,7 +33,7 @@ export class Parser extends Processor {
         for (const row of rows.toArray()) {
             this.processRow(row)
         }
-        await this.jsonFilePath().writeJSON(this.results)
+        await this.jsonFilePathV1().writeJSON(this.results)
     }
 
     private processRow(el: cheerio.Element) {

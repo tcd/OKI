@@ -1,4 +1,4 @@
-import type { CharacterNameClean } from "../types"
+import type { CharacterNameClean } from "../util"
 import { Parser } from "./Parser"
 
 export const parse = async () => {

@@ -1,8 +1,11 @@
 import https from "https"
 import axios, { AxiosRequestConfig, AxiosResponse } from "axios"
 
-import type { CharacterNameClean, ICharacterTableRow } from "../types"
-import { Processor } from "../Processor"
+import {
+    Processor,
+    type CharacterNameClean,
+    type ICharacterTableRow,
+} from "../util"
 
 const client = axios.create({
     httpsAgent: new https.Agent({
