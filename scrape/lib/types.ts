@@ -21,25 +21,20 @@ export type CharacterNameClean =
     | "zangief"
 
 export interface ICharacterTableRow {
-    "Move Name"
-    // Frame
-    "Start-up"
-    "Active"
-    "Recovery"
-    // // Recovery
-    // "Hit"
-    // "Block"
-    //
-    "Cancel"
-    "Damage"
-    "Combo Scaling"
-    // Drive Gauge Increase
-    "Hit"
-    // Drive Gauge Decrease
-    "Block"
-    "Punish Counter"
-    //
-    "Super Art Gauge Increase"
-    "Properties"
-    "Miscellaneous"
+    section?: string
+    "Move Name"?: any
+    "Frame.Start-up"?: any
+    "Frame.Active"?: any
+    "Frame.Recovery"?: any
+    "Recovery.Hit"?: any
+    "Recovery.Block"?: any
+    "Cancel"?: any
+    "Damage"?: any
+    "Combo Scaling"?: any
+    "Drive Gauge Increase.Hit"?: any
+    "Drive Gauge Decrease.Block"?: any
+    "Drive Gauge Decrease.Punish Counter"?: any
+    "Super Art Gauge Increase"?: any
+    "Properties"?: any
+    "Miscellaneous"?: any
 }

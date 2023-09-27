@@ -16,8 +16,6 @@ const client = axios.create({
 
 export class Scraper extends Processor {
 
-    public character: CharacterNameClean
-
     constructor(character: CharacterNameClean) {
         super(character)
     }
