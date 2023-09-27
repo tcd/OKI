@@ -4,7 +4,8 @@
     "version": "0.0.0",
     "scripts": {
         "start": "npm run serve",
-        "serve": "cross-env NODE_ENV=development webpack-dev-server --config ./config/webpack.config.dev.js --open"
+        "serve": "cross-env NODE_ENV=development webpack-dev-server --config ./config/webpack.config.dev.js --open",
+        "scrape": "cross-env NODE_ENV=development ts-node --project tsconfig.scrape.json ./scrape/main.ts"
     },
     "dependencies": {
         "@babel/core": "^7.22.11",
@@ -50,6 +51,7 @@
         "redux-persist": "^6.0.0",
         "source-map-loader": "^4.0.1",
         "style-loader": "^3.3.3",
+        "ts-node": "^10.9.1",
         "tsconfig-paths-webpack-plugin": "^4.1.0",
         "typescript": "^5.2.2",
         "webpack": "^5.88.2",

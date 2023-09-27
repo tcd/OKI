@@ -1,0 +1,53 @@
+{
+    "compilerOptions": {
+        // "noEmit": true,
+        // "noEmitOnError": false,
+        "isolatedModules": true,
+        "resolveJsonModule": true,
+        "lib": [
+            "dom",
+            "dom.iterable",
+            "esnext",
+            "es5",
+            "es2015.collection",
+            "es2015.promise",
+        ],
+        "types": [
+            "node",
+            // "mocha",
+        ],
+        "typeRoots": [
+            "./node_modules/@types",
+            "./src/@types"
+        ],
+        "baseUrl": ".",
+        "paths": {
+            "@scrape/*":    ["./scrape/*"],
+        },
+        "strict": false,
+        "noImplicitAny": false,
+        "skipLibCheck": true,
+        "target": "ES2017",
+        "jsx": "react-jsx",
+        "module": "ESNext",
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "allowSyntheticDefaultImports": true,
+        "noFallthroughCasesInSwitch": true,
+        "allowJs": false,
+        "sourceMap": true,
+        "downlevelIteration": true,
+        "declaration": true,
+        "declarationMap": true,
+    },
+    "include": [
+        // "./src/**/*.ts",
+        "./scrape/**/*.ts",
+    ],
+    "exclude": [
+        "./ignore",
+        "**/ignore/**/*.ts",
+        "**/ignore/**/*.tx",
+    ]
+}

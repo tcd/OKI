@@ -19,14 +19,13 @@
         "**/.git": true,
         "**/.DS_Store": true,
         "**/Thumbs.db": true,
+        "**/node_modules": true,
     },
     // =========================================================================
     // Spelling
     // =========================================================================
     "cSpell.words": [
-        "Homewood",
-        "Northport",
-        "Trussville",
-        "Vestavia"
+        "oki",
+        "toolassisted",
     ]
 }

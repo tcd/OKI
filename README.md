@@ -1,8 +1,13 @@
 # SF6 OKI LOL
 
+
 ## Development
 
-Make sure you have Node/NPM installed. (can be downloaded [here](https://nodejs.org/en/download))
+1. Make sure you have Node/NPM installed. (can be downloaded [here](https://nodejs.org/en/download))
+2. Clone the repository from https://github.com/tcd/OKI
+3. Run the following commands at the root of the project:
+    - `npm install`
+    - `npm start`
 
 
 ## Related
