@@ -9,7 +9,7 @@ export const reducers = {
         state.character1 = payload
     },
     setPlayer2: (state: MainState, { payload }: PayloadAction<SF6.CharacterNameClean>) => {
-        state.character1 = payload
+        state.character2 = payload
     },
 
 }

@@ -3,14 +3,15 @@ import { Box } from "@mui/material"
 import type { ISxProps as SxProps } from "@app/theme"
 import { SecondMenu } from "./SecondMenu"
 import { RedditLink } from "./RedditLink"
-import { CharacterPicker } from "./CharacterPicker"
+import { Character1Picker, Character2Picker } from "./CharacterPicker"
 
 export const AboveTable = (): JSX.Element => {
     return (
         <Box sx={rootSx}>
             <RedditLink />
             <Box sx={buttonsSx}>
-                <CharacterPicker />
+                <Character1Picker />
+                <Character2Picker />
                 <SecondMenu />
             </Box>
         </Box>

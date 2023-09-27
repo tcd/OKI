@@ -11,12 +11,11 @@ import {
 import { Actions, Selectors } from "@app/state"
 import { CHARACTER_OPTIONS, prettyCharacterName } from "./options"
 
-export const CharacterPicker = (): JSX.Element => {
+export const Character1Picker = (): JSX.Element => {
 
     const dispatch = useDispatch()
 
-    const character1 = useSelector(Selectors.Main.character1)
-    // const character2 = useSelector(Selectors.Main.character2)
+    const character = useSelector(Selectors.Main.character1)
 
     const handleChange = (event: SelectChangeEvent<SF6.CharacterNameClean>, _child: React.ReactNode) => {
         dispatch(Actions.Main.setPlayer1(event.target.value as SF6.CharacterNameClean))
@@ -33,14 +32,14 @@ export const CharacterPicker = (): JSX.Element => {
 
     return (
         <FormControl sx={{ p: 1, width: "120px" }}>
-            <InputLabel id="demo-simple-select-label">Player 1</InputLabel>
+            <InputLabel id="character1-select-label">Player 1</InputLabel>
             <Select
-                labelId="demo-simple-select-label"
-                id="demo-simple-select"
+                labelId="character1-select-label"
+                id="character1-select"
                 size="small"
                 variant="outlined"
                 label="Player 1"
-                value={character1}
+                value={character}
                 onChange={handleChange}
                 renderValue={renderValue}
             >

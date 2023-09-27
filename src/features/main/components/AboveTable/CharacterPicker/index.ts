@@ -1,1 +1,2 @@
-export * from "./CharacterPicker"
+export * from "./Character1Picker"
+export * from "./Character2Picker"
