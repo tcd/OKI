@@ -5,6 +5,7 @@ import type { CharacterNameClean, ICharacterTableRow } from "./types"
 import { Processor } from "./Processor"
 
 // FIXME: replace `U+ff08 "（"`
+// FIXME: replace `U+ff05 "％"`
 export class Parser extends Processor {
 
     public $: CheerioAPI
@@ -54,6 +55,9 @@ export class Parser extends Processor {
             "Drive Gauge Increase.Hit":            this.col_10_drive_increase(cells[9]),
             "Drive Gauge Decrease.Block":          this.col_11_drive_decrease_block(cells[10]),
             "Drive Gauge Decrease.Punish Counter": this.col_12_drive_decrease_punish(cells[11]),
+            "Super Art Gauge Increase":            this.col_13_super_art(cells[12]),
+            "Properties":                          this.col_14_properties(cells[13]),
+            "Miscellaneous":                       this.col_15_misc(cells[14]),
         }
         this.results.push(row)
     }
@@ -62,9 +66,12 @@ export class Parser extends Processor {
     // Shared
     // =========================================================================
 
-    private col__string(cell: cheerio.Element) {
+    private col__string(cell: cheerio.Element, useNull = false) {
         const $cell = this.$(cell)
         const string = $cell.text().trim()
+        if (useNull) {
+            return (string == "") ? null : ""
+        }
         return string
     }
 
@@ -149,6 +156,20 @@ export class Parser extends Processor {
 
     private col_12_drive_decrease_punish(cell: cheerio.Element) {
         return this.col__int(cell)
+    }
+
+    private col_13_super_art(cell: cheerio.Element) {
+        return this.col__int(cell)
+    }
+
+    private col_14_properties(cell: cheerio.Element) {
+        return this.col__string(cell, true)
+    }
+
+    // FIXME: convert break tags to newlines
+    private col_15_misc(cell: cheerio.Element) {
+        return this.col__string(cell)
+        const $cell = this.$(cell)
     }
 }
 

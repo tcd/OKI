@@ -12,7 +12,10 @@
         "Combo Scaling": "Starter scaling 10%",
         "Drive Gauge Increase.Hit": 250,
         "Drive Gauge Decrease.Block": -500,
-        "Drive Gauge Decrease.Punish Counter": -2000
+        "Drive Gauge Decrease.Punish Counter": -2000,
+        "Super Art Gauge Increase": 300,
+        "Properties": "",
+        "Miscellaneous": "Can be rapid canceled"
     },
     {
         "section": "Normal Moves",
@@ -27,7 +30,10 @@
         "Combo Scaling": "Starter scaling 10%",
         "Drive Gauge Increase.Hit": 250,
         "Drive Gauge Decrease.Block": -500,
-        "Drive Gauge Decrease.Punish Counter": -2000
+        "Drive Gauge Decrease.Punish Counter": -2000,
+        "Super Art Gauge Increase": 300,
+        "Properties": "",
+        "Miscellaneous": ""
     },
     {
         "section": "Normal Moves",
@@ -42,7 +48,10 @@
         "Combo Scaling": null,
         "Drive Gauge Increase.Hit": 1500,
         "Drive Gauge Decrease.Block": -3000,
-        "Drive Gauge Decrease.Punish Counter": -4000
+        "Drive Gauge Decrease.Punish Counter": -4000,
+        "Super Art Gauge Increase": 500,
+        "Properties": "",
+        "Miscellaneous": ""
     },
     {
         "section": "Normal Moves",
@@ -57,7 +66,10 @@
         "Combo Scaling": null,
         "Drive Gauge Increase.Hit": 2000,
         "Drive Gauge Decrease.Block": -4000,
-        "Drive Gauge Decrease.Punish Counter": -6000
+        "Drive Gauge Decrease.Punish Counter": -6000,
+        "Super Art Gauge Increase": 500,
+        "Properties": "",
+        "Miscellaneous": ""
     },
     {
         "section": "Normal Moves",
@@ -72,7 +84,10 @@
         "Combo Scaling": null,
         "Drive Gauge Increase.Hit": 2000,
         "Drive Gauge Decrease.Block": -5000,
-        "Drive Gauge Decrease.Punish Counter": -8000
+        "Drive Gauge Decrease.Punish Counter": -8000,
+        "Super Art Gauge Increase": 1000,
+        "Properties": "",
+        "Miscellaneous": "Forces the opponent into a standing position"
     },
     {
         "section": "Normal Moves",
@@ -87,7 +102,10 @@
         "Combo Scaling": null,
         "Drive Gauge Increase.Hit": 3000,
         "Drive Gauge Decrease.Block": -6000,
-        "Drive Gauge Decrease.Punish Counter": -10000
+        "Drive Gauge Decrease.Punish Counter": -10000,
+        "Super Art Gauge Increase": 1000,
+        "Properties": "",
+        "Miscellaneous": "Forces a juggle state when hitting a mid-air opponentProduces a crumple stun for 36 frames when the attack lands as a Punish CounterJuggle state time is extended when attack hits a mid-air opponent as a Punish Counter"
     },
     {
         "section": "Normal Moves",
@@ -102,7 +120,10 @@
         "Combo Scaling": "Starter scaling 10%",
         "Drive Gauge Increase.Hit": 250,
         "Drive Gauge Decrease.Block": -500,
-        "Drive Gauge Decrease.Punish Counter": -2000
+        "Drive Gauge Decrease.Punish Counter": -2000,
+        "Super Art Gauge Increase": 300,
+        "Properties": "",
+        "Miscellaneous": "Can be rapid canceled"
     },
     {
         "section": "Normal Moves",
@@ -117,7 +138,10 @@
         "Combo Scaling": "Starter scaling 10%",
         "Drive Gauge Increase.Hit": 250,
         "Drive Gauge Decrease.Block": -500,
-        "Drive Gauge Decrease.Punish Counter": -2000
+        "Drive Gauge Decrease.Punish Counter": -2000,
+        "Super Art Gauge Increase": 300,
+        "Properties": "",
+        "Miscellaneous": "Can be rapid canceled"
     },
     {
         "section": "Normal Moves",
@@ -132,7 +156,10 @@
         "Combo Scaling": null,
         "Drive Gauge Increase.Hit": 1500,
         "Drive Gauge Decrease.Block": -3000,
-        "Drive Gauge Decrease.Punish Counter": -4000
+        "Drive Gauge Decrease.Punish Counter": -4000,
+        "Super Art Gauge Increase": 500,
+        "Properties": "",
+        "Miscellaneous": ""
     },
     {
         "section": "Normal Moves",
@@ -147,7 +174,10 @@
         "Combo Scaling": "Starter scaling 20%",
         "Drive Gauge Increase.Hit": 1000,
         "Drive Gauge Decrease.Block": -2000,
-        "Drive Gauge Decrease.Punish Counter": -4000
+        "Drive Gauge Decrease.Punish Counter": -4000,
+        "Super Art Gauge Increase": 500,
+        "Properties": "",
+        "Miscellaneous": ""
     },
     {
         "section": "Normal Moves",
@@ -162,7 +192,10 @@
         "Combo Scaling": null,
         "Drive Gauge Increase.Hit": 3000,
         "Drive Gauge Decrease.Block": -6000,
-        "Drive Gauge Decrease.Punish Counter": -8000
+        "Drive Gauge Decrease.Punish Counter": -8000,
+        "Super Art Gauge Increase": 1000,
+        "Properties": "",
+        "Miscellaneous": "Can only be canceled on the 1st active frame if the attack hitsAfter the 2nd active frame this move deals only 700 damageForces the opponent into a standing position"
     },
     {
         "section": "Normal Moves",
@@ -177,7 +210,10 @@
         "Combo Scaling": null,
         "Drive Gauge Increase.Hit": 3000,
         "Drive Gauge Decrease.Block": -4000,
-        "Drive Gauge Decrease.Punish Counter": -10000
+        "Drive Gauge Decrease.Punish Counter": -10000,
+        "Super Art Gauge Increase": 1000,
+        "Properties": "",
+        "Miscellaneous": "Knockdown time extended when attack lands as a counter or Punish Counter"
     },
     {
         "section": "Normal Moves",
@@ -192,7 +228,10 @@
         "Combo Scaling": null,
         "Drive Gauge Increase.Hit": 500,
         "Drive Gauge Decrease.Block": -1500,
-        "Drive Gauge Decrease.Punish Counter": -2000
+        "Drive Gauge Decrease.Punish Counter": -2000,
+        "Super Art Gauge Increase": 300,
+        "Properties": "",
+        "Miscellaneous": ""
     },
     {
         "section": "Normal Moves",
@@ -207,7 +246,10 @@
         "Combo Scaling": null,
         "Drive Gauge Increase.Hit": 500,
         "Drive Gauge Decrease.Block": -1500,
-        "Drive Gauge Decrease.Punish Counter": -2000
+        "Drive Gauge Decrease.Punish Counter": -2000,
+        "Super Art Gauge Increase": 300,
+        "Properties": "",
+        "Miscellaneous": "Has cross-up attack properties"
     },
     {
         "section": "Normal Moves",
@@ -222,7 +264,10 @@
         "Combo Scaling": null,
         "Drive Gauge Increase.Hit": 1000,
         "Drive Gauge Decrease.Block": -3000,
-        "Drive Gauge Decrease.Punish Counter": -5000
+        "Drive Gauge Decrease.Punish Counter": -5000,
+        "Super Art Gauge Increase": 500,
+        "Properties": "",
+        "Miscellaneous": "Forces a juggle state when hitting a mid-air opponent"
     },
     {
         "section": "Normal Moves",
@@ -237,7 +282,10 @@
         "Combo Scaling": null,
         "Drive Gauge Increase.Hit": 1000,
         "Drive Gauge Decrease.Block": -2500,
-        "Drive Gauge Decrease.Punish Counter": -4000
+        "Drive Gauge Decrease.Punish Counter": -4000,
+        "Super Art Gauge Increase": 500,
+        "Properties": "",
+        "Miscellaneous": "Has cross-up attack properties"
     },
     {
         "section": "Normal Moves",
@@ -252,7 +300,10 @@
         "Combo Scaling": null,
         "Drive Gauge Increase.Hit": 2000,
         "Drive Gauge Decrease.Block": -4000,
-        "Drive Gauge Decrease.Punish Counter": -5000
+        "Drive Gauge Decrease.Punish Counter": -5000,
+        "Super Art Gauge Increase": 1000,
+        "Properties": "",
+        "Miscellaneous": "Forces a slam knockdown on counter or Punish Counter when hitting a mid-air opponent"
     },
     {
         "section": "Normal Moves",
@@ -267,7 +318,10 @@
         "Combo Scaling": null,
         "Drive Gauge Increase.Hit": 2000,
         "Drive Gauge Decrease.Block": -4000,
-        "Drive Gauge Decrease.Punish Counter": -5000
+        "Drive Gauge Decrease.Punish Counter": -5000,
+        "Super Art Gauge Increase": 1000,
+        "Properties": "",
+        "Miscellaneous": ""
     },
     {
         "section": "Unique Attacks",
@@ -282,7 +336,10 @@
         "Combo Scaling": null,
         "Drive Gauge Increase.Hit": 1500,
         "Drive Gauge Decrease.Block": -2500,
-        "Drive Gauge Decrease.Punish Counter": -5000
+        "Drive Gauge Decrease.Punish Counter": -5000,
+        "Super Art Gauge Increase": 500,
+        "Properties": "",
+        "Miscellaneous": ""
     },
     {
         "section": "Unique Attacks",
@@ -297,7 +354,10 @@
         "Combo Scaling": "Starter scaling 20%",
         "Drive Gauge Increase.Hit": 2500,
         "Drive Gauge Decrease.Block": -5000,
-        "Drive Gauge Decrease.Punish Counter": -8000
+        "Drive Gauge Decrease.Punish Counter": -8000,
+        "Super Art Gauge Increase": 1000,
+        "Properties": "",
+        "Miscellaneous": ""
     },
     {
         "section": "Unique Attacks",
@@ -312,7 +372,10 @@
         "Combo Scaling": null,
         "Drive Gauge Increase.Hit": 2000,
         "Drive Gauge Decrease.Block": -5000,
-        "Drive Gauge Decrease.Punish Counter": -8000
+        "Drive Gauge Decrease.Punish Counter": -8000,
+        "Super Art Gauge Increase": 1000,
+        "Properties": "",
+        "Miscellaneous": "Can only be canceled on the 1st active frame if the attack hitsForces the opponent into a standing position"
     },
     {
         "section": "Unique Attacks",
@@ -327,7 +390,10 @@
         "Combo Scaling": null,
         "Drive Gauge Increase.Hit": 1500,
         "Drive Gauge Decrease.Block": -3000,
-        "Drive Gauge Decrease.Punish Counter": -6000
+        "Drive Gauge Decrease.Punish Counter": -6000,
+        "Super Art Gauge Increase": 1000,
+        "Properties": "",
+        "Miscellaneous": "First attack Forces the opponent into a standing position"
     },
     {
         "section": "Unique Attacks",
@@ -342,7 +408,10 @@
         "Combo Scaling": null,
         "Drive Gauge Increase.Hit": 2500,
         "Drive Gauge Decrease.Block": -5000,
-        "Drive Gauge Decrease.Punish Counter": -8000
+        "Drive Gauge Decrease.Punish Counter": -8000,
+        "Super Art Gauge Increase": 1000,
+        "Properties": "",
+        "Miscellaneous": "* Can only be canceled with an Overdrive Aerial Tatsumaki Senpu-kyaku"
     },
     {
         "section": "Unique Attacks",
@@ -357,7 +426,10 @@
         "Combo Scaling": null,
         "Drive Gauge Increase.Hit": 2500,
         "Drive Gauge Decrease.Block": -7000,
-        "Drive Gauge Decrease.Punish Counter": -10000
+        "Drive Gauge Decrease.Punish Counter": -10000,
+        "Super Art Gauge Increase": 1000,
+        "Properties": "",
+        "Miscellaneous": ""
     },
     {
         "section": "Unique Attacks",
@@ -372,7 +444,10 @@
         "Combo Scaling": null,
         "Drive Gauge Increase.Hit": 1000,
         "Drive Gauge Decrease.Block": -1000,
-        "Drive Gauge Decrease.Punish Counter": -2000
+        "Drive Gauge Decrease.Punish Counter": -2000,
+        "Super Art Gauge Increase": 500,
+        "Properties": "",
+        "Miscellaneous": ""
     },
     {
         "section": "Unique Attacks",
@@ -387,7 +462,10 @@
         "Combo Scaling": null,
         "Drive Gauge Increase.Hit": 2500,
         "Drive Gauge Decrease.Block": -3000,
-        "Drive Gauge Decrease.Punish Counter": -10000
+        "Drive Gauge Decrease.Punish Counter": -10000,
+        "Super Art Gauge Increase": 1000,
+        "Properties": "",
+        "Miscellaneous": ""
     },
     {
         "section": "Special Moves",
@@ -402,7 +480,10 @@
         "Combo Scaling": null,
         "Drive Gauge Increase.Hit": 1000,
         "Drive Gauge Decrease.Block": -2500,
-        "Drive Gauge Decrease.Punish Counter": -3000
+        "Drive Gauge Decrease.Punish Counter": -3000,
+        "Super Art Gauge Increase": 600,
+        "Properties": "",
+        "Miscellaneous": ""
     },
     {
         "section": "Special Moves",
@@ -417,7 +498,10 @@
         "Combo Scaling": null,
         "Drive Gauge Increase.Hit": 1000,
         "Drive Gauge Decrease.Block": -2500,
-        "Drive Gauge Decrease.Punish Counter": -3000
+        "Drive Gauge Decrease.Punish Counter": -3000,
+        "Super Art Gauge Increase": 600,
+        "Properties": "",
+        "Miscellaneous": ""
     },
     {
         "section": "Special Moves",
@@ -432,7 +516,10 @@
         "Combo Scaling": null,
         "Drive Gauge Increase.Hit": 1000,
         "Drive Gauge Decrease.Block": -2500,
-        "Drive Gauge Decrease.Punish Counter": -3000
+        "Drive Gauge Decrease.Punish Counter": -3000,
+        "Super Art Gauge Increase": 600,
+        "Properties": "",
+        "Miscellaneous": ""
     },
     {
         "section": "Special Moves",
@@ -447,7 +534,10 @@
         "Combo Scaling": "Starter scaling 20％, Combo scaling 20％",
         "Drive Gauge Increase.Hit": 1000,
         "Drive Gauge Decrease.Block": -2500,
-        "Drive Gauge Decrease.Punish Counter": -3000
+        "Drive Gauge Decrease.Punish Counter": -3000,
+        "Super Art Gauge Increase": 600,
+        "Properties": "",
+        "Miscellaneous": ""
     },
     {
         "section": "Special Moves",
@@ -462,7 +552,10 @@
         "Combo Scaling": "Starter scaling 20％, Combo scaling 20％",
         "Drive Gauge Increase.Hit": 0,
         "Drive Gauge Decrease.Block": -2500,
-        "Drive Gauge Decrease.Punish Counter": -5000
+        "Drive Gauge Decrease.Punish Counter": -5000,
+        "Super Art Gauge Increase": 600,
+        "Properties": "",
+        "Miscellaneous": ""
     },
     {
         "section": "Special Moves",
@@ -477,7 +570,10 @@
         "Combo Scaling": "Starter scaling 20％, Combo scaling 20％",
         "Drive Gauge Increase.Hit": 0,
         "Drive Gauge Decrease.Block": -3750,
-        "Drive Gauge Decrease.Punish Counter": -7000
+        "Drive Gauge Decrease.Punish Counter": -7000,
+        "Super Art Gauge Increase": 900,
+        "Properties": "",
+        "Miscellaneous": ""
     },
     {
         "section": "Special Moves",
@@ -492,7 +588,10 @@
         "Combo Scaling": "Starter scaling 30%",
         "Drive Gauge Increase.Hit": 2000,
         "Drive Gauge Decrease.Block": -4000,
-        "Drive Gauge Decrease.Punish Counter": -5000
+        "Drive Gauge Decrease.Punish Counter": -5000,
+        "Super Art Gauge Increase": 1000,
+        "Properties": "",
+        "Miscellaneous": "Invincible to mid-air attacks from frames 1 - 14Considered airborne from frames 7 - 34* After the 3rd active frame this move deals only 800 damage"
     },
     {
         "section": "Special Moves",
@@ -507,7 +606,10 @@
         "Combo Scaling": "Starter scaling 30%",
         "Drive Gauge Increase.Hit": 2000,
         "Drive Gauge Decrease.Block": -4000,
-        "Drive Gauge Decrease.Punish Counter": -5000
+        "Drive Gauge Decrease.Punish Counter": -5000,
+        "Super Art Gauge Increase": 1000,
+        "Properties": "",
+        "Miscellaneous": "Invincible to mid-air attacks from frames 1 - 9Considered airborne from frames 8 - 44* After the 3rd active frame this move deals only 800 damage"
     },
     {
         "section": "Special Moves",
@@ -522,7 +624,10 @@
         "Combo Scaling": "Starter scaling 30%",
         "Drive Gauge Increase.Hit": 2000,
         "Drive Gauge Decrease.Block": -4000,
-        "Drive Gauge Decrease.Punish Counter": -5000
+        "Drive Gauge Decrease.Punish Counter": -5000,
+        "Super Art Gauge Increase": 1000,
+        "Properties": "",
+        "Miscellaneous": "Invincible to mid-air attacks from frames 1 - 8.Considered airborne from frames 9 - 49.* After the 2nd active frame this move deals only 800 damage."
     },
     {
         "section": "Special Moves",
@@ -537,7 +642,10 @@
         "Combo Scaling": null,
         "Drive Gauge Increase.Hit": 0,
         "Drive Gauge Decrease.Block": -2000,
-        "Drive Gauge Decrease.Punish Counter": 0
+        "Drive Gauge Decrease.Punish Counter": 0,
+        "Super Art Gauge Increase": 1000,
+        "Properties": "",
+        "Miscellaneous": "Completely invincible from frames 1 - 10.Considered airborne from frames 8 - 51."
     },
     {
         "section": "Special Moves",
@@ -552,7 +660,10 @@
         "Combo Scaling": null,
         "Drive Gauge Increase.Hit": 2000,
         "Drive Gauge Decrease.Block": -4000,
-        "Drive Gauge Decrease.Punish Counter": -5000
+        "Drive Gauge Decrease.Punish Counter": -5000,
+        "Super Art Gauge Increase": 1000,
+        "Properties": "",
+        "Miscellaneous": "Considered airborne from frames 5 - 28."
     },
     {
         "section": "Special Moves",
@@ -567,7 +678,10 @@
         "Combo Scaling": null,
         "Drive Gauge Increase.Hit": 2000,
         "Drive Gauge Decrease.Block": -2500,
-        "Drive Gauge Decrease.Punish Counter": -5000
+        "Drive Gauge Decrease.Punish Counter": -5000,
+        "Super Art Gauge Increase": 1000,
+        "Properties": "",
+        "Miscellaneous": "Considered airborne from frames 8 - 41."
     },
     {
         "section": "Special Moves",
@@ -582,7 +696,10 @@
         "Combo Scaling": null,
         "Drive Gauge Increase.Hit": 2000,
         "Drive Gauge Decrease.Block": -2000,
-        "Drive Gauge Decrease.Punish Counter": -5000
+        "Drive Gauge Decrease.Punish Counter": -5000,
+        "Super Art Gauge Increase": 1000,
+        "Properties": "",
+        "Miscellaneous": "Considered airborne from frames 10 - 61."
     },
     {
         "section": "Special Moves",
@@ -597,7 +714,10 @@
         "Combo Scaling": null,
         "Drive Gauge Increase.Hit": 0,
         "Drive Gauge Decrease.Block": -4000,
-        "Drive Gauge Decrease.Punish Counter": -5000
+        "Drive Gauge Decrease.Punish Counter": -5000,
+        "Super Art Gauge Increase": 1000,
+        "Properties": "",
+        "Miscellaneous": ""
     },
     {
         "section": "Special Moves",
@@ -612,7 +732,10 @@
         "Combo Scaling": "Starter scaling 30%",
         "Drive Gauge Increase.Hit": 2000,
         "Drive Gauge Decrease.Block": -4000,
-        "Drive Gauge Decrease.Punish Counter": -5000
+        "Drive Gauge Decrease.Punish Counter": -5000,
+        "Super Art Gauge Increase": 600,
+        "Properties": "",
+        "Miscellaneous": ""
     },
     {
         "section": "Special Moves",
@@ -627,7 +750,10 @@
         "Combo Scaling": "Combo scaling 25%",
         "Drive Gauge Increase.Hit": 0,
         "Drive Gauge Decrease.Block": -4000,
-        "Drive Gauge Decrease.Punish Counter": -5000
+        "Drive Gauge Decrease.Punish Counter": -5000,
+        "Super Art Gauge Increase": 600,
+        "Properties": "",
+        "Miscellaneous": ""
     },
     {
         "section": "Special Moves",
@@ -642,7 +768,10 @@
         "Combo Scaling": null,
         "Drive Gauge Increase.Hit": 2000,
         "Drive Gauge Decrease.Block": -4000,
-        "Drive Gauge Decrease.Punish Counter": -5000
+        "Drive Gauge Decrease.Punish Counter": -5000,
+        "Super Art Gauge Increase": 1200,
+        "Properties": "",
+        "Miscellaneous": ""
     },
     {
         "section": "Special Moves",
@@ -657,7 +786,10 @@
         "Combo Scaling": null,
         "Drive Gauge Increase.Hit": 3000,
         "Drive Gauge Decrease.Block": -6000,
-        "Drive Gauge Decrease.Punish Counter": -7000
+        "Drive Gauge Decrease.Punish Counter": -7000,
+        "Super Art Gauge Increase": 1200,
+        "Properties": "",
+        "Miscellaneous": ""
     },
     {
         "section": "Special Moves",
@@ -672,7 +804,10 @@
         "Combo Scaling": null,
         "Drive Gauge Increase.Hit": 5000,
         "Drive Gauge Decrease.Block": -8000,
-        "Drive Gauge Decrease.Punish Counter": -10000
+        "Drive Gauge Decrease.Punish Counter": -10000,
+        "Super Art Gauge Increase": 1200,
+        "Properties": "",
+        "Miscellaneous": "Juggle state time is extended when attack lands as a Punish Counter."
     },
     {
         "section": "Special Moves",
@@ -687,7 +822,10 @@
         "Combo Scaling": "Combo scaling 20%",
         "Drive Gauge Increase.Hit": 0,
         "Drive Gauge Decrease.Block": -4000,
-        "Drive Gauge Decrease.Punish Counter": -5000
+        "Drive Gauge Decrease.Punish Counter": -5000,
+        "Super Art Gauge Increase": 1200,
+        "Properties": "",
+        "Miscellaneous": ""
     },
     {
         "section": "Special Moves",
@@ -702,7 +840,10 @@
         "Combo Scaling": null,
         "Drive Gauge Increase.Hit": 2000,
         "Drive Gauge Decrease.Block": -4000,
-        "Drive Gauge Decrease.Punish Counter": -5000
+        "Drive Gauge Decrease.Punish Counter": -5000,
+        "Super Art Gauge Increase": 800,
+        "Properties": "",
+        "Miscellaneous": "Forces a juggle state when the attack lands as a counter or Punish Counter. Clashes with projectiles"
     },
     {
         "section": "Special Moves",
@@ -717,7 +858,10 @@
         "Combo Scaling": null,
         "Drive Gauge Increase.Hit": 2000,
         "Drive Gauge Decrease.Block": -4000,
-        "Drive Gauge Decrease.Punish Counter": -5000
+        "Drive Gauge Decrease.Punish Counter": -5000,
+        "Super Art Gauge Increase": 800,
+        "Properties": "",
+        "Miscellaneous": "Forces a juggle state when the attack lands as a counter or Punish Counter.Clashes with projectiles"
     },
     {
         "section": "Special Moves",
@@ -732,7 +876,10 @@
         "Combo Scaling": null,
         "Drive Gauge Increase.Hit": 2000,
         "Drive Gauge Decrease.Block": -4000,
-        "Drive Gauge Decrease.Punish Counter": -5000
+        "Drive Gauge Decrease.Punish Counter": -5000,
+        "Super Art Gauge Increase": 1100,
+        "Properties": "",
+        "Miscellaneous": "Clashes with projectiles"
     },
     {
         "section": "Special Moves",
@@ -747,7 +894,10 @@
         "Combo Scaling": null,
         "Drive Gauge Increase.Hit": 2000,
         "Drive Gauge Decrease.Block": -4000,
-        "Drive Gauge Decrease.Punish Counter": -5000
+        "Drive Gauge Decrease.Punish Counter": -5000,
+        "Super Art Gauge Increase": 1100,
+        "Properties": "",
+        "Miscellaneous": "Clashes with projectiles"
     },
     {
         "section": "Special Moves",
@@ -762,7 +912,10 @@
         "Combo Scaling": "Combo scaling 20％",
         "Drive Gauge Increase.Hit": 0,
         "Drive Gauge Decrease.Block": -4000,
-        "Drive Gauge Decrease.Punish Counter": -5000
+        "Drive Gauge Decrease.Punish Counter": -5000,
+        "Super Art Gauge Increase": 900,
+        "Properties": "",
+        "Miscellaneous": "Clashes with projectiles"
     },
     {
         "section": "Special Moves",
@@ -777,7 +930,10 @@
         "Combo Scaling": null,
         "Drive Gauge Increase.Hit": 0,
         "Drive Gauge Decrease.Block": -4000,
-        "Drive Gauge Decrease.Punish Counter": -5000
+        "Drive Gauge Decrease.Punish Counter": -5000,
+        "Super Art Gauge Increase": 1100,
+        "Properties": "",
+        "Miscellaneous": "Produces a crumple stun for 39 frames when the attack lands.Clashes with projectiles"
     },
     {
         "section": "Special Moves",
@@ -792,7 +948,10 @@
         "Combo Scaling": null,
         "Drive Gauge Increase.Hit": 0,
         "Drive Gauge Decrease.Block": 0,
-        "Drive Gauge Decrease.Punish Counter": 0
+        "Drive Gauge Decrease.Punish Counter": 0,
+        "Super Art Gauge Increase": 0,
+        "Properties": null,
+        "Miscellaneous": "Denjin Charge stock added on the 51st frame. Only 1 Denjin Charge stock can be held at a time.Hadoken, Hashogeki, Shinku Hadoken, and Shin Hashogeki's properties are enhanced when a Denjin Charge is held."
     },
     {
         "section": "Super Arts",
@@ -807,7 +966,10 @@
         "Combo Scaling": null,
         "Drive Gauge Increase.Hit": 0,
         "Drive Gauge Decrease.Block": -2500,
-        "Drive Gauge Decrease.Punish Counter": -5000
+        "Drive Gauge Decrease.Punish Counter": -5000,
+        "Super Art Gauge Increase": 0,
+        "Properties": "",
+        "Miscellaneous": "Completely invincible on the 1st frame.Invincible to strikes and throws from frame 2 to frame 8.Values do not change when the attack lands as a counter or Punish Counter.The minimum guaranteed damage is 30%."
     },
     {
         "section": "Super Arts",
@@ -822,7 +984,10 @@
         "Combo Scaling": null,
         "Drive Gauge Increase.Hit": 0,
         "Drive Gauge Decrease.Block": -2500,
-        "Drive Gauge Decrease.Punish Counter": -5000
+        "Drive Gauge Decrease.Punish Counter": -5000,
+        "Super Art Gauge Increase": 0,
+        "Properties": "",
+        "Miscellaneous": "Completely invincible on the 1st frame.Invincible to strikes and throws from frame 2 to frame 8.Values do not change when the attack lands as a counter or Punish Counter.The minimum guaranteed damage is 30%."
     },
     {
         "section": "Super Arts",
@@ -837,7 +1002,10 @@
         "Combo Scaling": null,
         "Drive Gauge Increase.Hit": 0,
         "Drive Gauge Decrease.Block": -4000,
-        "Drive Gauge Decrease.Punish Counter": -10000
+        "Drive Gauge Decrease.Punish Counter": -10000,
+        "Super Art Gauge Increase": 0,
+        "Properties": "",
+        "Miscellaneous": "Completely invincible from frame 1 to frame 13.Hold down the button to change the properties of this move.Changes to Level 2 version if the button is held for more than 8 frames and then released.Changes to Level 3 version if the button is held for more than 38 frames and then released.Invincible to strikes and throws from frame 2 to frame 8.Values do not change when the attack lands as a counter or Punish Counter.The minimum guaranteed damage is 40%.Clashes with projectiles"
     },
     {
         "section": "Super Arts",
@@ -852,7 +1020,10 @@
         "Combo Scaling": null,
         "Drive Gauge Increase.Hit": 0,
         "Drive Gauge Decrease.Block": -6000,
-        "Drive Gauge Decrease.Punish Counter": -10000
+        "Drive Gauge Decrease.Punish Counter": -10000,
+        "Super Art Gauge Increase": 0,
+        "Properties": "",
+        "Miscellaneous": "Completely invincible from frame 1 to frame 9.Hold down the button to change the properties of this move.Changes to Level 2 version if the button is held for more than 8 frames and then released.Changes to Level 3 version if the button is held for more than 38 frames and then released.Invincible to strikes and throws from frame 2 to frame 8.Values do not change when the attack lands as a counter or Punish Counter.The minimum guaranteed damage is 40%.Clashes with projectiles"
     },
     {
         "section": "Super Arts",
@@ -867,7 +1038,10 @@
         "Combo Scaling": null,
         "Drive Gauge Increase.Hit": 0,
         "Drive Gauge Decrease.Block": -10000,
-        "Drive Gauge Decrease.Punish Counter": -10000
+        "Drive Gauge Decrease.Punish Counter": -10000,
+        "Super Art Gauge Increase": 0,
+        "Properties": "",
+        "Miscellaneous": "Completely invincible from frame 1 to frame 9.Hold down the button to change the properties of this move.Changes to Level 2 version if the button is held for more than 8 frames and then released.Changes to Level 3 version if the button is held for more than 38 frames and then released.Invincible to strikes and throws from frame 2 to frame 8.Values do not change when the attack lands as a counter or Punish Counter.The minimum guaranteed damage is 40%.Clashes with projectiles"
     },
     {
         "section": "Super Arts",
@@ -882,7 +1056,10 @@
         "Combo Scaling": null,
         "Drive Gauge Increase.Hit": 0,
         "Drive Gauge Decrease.Block": -4000,
-        "Drive Gauge Decrease.Punish Counter": -10000
+        "Drive Gauge Decrease.Punish Counter": -10000,
+        "Super Art Gauge Increase": 0,
+        "Properties": "",
+        "Miscellaneous": "Completely invincible from frame 1 to frame 9.Hold down the button to change the properties of this move.Changes to Level 2 version if the button is held for more than 8 frames and then released.Changes to Level 3 version if the button is held for more than 38 frames and then released.Invincible to strikes and throws from frame 2 to frame 8.Values do not change when the attack lands as a counter or Punish Counter.The minimum guaranteed damage is 40%.Clashes with projectiles"
     },
     {
         "section": "Super Arts",
@@ -897,7 +1074,10 @@
         "Combo Scaling": null,
         "Drive Gauge Increase.Hit": 0,
         "Drive Gauge Decrease.Block": -6000,
-        "Drive Gauge Decrease.Punish Counter": -10000
+        "Drive Gauge Decrease.Punish Counter": -10000,
+        "Super Art Gauge Increase": 0,
+        "Properties": "",
+        "Miscellaneous": "Completely invincible from frame 1 to frame 9.Hold down the button to change the properties of this move.Changes to Level 2 version if the button is held for more than 8 frames and then released.Changes to Level 3 version if the button is held for more than 38 frames and then released.Invincible to strikes and throws from frame 2 to frame 8.Values do not change when the attack lands as a counter or Punish Counter.The minimum guaranteed damage is 40%.Clashes with projectiles"
     },
     {
         "section": "Super Arts",
@@ -912,7 +1092,10 @@
         "Combo Scaling": null,
         "Drive Gauge Increase.Hit": 0,
         "Drive Gauge Decrease.Block": -10000,
-        "Drive Gauge Decrease.Punish Counter": -10000
+        "Drive Gauge Decrease.Punish Counter": -10000,
+        "Super Art Gauge Increase": 0,
+        "Properties": "",
+        "Miscellaneous": "Completely invincible from frame 1 to frame 9.Hold down the button to change the properties of this move.Changes to Level 2 version if the button is held for more than 8 frames and then released.Changes to Level 3 version if the button is held for more than 38 frames and then released.Invincible to strikes and throws from frame 2 to frame 8.Values do not change when the attack lands as a counter or Punish Counter.The minimum guaranteed damage is 40%.Clashes with projectiles"
     },
     {
         "section": "Super Arts",
@@ -927,7 +1110,10 @@
         "Combo Scaling": "*Immediate scaling 10%",
         "Drive Gauge Increase.Hit": 0,
         "Drive Gauge Decrease.Block": -7500,
-        "Drive Gauge Decrease.Punish Counter": -15000
+        "Drive Gauge Decrease.Punish Counter": -15000,
+        "Super Art Gauge Increase": 0,
+        "Properties": "",
+        "Miscellaneous": "Completely invincible from frame 1 to frame 16.Values do not change when the attack lands as a counter or Punish Counter.The minimum guaranteed damage is 50%.* Can only be canceled into from special moves."
     },
     {
         "section": "Super Arts",
@@ -942,7 +1128,10 @@
         "Combo Scaling": "*Immediate scaling 10%",
         "Drive Gauge Increase.Hit": 0,
         "Drive Gauge Decrease.Block": -10000,
-        "Drive Gauge Decrease.Punish Counter": -20000
+        "Drive Gauge Decrease.Punish Counter": -20000,
+        "Super Art Gauge Increase": 0,
+        "Properties": "",
+        "Miscellaneous": "Completely invincible from frame 1 to frame 16.Values do not change when the attack lands as a counter or Punish Counter.The minimum guaranteed damage is 50%.* Can only be canceled into from special moves."
     },
     {
         "section": "Throws",
@@ -957,7 +1146,10 @@
         "Combo Scaling": "Immediate scaling 20%",
         "Drive Gauge Increase.Hit": 2000,
         "Drive Gauge Decrease.Block": 0,
-        "Drive Gauge Decrease.Punish Counter": -10000
+        "Drive Gauge Decrease.Punish Counter": -10000,
+        "Super Art Gauge Increase": 2000,
+        "Properties": "",
+        "Miscellaneous": "Properties change to the following when the attack lands as a Punish Counter:- Deals 2040 damage- Super Art gauge increases by 4000- Forces a hard knockdown"
     },
     {
         "section": "Throws",
@@ -972,7 +1164,10 @@
         "Combo Scaling": "Immediate scaling 20%",
         "Drive Gauge Increase.Hit": 2000,
         "Drive Gauge Decrease.Block": 0,
-        "Drive Gauge Decrease.Punish Counter": -10000
+        "Drive Gauge Decrease.Punish Counter": -10000,
+        "Super Art Gauge Increase": 2000,
+        "Properties": "",
+        "Miscellaneous": "Properties change to the following when the attack lands as a Punish Counter:- Deals 2040 damage- Super Art gauge increases by 4000- Forces a hard knockdown"
     },
     {
         "section": "Common Moves",
@@ -987,7 +1182,10 @@
         "Combo Scaling": null,
         "Drive Gauge Increase.Hit": 0,
         "Drive Gauge Decrease.Block": 0,
-        "Drive Gauge Decrease.Punish Counter": 0
+        "Drive Gauge Decrease.Punish Counter": 0,
+        "Super Art Gauge Increase": 0,
+        "Properties": null,
+        "Miscellaneous": ""
     },
     {
         "section": "Common Moves",
@@ -1002,7 +1200,10 @@
         "Combo Scaling": null,
         "Drive Gauge Increase.Hit": 0,
         "Drive Gauge Decrease.Block": 0,
-        "Drive Gauge Decrease.Punish Counter": 0
+        "Drive Gauge Decrease.Punish Counter": 0,
+        "Super Art Gauge Increase": 0,
+        "Properties": null,
+        "Miscellaneous": "Invincible to throws from frame 1 to frame 15."
     },
     {
         "section": "Common Moves",
@@ -1017,7 +1218,10 @@
         "Combo Scaling": "Starter scaling 20%",
         "Drive Gauge Increase.Hit": 0,
         "Drive Gauge Decrease.Block": -5000,
-        "Drive Gauge Decrease.Punish Counter": -15000
+        "Drive Gauge Decrease.Punish Counter": -15000,
+        "Super Art Gauge Increase": 0,
+        "Properties": "",
+        "Miscellaneous": "Super Armor for 2 hits from frames 1 - 27Produces a wall splat if the pushback on hit causes the opponent to connect with the stage wallProperties change to the following when the attack lands as a Punish Counter, or after the Super Armor absorbs a hit:- Produces a crumple stun if the opponent is standing on the ground- Forces a spinning knockdown when hitting a mid-air opponent- Super Art gauge increases by 3000"
     },
     {
         "section": "Common Moves",
@@ -1032,7 +1236,10 @@
         "Combo Scaling": null,
         "Drive Gauge Increase.Hit": 0,
         "Drive Gauge Decrease.Block": 0,
-        "Drive Gauge Decrease.Punish Counter": 0
+        "Drive Gauge Decrease.Punish Counter": 0,
+        "Super Art Gauge Increase": 0,
+        "Properties": "",
+        "Miscellaneous": "Recoverable damageCompletely invincible from frames 1 - 225 frames of recovery added on hit"
     },
     {
         "section": "Common Moves",
@@ -1047,7 +1254,10 @@
         "Combo Scaling": null,
         "Drive Gauge Increase.Hit": 0,
         "Drive Gauge Decrease.Block": 0,
-        "Drive Gauge Decrease.Punish Counter": 0
+        "Drive Gauge Decrease.Punish Counter": 0,
+        "Super Art Gauge Increase": 0,
+        "Properties": null,
+        "Miscellaneous": "*1 Can be canceled from the 4th frame via Drive Rush*2 Parry hitbox is extended for as long as the buttons are heldOnly blocks can be performed during the recovery periodAlways in Punish Counter state during execution."
     },
     {
         "section": "Common Moves",
@@ -1062,7 +1272,10 @@
         "Combo Scaling": "Starter scaling 50％",
         "Drive Gauge Increase.Hit": null,
         "Drive Gauge Decrease.Block": null,
-        "Drive Gauge Decrease.Punish Counter": null
+        "Drive Gauge Decrease.Punish Counter": null,
+        "Super Art Gauge Increase": null,
+        "Properties": null,
+        "Miscellaneous": "Perfect Parry activates when an attack is absorbed on the frame a parry is input, or on the next frameFully invincible for 6 frames once recovery is over (invincibility not granted if you continue the parry)The player on the receiving end of a Perfect Parry cannot cancel and is forced into a Punish Counter state until their move is finished"
     },
     {
         "section": "Common Moves",
@@ -1077,7 +1290,10 @@
         "Combo Scaling": "Starter scaling 50％",
         "Drive Gauge Increase.Hit": null,
         "Drive Gauge Decrease.Block": null,
-        "Drive Gauge Decrease.Punish Counter": null
+        "Drive Gauge Decrease.Punish Counter": null,
+        "Super Art Gauge Increase": null,
+        "Properties": null,
+        "Miscellaneous": "Perfect Parry activates when an attack is absorbed on the frame a parry is input, or on the next frameNo screen freeze occurs.The player on the receiving end of a Perfect Parry cannot cancel and is forced into a Punish Counter state until their move is finished"
     },
     {
         "section": "Common Moves",
@@ -1092,7 +1308,10 @@
         "Combo Scaling": "Multiplier scaling 15％",
         "Drive Gauge Increase.Hit": 0,
         "Drive Gauge Decrease.Block": 0,
-        "Drive Gauge Decrease.Punish Counter": 0
+        "Drive Gauge Decrease.Punish Counter": 0,
+        "Super Art Gauge Increase": 0,
+        "Properties": null,
+        "Miscellaneous": "Screen freeze occurs on the 10th frame* Can be canceled into an attack on the 9th frame of the move Can be canceled into actions other than a parry from the 24th frame"
     },
     {
         "section": "Common Moves",
@@ -1107,6 +1326,9 @@
         "Combo Scaling": "Multiplier scaling 15％",
         "Drive Gauge Increase.Hit": 0,
         "Drive Gauge Decrease.Block": 0,
-        "Drive Gauge Decrease.Punish Counter": 0
+        "Drive Gauge Decrease.Punish Counter": 0,
+        "Super Art Gauge Increase": 0,
+        "Properties": null,
+        "Miscellaneous": "Screen freeze occurs on the 9th frame* Can be canceled into an attack from the 10th frame of the move Can be canceled into actions other than a parry from the 25th frame"
     }
 ]
