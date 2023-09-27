@@ -1,8 +1,13 @@
-import { scrape, parse } from "./lib"
+import {
+    scrape,
+    parse,
+    convert,
+} from "./lib"
 
 const main = async () => {
     // await scrape()
-    await parse()
+    // await parse()
+    await convert()
 }
 
 (async () => {
