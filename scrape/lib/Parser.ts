@@ -41,19 +41,43 @@ export class Parser extends Processor {
             return
         }
         const row: ICharacterTableRow = {
-            section:          this.currentSection,
-            "Move Name":      this.col_1_moveName(cells[0]),
-            "Frame.Start-up": this.col_2_frame_startup(cells[1]),
-            "Frame.Active":   this.col_3_frame_active(cells[2]),
-            "Frame.Recovery": this.col_4_frame_recovery(cells[3]),
-            "Recovery.Hit":   this.col_5_recovery_hit(cells[4]),
-            "Recovery.Block": this.col_6_recovery_block(cells[5]),
-            "Cancel":         this.col_7_cancel(cells[6]),
-            "Damage":         this.col_8_damage(cells[7]),
-            "Combo Scaling":  this.col_9_comboScaling(cells[8]),
+            section:                               this.currentSection,
+            "Move Name":                           this.col_1_moveName(cells[0]),
+            "Frame.Start-up":                      this.col_2_frame_startup(cells[1]),
+            "Frame.Active":                        this.col_3_frame_active(cells[2]),
+            "Frame.Recovery":                      this.col_4_frame_recovery(cells[3]),
+            "Recovery.Hit":                        this.col_5_recovery_hit(cells[4]),
+            "Recovery.Block":                      this.col_6_recovery_block(cells[5]),
+            "Cancel":                              this.col_7_cancel(cells[6]),
+            "Damage":                              this.col_8_damage(cells[7]),
+            "Combo Scaling":                       this.col_9_comboScaling(cells[8]),
+            "Drive Gauge Increase.Hit":            this.col_10_drive_increase(cells[9]),
+            "Drive Gauge Decrease.Block":          this.col_11_drive_decrease_block(cells[10]),
+            "Drive Gauge Decrease.Punish Counter": this.col_12_drive_decrease_punish(cells[11]),
         }
         this.results.push(row)
     }
+
+    // =========================================================================
+    // Shared
+    // =========================================================================
+
+    private col__string(cell: cheerio.Element) {
+        const $cell = this.$(cell)
+        const string = $cell.text().trim()
+        return string
+    }
+
+    private col__int(cell: cheerio.Element) {
+        const $cell = this.$(cell)
+        const string = $cell.text().trim()
+        const int = tryParseInt(string)
+        return int
+    }
+
+    // =========================================================================
+    // Specific Columns
+    // =========================================================================
 
     private col_1_moveName(cell: cheerio.Element) {
         const $cell = this.$(cell)
@@ -62,10 +86,7 @@ export class Parser extends Processor {
     }
 
     private col_2_frame_startup(cell: cheerio.Element) {
-        const $cell = this.$(cell)
-        const string = $cell.text().trim()
-        const int = tryParseInt(string)
-        return int
+        return this.col__int(cell)
     }
 
     private col_3_frame_active(cell: cheerio.Element) {
@@ -77,9 +98,7 @@ export class Parser extends Processor {
     }
 
     private col_4_frame_recovery(cell: cheerio.Element) {
-        const $cell = this.$(cell)
-        const string = $cell.text().trim()
-        return string
+        return this.col__string(cell)
     }
 
     private col_5_recovery_hit(cell: cheerio.Element) {
@@ -91,18 +110,11 @@ export class Parser extends Processor {
     }
 
     private col_6_recovery_block(cell: cheerio.Element) {
-        const $cell = this.$(cell)
-        const string = $cell.text().trim()
-        const int = tryParseInt(string)
-        return int
+        return this.col__int(cell)
     }
 
     private col_7_cancel(cell: cheerio.Element) {
-        const $cell = this.$(cell)
-        const string = $cell.text().trim()
-        return string
-        // const int = tryParseInt(string)
-        // return int
+        return this.col__string(cell)
     }
 
     private col_8_damage(cell: cheerio.Element) {
@@ -125,6 +137,18 @@ export class Parser extends Processor {
             results.push(this.$(li).text().trim())
         }
         return results.join(", ")
+    }
+
+    private col_10_drive_increase(cell: cheerio.Element) {
+        return this.col__int(cell)
+    }
+
+    private col_11_drive_decrease_block(cell: cheerio.Element) {
+        return this.col__int(cell)
+    }
+
+    private col_12_drive_decrease_punish(cell: cheerio.Element) {
+        return this.col__int(cell)
     }
 }
 
