@@ -7,9 +7,6 @@ export const ColLeft = (): JSX.Element => {
         <Box sx={sx}>
             <span>&nbsp;</span>
             <span>&nbsp;</span>
-            <span>KDBR</span>
-            <span>KDR </span>
-            <span>KD  </span>
             <span>OKI1</span>
             <span>OKI2</span>
             <span>OKI3</span>

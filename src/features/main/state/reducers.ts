@@ -8,6 +8,11 @@ export type Extra2ClickPayload = {
     // side: "top" | "bottom"
 }
 
+export type FrameClickPayload = {
+    number: SF6.OkiRowNumber
+    frame: number
+}
+
 export const reducers = {
     resetState: () => INITIAL_STATE,
     setPlayer1: (state: MainState, { payload }: PayloadAction<SF6.CharacterNameClean>) => {
@@ -22,6 +27,9 @@ export const reducers = {
     handleExtra2Click: (state: MainState, { payload }: PayloadAction<Extra2ClickPayload>) => {
         const activeRow = state.activeRow
         state[`oki${activeRow}`].startFrame = payload.frame
+    },
+    frameClick: (state: MainState, { payload }: PayloadAction<FrameClickPayload>) => {
+        // FIXME: implement
     },
 }
 
