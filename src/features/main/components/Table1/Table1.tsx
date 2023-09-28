@@ -22,6 +22,7 @@ export const Table1 = (): JSX.Element => {
     const dispatch = useDispatch()
 
     const frameData = useSelector(Selectors.Main.frameData.character1)
+    const activeMove = useSelector(Selectors.Main.activeMove)
 
     const columns = Object.keys(frameData[0]).filter(x => !skips.includes(x))
 
@@ -33,6 +34,9 @@ export const Table1 = (): JSX.Element => {
         <tr
             key={i}
             onClick={() => dispatch(Actions.Main.clickMove(row.name))}
+            style={{
+                backgroundColor: (row.name == activeMove?.name) ? "#006600" : undefined,
+            }}
         >
             {columns.map((col, j) => (
                 <td key={j}>
