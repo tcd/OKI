@@ -6,8 +6,8 @@ import {
 
 const main = async () => {
     // await scrape()
-    // await parse()
-    await convert()
+    await parse()
+    // await convert()
 }
 
 (async () => {

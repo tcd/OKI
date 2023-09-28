@@ -22,6 +22,7 @@ export type CharacterNameClean =
 
 export interface ICharacterTableRow {
     section?: string
+    input?: any
     "Move Name"?: any
     "Frame.Start-up"?: any
     "Frame.Active"?: any
@@ -42,6 +43,7 @@ export interface ICharacterTableRow {
 export interface ICharacterFrameData {
     section?: string
     name?: any
+    input?: any
     startup?: any
     active?: any
     recovery?: any
@@ -57,3 +59,26 @@ export interface ICharacterFrameData {
     properties?: string[]
     notes?: any
 }
+
+export type TInput =
+    | "1"
+    | "2"
+    | "3"
+    | "4"
+    | "5"
+    | "6"
+    | "7"
+    | "8"
+    | "9"
+    | "LP"
+    | "MP"
+    | "HP"
+    | "LK"
+    | "MK"
+    | "HK"
+    | "P"
+    | "K"
+    | "+"
+    | "arrow"
+    | "c4"
+    | "c2"

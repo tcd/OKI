@@ -6,6 +6,7 @@ import {
     tryParseInt,
     type CharacterNameClean,
     type ICharacterTableRow,
+    TInput,
 } from "../util"
 
 // FIXME: replace `U+ff08 "（"`
@@ -47,6 +48,7 @@ export class Parser extends Processor {
         const row: ICharacterTableRow = {
             section:                               this.currentSection,
             "Move Name":                           this.col_1_moveName(cells[0]),
+            // input:                                 this.col_1_input(cells[0]),
             "Frame.Start-up":                      this.col_2_frame_startup(cells[1]),
             "Frame.Active":                        this.col_3_frame_active(cells[2]),
             "Frame.Recovery":                      this.col_4_frame_recovery(cells[3]),
@@ -196,13 +198,29 @@ export class Parser extends Processor {
     // FIXME: convert break tags to newlines
     private col_15_misc(cell: cheerio.Element) {
         return this.col__string(cell)
+        // const $cell = this.$(cell)
+    }
+
+    // =========================================================================
+    // Input
+    // =========================================================================
+
+    private col_1_input(cell: cheerio.Element) {
         const $cell = this.$(cell)
+        const images = $cell.find("img")
+        const inputs: TInput[] = []
+
+        for (const image of images.toArray()) {
+            // @ts-ignore: next-line
+            inputs.push(image.attribs["src"].trim())
+        }
+        return inputs
     }
 }
 
 const ASTERISK_I_GUESS = "※"
 
-const IMG_SRC_NAMES = {
+const IMG_SRC_NAMES: Record<string, TInput> = {
     "/6/assets/images/common/controller/icon_punch_l.png": "LP",
     "/6/assets/images/common/controller/icon_kick_l.png":  "LK",
     "/6/assets/images/common/controller/icon_punch_m.png": "MP",
