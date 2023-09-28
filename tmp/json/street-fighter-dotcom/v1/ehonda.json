@@ -484,7 +484,7 @@
         "Move Name": "Double Slaps",
         "input": [
             "LP",
-            null,
+            ">",
             "MP"
         ],
         "Frame.Start-up": 4,
@@ -507,7 +507,7 @@
         "Move Name": "Toko Shizume",
         "input": [
             "MP",
-            null,
+            ">",
             "3",
             "+",
             "HK"
@@ -733,7 +733,7 @@
         "section": "Special Moves",
         "Move Name": "L Sumo Headbutt",
         "input": [
-            null,
+            "[4]",
             "6",
             "+",
             "LP"
@@ -757,7 +757,7 @@
         "section": "Special Moves",
         "Move Name": "M Sumo Headbutt",
         "input": [
-            null,
+            "[4]",
             "6",
             "+",
             "MP"
@@ -781,7 +781,7 @@
         "section": "Special Moves",
         "Move Name": "H Sumo Headbutt",
         "input": [
-            null,
+            "[4]",
             "6",
             "+",
             "HP"
@@ -805,7 +805,7 @@
         "section": "Special Moves",
         "Move Name": "OD Sumo Headbutt",
         "input": [
-            null,
+            "[4]",
             "6",
             "+",
             "P",
@@ -830,8 +830,8 @@
         "section": "Special Moves",
         "Move Name": "L Sumo Smash",
         "input": [
-            null,
-            null,
+            "[2]",
+            "8",
             "+",
             "LK"
         ],
@@ -854,8 +854,8 @@
         "section": "Special Moves",
         "Move Name": "M Sumo Smash",
         "input": [
-            null,
-            null,
+            "[2]",
+            "8",
             "+",
             "MK"
         ],
@@ -878,8 +878,8 @@
         "section": "Special Moves",
         "Move Name": "H Sumo Smash",
         "input": [
-            null,
-            null,
+            "[2]",
+            "8",
             "+",
             "HK"
         ],
@@ -902,8 +902,8 @@
         "section": "Special Moves",
         "Move Name": "OD Sumo Smash",
         "input": [
-            null,
-            null,
+            "[2]",
+            "8",
             "+",
             "K",
             "K"
@@ -1109,7 +1109,7 @@
         "Move Name": "Teppo Triple Slap(2)",
         "input": [
             "P",
-            null,
+            ">",
             "P"
         ],
         "Frame.Start-up": 14,
@@ -1153,7 +1153,7 @@
         "Move Name": "OD Teppo Triple Slap(2)",
         "input": [
             "P",
-            null,
+            ">",
             "P"
         ],
         "Frame.Start-up": 14,
@@ -1297,7 +1297,7 @@
         "section": "Super Arts",
         "Move Name": "SA2 Ultimate Killer Head Ram",
         "input": [
-            null,
+            "[4]",
             "6",
             "4",
             "6",
@@ -1379,8 +1379,8 @@
         "section": "Throws",
         "Move Name": "Saba Ori",
         "input": [
-            null,
-            null,
+            "5",
+            "/",
             "6",
             "+",
             "LP",
@@ -1609,9 +1609,9 @@
         "input": [
             "6",
             "6",
-            null,
-            null,
-            null,
+            "/",
+            "5",
+            "/",
             "6",
             "+",
             "MP",

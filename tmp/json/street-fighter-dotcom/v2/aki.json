@@ -2,9 +2,7 @@
     {
         "section": "Normal Moves",
         "name": "Standing Light Punch",
-        "input": [
-            "LP"
-        ],
+        "input": "LP",
         "startup": 5,
         "driveGain_hit": 250,
         "driveDrain_block": -500,
@@ -18,9 +16,7 @@
     {
         "section": "Normal Moves",
         "name": "Standing Light Kick",
-        "input": [
-            "LK"
-        ],
+        "input": "LK",
         "startup": 5,
         "driveGain_hit": 250,
         "driveDrain_block": -500,
@@ -34,9 +30,7 @@
     {
         "section": "Normal Moves",
         "name": "Standing Medium Punch",
-        "input": [
-            "MP"
-        ],
+        "input": "MP",
         "startup": 6,
         "driveGain_hit": 1500,
         "driveDrain_block": -3000,
@@ -50,9 +44,7 @@
     {
         "section": "Normal Moves",
         "name": "Standing Medium Kick",
-        "input": [
-            "MK"
-        ],
+        "input": "MK",
         "startup": 9,
         "driveGain_hit": 2000,
         "driveDrain_block": -4000,
@@ -66,9 +58,7 @@
     {
         "section": "Normal Moves",
         "name": "Standing Heavy Punch",
-        "input": [
-            "HP"
-        ],
+        "input": "HP",
         "startup": 12,
         "driveGain_hit": 2000,
         "driveDrain_block": -5000,
@@ -82,9 +72,7 @@
     {
         "section": "Normal Moves",
         "name": "Standing Heavy Kick",
-        "input": [
-            "HK"
-        ],
+        "input": "HK",
         "startup": 9,
         "driveGain_hit": 2000,
         "driveDrain_block": -5000,
@@ -98,11 +86,7 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Light Punch",
-        "input": [
-            "2",
-            "+",
-            "LP"
-        ],
+        "input": "2+LP",
         "startup": 4,
         "driveGain_hit": 250,
         "driveDrain_block": -500,
@@ -116,11 +100,7 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Light Kick",
-        "input": [
-            "2",
-            "+",
-            "LK"
-        ],
+        "input": "2+LK",
         "startup": 5,
         "driveGain_hit": 250,
         "driveDrain_block": -500,
@@ -134,11 +114,7 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Medium Punch",
-        "input": [
-            "2",
-            "+",
-            "MP"
-        ],
+        "input": "2+MP",
         "startup": 8,
         "driveGain_hit": 1500,
         "driveDrain_block": -3000,
@@ -152,11 +128,7 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Medium Kick",
-        "input": [
-            "2",
-            "+",
-            "MK"
-        ],
+        "input": "2+MK",
         "startup": 7,
         "driveGain_hit": 1000,
         "driveDrain_block": -2000,
@@ -170,11 +142,7 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Heavy Punch",
-        "input": [
-            "2",
-            "+",
-            "HP"
-        ],
+        "input": "2+HP",
         "startup": 10,
         "driveGain_hit": 3000,
         "driveDrain_block": -4000,
@@ -188,11 +156,7 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Heavy Kick",
-        "input": [
-            "2",
-            "+",
-            "HK"
-        ],
+        "input": "2+HK",
         "startup": 10,
         "driveGain_hit": 3000,
         "driveDrain_block": -6000,
@@ -206,9 +170,7 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Light Punch",
-        "input": [
-            "LP"
-        ],
+        "input": "LP",
         "startup": 5,
         "driveGain_hit": 500,
         "driveDrain_block": -1500,
@@ -222,9 +184,7 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Light Kick",
-        "input": [
-            "LK"
-        ],
+        "input": "LK",
         "startup": 5,
         "driveGain_hit": 500,
         "driveDrain_block": -1500,
@@ -238,9 +198,7 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Medium Punch",
-        "input": [
-            "MP"
-        ],
+        "input": "MP",
         "startup": 7,
         "driveGain_hit": 1000,
         "driveDrain_block": -3000,
@@ -254,9 +212,7 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Medium Kick",
-        "input": [
-            "MK"
-        ],
+        "input": "MK",
         "startup": 7,
         "driveGain_hit": 1000,
         "driveDrain_block": -2500,
@@ -270,9 +226,7 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Heavy Punch",
-        "input": [
-            "HP"
-        ],
+        "input": "HP",
         "startup": 11,
         "driveGain_hit": 2000,
         "driveDrain_block": -4000,
@@ -286,9 +240,7 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Heavy Kick",
-        "input": [
-            "HK"
-        ],
+        "input": "HK",
         "startup": 8,
         "driveGain_hit": 2000,
         "driveDrain_block": -4000,
@@ -302,11 +254,7 @@
     {
         "section": "Unique Attacks",
         "name": "Pu Lao",
-        "input": [
-            "3",
-            "+",
-            "MP"
-        ],
+        "input": "3+MP",
         "startup": 24,
         "driveGain_hit": 1500,
         "driveDrain_block": -2500,
@@ -320,11 +268,7 @@
     {
         "section": "Unique Attacks",
         "name": "Chi Wen",
-        "input": [
-            "6",
-            "+",
-            "HP"
-        ],
+        "input": "6+HP",
         "startup": 16,
         "driveGain_hit": 3000,
         "driveDrain_block": -6000,
@@ -338,11 +282,7 @@
     {
         "section": "Unique Attacks",
         "name": "Qiu Niu",
-        "input": [
-            "6",
-            "+",
-            "HK"
-        ],
+        "input": "6+HK",
         "startup": 14,
         "driveGain_hit": 3000,
         "driveDrain_block": -4000,
@@ -356,11 +296,7 @@
     {
         "section": "Unique Attacks",
         "name": "Gong Fu",
-        "input": [
-            "2",
-            "+",
-            "HP"
-        ],
+        "input": "2+HP",
         "startup": 9,
         "driveGain_hit": 2000,
         "driveDrain_block": -4000,
@@ -374,11 +310,7 @@
     {
         "section": "Unique Attacks",
         "name": "Hun Dun(2)",
-        "input": [
-            "LP",
-            null,
-            "LP"
-        ],
+        "input": "LP>LP",
         "startup": 8,
         "driveGain_hit": 500,
         "driveDrain_block": -1000,
@@ -392,11 +324,7 @@
     {
         "section": "Unique Attacks",
         "name": "Qiong Qi (2)",
-        "input": [
-            "HP",
-            null,
-            "HP"
-        ],
+        "input": "HP>HP",
         "startup": 14,
         "driveGain_hit": 3000,
         "driveDrain_block": -6000,
@@ -410,13 +338,7 @@
     {
         "section": "Special Moves",
         "name": "Nightshade Pulse",
-        "input": [
-            "2",
-            "1",
-            "4",
-            "+",
-            "LP"
-        ],
+        "input": "214+LP",
         "startup": 17,
         "driveGain_hit": 1000,
         "driveDrain_block": -2500,
@@ -430,11 +352,7 @@
     {
         "section": "Special Moves",
         "name": "Nightshade Chaser",
-        "input": [
-            "6",
-            "+",
-            "P"
-        ],
+        "input": "6+P",
         "startup": 13,
         "driveGain_hit": 1000,
         "driveDrain_block": -2500,
@@ -448,14 +366,7 @@
     {
         "section": "Special Moves",
         "name": "OD Nightshade Pulse",
-        "input": [
-            "2",
-            "1",
-            "4",
-            "+",
-            "P",
-            "P"
-        ],
+        "input": "214+PP",
         "startup": 16,
         "driveGain_hit": 0,
         "driveDrain_block": -2000,
@@ -469,11 +380,7 @@
     {
         "section": "Special Moves",
         "name": "OD Nightshade Chaser",
-        "input": [
-            "6",
-            "+",
-            "P"
-        ],
+        "input": "6+P",
         "startup": 13,
         "driveGain_hit": 0,
         "driveDrain_block": -2500,
@@ -487,7 +394,7 @@
     {
         "section": "Special Moves",
         "name": "Nightshade Chaser (Burst)",
-        "input": [],
+        "input": "",
         "startup": null,
         "driveGain_hit": 1000,
         "driveDrain_block": -1000,
@@ -501,7 +408,7 @@
     {
         "section": "Special Moves",
         "name": "OD Nightshade Chaser (Burst)",
-        "input": [],
+        "input": "",
         "startup": null,
         "driveGain_hit": 0,
         "driveDrain_block": -3500,
@@ -515,13 +422,7 @@
     {
         "section": "Special Moves",
         "name": "Orchid Spring",
-        "input": [
-            "2",
-            "1",
-            "4",
-            "+",
-            "MP"
-        ],
+        "input": "214+MP",
         "startup": 26,
         "driveGain_hit": 0,
         "driveDrain_block": 0,
@@ -535,13 +436,7 @@
     {
         "section": "Special Moves",
         "name": "Toxic Wreath",
-        "input": [
-            "2",
-            "1",
-            "4",
-            "+",
-            "HP"
-        ],
+        "input": "214+HP",
         "startup": 13,
         "driveGain_hit": 2000,
         "driveDrain_block": -3000,
@@ -555,13 +450,7 @@
     {
         "section": "Special Moves",
         "name": "L Serpent Lash",
-        "input": [
-            "2",
-            "3",
-            "6",
-            "+",
-            "LP"
-        ],
+        "input": "236+LP",
         "startup": 14,
         "driveGain_hit": 2000,
         "driveDrain_block": -3000,
@@ -575,13 +464,7 @@
     {
         "section": "Special Moves",
         "name": "M Serpent Lash",
-        "input": [
-            "2",
-            "3",
-            "6",
-            "+",
-            "MP"
-        ],
+        "input": "236+MP",
         "startup": 17,
         "driveGain_hit": 2000,
         "driveDrain_block": -5000,
@@ -595,13 +478,7 @@
     {
         "section": "Special Moves",
         "name": "H Serpent Lash",
-        "input": [
-            "2",
-            "3",
-            "6",
-            "+",
-            "HP"
-        ],
+        "input": "236+HP",
         "startup": 11,
         "driveGain_hit": 2500,
         "driveDrain_block": -6000,
@@ -615,14 +492,7 @@
     {
         "section": "Special Moves",
         "name": "OD Serpent Lash",
-        "input": [
-            "2",
-            "3",
-            "6",
-            "+",
-            "P",
-            "P"
-        ],
+        "input": "236+PP",
         "startup": 21,
         "driveGain_hit": 0,
         "driveDrain_block": -4000,
@@ -636,13 +506,7 @@
     {
         "section": "Special Moves",
         "name": "L Cruel Fate",
-        "input": [
-            "2",
-            "1",
-            "4",
-            "+",
-            "LK"
-        ],
+        "input": "214+LK",
         "startup": 24,
         "driveGain_hit": 2000,
         "driveDrain_block": -4000,
@@ -656,13 +520,7 @@
     {
         "section": "Special Moves",
         "name": "M Cruel Fate",
-        "input": [
-            "2",
-            "1",
-            "4",
-            "+",
-            "MK"
-        ],
+        "input": "214+MK",
         "startup": 28,
         "driveGain_hit": 2000,
         "driveDrain_block": -4000,
@@ -676,13 +534,7 @@
     {
         "section": "Special Moves",
         "name": "H Cruel Fate",
-        "input": [
-            "2",
-            "1",
-            "4",
-            "+",
-            "HK"
-        ],
+        "input": "214+HK",
         "startup": 33,
         "driveGain_hit": 2000,
         "driveDrain_block": -4000,
@@ -696,14 +548,7 @@
     {
         "section": "Special Moves",
         "name": "OD Cruel Fate",
-        "input": [
-            "2",
-            "1",
-            "4",
-            "+",
-            "K",
-            "K"
-        ],
+        "input": "214+KK",
         "startup": 28,
         "driveGain_hit": 0,
         "driveDrain_block": -4000,
@@ -717,13 +562,7 @@
     {
         "section": "Special Moves",
         "name": "L Snake Step",
-        "input": [
-            "2",
-            "3",
-            "6",
-            "+",
-            "LK"
-        ],
+        "input": "236+LK",
         "startup": null,
         "driveGain_hit": 0,
         "driveDrain_block": 0,
@@ -737,13 +576,7 @@
     {
         "section": "Special Moves",
         "name": "M Snake Step",
-        "input": [
-            "2",
-            "3",
-            "6",
-            "+",
-            "MK"
-        ],
+        "input": "236+MK",
         "startup": null,
         "driveGain_hit": 0,
         "driveDrain_block": 0,
@@ -757,13 +590,7 @@
     {
         "section": "Special Moves",
         "name": "H Snake Step",
-        "input": [
-            "2",
-            "3",
-            "6",
-            "+",
-            "HK"
-        ],
+        "input": "236+HK",
         "startup": null,
         "driveGain_hit": 0,
         "driveDrain_block": 0,
@@ -777,14 +604,7 @@
     {
         "section": "Special Moves",
         "name": "OD Snake Step",
-        "input": [
-            "2",
-            "3",
-            "6",
-            "+",
-            "K",
-            "K"
-        ],
+        "input": "236+KK",
         "startup": null,
         "driveGain_hit": 0,
         "driveDrain_block": 0,
@@ -798,12 +618,7 @@
     {
         "section": "Special Moves",
         "name": "Sinister Slide",
-        "input": [
-            "2",
-            "+",
-            "P",
-            "P"
-        ],
+        "input": "2+PP",
         "startup": null,
         "driveGain_hit": 0,
         "driveDrain_block": 0,
@@ -817,9 +632,7 @@
     {
         "section": "Special Moves",
         "name": "Venomous Fang",
-        "input": [
-            "P"
-        ],
+        "input": "P",
         "startup": 19,
         "driveGain_hit": 2000,
         "driveDrain_block": -5000,
@@ -833,9 +646,7 @@
     {
         "section": "Special Moves",
         "name": "Heel Strike",
-        "input": [
-            "K"
-        ],
+        "input": "K",
         "startup": 11,
         "driveGain_hit": 3000,
         "driveDrain_block": -4000,
@@ -849,10 +660,7 @@
     {
         "section": "Special Moves",
         "name": "Entrapment",
-        "input": [
-            "LP",
-            "LK"
-        ],
+        "input": "LPLK",
         "startup": 23,
         "driveGain_hit": 5000,
         "driveDrain_block": 0,
@@ -866,16 +674,7 @@
     {
         "section": "Super Arts",
         "name": "SA1 Deadly Implication",
-        "input": [
-            "2",
-            "3",
-            "6",
-            "2",
-            "3",
-            "6",
-            "+",
-            "K"
-        ],
+        "input": "236236+K",
         "startup": 10,
         "driveGain_hit": 0,
         "driveDrain_block": -2500,
@@ -889,16 +688,7 @@
     {
         "section": "Super Arts",
         "name": "SA2 Tainted Talons",
-        "input": [
-            "2",
-            "1",
-            "4",
-            "2",
-            "1",
-            "4",
-            "+",
-            "P"
-        ],
+        "input": "214214+P",
         "startup": 7,
         "driveGain_hit": 0,
         "driveDrain_block": -5000,
@@ -912,16 +702,7 @@
     {
         "section": "Super Arts",
         "name": "SA3 Claws of Ya Zi",
-        "input": [
-            "2",
-            "3",
-            "6",
-            "2",
-            "3",
-            "6",
-            "+",
-            "P"
-        ],
+        "input": "236236+P",
         "startup": 10,
         "driveGain_hit": 0,
         "driveDrain_block": -7500,
@@ -935,16 +716,7 @@
     {
         "section": "Super Arts",
         "name": "CA Claws of Ya Zi",
-        "input": [
-            "2",
-            "3",
-            "6",
-            "2",
-            "3",
-            "6",
-            "+",
-            "P"
-        ],
+        "input": "236236+P",
         "startup": 10,
         "driveGain_hit": 0,
         "driveDrain_block": -10000,
@@ -958,14 +730,7 @@
     {
         "section": "Throws",
         "name": "Whisper",
-        "input": [
-            null,
-            null,
-            "6",
-            "+",
-            "LP",
-            "LK"
-        ],
+        "input": "5/6+LPLK",
         "startup": 5,
         "driveGain_hit": 2000,
         "driveDrain_block": 0,
@@ -979,12 +744,7 @@
     {
         "section": "Throws",
         "name": "Gluttony",
-        "input": [
-            "4",
-            "+",
-            "LP",
-            "LK"
-        ],
+        "input": "4+LPLK",
         "startup": 5,
         "driveGain_hit": 2000,
         "driveDrain_block": 0,
@@ -998,10 +758,7 @@
     {
         "section": "Common Moves",
         "name": "Forward Dash",
-        "input": [
-            "6",
-            "6"
-        ],
+        "input": "66",
         "startup": null,
         "driveGain_hit": 0,
         "driveDrain_block": 0,
@@ -1015,10 +772,7 @@
     {
         "section": "Common Moves",
         "name": "Backward Dash",
-        "input": [
-            "4",
-            "4"
-        ],
+        "input": "44",
         "startup": null,
         "driveGain_hit": 0,
         "driveDrain_block": 0,
@@ -1032,10 +786,7 @@
     {
         "section": "Common Moves",
         "name": "Drive Impact: Zao Chi",
-        "input": [
-            "HP",
-            "HK"
-        ],
+        "input": "HPHK",
         "startup": 26,
         "driveGain_hit": 0,
         "driveDrain_block": -5000,
@@ -1049,12 +800,7 @@
     {
         "section": "Common Moves",
         "name": "Drive Reversal: Feng Shi",
-        "input": [
-            "6",
-            "+",
-            "HP",
-            "HK"
-        ],
+        "input": "6+HPHK",
         "startup": 20,
         "driveGain_hit": 0,
         "driveDrain_block": 0,
@@ -1068,10 +814,7 @@
     {
         "section": "Common Moves",
         "name": "Drive Parry",
-        "input": [
-            "MP",
-            "MK"
-        ],
+        "input": "MPMK",
         "startup": null,
         "driveGain_hit": 0,
         "driveDrain_block": 0,
@@ -1085,10 +828,7 @@
     {
         "section": "Common Moves",
         "name": "Perfect Parry (strike)",
-        "input": [
-            "MP",
-            "MK"
-        ],
+        "input": "MPMK",
         "startup": 1,
         "driveGain_hit": null,
         "driveDrain_block": null,
@@ -1102,10 +842,7 @@
     {
         "section": "Common Moves",
         "name": "Perfect Parry (projectile)",
-        "input": [
-            "MP",
-            "MK"
-        ],
+        "input": "MPMK",
         "startup": 1,
         "driveGain_hit": null,
         "driveDrain_block": null,
@@ -1119,10 +856,7 @@
     {
         "section": "Common Moves",
         "name": "Parry Drive Rush",
-        "input": [
-            "6",
-            "6"
-        ],
+        "input": "66",
         "startup": null,
         "driveGain_hit": 0,
         "driveDrain_block": 0,
@@ -1136,17 +870,7 @@
     {
         "section": "Common Moves",
         "name": "Cancel Drive Rush",
-        "input": [
-            "6",
-            "6",
-            null,
-            null,
-            null,
-            "6",
-            "+",
-            "MP",
-            "MK"
-        ],
+        "input": "66/5/6+MPMK",
         "startup": null,
         "driveGain_hit": 0,
         "driveDrain_block": 0,

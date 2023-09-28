@@ -2,9 +2,7 @@
     {
         "section": "Normal Moves",
         "name": "Standing Light Punch",
-        "input": [
-            "LP"
-        ],
+        "input": "LP",
         "startup": 5,
         "driveGain_hit": 250,
         "driveDrain_block": -500,
@@ -18,9 +16,7 @@
     {
         "section": "Normal Moves",
         "name": "Standing Light Kick",
-        "input": [
-            "LK"
-        ],
+        "input": "LK",
         "startup": 4,
         "driveGain_hit": 250,
         "driveDrain_block": -500,
@@ -34,9 +30,7 @@
     {
         "section": "Normal Moves",
         "name": "Standing Medium Punch",
-        "input": [
-            "MP"
-        ],
+        "input": "MP",
         "startup": 10,
         "driveGain_hit": 2000,
         "driveDrain_block": -4000,
@@ -50,9 +44,7 @@
     {
         "section": "Normal Moves",
         "name": "Standing Medium Kick",
-        "input": [
-            "MK"
-        ],
+        "input": "MK",
         "startup": 10,
         "driveGain_hit": 1000,
         "driveDrain_block": -2500,
@@ -66,9 +58,7 @@
     {
         "section": "Normal Moves",
         "name": "Standing Heavy Punch",
-        "input": [
-            "HP"
-        ],
+        "input": "HP",
         "startup": 8,
         "driveGain_hit": 2000,
         "driveDrain_block": -5000,
@@ -82,9 +72,7 @@
     {
         "section": "Normal Moves",
         "name": "Standing Heavy Kick",
-        "input": [
-            "HK"
-        ],
+        "input": "HK",
         "startup": 8,
         "driveGain_hit": 3000,
         "driveDrain_block": -4000,
@@ -98,11 +86,7 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Light Punch",
-        "input": [
-            "2",
-            "+",
-            "LP"
-        ],
+        "input": "2+LP",
         "startup": 4,
         "driveGain_hit": 250,
         "driveDrain_block": -500,
@@ -116,11 +100,7 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Light Kick",
-        "input": [
-            "2",
-            "+",
-            "LK"
-        ],
+        "input": "2+LK",
         "startup": 5,
         "driveGain_hit": 250,
         "driveDrain_block": -500,
@@ -134,11 +114,7 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Medium Punch",
-        "input": [
-            "2",
-            "+",
-            "MP"
-        ],
+        "input": "2+MP",
         "startup": 8,
         "driveGain_hit": 1500,
         "driveDrain_block": -3000,
@@ -152,11 +128,7 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Medium Kick",
-        "input": [
-            "2",
-            "+",
-            "MK"
-        ],
+        "input": "2+MK",
         "startup": 9,
         "driveGain_hit": 2000,
         "driveDrain_block": -4000,
@@ -170,11 +142,7 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Heavy Punch",
-        "input": [
-            "2",
-            "+",
-            "HP"
-        ],
+        "input": "2+HP",
         "startup": 11,
         "driveGain_hit": 3000,
         "driveDrain_block": -6000,
@@ -188,11 +156,7 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Heavy Kick",
-        "input": [
-            "2",
-            "+",
-            "HK"
-        ],
+        "input": "2+HK",
         "startup": 11,
         "driveGain_hit": 3000,
         "driveDrain_block": -4000,
@@ -206,9 +170,7 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Light Punch",
-        "input": [
-            "LP"
-        ],
+        "input": "LP",
         "startup": 5,
         "driveGain_hit": 500,
         "driveDrain_block": -1500,
@@ -222,9 +184,7 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Light Kick",
-        "input": [
-            "LK"
-        ],
+        "input": "LK",
         "startup": 6,
         "driveGain_hit": 500,
         "driveDrain_block": -1500,
@@ -238,9 +198,7 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Medium Punch",
-        "input": [
-            "MP"
-        ],
+        "input": "MP",
         "startup": 6,
         "driveGain_hit": 1000,
         "driveDrain_block": -2500,
@@ -254,9 +212,7 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Medium Kick",
-        "input": [
-            "MK"
-        ],
+        "input": "MK",
         "startup": 9,
         "driveGain_hit": 1000,
         "driveDrain_block": -2500,
@@ -270,9 +226,7 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Heavy Punch",
-        "input": [
-            "HP"
-        ],
+        "input": "HP",
         "startup": 9,
         "driveGain_hit": 2000,
         "driveDrain_block": -4000,
@@ -286,9 +240,7 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Heavy Kick",
-        "input": [
-            "HK"
-        ],
+        "input": "HK",
         "startup": 10,
         "driveGain_hit": 2000,
         "driveDrain_block": -4000,
@@ -302,9 +254,7 @@
     {
         "section": "Normal Moves",
         "name": "Neutral Jumping Heavy Punch",
-        "input": [
-            "HP"
-        ],
+        "input": "HP",
         "startup": 10,
         "driveGain_hit": 2000,
         "driveDrain_block": -4000,
@@ -318,11 +268,7 @@
     {
         "section": "Unique Attacks",
         "name": "Harai Kick",
-        "input": [
-            "6",
-            "+",
-            "HK"
-        ],
+        "input": "6+HK",
         "startup": 14,
         "driveGain_hit": 3000,
         "driveDrain_block": -6000,
@@ -336,11 +282,7 @@
     {
         "section": "Unique Attacks",
         "name": "Power Stomp",
-        "input": [
-            "3",
-            "+",
-            "HK"
-        ],
+        "input": "3+HK",
         "startup": 22,
         "driveGain_hit": 2000,
         "driveDrain_block": -5000,
@@ -354,11 +296,7 @@
     {
         "section": "Unique Attacks",
         "name": "Flying Sumo Press",
-        "input": [
-            "2",
-            "+",
-            "MK"
-        ],
+        "input": "2+MK",
         "startup": 11,
         "driveGain_hit": 1000,
         "driveDrain_block": -2500,
@@ -372,11 +310,7 @@
     {
         "section": "Unique Attacks",
         "name": "Double Slaps",
-        "input": [
-            "LP",
-            null,
-            "MP"
-        ],
+        "input": "LP>MP",
         "startup": 4,
         "driveGain_hit": 1000,
         "driveDrain_block": -3000,
@@ -390,13 +324,7 @@
     {
         "section": "Unique Attacks",
         "name": "Toko Shizume",
-        "input": [
-            "MP",
-            null,
-            "3",
-            "+",
-            "HK"
-        ],
+        "input": "MP>3+HK",
         "startup": 22,
         "driveGain_hit": 2000,
         "driveDrain_block": -5000,
@@ -410,13 +338,7 @@
     {
         "section": "Special Moves",
         "name": "L Hundred Hand Slap",
-        "input": [
-            "2",
-            "1",
-            "4",
-            "+",
-            "LP"
-        ],
+        "input": "214+LP",
         "startup": 12,
         "driveGain_hit": 2000,
         "driveDrain_block": -3000,
@@ -430,13 +352,7 @@
     {
         "section": "Special Moves",
         "name": "[Sumo Spirit]L Hundred Hand Slap",
-        "input": [
-            "2",
-            "1",
-            "4",
-            "+",
-            "LP"
-        ],
+        "input": "214+LP",
         "startup": 12,
         "driveGain_hit": 2000,
         "driveDrain_block": -3000,
@@ -450,13 +366,7 @@
     {
         "section": "Special Moves",
         "name": "M Hundred Hand Slap",
-        "input": [
-            "2",
-            "1",
-            "4",
-            "+",
-            "MP"
-        ],
+        "input": "214+MP",
         "startup": 18,
         "driveGain_hit": 2000,
         "driveDrain_block": -4000,
@@ -470,13 +380,7 @@
     {
         "section": "Special Moves",
         "name": "[Sumo Spirit]M Hundred Hand Slap",
-        "input": [
-            "2",
-            "1",
-            "4",
-            "+",
-            "MP"
-        ],
+        "input": "214+MP",
         "startup": 18,
         "driveGain_hit": 2000,
         "driveDrain_block": -4000,
@@ -490,13 +394,7 @@
     {
         "section": "Special Moves",
         "name": "H Hundred Hand Slap",
-        "input": [
-            "2",
-            "1",
-            "4",
-            "+",
-            "HP"
-        ],
+        "input": "214+HP",
         "startup": 21,
         "driveGain_hit": 2000,
         "driveDrain_block": -5000,
@@ -510,13 +408,7 @@
     {
         "section": "Special Moves",
         "name": "[Sumo Spirit]H Hundred Hand Slap",
-        "input": [
-            "2",
-            "1",
-            "4",
-            "+",
-            "HP"
-        ],
+        "input": "214+HP",
         "startup": 21,
         "driveGain_hit": 2000,
         "driveDrain_block": -5000,
@@ -530,14 +422,7 @@
     {
         "section": "Special Moves",
         "name": "OD Hundred Hand Slap",
-        "input": [
-            "2",
-            "1",
-            "4",
-            "+",
-            "P",
-            "P"
-        ],
+        "input": "214+PP",
         "startup": 19,
         "driveGain_hit": 0,
         "driveDrain_block": -5000,
@@ -551,14 +436,7 @@
     {
         "section": "Special Moves",
         "name": "[Sumo Spirit]OD Hundred Hand Slap",
-        "input": [
-            "2",
-            "1",
-            "4",
-            "+",
-            "P",
-            "P"
-        ],
+        "input": "214+PP",
         "startup": 19,
         "driveGain_hit": 0,
         "driveDrain_block": -5000,
@@ -572,12 +450,7 @@
     {
         "section": "Special Moves",
         "name": "L Sumo Headbutt",
-        "input": [
-            null,
-            "6",
-            "+",
-            "LP"
-        ],
+        "input": "[4]6+LP",
         "startup": 10,
         "driveGain_hit": 2000,
         "driveDrain_block": -7500,
@@ -591,12 +464,7 @@
     {
         "section": "Special Moves",
         "name": "M Sumo Headbutt",
-        "input": [
-            null,
-            "6",
-            "+",
-            "MP"
-        ],
+        "input": "[4]6+MP",
         "startup": 10,
         "driveGain_hit": 2000,
         "driveDrain_block": -7500,
@@ -610,12 +478,7 @@
     {
         "section": "Special Moves",
         "name": "H Sumo Headbutt",
-        "input": [
-            null,
-            "6",
-            "+",
-            "HP"
-        ],
+        "input": "[4]6+HP",
         "startup": 14,
         "driveGain_hit": 2000,
         "driveDrain_block": -10000,
@@ -629,13 +492,7 @@
     {
         "section": "Special Moves",
         "name": "OD Sumo Headbutt",
-        "input": [
-            null,
-            "6",
-            "+",
-            "P",
-            "P"
-        ],
+        "input": "[4]6+PP",
         "startup": 9,
         "driveGain_hit": 0,
         "driveDrain_block": -8000,
@@ -649,12 +506,7 @@
     {
         "section": "Special Moves",
         "name": "L Sumo Smash",
-        "input": [
-            null,
-            null,
-            "+",
-            "LK"
-        ],
+        "input": "[2]8+LK",
         "startup": 11,
         "driveGain_hit": 2000,
         "driveDrain_block": -12000,
@@ -668,12 +520,7 @@
     {
         "section": "Special Moves",
         "name": "M Sumo Smash",
-        "input": [
-            null,
-            null,
-            "+",
-            "MK"
-        ],
+        "input": "[2]8+MK",
         "startup": 11,
         "driveGain_hit": 2000,
         "driveDrain_block": -12000,
@@ -687,12 +534,7 @@
     {
         "section": "Special Moves",
         "name": "H Sumo Smash",
-        "input": [
-            null,
-            null,
-            "+",
-            "HK"
-        ],
+        "input": "[2]8+HK",
         "startup": 11,
         "driveGain_hit": 2000,
         "driveDrain_block": -12000,
@@ -706,13 +548,7 @@
     {
         "section": "Special Moves",
         "name": "OD Sumo Smash",
-        "input": [
-            null,
-            null,
-            "+",
-            "K",
-            "K"
-        ],
+        "input": "[2]8+KK",
         "startup": 6,
         "driveGain_hit": 0,
         "driveDrain_block": -12000,
@@ -726,15 +562,7 @@
     {
         "section": "Special Moves",
         "name": "L Oicho Throw",
-        "input": [
-            "6",
-            "3",
-            "2",
-            "1",
-            "4",
-            "+",
-            "LK"
-        ],
+        "input": "63214+LK",
         "startup": 7,
         "driveGain_hit": 2000,
         "driveDrain_block": 0,
@@ -748,15 +576,7 @@
     {
         "section": "Special Moves",
         "name": "M Oicho Throw",
-        "input": [
-            "6",
-            "3",
-            "2",
-            "1",
-            "4",
-            "+",
-            "MK"
-        ],
+        "input": "63214+MK",
         "startup": 7,
         "driveGain_hit": 2000,
         "driveDrain_block": 0,
@@ -770,15 +590,7 @@
     {
         "section": "Special Moves",
         "name": "H Oicho Throw",
-        "input": [
-            "6",
-            "3",
-            "2",
-            "1",
-            "4",
-            "+",
-            "HK"
-        ],
+        "input": "63214+HK",
         "startup": 7,
         "driveGain_hit": 2000,
         "driveDrain_block": 0,
@@ -792,16 +604,7 @@
     {
         "section": "Special Moves",
         "name": "OD Oicho Throw",
-        "input": [
-            "6",
-            "3",
-            "2",
-            "1",
-            "4",
-            "+",
-            "K",
-            "K"
-        ],
+        "input": "63214+KK",
         "startup": 7,
         "driveGain_hit": 0,
         "driveDrain_block": 0,
@@ -815,13 +618,7 @@
     {
         "section": "Special Moves",
         "name": "Sumo Dash",
-        "input": [
-            "2",
-            "3",
-            "6",
-            "+",
-            "K"
-        ],
+        "input": "236+K",
         "startup": null,
         "driveGain_hit": 0,
         "driveDrain_block": 0,
@@ -835,14 +632,7 @@
     {
         "section": "Special Moves",
         "name": "OD Sumo Dash",
-        "input": [
-            "2",
-            "3",
-            "6",
-            "+",
-            "K",
-            "K"
-        ],
+        "input": "236+KK",
         "startup": null,
         "driveGain_hit": 0,
         "driveDrain_block": 0,
@@ -856,9 +646,7 @@
     {
         "section": "Special Moves",
         "name": "Teppo Triple Slap(1)",
-        "input": [
-            "P"
-        ],
+        "input": "P",
         "startup": 9,
         "driveGain_hit": 2000,
         "driveDrain_block": -5000,
@@ -872,11 +660,7 @@
     {
         "section": "Special Moves",
         "name": "Teppo Triple Slap(2)",
-        "input": [
-            "P",
-            null,
-            "P"
-        ],
+        "input": "P>P",
         "startup": 14,
         "driveGain_hit": 2000,
         "driveDrain_block": -5000,
@@ -890,9 +674,7 @@
     {
         "section": "Special Moves",
         "name": "OD Teppo Triple Slap(1)",
-        "input": [
-            "P"
-        ],
+        "input": "P",
         "startup": 9,
         "driveGain_hit": 0,
         "driveDrain_block": -5000,
@@ -906,11 +688,7 @@
     {
         "section": "Special Moves",
         "name": "OD Teppo Triple Slap(2)",
-        "input": [
-            "P",
-            null,
-            "P"
-        ],
+        "input": "P>P",
         "startup": 14,
         "driveGain_hit": 0,
         "driveDrain_block": -5000,
@@ -924,11 +702,7 @@
     {
         "section": "Special Moves",
         "name": "Taiho Cannon Lift",
-        "input": [
-            "2",
-            "+",
-            "P"
-        ],
+        "input": "2+P",
         "startup": 12,
         "driveGain_hit": 2000,
         "driveDrain_block": -5000,
@@ -942,11 +716,7 @@
     {
         "section": "Special Moves",
         "name": "OD Taiho Cannon Lift",
-        "input": [
-            "2",
-            "+",
-            "P"
-        ],
+        "input": "2+P",
         "startup": 12,
         "driveGain_hit": 0,
         "driveDrain_block": -2500,
@@ -960,12 +730,7 @@
     {
         "section": "Special Moves",
         "name": "Neko Damashi",
-        "input": [
-            "2",
-            "2",
-            "+",
-            "P"
-        ],
+        "input": "22+P",
         "startup": 11,
         "driveGain_hit": 2000,
         "driveDrain_block": -5000,
@@ -979,12 +744,7 @@
     {
         "section": "Special Moves",
         "name": "Sumo Spirit",
-        "input": [
-            "2",
-            "2",
-            "+",
-            "K"
-        ],
+        "input": "22+K",
         "startup": null,
         "driveGain_hit": 0,
         "driveDrain_block": 0,
@@ -998,16 +758,7 @@
     {
         "section": "Super Arts",
         "name": "SA1 Show of Force",
-        "input": [
-            "2",
-            "3",
-            "6",
-            "2",
-            "3",
-            "6",
-            "+",
-            "P"
-        ],
+        "input": "236236+P",
         "startup": 7,
         "driveGain_hit": 0,
         "driveDrain_block": -2500,
@@ -1021,14 +772,7 @@
     {
         "section": "Super Arts",
         "name": "SA2 Ultimate Killer Head Ram",
-        "input": [
-            null,
-            "6",
-            "4",
-            "6",
-            "+",
-            "K"
-        ],
+        "input": "[4]646+K",
         "startup": 12,
         "driveGain_hit": 0,
         "driveDrain_block": -5000,
@@ -1042,16 +786,7 @@
     {
         "section": "Super Arts",
         "name": "SA3 The Final Bout",
-        "input": [
-            "2",
-            "1",
-            "4",
-            "2",
-            "1",
-            "4",
-            "+",
-            "P"
-        ],
+        "input": "214214+P",
         "startup": 9,
         "driveGain_hit": 0,
         "driveDrain_block": -7500,
@@ -1065,16 +800,7 @@
     {
         "section": "Super Arts",
         "name": "CA The Final Bout",
-        "input": [
-            "2",
-            "1",
-            "4",
-            "2",
-            "1",
-            "4",
-            "+",
-            "P"
-        ],
+        "input": "214214+P",
         "startup": 9,
         "driveGain_hit": 0,
         "driveDrain_block": -10000,
@@ -1088,14 +814,7 @@
     {
         "section": "Throws",
         "name": "Saba Ori",
-        "input": [
-            null,
-            null,
-            "6",
-            "+",
-            "LP",
-            "LK"
-        ],
+        "input": "5/6+LPLK",
         "startup": 5,
         "driveGain_hit": 2000,
         "driveDrain_block": 0,
@@ -1109,12 +828,7 @@
     {
         "section": "Throws",
         "name": "Tawara Throw",
-        "input": [
-            "4",
-            "+",
-            "LP",
-            "LK"
-        ],
+        "input": "4+LPLK",
         "startup": 5,
         "driveGain_hit": 2000,
         "driveDrain_block": 0,
@@ -1128,10 +842,7 @@
     {
         "section": "Common Moves",
         "name": "Forward Dash",
-        "input": [
-            "6",
-            "6"
-        ],
+        "input": "66",
         "startup": null,
         "driveGain_hit": 0,
         "driveDrain_block": 0,
@@ -1145,10 +856,7 @@
     {
         "section": "Common Moves",
         "name": "Backward Dash",
-        "input": [
-            "4",
-            "4"
-        ],
+        "input": "44",
         "startup": null,
         "driveGain_hit": 0,
         "driveDrain_block": 0,
@@ -1162,10 +870,7 @@
     {
         "section": "Common Moves",
         "name": "Drive Impact: Sumo Crunch",
-        "input": [
-            "HP",
-            "HK"
-        ],
+        "input": "HPHK",
         "startup": 26,
         "driveGain_hit": 0,
         "driveDrain_block": -5000,
@@ -1179,12 +884,7 @@
     {
         "section": "Common Moves",
         "name": "Drive Reversal: Raiden-Ho",
-        "input": [
-            "6",
-            "+",
-            "HP",
-            "HK"
-        ],
+        "input": "6+HPHK",
         "startup": 20,
         "driveGain_hit": 0,
         "driveDrain_block": 0,
@@ -1198,10 +898,7 @@
     {
         "section": "Common Moves",
         "name": "Drive Parry",
-        "input": [
-            "MP",
-            "MK"
-        ],
+        "input": "MPMK",
         "startup": 1,
         "driveGain_hit": 0,
         "driveDrain_block": 0,
@@ -1215,10 +912,7 @@
     {
         "section": "Common Moves",
         "name": "Perfect Parry (strike)",
-        "input": [
-            "MP",
-            "MK"
-        ],
+        "input": "MPMK",
         "startup": 1,
         "driveGain_hit": null,
         "driveDrain_block": null,
@@ -1232,10 +926,7 @@
     {
         "section": "Common Moves",
         "name": "Perfect Parry (projectile)",
-        "input": [
-            "MP",
-            "MK"
-        ],
+        "input": "MPMK",
         "startup": 1,
         "driveGain_hit": null,
         "driveDrain_block": null,
@@ -1249,10 +940,7 @@
     {
         "section": "Common Moves",
         "name": "Parry Drive Rush",
-        "input": [
-            "6",
-            "6"
-        ],
+        "input": "66",
         "startup": null,
         "driveGain_hit": 0,
         "driveDrain_block": 0,
@@ -1266,17 +954,7 @@
     {
         "section": "Common Moves",
         "name": "Cancel Drive Rush",
-        "input": [
-            "6",
-            "6",
-            null,
-            null,
-            null,
-            "6",
-            "+",
-            "MP",
-            "MK"
-        ],
+        "input": "66/5/6+MPMK",
         "startup": null,
         "driveGain_hit": 0,
         "driveDrain_block": 0,

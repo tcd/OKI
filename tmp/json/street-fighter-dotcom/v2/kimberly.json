@@ -2,9 +2,7 @@
     {
         "section": "Normal Moves",
         "name": "Standing Light Punch",
-        "input": [
-            "LP"
-        ],
+        "input": "LP",
         "startup": 5,
         "driveGain_hit": 250,
         "driveDrain_block": -500,
@@ -18,9 +16,7 @@
     {
         "section": "Normal Moves",
         "name": "Standing Light Kick",
-        "input": [
-            "LK"
-        ],
+        "input": "LK",
         "startup": 5,
         "driveGain_hit": 250,
         "driveDrain_block": -500,
@@ -34,9 +30,7 @@
     {
         "section": "Normal Moves",
         "name": "Standing Medium Punch",
-        "input": [
-            "MP"
-        ],
+        "input": "MP",
         "startup": 6,
         "driveGain_hit": 1000,
         "driveDrain_block": -2000,
@@ -50,9 +44,7 @@
     {
         "section": "Normal Moves",
         "name": "Standing Medium Kick",
-        "input": [
-            "MK"
-        ],
+        "input": "MK",
         "startup": 8,
         "driveGain_hit": 1000,
         "driveDrain_block": -2000,
@@ -66,9 +58,7 @@
     {
         "section": "Normal Moves",
         "name": "Standing Heavy Punch",
-        "input": [
-            "HP"
-        ],
+        "input": "HP",
         "startup": 9,
         "driveGain_hit": 2000,
         "driveDrain_block": -5000,
@@ -82,9 +72,7 @@
     {
         "section": "Normal Moves",
         "name": "Standing Heavy Kick",
-        "input": [
-            "HK"
-        ],
+        "input": "HK",
         "startup": 12,
         "driveGain_hit": 2500,
         "driveDrain_block": -5000,
@@ -98,11 +86,7 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Light Punch",
-        "input": [
-            "2",
-            "+",
-            "LP"
-        ],
+        "input": "2+LP",
         "startup": 4,
         "driveGain_hit": 250,
         "driveDrain_block": -500,
@@ -116,11 +100,7 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Light Kick",
-        "input": [
-            "2",
-            "+",
-            "LK"
-        ],
+        "input": "2+LK",
         "startup": 5,
         "driveGain_hit": 250,
         "driveDrain_block": -500,
@@ -134,11 +114,7 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Medium Punch",
-        "input": [
-            "2",
-            "+",
-            "MP"
-        ],
+        "input": "2+MP",
         "startup": 6,
         "driveGain_hit": 1200,
         "driveDrain_block": -2500,
@@ -152,11 +128,7 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Medium Kick",
-        "input": [
-            "2",
-            "+",
-            "MK"
-        ],
+        "input": "2+MK",
         "startup": 7,
         "driveGain_hit": 1200,
         "driveDrain_block": -2500,
@@ -170,11 +142,7 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Heavy Punch",
-        "input": [
-            "2",
-            "+",
-            "HP"
-        ],
+        "input": "2+HP",
         "startup": 8,
         "driveGain_hit": 2500,
         "driveDrain_block": -5000,
@@ -188,11 +156,7 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Heavy Kick",
-        "input": [
-            "2",
-            "+",
-            "HK"
-        ],
+        "input": "2+HK",
         "startup": 8,
         "driveGain_hit": 2500,
         "driveDrain_block": -5000,
@@ -206,9 +170,7 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Light Punch",
-        "input": [
-            "LP"
-        ],
+        "input": "LP",
         "startup": 4,
         "driveGain_hit": 500,
         "driveDrain_block": -1500,
@@ -222,9 +184,7 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Light Kick",
-        "input": [
-            "LK"
-        ],
+        "input": "LK",
         "startup": 5,
         "driveGain_hit": 500,
         "driveDrain_block": -1500,
@@ -238,9 +198,7 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Medium Punch",
-        "input": [
-            "MP"
-        ],
+        "input": "MP",
         "startup": 6,
         "driveGain_hit": 1000,
         "driveDrain_block": -2500,
@@ -254,9 +212,7 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Medium Kick",
-        "input": [
-            "MK"
-        ],
+        "input": "MK",
         "startup": 7,
         "driveGain_hit": 1000,
         "driveDrain_block": -2500,
@@ -270,9 +226,7 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Heavy Punch",
-        "input": [
-            "HP"
-        ],
+        "input": "HP",
         "startup": 8,
         "driveGain_hit": 2000,
         "driveDrain_block": -4000,
@@ -286,9 +240,7 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Heavy Kick",
-        "input": [
-            "HK"
-        ],
+        "input": "HK",
         "startup": 9,
         "driveGain_hit": 2000,
         "driveDrain_block": -4000,
@@ -302,11 +254,7 @@
     {
         "section": "Unique Attacks",
         "name": "Water Slicer Slide",
-        "input": [
-            "3",
-            "+",
-            "MK"
-        ],
+        "input": "3+MK",
         "startup": 11,
         "driveGain_hit": 1000,
         "driveDrain_block": -2000,
@@ -320,11 +268,7 @@
     {
         "section": "Unique Attacks",
         "name": "Windmill Kick",
-        "input": [
-            "4",
-            "+",
-            "HK"
-        ],
+        "input": "4+HK",
         "startup": 22,
         "driveGain_hit": 2500,
         "driveDrain_block": -5000,
@@ -338,11 +282,7 @@
     {
         "section": "Unique Attacks",
         "name": "Hisen Kick",
-        "input": [
-            "6",
-            "+",
-            "HK"
-        ],
+        "input": "6+HK",
         "startup": 27,
         "driveGain_hit": 1200,
         "driveDrain_block": -4000,
@@ -356,13 +296,7 @@
     {
         "section": "Unique Attacks",
         "name": "Step Up",
-        "input": [
-            null,
-            null,
-            null,
-            null,
-            null
-        ],
+        "input": "7/8/9",
         "startup": null,
         "driveGain_hit": 0,
         "driveDrain_block": 0,
@@ -376,11 +310,7 @@
     {
         "section": "Unique Attacks",
         "name": "Elbow Drop",
-        "input": [
-            "2",
-            "+",
-            "MP"
-        ],
+        "input": "2+MP",
         "startup": 13,
         "driveGain_hit": 1000,
         "driveDrain_block": -2500,
@@ -394,11 +324,7 @@
     {
         "section": "Unique Attacks",
         "name": "Bushin Tiger Fangs",
-        "input": [
-            "MP",
-            null,
-            "HP"
-        ],
+        "input": "MP>HP",
         "startup": 10,
         "driveGain_hit": 1500,
         "driveDrain_block": -4000,
@@ -412,11 +338,7 @@
     {
         "section": "Unique Attacks",
         "name": "Bushin Prism Strikes(2)",
-        "input": [
-            "LP",
-            null,
-            "MP"
-        ],
+        "input": "LP>MP",
         "startup": 6,
         "driveGain_hit": 800,
         "driveDrain_block": -2000,
@@ -430,13 +352,7 @@
     {
         "section": "Unique Attacks",
         "name": "Bushin Prism Strikes(3)",
-        "input": [
-            "LP",
-            null,
-            "MP",
-            null,
-            "HP"
-        ],
+        "input": "LP>MP>HP",
         "startup": 12,
         "driveGain_hit": 1500,
         "driveDrain_block": -2000,
@@ -450,15 +366,7 @@
     {
         "section": "Unique Attacks",
         "name": "Bushin Prism Strikes(4)",
-        "input": [
-            "LP",
-            null,
-            "MP",
-            null,
-            "HP",
-            null,
-            "HK"
-        ],
+        "input": "LP>MP>HP>HK",
         "startup": 26,
         "driveGain_hit": 1500,
         "driveDrain_block": -2000,
@@ -472,15 +380,7 @@
     {
         "section": "Unique Attacks",
         "name": "Bushin Hellchain(3)",
-        "input": [
-            "LP",
-            null,
-            "MP",
-            null,
-            "2",
-            "+",
-            "HP"
-        ],
+        "input": "LP>MP>2+HP",
         "startup": 10,
         "driveGain_hit": 1500,
         "driveDrain_block": -2000,
@@ -494,17 +394,7 @@
     {
         "section": "Unique Attacks",
         "name": "Bushin Hellchain(4)",
-        "input": [
-            "LP",
-            null,
-            "MP",
-            null,
-            "2",
-            "+",
-            "HP",
-            null,
-            "HK"
-        ],
+        "input": "LP>MP>2+HP>HK",
         "startup": 15,
         "driveGain_hit": 1500,
         "driveDrain_block": -2000,
@@ -518,19 +408,7 @@
     {
         "section": "Unique Attacks",
         "name": "Bushin Hellchain Throw",
-        "input": [
-            "LP",
-            null,
-            "MP",
-            null,
-            "2",
-            "+",
-            "HP",
-            null,
-            "2",
-            "+",
-            "HK"
-        ],
+        "input": "LP>MP>2+HP>2+HK",
         "startup": 15,
         "driveGain_hit": 1500,
         "driveDrain_block": -2000,
@@ -544,13 +422,7 @@
     {
         "section": "Special Moves",
         "name": "L Bushin Senpukyaku",
-        "input": [
-            "2",
-            "1",
-            "4",
-            "+",
-            "LK"
-        ],
+        "input": "214+LK",
         "startup": 6,
         "driveGain_hit": 2000,
         "driveDrain_block": -1000,
@@ -564,13 +436,7 @@
     {
         "section": "Special Moves",
         "name": "M Bushin Senpukyaku",
-        "input": [
-            "2",
-            "1",
-            "4",
-            "+",
-            "MK"
-        ],
+        "input": "214+MK",
         "startup": 7,
         "driveGain_hit": 2000,
         "driveDrain_block": -1000,
@@ -584,13 +450,7 @@
     {
         "section": "Special Moves",
         "name": "H Bushin Senpukyaku",
-        "input": [
-            "2",
-            "1",
-            "4",
-            "+",
-            "HK"
-        ],
+        "input": "214+HK",
         "startup": 8,
         "driveGain_hit": 2000,
         "driveDrain_block": -1000,
@@ -604,14 +464,7 @@
     {
         "section": "Special Moves",
         "name": "OD Bushin Senpukyaku",
-        "input": [
-            "2",
-            "1",
-            "4",
-            "+",
-            "K",
-            "K"
-        ],
+        "input": "214+KK",
         "startup": 6,
         "driveGain_hit": 0,
         "driveDrain_block": -1000,
@@ -625,13 +478,7 @@
     {
         "section": "Special Moves",
         "name": "Aerial Bushin Senpukyaku",
-        "input": [
-            "2",
-            "1",
-            "4",
-            "+",
-            "K"
-        ],
+        "input": "214+K",
         "startup": 8,
         "driveGain_hit": 2000,
         "driveDrain_block": -4000,
@@ -645,14 +492,7 @@
     {
         "section": "Special Moves",
         "name": "OD Aerial Bushin Senpukyaku",
-        "input": [
-            "2",
-            "1",
-            "4",
-            "+",
-            "K",
-            "K"
-        ],
+        "input": "214+KK",
         "startup": 8,
         "driveGain_hit": 0,
         "driveDrain_block": -3000,
@@ -666,13 +506,7 @@
     {
         "section": "Special Moves",
         "name": "Sprint",
-        "input": [
-            "2",
-            "3",
-            "6",
-            "+",
-            "K"
-        ],
+        "input": "236+K",
         "startup": null,
         "driveGain_hit": 0,
         "driveDrain_block": 0,
@@ -686,14 +520,7 @@
     {
         "section": "Special Moves",
         "name": "OD Sprint",
-        "input": [
-            "2",
-            "3",
-            "6",
-            "+",
-            "K",
-            "K"
-        ],
+        "input": "236+KK",
         "startup": null,
         "driveGain_hit": 0,
         "driveDrain_block": 0,
@@ -707,9 +534,7 @@
     {
         "section": "Special Moves",
         "name": "Emergency Stop",
-        "input": [
-            "P"
-        ],
+        "input": "P",
         "startup": null,
         "driveGain_hit": 0,
         "driveDrain_block": 0,
@@ -723,9 +548,7 @@
     {
         "section": "Special Moves",
         "name": "OD Emergency Stop",
-        "input": [
-            "P"
-        ],
+        "input": "P",
         "startup": null,
         "driveGain_hit": 0,
         "driveDrain_block": 0,
@@ -739,9 +562,7 @@
     {
         "section": "Special Moves",
         "name": "Torso Cleaver",
-        "input": [
-            "LK"
-        ],
+        "input": "LK",
         "startup": 21,
         "driveGain_hit": 2000,
         "driveDrain_block": -4000,
@@ -755,9 +576,7 @@
     {
         "section": "Special Moves",
         "name": "OD Torso Cleaver",
-        "input": [
-            "LK"
-        ],
+        "input": "LK",
         "startup": 17,
         "driveGain_hit": 0,
         "driveDrain_block": -4000,
@@ -771,9 +590,7 @@
     {
         "section": "Special Moves",
         "name": "Shadow Slide",
-        "input": [
-            "MK"
-        ],
+        "input": "MK",
         "startup": 10,
         "driveGain_hit": 2000,
         "driveDrain_block": -4000,
@@ -787,9 +604,7 @@
     {
         "section": "Special Moves",
         "name": "OD Shadow Slide",
-        "input": [
-            "MK"
-        ],
+        "input": "MK",
         "startup": 8,
         "driveGain_hit": 0,
         "driveDrain_block": -5000,
@@ -803,9 +618,7 @@
     {
         "section": "Special Moves",
         "name": "Neck Hunter",
-        "input": [
-            "HK"
-        ],
+        "input": "HK",
         "startup": 19,
         "driveGain_hit": 2000,
         "driveDrain_block": -4000,
@@ -819,9 +632,7 @@
     {
         "section": "Special Moves",
         "name": "OD Neck Hunter",
-        "input": [
-            "HK"
-        ],
+        "input": "HK",
         "startup": 15,
         "driveGain_hit": 0,
         "driveDrain_block": -5000,
@@ -835,7 +646,7 @@
     {
         "section": "Special Moves",
         "name": "Arc Step",
-        "input": [],
+        "input": "",
         "startup": 8,
         "driveGain_hit": 1000,
         "driveDrain_block": -3000,
@@ -849,7 +660,7 @@
     {
         "section": "Special Moves",
         "name": "OD Arc Step",
-        "input": [],
+        "input": "",
         "startup": 8,
         "driveGain_hit": 0,
         "driveDrain_block": -3000,
@@ -863,9 +674,7 @@
     {
         "section": "Special Moves",
         "name": "Bushin Izuna Otoshi",
-        "input": [
-            "P"
-        ],
+        "input": "P",
         "startup": 13,
         "driveGain_hit": 2000,
         "driveDrain_block": 0,
@@ -879,9 +688,7 @@
     {
         "section": "Special Moves",
         "name": "OD Bushin Izuna Otoshi",
-        "input": [
-            "P"
-        ],
+        "input": "P",
         "startup": 13,
         "driveGain_hit": 0,
         "driveDrain_block": 0,
@@ -895,9 +702,7 @@
     {
         "section": "Special Moves",
         "name": "Bushin Hojin Kick",
-        "input": [
-            "K"
-        ],
+        "input": "K",
         "startup": 13,
         "driveGain_hit": 2000,
         "driveDrain_block": -5000,
@@ -911,9 +716,7 @@
     {
         "section": "Special Moves",
         "name": "OD Bushin Hojin Kick",
-        "input": [
-            "K"
-        ],
+        "input": "K",
         "startup": 13,
         "driveGain_hit": 0,
         "driveDrain_block": -2500,
@@ -927,13 +730,7 @@
     {
         "section": "Special Moves",
         "name": "L Vagabond Edge",
-        "input": [
-            "2",
-            "3",
-            "6",
-            "+",
-            "LP"
-        ],
+        "input": "236+LP",
         "startup": 10,
         "driveGain_hit": 2000,
         "driveDrain_block": -4000,
@@ -947,13 +744,7 @@
     {
         "section": "Special Moves",
         "name": "M Vagabond Edge",
-        "input": [
-            "2",
-            "3",
-            "6",
-            "+",
-            "MP"
-        ],
+        "input": "236+MP",
         "startup": 17,
         "driveGain_hit": 2400,
         "driveDrain_block": -4000,
@@ -967,13 +758,7 @@
     {
         "section": "Special Moves",
         "name": "H Vagabond Edge",
-        "input": [
-            "2",
-            "3",
-            "6",
-            "+",
-            "HP"
-        ],
+        "input": "236+HP",
         "startup": 24,
         "driveGain_hit": 2000,
         "driveDrain_block": -4000,
@@ -987,14 +772,7 @@
     {
         "section": "Special Moves",
         "name": "OD Vagabond Edge",
-        "input": [
-            "2",
-            "3",
-            "6",
-            "+",
-            "P",
-            "P"
-        ],
+        "input": "236+PP",
         "startup": 17,
         "driveGain_hit": 0,
         "driveDrain_block": -4000,
@@ -1008,13 +786,7 @@
     {
         "section": "Special Moves",
         "name": "Hidden Variable",
-        "input": [
-            "2",
-            "1",
-            "4",
-            "+",
-            "P"
-        ],
+        "input": "214+P",
         "startup": null,
         "driveGain_hit": 0,
         "driveDrain_block": 0,
@@ -1028,14 +800,7 @@
     {
         "section": "Special Moves",
         "name": "OD Hidden Variable",
-        "input": [
-            "2",
-            "1",
-            "4",
-            "+",
-            "P",
-            "P"
-        ],
+        "input": "214+PP",
         "startup": null,
         "driveGain_hit": 0,
         "driveDrain_block": 0,
@@ -1049,12 +814,7 @@
     {
         "section": "Special Moves",
         "name": "Genius at Play",
-        "input": [
-            "2",
-            "2",
-            "+",
-            "P"
-        ],
+        "input": "22+P",
         "startup": null,
         "driveGain_hit": 0,
         "driveDrain_block": 0,
@@ -1068,13 +828,7 @@
     {
         "section": "Special Moves",
         "name": "OD Genius at Play",
-        "input": [
-            "2",
-            "2",
-            "+",
-            "P",
-            "P"
-        ],
+        "input": "22+PP",
         "startup": null,
         "driveGain_hit": 0,
         "driveDrain_block": 0,
@@ -1088,12 +842,7 @@
     {
         "section": "Special Moves",
         "name": "L Shuriken Bomb",
-        "input": [
-            "2",
-            "2",
-            "+",
-            "LP"
-        ],
+        "input": "22+LP",
         "startup": 122,
         "driveGain_hit": 1000,
         "driveDrain_block": -4000,
@@ -1107,12 +856,7 @@
     {
         "section": "Special Moves",
         "name": "M Shuriken Bomb",
-        "input": [
-            "2",
-            "2",
-            "+",
-            "MP"
-        ],
+        "input": "22+MP",
         "startup": 124,
         "driveGain_hit": 1000,
         "driveDrain_block": -4000,
@@ -1126,12 +870,7 @@
     {
         "section": "Special Moves",
         "name": "H Shuriken Bomb",
-        "input": [
-            "2",
-            "2",
-            "+",
-            "HP"
-        ],
+        "input": "22+HP",
         "startup": 128,
         "driveGain_hit": 1000,
         "driveDrain_block": -4000,
@@ -1145,13 +884,7 @@
     {
         "section": "Special Moves",
         "name": "L Shuriken Bomb Spread",
-        "input": [
-            "2",
-            "2",
-            "+",
-            "LP",
-            "MP"
-        ],
+        "input": "22+LPMP",
         "startup": null,
         "driveGain_hit": 1000,
         "driveDrain_block": -4000,
@@ -1165,13 +898,7 @@
     {
         "section": "Special Moves",
         "name": "M Shuriken Bomb Spread",
-        "input": [
-            "2",
-            "2",
-            "+",
-            "LP",
-            "HP"
-        ],
+        "input": "22+LPHP",
         "startup": null,
         "driveGain_hit": 1000,
         "driveDrain_block": -4000,
@@ -1185,13 +912,7 @@
     {
         "section": "Special Moves",
         "name": "H Shuriken Bomb Spread",
-        "input": [
-            "2",
-            "2",
-            "+",
-            "MP",
-            "HP"
-        ],
+        "input": "22+MPHP",
         "startup": null,
         "driveGain_hit": 1000,
         "driveDrain_block": -4000,
@@ -1205,13 +926,7 @@
     {
         "section": "Special Moves",
         "name": "Nue Twister",
-        "input": [
-            "2",
-            "3",
-            "6",
-            "+",
-            "P"
-        ],
+        "input": "236+P",
         "startup": 5,
         "driveGain_hit": 2000,
         "driveDrain_block": 0,
@@ -1225,14 +940,7 @@
     {
         "section": "Special Moves",
         "name": "OD Nue Twister",
-        "input": [
-            "2",
-            "3",
-            "6",
-            "+",
-            "P",
-            "P"
-        ],
+        "input": "236+PP",
         "startup": 5,
         "driveGain_hit": 0,
         "driveDrain_block": 0,
@@ -1246,16 +954,7 @@
     {
         "section": "Super Arts",
         "name": "SA1 Bushin Beats",
-        "input": [
-            "2",
-            "3",
-            "6",
-            "2",
-            "3",
-            "6",
-            "+",
-            "K"
-        ],
+        "input": "236236+K",
         "startup": 12,
         "driveGain_hit": 0,
         "driveDrain_block": -2500,
@@ -1269,16 +968,7 @@
     {
         "section": "Super Arts",
         "name": "SA1 Bushin Thunderous Beats",
-        "input": [
-            "2",
-            "3",
-            "6",
-            "2",
-            "3",
-            "6",
-            "+",
-            "K"
-        ],
+        "input": "236236+K",
         "startup": 12,
         "driveGain_hit": 0,
         "driveDrain_block": -2500,
@@ -1292,16 +982,7 @@
     {
         "section": "Super Arts",
         "name": "SA2 Bushin Scramble",
-        "input": [
-            "2",
-            "1",
-            "4",
-            "2",
-            "1",
-            "4",
-            "+",
-            "P"
-        ],
+        "input": "214214+P",
         "startup": 13,
         "driveGain_hit": 0,
         "driveDrain_block": -5000,
@@ -1315,16 +996,7 @@
     {
         "section": "Super Arts",
         "name": "SA2 Soaring Bushin Scramble",
-        "input": [
-            "2",
-            "1",
-            "4",
-            "2",
-            "1",
-            "4",
-            "+",
-            "P"
-        ],
+        "input": "214214+P",
         "startup": 13,
         "driveGain_hit": 0,
         "driveDrain_block": -5000,
@@ -1338,16 +1010,7 @@
     {
         "section": "Super Arts",
         "name": "SA3 Bushin Ninjastar Cypher",
-        "input": [
-            "2",
-            "3",
-            "6",
-            "2",
-            "3",
-            "6",
-            "+",
-            "P"
-        ],
+        "input": "236236+P",
         "startup": 8,
         "driveGain_hit": 0,
         "driveDrain_block": -7500,
@@ -1361,16 +1024,7 @@
     {
         "section": "Super Arts",
         "name": "CA Bushin Ninjastar Cypher",
-        "input": [
-            "2",
-            "3",
-            "6",
-            "2",
-            "3",
-            "6",
-            "+",
-            "P"
-        ],
+        "input": "236236+P",
         "startup": 8,
         "driveGain_hit": 0,
         "driveDrain_block": -10000,
@@ -1384,14 +1038,7 @@
     {
         "section": "Throws",
         "name": "Ripcord Throw",
-        "input": [
-            null,
-            null,
-            "6",
-            "+",
-            "LP",
-            "LK"
-        ],
+        "input": "5/6+LPLK",
         "startup": 5,
         "driveGain_hit": 2000,
         "driveDrain_block": 0,
@@ -1405,12 +1052,7 @@
     {
         "section": "Throws",
         "name": "Bell Ringer",
-        "input": [
-            "4",
-            "+",
-            "LP",
-            "LK"
-        ],
+        "input": "4+LPLK",
         "startup": 5,
         "driveGain_hit": 2000,
         "driveDrain_block": 0,
@@ -1424,10 +1066,7 @@
     {
         "section": "Common Moves",
         "name": "Forward Dash",
-        "input": [
-            "6",
-            "6"
-        ],
+        "input": "66",
         "startup": null,
         "driveGain_hit": 0,
         "driveDrain_block": 0,
@@ -1441,10 +1080,7 @@
     {
         "section": "Common Moves",
         "name": "Backward Dash",
-        "input": [
-            "4",
-            "4"
-        ],
+        "input": "44",
         "startup": null,
         "driveGain_hit": 0,
         "driveDrain_block": 0,
@@ -1458,10 +1094,7 @@
     {
         "section": "Common Moves",
         "name": "Drive Impact: Steadfast Strike",
-        "input": [
-            "HP",
-            "HK"
-        ],
+        "input": "HPHK",
         "startup": 26,
         "driveGain_hit": 0,
         "driveDrain_block": -5000,
@@ -1475,12 +1108,7 @@
     {
         "section": "Common Moves",
         "name": "Drive Reversal: Shapeless State",
-        "input": [
-            "6",
-            "+",
-            "HP",
-            "HK"
-        ],
+        "input": "6+HPHK",
         "startup": 20,
         "driveGain_hit": 0,
         "driveDrain_block": 0,
@@ -1494,10 +1122,7 @@
     {
         "section": "Common Moves",
         "name": "Drive Parry",
-        "input": [
-            "MP",
-            "MK"
-        ],
+        "input": "MPMK",
         "startup": 1,
         "driveGain_hit": 0,
         "driveDrain_block": 0,
@@ -1511,10 +1136,7 @@
     {
         "section": "Common Moves",
         "name": "Perfect Parry (strike)",
-        "input": [
-            "MP",
-            "MK"
-        ],
+        "input": "MPMK",
         "startup": 1,
         "driveGain_hit": null,
         "driveDrain_block": null,
@@ -1528,10 +1150,7 @@
     {
         "section": "Common Moves",
         "name": "Perfect Parry (projectile)",
-        "input": [
-            "MP",
-            "MK"
-        ],
+        "input": "MPMK",
         "startup": 1,
         "driveGain_hit": null,
         "driveDrain_block": null,
@@ -1545,10 +1164,7 @@
     {
         "section": "Common Moves",
         "name": "Parry Drive Rush",
-        "input": [
-            "6",
-            "6"
-        ],
+        "input": "66",
         "startup": null,
         "driveGain_hit": 0,
         "driveDrain_block": 0,
@@ -1562,17 +1178,7 @@
     {
         "section": "Common Moves",
         "name": "Cancel Drive Rush",
-        "input": [
-            "6",
-            "6",
-            null,
-            null,
-            null,
-            "6",
-            "+",
-            "MP",
-            "MK"
-        ],
+        "input": "66/5/6+MPMK",
         "startup": null,
         "driveGain_hit": 0,
         "driveDrain_block": 0,

@@ -463,7 +463,7 @@
         "Move Name": "Double Arrow",
         "input": [
             "MP",
-            null,
+            ">",
             "MP"
         ],
         "Frame.Start-up": 10,
@@ -511,7 +511,7 @@
             "6",
             "+",
             "HP",
-            null,
+            ">",
             "HP"
         ],
         "Frame.Start-up": 20,
@@ -536,9 +536,9 @@
             "6",
             "+",
             "HP",
-            null,
+            ">",
             "HP",
-            null,
+            ">",
             "HP"
         ],
         "Frame.Start-up": 20,
@@ -1155,7 +1155,7 @@
         "section": "Special Moves",
         "Move Name": "L Mexican Typhoon",
         "input": [
-            null,
+            "360",
             "+",
             "LP"
         ],
@@ -1178,7 +1178,7 @@
         "section": "Special Moves",
         "Move Name": "M Mexican Typhoon",
         "input": [
-            null,
+            "360",
             "+",
             "MP"
         ],
@@ -1201,7 +1201,7 @@
         "section": "Special Moves",
         "Move Name": "H Mexican Typhoon",
         "input": [
-            null,
+            "360",
             "+",
             "HP"
         ],
@@ -1224,7 +1224,7 @@
         "section": "Special Moves",
         "Move Name": "OD Mexican Typhoon",
         "input": [
-            null,
+            "360",
             "+",
             "P",
             "P"
@@ -1444,8 +1444,8 @@
         "section": "Throws",
         "Move Name": "Canyon Throw",
         "input": [
-            null,
-            null,
+            "5",
+            "/",
             "6",
             "+",
             "LP",
@@ -1674,9 +1674,9 @@
         "input": [
             "6",
             "6",
-            null,
-            null,
-            null,
+            "/",
+            "5",
+            "/",
             "6",
             "+",
             "MP",

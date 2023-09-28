@@ -2,9 +2,7 @@
     {
         "section": "Normal Moves",
         "name": "Standing Light Punch",
-        "input": [
-            "LP"
-        ],
+        "input": "LP",
         "startup": 5,
         "driveGain_hit": 250,
         "driveDrain_block": -500,
@@ -18,9 +16,7 @@
     {
         "section": "Normal Moves",
         "name": "Standing Light Kick",
-        "input": [
-            "LK"
-        ],
+        "input": "LK",
         "startup": 4,
         "driveGain_hit": 250,
         "driveDrain_block": -500,
@@ -34,9 +30,7 @@
     {
         "section": "Normal Moves",
         "name": "Standing Medium Punch",
-        "input": [
-            "MP"
-        ],
+        "input": "MP",
         "startup": 10,
         "driveGain_hit": 2000,
         "driveDrain_block": -4000,
@@ -50,9 +44,7 @@
     {
         "section": "Normal Moves",
         "name": "Standing Medium Kick",
-        "input": [
-            "MK"
-        ],
+        "input": "MK",
         "startup": 8,
         "driveGain_hit": 2000,
         "driveDrain_block": -3000,
@@ -66,9 +58,7 @@
     {
         "section": "Normal Moves",
         "name": "Standing Heavy Punch",
-        "input": [
-            "HP"
-        ],
+        "input": "HP",
         "startup": 10,
         "driveGain_hit": 2000,
         "driveDrain_block": -5000,
@@ -82,9 +72,7 @@
     {
         "section": "Normal Moves",
         "name": "Standing Heavy Kick",
-        "input": [
-            "HK"
-        ],
+        "input": "HK",
         "startup": 7,
         "driveGain_hit": 3000,
         "driveDrain_block": -4000,
@@ -98,11 +86,7 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Light Punch",
-        "input": [
-            "2",
-            "+",
-            "LP"
-        ],
+        "input": "2+LP",
         "startup": 6,
         "driveGain_hit": 250,
         "driveDrain_block": -500,
@@ -116,11 +100,7 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Light Kick",
-        "input": [
-            "2",
-            "+",
-            "LK"
-        ],
+        "input": "2+LK",
         "startup": 5,
         "driveGain_hit": 250,
         "driveDrain_block": -500,
@@ -134,11 +114,7 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Medium Punch",
-        "input": [
-            "2",
-            "+",
-            "MP"
-        ],
+        "input": "2+MP",
         "startup": 9,
         "driveGain_hit": 1500,
         "driveDrain_block": -3000,
@@ -152,11 +128,7 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Medium Kick",
-        "input": [
-            "2",
-            "+",
-            "MK"
-        ],
+        "input": "2+MK",
         "startup": 8,
         "driveGain_hit": 1000,
         "driveDrain_block": -2000,
@@ -170,11 +142,7 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Heavy Punch",
-        "input": [
-            "2",
-            "+",
-            "HP"
-        ],
+        "input": "2+HP",
         "startup": 15,
         "driveGain_hit": 3000,
         "driveDrain_block": -6000,
@@ -188,11 +156,7 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Heavy Kick",
-        "input": [
-            "2",
-            "+",
-            "HK"
-        ],
+        "input": "2+HK",
         "startup": 11,
         "driveGain_hit": 2000,
         "driveDrain_block": -5000,
@@ -206,9 +170,7 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Light Punch",
-        "input": [
-            "LP"
-        ],
+        "input": "LP",
         "startup": 4,
         "driveGain_hit": 500,
         "driveDrain_block": -1500,
@@ -222,9 +184,7 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Light Kick",
-        "input": [
-            "LK"
-        ],
+        "input": "LK",
         "startup": 5,
         "driveGain_hit": 500,
         "driveDrain_block": -1500,
@@ -238,9 +198,7 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Medium Punch",
-        "input": [
-            "MP"
-        ],
+        "input": "MP",
         "startup": 7,
         "driveGain_hit": 1000,
         "driveDrain_block": -2500,
@@ -254,9 +212,7 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Medium Kick",
-        "input": [
-            "MK"
-        ],
+        "input": "MK",
         "startup": 7,
         "driveGain_hit": 1000,
         "driveDrain_block": -2500,
@@ -270,9 +226,7 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Heavy Punch",
-        "input": [
-            "HP"
-        ],
+        "input": "HP",
         "startup": 9,
         "driveGain_hit": 2000,
         "driveDrain_block": -4000,
@@ -286,9 +240,7 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Heavy Kick",
-        "input": [
-            "HK"
-        ],
+        "input": "HK",
         "startup": 11,
         "driveGain_hit": 2000,
         "driveDrain_block": -4000,
@@ -302,9 +254,7 @@
     {
         "section": "Normal Moves",
         "name": "Neutral Jumping Heavy Punch",
-        "input": [
-            "HP"
-        ],
+        "input": "HP",
         "startup": 7,
         "driveGain_hit": 2000,
         "driveDrain_block": -4000,
@@ -318,11 +268,7 @@
     {
         "section": "Unique Attacks",
         "name": "Rock Crusher",
-        "input": [
-            "6",
-            "+",
-            "MP"
-        ],
+        "input": "6+MP",
         "startup": 20,
         "driveGain_hit": 1500,
         "driveDrain_block": -1250,
@@ -336,11 +282,7 @@
     {
         "section": "Unique Attacks",
         "name": "Double Knee Bombs",
-        "input": [
-            "6",
-            "+",
-            "MK"
-        ],
+        "input": "6+MK",
         "startup": 9,
         "driveGain_hit": 2000,
         "driveDrain_block": -2000,
@@ -354,11 +296,7 @@
     {
         "section": "Unique Attacks",
         "name": "Wild Edge",
-        "input": [
-            "4",
-            "+",
-            "MK"
-        ],
+        "input": "4+MK",
         "startup": 9,
         "driveGain_hit": 1500,
         "driveDrain_block": -3000,
@@ -372,11 +310,7 @@
     {
         "section": "Unique Attacks",
         "name": "Wild Nail",
-        "input": [
-            "6",
-            "+",
-            "HP"
-        ],
+        "input": "6+HP",
         "startup": 18,
         "driveGain_hit": 3000,
         "driveDrain_block": -6000,
@@ -390,11 +324,7 @@
     {
         "section": "Unique Attacks",
         "name": "Amazon River Run",
-        "input": [
-            "3",
-            "+",
-            "HP"
-        ],
+        "input": "3+HP",
         "startup": 14,
         "driveGain_hit": 2000,
         "driveDrain_block": -4000,
@@ -408,12 +338,7 @@
     {
         "section": "Unique Attacks",
         "name": "Coward Crouch",
-        "input": [
-            "2",
-            "+",
-            "P",
-            "P"
-        ],
+        "input": "2+PP",
         "startup": null,
         "driveGain_hit": 0,
         "driveDrain_block": 0,
@@ -427,9 +352,7 @@
     {
         "section": "Unique Attacks",
         "name": "Wild Lift",
-        "input": [
-            "P"
-        ],
+        "input": "P",
         "startup": 8,
         "driveGain_hit": 1000,
         "driveDrain_block": -3000,
@@ -443,9 +366,7 @@
     {
         "section": "Unique Attacks",
         "name": "Raid Jump",
-        "input": [
-            "K"
-        ],
+        "input": "K",
         "startup": null,
         "driveGain_hit": 0,
         "driveDrain_block": 0,
@@ -459,13 +380,7 @@
     {
         "section": "Unique Attacks",
         "name": "Surprise Forward Hop",
-        "input": [
-            "6",
-            "+",
-            "K",
-            "K",
-            "K"
-        ],
+        "input": "6+KKK",
         "startup": null,
         "driveGain_hit": 0,
         "driveDrain_block": 0,
@@ -479,13 +394,7 @@
     {
         "section": "Unique Attacks",
         "name": "Surprise Back Hop",
-        "input": [
-            "4",
-            "+",
-            "K",
-            "K",
-            "K"
-        ],
+        "input": "4+KKK",
         "startup": null,
         "driveGain_hit": 0,
         "driveDrain_block": 0,
@@ -499,13 +408,7 @@
     {
         "section": "Special Moves",
         "name": "Electric Thunder",
-        "input": [
-            "2",
-            "1",
-            "4",
-            "+",
-            "P"
-        ],
+        "input": "214+P",
         "startup": 10,
         "driveGain_hit": 2000,
         "driveDrain_block": -2000,
@@ -519,13 +422,7 @@
     {
         "section": "Special Moves",
         "name": "[Lightning Beast] Electric Thunder",
-        "input": [
-            "2",
-            "1",
-            "4",
-            "+",
-            "P"
-        ],
+        "input": "214+P",
         "startup": 10,
         "driveGain_hit": 2000,
         "driveDrain_block": -2000,
@@ -539,14 +436,7 @@
     {
         "section": "Special Moves",
         "name": "OD Electric Thunder",
-        "input": [
-            "2",
-            "1",
-            "4",
-            "+",
-            "P",
-            "P"
-        ],
+        "input": "214+PP",
         "startup": 10,
         "driveGain_hit": 0,
         "driveDrain_block": -4000,
@@ -560,14 +450,7 @@
     {
         "section": "Special Moves",
         "name": "[Lightning Beast]OD Electric Thunder",
-        "input": [
-            "2",
-            "1",
-            "4",
-            "+",
-            "P",
-            "P"
-        ],
+        "input": "214+PP",
         "startup": 10,
         "driveGain_hit": 0,
         "driveDrain_block": -4000,
@@ -581,12 +464,7 @@
     {
         "section": "Special Moves",
         "name": "L Rolling Attack",
-        "input": [
-            null,
-            "6",
-            "+",
-            "LP"
-        ],
+        "input": "[4]6+LP",
         "startup": 10,
         "driveGain_hit": 2000,
         "driveDrain_block": -7500,
@@ -600,12 +478,7 @@
     {
         "section": "Special Moves",
         "name": "[Lightning Beast] L Rolling Attack",
-        "input": [
-            null,
-            "6",
-            "+",
-            "LP"
-        ],
+        "input": "[4]6+LP",
         "startup": 10,
         "driveGain_hit": 2000,
         "driveDrain_block": -7500,
@@ -619,12 +492,7 @@
     {
         "section": "Special Moves",
         "name": "M Rolling Attack",
-        "input": [
-            null,
-            "6",
-            "+",
-            "MP"
-        ],
+        "input": "[4]6+MP",
         "startup": 12,
         "driveGain_hit": 2000,
         "driveDrain_block": -7500,
@@ -638,12 +506,7 @@
     {
         "section": "Special Moves",
         "name": "[Lightning Beast] M Rolling Attack",
-        "input": [
-            null,
-            "6",
-            "+",
-            "MP"
-        ],
+        "input": "[4]6+MP",
         "startup": 12,
         "driveGain_hit": 2000,
         "driveDrain_block": -7500,
@@ -657,12 +520,7 @@
     {
         "section": "Special Moves",
         "name": "H Rolling Attack",
-        "input": [
-            null,
-            "6",
-            "+",
-            "HP"
-        ],
+        "input": "[4]6+HP",
         "startup": 22,
         "driveGain_hit": 2000,
         "driveDrain_block": -10000,
@@ -676,12 +534,7 @@
     {
         "section": "Special Moves",
         "name": "[Lightning Beast] H Rolling Attack",
-        "input": [
-            null,
-            "6",
-            "+",
-            "HP"
-        ],
+        "input": "[4]6+HP",
         "startup": 22,
         "driveGain_hit": 2000,
         "driveDrain_block": -10000,
@@ -695,13 +548,7 @@
     {
         "section": "Special Moves",
         "name": "OD Rolling Attack",
-        "input": [
-            null,
-            "6",
-            "+",
-            "P",
-            "P"
-        ],
+        "input": "[4]6+PP",
         "startup": 18,
         "driveGain_hit": 0,
         "driveDrain_block": -10000,
@@ -715,13 +562,7 @@
     {
         "section": "Special Moves",
         "name": "[Lightning Beast] OD Rolling Attack",
-        "input": [
-            null,
-            "6",
-            "+",
-            "P",
-            "P"
-        ],
+        "input": "[4]6+PP",
         "startup": 18,
         "driveGain_hit": 0,
         "driveDrain_block": -10000,
@@ -735,12 +576,7 @@
     {
         "section": "Special Moves",
         "name": "L Vertical Rolling Attack",
-        "input": [
-            null,
-            null,
-            "+",
-            "LK"
-        ],
+        "input": "[2]8+LK",
         "startup": 8,
         "driveGain_hit": 2000,
         "driveDrain_block": -4000,
@@ -754,12 +590,7 @@
     {
         "section": "Special Moves",
         "name": "[Lightning Beast] L Vertical Rolling Attack",
-        "input": [
-            null,
-            null,
-            "+",
-            "LK"
-        ],
+        "input": "[2]8+LK",
         "startup": 8,
         "driveGain_hit": 2000,
         "driveDrain_block": -4000,
@@ -773,12 +604,7 @@
     {
         "section": "Special Moves",
         "name": "M Vertical Rolling Attack",
-        "input": [
-            null,
-            null,
-            "+",
-            "MK"
-        ],
+        "input": "[2]8+MK",
         "startup": 8,
         "driveGain_hit": 2000,
         "driveDrain_block": -4000,
@@ -792,12 +618,7 @@
     {
         "section": "Special Moves",
         "name": "[Lightning Beast] M Vertical Rolling Attack",
-        "input": [
-            null,
-            null,
-            "+",
-            "MK"
-        ],
+        "input": "[2]8+MK",
         "startup": 8,
         "driveGain_hit": 2000,
         "driveDrain_block": -4000,
@@ -811,12 +632,7 @@
     {
         "section": "Special Moves",
         "name": "H Vertical Rolling Attack",
-        "input": [
-            null,
-            null,
-            "+",
-            "HK"
-        ],
+        "input": "[2]8+HK",
         "startup": 8,
         "driveGain_hit": 2000,
         "driveDrain_block": -4000,
@@ -830,12 +646,7 @@
     {
         "section": "Special Moves",
         "name": "[Lightning Beast] H Vertical Rolling Attack",
-        "input": [
-            null,
-            null,
-            "+",
-            "HK"
-        ],
+        "input": "[2]8+HK",
         "startup": 8,
         "driveGain_hit": 2000,
         "driveDrain_block": -4000,
@@ -849,13 +660,7 @@
     {
         "section": "Special Moves",
         "name": "OD Vertical Rolling Attack",
-        "input": [
-            null,
-            null,
-            "+",
-            "K",
-            "K"
-        ],
+        "input": "[2]8+KK",
         "startup": 7,
         "driveGain_hit": 0,
         "driveDrain_block": -4000,
@@ -869,13 +674,7 @@
     {
         "section": "Special Moves",
         "name": "[Lightning Beast] OD Vertical Rolling Attack",
-        "input": [
-            null,
-            null,
-            "+",
-            "K",
-            "K"
-        ],
+        "input": "[2]8+KK",
         "startup": 7,
         "driveGain_hit": 0,
         "driveDrain_block": -4000,
@@ -889,15 +688,7 @@
     {
         "section": "Special Moves",
         "name": "L Backstep Rolling Attack",
-        "input": [
-            "6",
-            "3",
-            "2",
-            "1",
-            "4",
-            "+",
-            "LK"
-        ],
+        "input": "63214+LK",
         "startup": 41,
         "driveGain_hit": 2000,
         "driveDrain_block": -8000,
@@ -911,15 +702,7 @@
     {
         "section": "Special Moves",
         "name": "[Lightning Beast] L Backstep Rolling Attack",
-        "input": [
-            "6",
-            "3",
-            "2",
-            "1",
-            "4",
-            "+",
-            "LK"
-        ],
+        "input": "63214+LK",
         "startup": 41,
         "driveGain_hit": 2000,
         "driveDrain_block": -8000,
@@ -933,15 +716,7 @@
     {
         "section": "Special Moves",
         "name": "M Backstep Rolling Attack",
-        "input": [
-            "6",
-            "3",
-            "2",
-            "1",
-            "4",
-            "+",
-            "MK"
-        ],
+        "input": "63214+MK",
         "startup": 41,
         "driveGain_hit": 2000,
         "driveDrain_block": -8000,
@@ -955,15 +730,7 @@
     {
         "section": "Special Moves",
         "name": "[Lightning Beast] M Backstep Rolling Attack",
-        "input": [
-            "6",
-            "3",
-            "2",
-            "1",
-            "4",
-            "+",
-            "MK"
-        ],
+        "input": "63214+MK",
         "startup": 41,
         "driveGain_hit": 2000,
         "driveDrain_block": -8000,
@@ -977,15 +744,7 @@
     {
         "section": "Special Moves",
         "name": "H Backstep Rolling Attack",
-        "input": [
-            "6",
-            "3",
-            "2",
-            "1",
-            "4",
-            "+",
-            "HK"
-        ],
+        "input": "63214+HK",
         "startup": 41,
         "driveGain_hit": 2000,
         "driveDrain_block": -8000,
@@ -999,15 +758,7 @@
     {
         "section": "Special Moves",
         "name": "[Lightning Beast] H Backstep Rolling Attack",
-        "input": [
-            "6",
-            "3",
-            "2",
-            "1",
-            "4",
-            "+",
-            "HK"
-        ],
+        "input": "63214+HK",
         "startup": 41,
         "driveGain_hit": 2000,
         "driveDrain_block": -8000,
@@ -1021,16 +772,7 @@
     {
         "section": "Special Moves",
         "name": "OD Backstep Rolling Attack",
-        "input": [
-            "6",
-            "3",
-            "2",
-            "1",
-            "4",
-            "+",
-            "K",
-            "K"
-        ],
+        "input": "63214+KK",
         "startup": 8,
         "driveGain_hit": 0,
         "driveDrain_block": -10000,
@@ -1044,16 +786,7 @@
     {
         "section": "Special Moves",
         "name": "[Lightning Beast] OD Backstep Rolling Attack",
-        "input": [
-            "6",
-            "3",
-            "2",
-            "1",
-            "4",
-            "+",
-            "K",
-            "K"
-        ],
+        "input": "63214+KK",
         "startup": 8,
         "driveGain_hit": 0,
         "driveDrain_block": -10000,
@@ -1067,12 +800,7 @@
     {
         "section": "Special Moves",
         "name": "L Aerial Rolling Attack",
-        "input": [
-            null,
-            "6",
-            "+",
-            "LP"
-        ],
+        "input": "[4]6+LP",
         "startup": 13,
         "driveGain_hit": 2000,
         "driveDrain_block": -4000,
@@ -1086,12 +814,7 @@
     {
         "section": "Special Moves",
         "name": "[Lightning Beast] L Aerial Rolling Attack",
-        "input": [
-            null,
-            "6",
-            "+",
-            "LP"
-        ],
+        "input": "[4]6+LP",
         "startup": 13,
         "driveGain_hit": 2000,
         "driveDrain_block": -4000,
@@ -1105,12 +828,7 @@
     {
         "section": "Special Moves",
         "name": "M Aerial Rolling Attack",
-        "input": [
-            null,
-            "6",
-            "+",
-            "MP"
-        ],
+        "input": "[4]6+MP",
         "startup": 13,
         "driveGain_hit": 2000,
         "driveDrain_block": -4000,
@@ -1124,12 +842,7 @@
     {
         "section": "Special Moves",
         "name": "[Lightning Beast] M Aerial Rolling Attack",
-        "input": [
-            null,
-            "6",
-            "+",
-            "MP"
-        ],
+        "input": "[4]6+MP",
         "startup": 13,
         "driveGain_hit": 2000,
         "driveDrain_block": -4000,
@@ -1143,12 +856,7 @@
     {
         "section": "Special Moves",
         "name": "H Aerial Rolling Attack",
-        "input": [
-            null,
-            "6",
-            "+",
-            "HP"
-        ],
+        "input": "[4]6+HP",
         "startup": 13,
         "driveGain_hit": 2000,
         "driveDrain_block": -4000,
@@ -1162,12 +870,7 @@
     {
         "section": "Special Moves",
         "name": "[Lightning Beast] H Aerial Rolling Attack",
-        "input": [
-            null,
-            "6",
-            "+",
-            "HP"
-        ],
+        "input": "[4]6+HP",
         "startup": 13,
         "driveGain_hit": 2000,
         "driveDrain_block": -4000,
@@ -1181,13 +884,7 @@
     {
         "section": "Special Moves",
         "name": "OD Aerial Rolling Attack",
-        "input": [
-            null,
-            "6",
-            "+",
-            "P",
-            "P"
-        ],
+        "input": "[4]6+PP",
         "startup": 13,
         "driveGain_hit": 0,
         "driveDrain_block": -4000,
@@ -1201,13 +898,7 @@
     {
         "section": "Special Moves",
         "name": "[Lightning Beast] OD Aerial Rolling Attack",
-        "input": [
-            null,
-            "6",
-            "+",
-            "P",
-            "P"
-        ],
+        "input": "[4]6+PP",
         "startup": 13,
         "driveGain_hit": 0,
         "driveDrain_block": -4000,
@@ -1221,13 +912,7 @@
     {
         "section": "Special Moves",
         "name": "L Wild Hunt",
-        "input": [
-            "2",
-            "3",
-            "6",
-            "+",
-            "LK"
-        ],
+        "input": "236+LK",
         "startup": 34,
         "driveGain_hit": 5000,
         "driveDrain_block": 0,
@@ -1241,13 +926,7 @@
     {
         "section": "Special Moves",
         "name": "M Wild Hunt",
-        "input": [
-            "2",
-            "3",
-            "6",
-            "+",
-            "MK"
-        ],
+        "input": "236+MK",
         "startup": 39,
         "driveGain_hit": 5000,
         "driveDrain_block": 0,
@@ -1261,13 +940,7 @@
     {
         "section": "Special Moves",
         "name": "H Wild Hunt",
-        "input": [
-            "2",
-            "3",
-            "6",
-            "+",
-            "HK"
-        ],
+        "input": "236+HK",
         "startup": 43,
         "driveGain_hit": 5000,
         "driveDrain_block": 0,
@@ -1281,14 +954,7 @@
     {
         "section": "Special Moves",
         "name": "OD Wild Hunt",
-        "input": [
-            "2",
-            "3",
-            "6",
-            "+",
-            "K",
-            "K"
-        ],
+        "input": "236+KK",
         "startup": 32,
         "driveGain_hit": 0,
         "driveDrain_block": 0,
@@ -1302,12 +968,7 @@
     {
         "section": "Special Moves",
         "name": "Blanka-chan Bomb",
-        "input": [
-            "2",
-            "2",
-            "+",
-            "P"
-        ],
+        "input": "22+P",
         "startup": null,
         "driveGain_hit": 0,
         "driveDrain_block": 0,
@@ -1321,10 +982,7 @@
     {
         "section": "Special Moves",
         "name": "Rolling Cannon",
-        "input": [
-            "+",
-            "P"
-        ],
+        "input": "+P",
         "startup": 3,
         "driveGain_hit": 1000,
         "driveDrain_block": -1000,
@@ -1338,16 +996,7 @@
     {
         "section": "Super Arts",
         "name": "SA1 Shout of Earth",
-        "input": [
-            "2",
-            "3",
-            "6",
-            "2",
-            "3",
-            "6",
-            "+",
-            "P"
-        ],
+        "input": "236236+P",
         "startup": 8,
         "driveGain_hit": 0,
         "driveDrain_block": -2500,
@@ -1361,16 +1010,7 @@
     {
         "section": "Super Arts",
         "name": "[Lightning Beast] SA1 Shout of Earth",
-        "input": [
-            "2",
-            "3",
-            "6",
-            "2",
-            "3",
-            "6",
-            "+",
-            "P"
-        ],
+        "input": "236236+P",
         "startup": 8,
         "driveGain_hit": 0,
         "driveDrain_block": -2500,
@@ -1384,16 +1024,7 @@
     {
         "section": "Super Arts",
         "name": "SA2 Lightning Beast",
-        "input": [
-            "2",
-            "1",
-            "4",
-            "2",
-            "1",
-            "4",
-            "+",
-            "P"
-        ],
+        "input": "214214+P",
         "startup": null,
         "driveGain_hit": 0,
         "driveDrain_block": 0,
@@ -1407,16 +1038,7 @@
     {
         "section": "Super Arts",
         "name": "SA3 Ground Shave Cannonball",
-        "input": [
-            "2",
-            "3",
-            "6",
-            "2",
-            "3",
-            "6",
-            "+",
-            "K"
-        ],
+        "input": "236236+K",
         "startup": 10,
         "driveGain_hit": 0,
         "driveDrain_block": -7500,
@@ -1430,16 +1052,7 @@
     {
         "section": "Super Arts",
         "name": "CA Ground Shave Cannonball",
-        "input": [
-            "2",
-            "3",
-            "6",
-            "2",
-            "3",
-            "6",
-            "+",
-            "K"
-        ],
+        "input": "236236+K",
         "startup": 10,
         "driveGain_hit": 0,
         "driveDrain_block": -10000,
@@ -1453,14 +1066,7 @@
     {
         "section": "Throws",
         "name": "Wild Fang",
-        "input": [
-            null,
-            null,
-            "6",
-            "+",
-            "LP",
-            "LK"
-        ],
+        "input": "5/6+LPLK",
         "startup": 5,
         "driveGain_hit": 2000,
         "driveDrain_block": 0,
@@ -1474,12 +1080,7 @@
     {
         "section": "Throws",
         "name": "Jungle Flip",
-        "input": [
-            "4",
-            "+",
-            "LP",
-            "LK"
-        ],
+        "input": "4+LPLK",
         "startup": 5,
         "driveGain_hit": 2000,
         "driveDrain_block": 0,
@@ -1493,10 +1094,7 @@
     {
         "section": "Throws",
         "name": "Wild Bites",
-        "input": [
-            "LP",
-            "LK"
-        ],
+        "input": "LPLK",
         "startup": 5,
         "driveGain_hit": 2000,
         "driveDrain_block": 0,
@@ -1510,10 +1108,7 @@
     {
         "section": "Common Moves",
         "name": "Forward Dash",
-        "input": [
-            "6",
-            "6"
-        ],
+        "input": "66",
         "startup": null,
         "driveGain_hit": 0,
         "driveDrain_block": 0,
@@ -1527,10 +1122,7 @@
     {
         "section": "Common Moves",
         "name": "Backward Dash",
-        "input": [
-            "4",
-            "4"
-        ],
+        "input": "44",
         "startup": null,
         "driveGain_hit": 0,
         "driveDrain_block": 0,
@@ -1544,10 +1136,7 @@
     {
         "section": "Common Moves",
         "name": "Drive Impact: Wild Scratch",
-        "input": [
-            "HP",
-            "HK"
-        ],
+        "input": "HPHK",
         "startup": 26,
         "driveGain_hit": 0,
         "driveDrain_block": -5000,
@@ -1561,12 +1150,7 @@
     {
         "section": "Common Moves",
         "name": "Drive Reversal: Quick Rolling Attack",
-        "input": [
-            "6",
-            "+",
-            "HP",
-            "HK"
-        ],
+        "input": "6+HPHK",
         "startup": 20,
         "driveGain_hit": 0,
         "driveDrain_block": 0,
@@ -1580,10 +1164,7 @@
     {
         "section": "Common Moves",
         "name": "Drive Parry",
-        "input": [
-            "MP",
-            "MK"
-        ],
+        "input": "MPMK",
         "startup": 1,
         "driveGain_hit": 0,
         "driveDrain_block": 0,
@@ -1597,10 +1178,7 @@
     {
         "section": "Common Moves",
         "name": "Perfect Parry (strike)",
-        "input": [
-            "MP",
-            "MK"
-        ],
+        "input": "MPMK",
         "startup": 1,
         "driveGain_hit": null,
         "driveDrain_block": null,
@@ -1614,10 +1192,7 @@
     {
         "section": "Common Moves",
         "name": "Perfect Parry (projectile)",
-        "input": [
-            "MP",
-            "MK"
-        ],
+        "input": "MPMK",
         "startup": 1,
         "driveGain_hit": null,
         "driveDrain_block": null,
@@ -1631,10 +1206,7 @@
     {
         "section": "Common Moves",
         "name": "Parry Drive Rush",
-        "input": [
-            "6",
-            "6"
-        ],
+        "input": "66",
         "startup": null,
         "driveGain_hit": 0,
         "driveDrain_block": 0,
@@ -1648,17 +1220,7 @@
     {
         "section": "Common Moves",
         "name": "Cancel Drive Rush",
-        "input": [
-            "6",
-            "6",
-            null,
-            null,
-            null,
-            "6",
-            "+",
-            "MP",
-            "MK"
-        ],
+        "input": "66/5/6+MPMK",
         "startup": null,
         "driveGain_hit": 0,
         "driveDrain_block": 0,

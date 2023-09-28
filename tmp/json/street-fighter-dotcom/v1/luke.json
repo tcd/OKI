@@ -488,7 +488,7 @@
             "6",
             "+",
             "HP",
-            null,
+            ">",
             "HP"
         ],
         "Frame.Start-up": 11,
@@ -511,7 +511,7 @@
         "Move Name": "Triple Impact(2)",
         "input": [
             "LP",
-            null,
+            ">",
             "MP"
         ],
         "Frame.Start-up": 8,
@@ -534,9 +534,9 @@
         "Move Name": "Triple Impact(3)",
         "input": [
             "LP",
-            null,
+            ">",
             "MP",
-            null,
+            ">",
             "HP"
         ],
         "Frame.Start-up": 10,
@@ -559,7 +559,7 @@
         "Move Name": "Snapback Combo(2)",
         "input": [
             "MP",
-            null,
+            ">",
             "MP"
         ],
         "Frame.Start-up": 12,
@@ -584,7 +584,7 @@
             "2",
             "+",
             "MK",
-            null,
+            ">",
             "2",
             "+",
             "HP"
@@ -609,9 +609,9 @@
         "Move Name": "Snapback Combo(3)",
         "input": [
             "MP",
-            null,
+            ">",
             "MP",
-            null,
+            ">",
             "MP"
         ],
         "Frame.Start-up": 11,
@@ -634,11 +634,11 @@
         "Move Name": "Snapback Combo(4)",
         "input": [
             "MP",
-            null,
+            ">",
             "MP",
-            null,
+            ">",
             "MP",
-            null,
+            ">",
             "MP"
         ],
         "Frame.Start-up": 11,
@@ -1528,8 +1528,8 @@
         "section": "Throws",
         "Move Name": "Sweeper",
         "input": [
-            null,
-            null,
+            "5",
+            "/",
             "6",
             "+",
             "LP",
@@ -1758,9 +1758,9 @@
         "input": [
             "6",
             "6",
-            null,
-            null,
-            null,
+            "/",
+            "5",
+            "/",
             "6",
             "+",
             "MP",

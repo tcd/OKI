@@ -509,7 +509,7 @@
         "Move Name": "High Double Strike",
         "input": [
             "HP",
-            null,
+            ">",
             "HK"
         ],
         "Frame.Start-up": 9,
@@ -532,7 +532,7 @@
         "Move Name": "Fuwa Triple Strike(2)",
         "input": [
             "MP",
-            null,
+            ">",
             "LK"
         ],
         "Frame.Start-up": 5,
@@ -555,9 +555,9 @@
         "Move Name": "Fuwa Triple Strike(3)",
         "input": [
             "MP",
-            null,
+            ">",
             "LK",
-            null,
+            ">",
             "HK"
         ],
         "Frame.Start-up": 17,
@@ -1541,8 +1541,8 @@
         "section": "Throws",
         "Move Name": "Shoulder Throw",
         "input": [
-            null,
-            null,
+            "5",
+            "/",
             "6",
             "+",
             "LP",
@@ -1771,9 +1771,9 @@
         "input": [
             "6",
             "6",
-            null,
-            null,
-            null,
+            "/",
+            "5",
+            "/",
             "6",
             "+",
             "MP",

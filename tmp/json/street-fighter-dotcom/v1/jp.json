@@ -488,7 +488,7 @@
             "4",
             "+",
             "MP",
-            null,
+            ">",
             "MP"
         ],
         "Frame.Start-up": 10,
@@ -511,7 +511,7 @@
         "Move Name": "Zilant",
         "input": [
             "HK",
-            null,
+            ">",
             "HP"
         ],
         "Frame.Start-up": 20,
@@ -534,9 +534,9 @@
         "Move Name": "Zilant Mid",
         "input": [
             "HK",
-            null,
+            ">",
             "HP",
-            null,
+            ">",
             "HP"
         ],
         "Frame.Start-up": 21,
@@ -559,9 +559,9 @@
         "Move Name": "Zilant Low",
         "input": [
             "HK",
-            null,
+            ">",
             "HP",
-            null,
+            ">",
             "HK"
         ],
         "Frame.Start-up": 21,
@@ -989,7 +989,7 @@
             "4",
             "+",
             "LP",
-            null,
+            "/",
             "MP"
         ],
         "Frame.Start-up": null,
@@ -1349,8 +1349,8 @@
         "section": "Throws",
         "Move Name": "Ravina",
         "input": [
-            null,
-            null,
+            "5",
+            "/",
             "6",
             "+",
             "LP",
@@ -1601,9 +1601,9 @@
         "input": [
             "6",
             "6",
-            null,
-            null,
-            null,
+            "/",
+            "5",
+            "/",
             "6",
             "+",
             "MP",

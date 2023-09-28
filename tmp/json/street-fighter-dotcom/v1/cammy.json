@@ -465,7 +465,7 @@
             "4",
             "+",
             "MP",
-            null,
+            ">",
             "HK"
         ],
         "Frame.Start-up": 9,
@@ -488,7 +488,7 @@
         "Move Name": "Swing Combination",
         "input": [
             "HP",
-            null,
+            ">",
             "HK"
         ],
         "Frame.Start-up": 13,
@@ -1448,8 +1448,8 @@
         "section": "Throws",
         "Move Name": "Rough Landing",
         "input": [
-            null,
-            null,
+            "5",
+            "/",
             "6",
             "+",
             "LP",
@@ -1700,9 +1700,9 @@
         "input": [
             "6",
             "6",
-            null,
-            null,
-            null,
+            "/",
+            "5",
+            "/",
             "6",
             "+",
             "MP",

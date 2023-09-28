@@ -2,9 +2,7 @@
     {
         "section": "Normal Moves",
         "name": "Standing Light Punch",
-        "input": [
-            "LP"
-        ],
+        "input": "LP",
         "startup": 4,
         "driveGain_hit": 250,
         "driveDrain_block": -500,
@@ -18,9 +16,7 @@
     {
         "section": "Normal Moves",
         "name": "Standing Light Kick",
-        "input": [
-            "LK"
-        ],
+        "input": "LK",
         "startup": 5,
         "driveGain_hit": 250,
         "driveDrain_block": -500,
@@ -34,9 +30,7 @@
     {
         "section": "Normal Moves",
         "name": "Standing Medium Punch",
-        "input": [
-            "MP"
-        ],
+        "input": "MP",
         "startup": 7,
         "driveGain_hit": 1500,
         "driveDrain_block": -3000,
@@ -50,9 +44,7 @@
     {
         "section": "Normal Moves",
         "name": "Standing Medium Kick",
-        "input": [
-            "MK"
-        ],
+        "input": "MK",
         "startup": 10,
         "driveGain_hit": 1500,
         "driveDrain_block": -3000,
@@ -66,9 +58,7 @@
     {
         "section": "Normal Moves",
         "name": "Standing Heavy Punch",
-        "input": [
-            "HP"
-        ],
+        "input": "HP",
         "startup": 10,
         "driveGain_hit": 3000,
         "driveDrain_block": -6000,
@@ -82,9 +72,7 @@
     {
         "section": "Normal Moves",
         "name": "Standing Heavy Kick",
-        "input": [
-            "HK"
-        ],
+        "input": "HK",
         "startup": 15,
         "driveGain_hit": 3000,
         "driveDrain_block": -6000,
@@ -98,11 +86,7 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Light Punch",
-        "input": [
-            "2",
-            "+",
-            "LP"
-        ],
+        "input": "2+LP",
         "startup": 4,
         "driveGain_hit": 250,
         "driveDrain_block": -500,
@@ -116,11 +100,7 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Light Kick",
-        "input": [
-            "2",
-            "+",
-            "LK"
-        ],
+        "input": "2+LK",
         "startup": 5,
         "driveGain_hit": 250,
         "driveDrain_block": -500,
@@ -134,11 +114,7 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Medium Punch",
-        "input": [
-            "2",
-            "+",
-            "MP"
-        ],
+        "input": "2+MP",
         "startup": 7,
         "driveGain_hit": 1500,
         "driveDrain_block": -3000,
@@ -152,11 +128,7 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Medium Kick",
-        "input": [
-            "2",
-            "+",
-            "MK"
-        ],
+        "input": "2+MK",
         "startup": 8,
         "driveGain_hit": 2000,
         "driveDrain_block": -4000,
@@ -170,11 +142,7 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Heavy Punch",
-        "input": [
-            "2",
-            "+",
-            "HP"
-        ],
+        "input": "2+HP",
         "startup": 10,
         "driveGain_hit": 3000,
         "driveDrain_block": -6000,
@@ -188,11 +156,7 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Heavy Kick",
-        "input": [
-            "2",
-            "+",
-            "HK"
-        ],
+        "input": "2+HK",
         "startup": 11,
         "driveGain_hit": 3000,
         "driveDrain_block": -4000,
@@ -206,9 +170,7 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Light Punch",
-        "input": [
-            "LP"
-        ],
+        "input": "LP",
         "startup": 5,
         "driveGain_hit": 500,
         "driveDrain_block": -1500,
@@ -222,9 +184,7 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Light Kick",
-        "input": [
-            "LK"
-        ],
+        "input": "LK",
         "startup": 6,
         "driveGain_hit": 500,
         "driveDrain_block": -1500,
@@ -238,9 +198,7 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Medium Punch",
-        "input": [
-            "MP"
-        ],
+        "input": "MP",
         "startup": 8,
         "driveGain_hit": 1000,
         "driveDrain_block": -2500,
@@ -254,9 +212,7 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Medium Kick",
-        "input": [
-            "MK"
-        ],
+        "input": "MK",
         "startup": 7,
         "driveGain_hit": 1000,
         "driveDrain_block": -2500,
@@ -270,9 +226,7 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Heavy Punch",
-        "input": [
-            "HP"
-        ],
+        "input": "HP",
         "startup": 9,
         "driveGain_hit": 2000,
         "driveDrain_block": -4000,
@@ -286,9 +240,7 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Heavy Kick",
-        "input": [
-            "HK"
-        ],
+        "input": "HK",
         "startup": 11,
         "driveGain_hit": 2000,
         "driveDrain_block": -4000,
@@ -302,11 +254,7 @@
     {
         "section": "Unique Attacks",
         "name": "Révérence",
-        "input": [
-            "4",
-            "+",
-            "HP"
-        ],
+        "input": "4+HP",
         "startup": 8,
         "driveGain_hit": 2000,
         "driveDrain_block": -5000,
@@ -320,11 +268,7 @@
     {
         "section": "Unique Attacks",
         "name": "Tomoe Derrière",
-        "input": [
-            "3",
-            "+",
-            "HK"
-        ],
+        "input": "3+HK",
         "startup": 11,
         "driveGain_hit": 3000,
         "driveDrain_block": -6000,
@@ -338,11 +282,7 @@
     {
         "section": "Unique Attacks",
         "name": "À Terre",
-        "input": [
-            "MP",
-            null,
-            "MK"
-        ],
+        "input": "MP>MK",
         "startup": 10,
         "driveGain_hit": 1000,
         "driveDrain_block": -2500,
@@ -356,11 +296,7 @@
     {
         "section": "Unique Attacks",
         "name": "En Haut(1)",
-        "input": [
-            "4",
-            "+",
-            "MK"
-        ],
+        "input": "4+MK",
         "startup": 10,
         "driveGain_hit": 2000,
         "driveDrain_block": -4000,
@@ -374,13 +310,7 @@
     {
         "section": "Unique Attacks",
         "name": "En Haut(2)",
-        "input": [
-            "4",
-            "+",
-            "MK",
-            null,
-            "MK"
-        ],
+        "input": "4+MK>MK",
         "startup": 14,
         "driveGain_hit": 1000,
         "driveDrain_block": -2500,
@@ -394,11 +324,7 @@
     {
         "section": "Unique Attacks",
         "name": "Temps Lié",
-        "input": [
-            "HP",
-            null,
-            "HP"
-        ],
+        "input": "HP>HP",
         "startup": 5,
         "driveGain_hit": 2000,
         "driveDrain_block": -5000,
@@ -412,13 +338,7 @@
     {
         "section": "Unique Attacks",
         "name": "Allongé",
-        "input": [
-            "2",
-            "+",
-            "HP",
-            null,
-            "HP"
-        ],
+        "input": "2+HP>HP",
         "startup": 4,
         "driveGain_hit": 4000,
         "driveDrain_block": -5000,
@@ -432,15 +352,7 @@
     {
         "section": "Special Moves",
         "name": "L Manège Doré(Attack changes according to Medal level)",
-        "input": [
-            "6",
-            "3",
-            "2",
-            "1",
-            "4",
-            "+",
-            "LP"
-        ],
+        "input": "63214+LP",
         "startup": 10,
         "driveGain_hit": 5000,
         "driveDrain_block": 0,
@@ -454,15 +366,7 @@
     {
         "section": "Special Moves",
         "name": "M Manège Doré(Attack changes according to Medal level)",
-        "input": [
-            "6",
-            "3",
-            "2",
-            "1",
-            "4",
-            "+",
-            "MP"
-        ],
+        "input": "63214+MP",
         "startup": 8,
         "driveGain_hit": 5000,
         "driveDrain_block": 0,
@@ -476,15 +380,7 @@
     {
         "section": "Special Moves",
         "name": "H Manège Doré(Attack changes according to Medal level)",
-        "input": [
-            "6",
-            "3",
-            "2",
-            "1",
-            "4",
-            "+",
-            "HP"
-        ],
+        "input": "63214+HP",
         "startup": 5,
         "driveGain_hit": 5000,
         "driveDrain_block": 0,
@@ -498,16 +394,7 @@
     {
         "section": "Special Moves",
         "name": "OD Manège Doré(Attack changes according to Medal level)",
-        "input": [
-            "6",
-            "3",
-            "2",
-            "1",
-            "4",
-            "+",
-            "P",
-            "P"
-        ],
+        "input": "63214+PP",
         "startup": 8,
         "driveGain_hit": 0,
         "driveDrain_block": 0,
@@ -521,13 +408,7 @@
     {
         "section": "Special Moves",
         "name": "L Rond-point",
-        "input": [
-            "2",
-            "3",
-            "6",
-            "+",
-            "LK"
-        ],
+        "input": "236+LK",
         "startup": 9,
         "driveGain_hit": 2000,
         "driveDrain_block": -4000,
@@ -541,13 +422,7 @@
     {
         "section": "Special Moves",
         "name": "M Rond-point",
-        "input": [
-            "2",
-            "3",
-            "6",
-            "+",
-            "MK"
-        ],
+        "input": "236+MK",
         "startup": 11,
         "driveGain_hit": 2000,
         "driveDrain_block": -4000,
@@ -561,13 +436,7 @@
     {
         "section": "Special Moves",
         "name": "H Rond-point",
-        "input": [
-            "2",
-            "3",
-            "6",
-            "+",
-            "HK"
-        ],
+        "input": "236+HK",
         "startup": 14,
         "driveGain_hit": 2000,
         "driveDrain_block": -4000,
@@ -581,14 +450,7 @@
     {
         "section": "Special Moves",
         "name": "OD Rond-point",
-        "input": [
-            "2",
-            "3",
-            "6",
-            "+",
-            "K",
-            "K"
-        ],
+        "input": "236+KK",
         "startup": 8,
         "driveGain_hit": 0,
         "driveDrain_block": -4000,
@@ -602,13 +464,7 @@
     {
         "section": "Special Moves",
         "name": "L Dégagé",
-        "input": [
-            "2",
-            "1",
-            "4",
-            "+",
-            "LK"
-        ],
+        "input": "214+LK",
         "startup": 16,
         "driveGain_hit": 1500,
         "driveDrain_block": -4000,
@@ -622,13 +478,7 @@
     {
         "section": "Special Moves",
         "name": "M Dégagé",
-        "input": [
-            "2",
-            "1",
-            "4",
-            "+",
-            "MK"
-        ],
+        "input": "214+MK",
         "startup": 16,
         "driveGain_hit": 2000,
         "driveDrain_block": -5000,
@@ -642,13 +492,7 @@
     {
         "section": "Special Moves",
         "name": "H  Dégagé",
-        "input": [
-            "2",
-            "1",
-            "4",
-            "+",
-            "HK"
-        ],
+        "input": "214+HK",
         "startup": 20,
         "driveGain_hit": 2000,
         "driveDrain_block": -4000,
@@ -662,14 +506,7 @@
     {
         "section": "Special Moves",
         "name": "OD Dégagé",
-        "input": [
-            "2",
-            "1",
-            "4",
-            "+",
-            "K",
-            "K"
-        ],
+        "input": "214+KK",
         "startup": 22,
         "driveGain_hit": 0,
         "driveDrain_block": -4000,
@@ -683,13 +520,7 @@
     {
         "section": "Special Moves",
         "name": "L Renversé(Attack changes according to Medal level)",
-        "input": [
-            "2",
-            "3",
-            "6",
-            "+",
-            "LP"
-        ],
+        "input": "236+LP",
         "startup": 22,
         "driveGain_hit": 2000,
         "driveDrain_block": -2000,
@@ -703,13 +534,7 @@
     {
         "section": "Special Moves",
         "name": "M Renversé(Attack changes according to Medal level)",
-        "input": [
-            "2",
-            "3",
-            "6",
-            "+",
-            "MP"
-        ],
+        "input": "236+MP",
         "startup": 25,
         "driveGain_hit": 2000,
         "driveDrain_block": -2000,
@@ -723,13 +548,7 @@
     {
         "section": "Special Moves",
         "name": "H Renversé(Attack changes according to Medal level)",
-        "input": [
-            "2",
-            "3",
-            "6",
-            "+",
-            "HP"
-        ],
+        "input": "236+HP",
         "startup": 29,
         "driveGain_hit": 2000,
         "driveDrain_block": -2000,
@@ -743,14 +562,7 @@
     {
         "section": "Special Moves",
         "name": "OD Renversé(Attack changes according to Medal level)",
-        "input": [
-            "2",
-            "3",
-            "6",
-            "+",
-            "P",
-            "P"
-        ],
+        "input": "236+PP",
         "startup": 25,
         "driveGain_hit": 0,
         "driveDrain_block": -2000,
@@ -764,9 +576,7 @@
     {
         "section": "Special Moves",
         "name": "Grand Fouetté",
-        "input": [
-            "K"
-        ],
+        "input": "K",
         "startup": 11,
         "driveGain_hit": 2500,
         "driveDrain_block": -5000,
@@ -780,9 +590,7 @@
     {
         "section": "Special Moves",
         "name": "OD Grand Fouetté",
-        "input": [
-            "K"
-        ],
+        "input": "K",
         "startup": 11,
         "driveGain_hit": 0,
         "driveDrain_block": -4000,
@@ -796,16 +604,7 @@
     {
         "section": "Super Arts",
         "name": "SA1 Arabesque",
-        "input": [
-            "2",
-            "3",
-            "6",
-            "2",
-            "3",
-            "6",
-            "+",
-            "K"
-        ],
+        "input": "236236+K",
         "startup": 10,
         "driveGain_hit": 0,
         "driveDrain_block": -2500,
@@ -819,16 +618,7 @@
     {
         "section": "Super Arts",
         "name": "SA2 Étoile",
-        "input": [
-            "2",
-            "1",
-            "4",
-            "2",
-            "1",
-            "4",
-            "+",
-            "K"
-        ],
+        "input": "214214+K",
         "startup": 7,
         "driveGain_hit": 0,
         "driveDrain_block": -1000,
@@ -842,16 +632,7 @@
     {
         "section": "Super Arts",
         "name": "SA3 Pas de Deux",
-        "input": [
-            "2",
-            "3",
-            "6",
-            "2",
-            "3",
-            "6",
-            "+",
-            "P"
-        ],
+        "input": "236236+P",
         "startup": 7,
         "driveGain_hit": 0,
         "driveDrain_block": 0,
@@ -865,16 +646,7 @@
     {
         "section": "Super Arts",
         "name": "CA Pas de Deux",
-        "input": [
-            "2",
-            "3",
-            "6",
-            "2",
-            "3",
-            "6",
-            "+",
-            "P"
-        ],
+        "input": "236236+P",
         "startup": 7,
         "driveGain_hit": 0,
         "driveDrain_block": 0,
@@ -888,14 +660,7 @@
     {
         "section": "Throws",
         "name": "Ouchi Gari",
-        "input": [
-            null,
-            null,
-            "6",
-            "+",
-            "LP",
-            "LK"
-        ],
+        "input": "5/6+LPLK",
         "startup": 5,
         "driveGain_hit": 2000,
         "driveDrain_block": 0,
@@ -909,12 +674,7 @@
     {
         "section": "Throws",
         "name": "Uchi Mata",
-        "input": [
-            "4",
-            "+",
-            "LP",
-            "LK"
-        ],
+        "input": "4+LPLK",
         "startup": 5,
         "driveGain_hit": 2000,
         "driveDrain_block": 0,
@@ -928,10 +688,7 @@
     {
         "section": "Common Moves",
         "name": "Forward Dash",
-        "input": [
-            "6",
-            "6"
-        ],
+        "input": "66",
         "startup": null,
         "driveGain_hit": 0,
         "driveDrain_block": 0,
@@ -945,10 +702,7 @@
     {
         "section": "Common Moves",
         "name": "Backward Dash",
-        "input": [
-            "4",
-            "4"
-        ],
+        "input": "44",
         "startup": null,
         "driveGain_hit": 0,
         "driveDrain_block": 0,
@@ -962,10 +716,7 @@
     {
         "section": "Common Moves",
         "name": "Drive Impact: Glissade",
-        "input": [
-            "HP",
-            "HK"
-        ],
+        "input": "HPHK",
         "startup": 26,
         "driveGain_hit": 800,
         "driveDrain_block": -5000,
@@ -979,12 +730,7 @@
     {
         "section": "Common Moves",
         "name": "Drive Reversal: Écarté",
-        "input": [
-            "6",
-            "+",
-            "HP",
-            "HK"
-        ],
+        "input": "6+HPHK",
         "startup": 20,
         "driveGain_hit": 500,
         "driveDrain_block": 0,
@@ -998,10 +744,7 @@
     {
         "section": "Common Moves",
         "name": "Drive Parry",
-        "input": [
-            "MP",
-            "MK"
-        ],
+        "input": "MPMK",
         "startup": 1,
         "driveGain_hit": 0,
         "driveDrain_block": 0,
@@ -1015,10 +758,7 @@
     {
         "section": "Common Moves",
         "name": "Perfect Parry (strike)",
-        "input": [
-            "MP",
-            "MK"
-        ],
+        "input": "MPMK",
         "startup": 1,
         "driveGain_hit": null,
         "driveDrain_block": null,
@@ -1032,10 +772,7 @@
     {
         "section": "Common Moves",
         "name": "Perfect Parry (projectile)",
-        "input": [
-            "MP",
-            "MK"
-        ],
+        "input": "MPMK",
         "startup": 1,
         "driveGain_hit": null,
         "driveDrain_block": null,
@@ -1049,10 +786,7 @@
     {
         "section": "Common Moves",
         "name": "Parry Drive Rush",
-        "input": [
-            "6",
-            "6"
-        ],
+        "input": "66",
         "startup": null,
         "driveGain_hit": 0,
         "driveDrain_block": 0,
@@ -1066,17 +800,7 @@
     {
         "section": "Common Moves",
         "name": "Cancel Drive Rush",
-        "input": [
-            "6",
-            "6",
-            null,
-            null,
-            null,
-            "6",
-            "+",
-            "MP",
-            "MK"
-        ],
+        "input": "66/5/6+MPMK",
         "startup": null,
         "driveGain_hit": 0,
         "driveDrain_block": 0,

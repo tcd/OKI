@@ -500,7 +500,7 @@
         "Move Name": "Chin Buster",
         "input": [
             "MP",
-            null,
+            ">",
             "HP"
         ],
         "Frame.Start-up": 11,
@@ -523,7 +523,7 @@
         "Move Name": "Triple Flash Kicks (2)",
         "input": [
             "MK",
-            null,
+            ">",
             "MK"
         ],
         "Frame.Start-up": 11,
@@ -546,9 +546,9 @@
         "Move Name": "Triple Flash Kicks (3)",
         "input": [
             "MK",
-            null,
+            ">",
             "MK",
-            null,
+            ">",
             "HK"
         ],
         "Frame.Start-up": 13,
@@ -1520,8 +1520,8 @@
         "section": "Throws",
         "Move Name": "Knee Strikes",
         "input": [
-            null,
-            null,
+            "5",
+            "/",
             "6",
             "+",
             "LP",
@@ -1750,9 +1750,9 @@
         "input": [
             "6",
             "6",
-            null,
-            null,
-            null,
+            "/",
+            "5",
+            "/",
             "6",
             "+",
             "MP",

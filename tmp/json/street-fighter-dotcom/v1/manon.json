@@ -440,7 +440,7 @@
         "Move Name": "À Terre",
         "input": [
             "MP",
-            null,
+            ">",
             "MK"
         ],
         "Frame.Start-up": 10,
@@ -488,7 +488,7 @@
             "4",
             "+",
             "MK",
-            null,
+            ">",
             "MK"
         ],
         "Frame.Start-up": 14,
@@ -511,7 +511,7 @@
         "Move Name": "Temps Lié",
         "input": [
             "HP",
-            null,
+            ">",
             "HP"
         ],
         "Frame.Start-up": 5,
@@ -536,7 +536,7 @@
             "2",
             "+",
             "HP",
-            null,
+            ">",
             "HP"
         ],
         "Frame.Start-up": 4,
@@ -1124,8 +1124,8 @@
         "section": "Throws",
         "Move Name": "Ouchi Gari",
         "input": [
-            null,
-            null,
+            "5",
+            "/",
             "6",
             "+",
             "LP",
@@ -1354,9 +1354,9 @@
         "input": [
             "6",
             "6",
-            null,
-            null,
-            null,
+            "/",
+            "5",
+            "/",
             "6",
             "+",
             "MP",

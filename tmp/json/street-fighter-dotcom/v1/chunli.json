@@ -415,7 +415,7 @@
         "Move Name": "Swift Thrust",
         "input": [
             "4",
-            null,
+            "/",
             "6",
             "+",
             "MP"
@@ -557,7 +557,7 @@
             "2",
             "+",
             "MK",
-            null,
+            ">",
             "2",
             "+",
             "MK"
@@ -584,11 +584,11 @@
             "2",
             "+",
             "MK",
-            null,
+            ">",
             "2",
             "+",
             "MK",
-            null,
+            ">",
             "2",
             "+",
             "MK"
@@ -613,7 +613,7 @@
         "Move Name": "Soaring Eagle Punches",
         "input": [
             "HP",
-            null,
+            ">",
             "HP"
         ],
         "Frame.Start-up": 6,
@@ -786,7 +786,7 @@
         "section": "Special Moves",
         "Move Name": "L Kikoken",
         "input": [
-            null,
+            "[4]",
             "6",
             "+",
             "LP"
@@ -810,7 +810,7 @@
         "section": "Special Moves",
         "Move Name": "M Kikoken",
         "input": [
-            null,
+            "[4]",
             "6",
             "+",
             "MP"
@@ -834,7 +834,7 @@
         "section": "Special Moves",
         "Move Name": "H Kikoken",
         "input": [
-            null,
+            "[4]",
             "6",
             "+",
             "HP"
@@ -858,7 +858,7 @@
         "section": "Special Moves",
         "Move Name": "OD Kikoken",
         "input": [
-            null,
+            "[4]",
             "6",
             "+",
             "P",
@@ -1107,8 +1107,8 @@
         "section": "Special Moves",
         "Move Name": "L Spinning Bird Kick",
         "input": [
-            null,
-            null,
+            "[2]",
+            "8",
             "+",
             "LK"
         ],
@@ -1131,8 +1131,8 @@
         "section": "Special Moves",
         "Move Name": "M Spinning Bird Kick",
         "input": [
-            null,
-            null,
+            "[2]",
+            "8",
             "+",
             "MK"
         ],
@@ -1155,8 +1155,8 @@
         "section": "Special Moves",
         "Move Name": "H Spinning Bird Kick",
         "input": [
-            null,
-            null,
+            "[2]",
+            "8",
             "+",
             "HK"
         ],
@@ -1179,8 +1179,8 @@
         "section": "Special Moves",
         "Move Name": "OD Spinning Bird Kick",
         "input": [
-            null,
-            null,
+            "[2]",
+            "8",
             "+",
             "K",
             "K"
@@ -1542,8 +1542,8 @@
         "section": "Throws",
         "Move Name": "Koshuto",
         "input": [
-            null,
-            null,
+            "5",
+            "/",
             "6",
             "+",
             "LP",
@@ -1794,9 +1794,9 @@
         "input": [
             "6",
             "6",
-            null,
-            null,
-            null,
+            "/",
+            "5",
+            "/",
             "6",
             "+",
             "MP",

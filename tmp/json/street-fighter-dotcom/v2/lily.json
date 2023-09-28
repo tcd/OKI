@@ -2,9 +2,7 @@
     {
         "section": "Normal Moves",
         "name": "Standing Light Punch",
-        "input": [
-            "LP"
-        ],
+        "input": "LP",
         "startup": 6,
         "driveGain_hit": 250,
         "driveDrain_block": -500,
@@ -18,9 +16,7 @@
     {
         "section": "Normal Moves",
         "name": "Standing Light Kick",
-        "input": [
-            "LK"
-        ],
+        "input": "LK",
         "startup": 4,
         "driveGain_hit": 250,
         "driveDrain_block": -500,
@@ -34,9 +30,7 @@
     {
         "section": "Normal Moves",
         "name": "Standing Medium Punch",
-        "input": [
-            "MP"
-        ],
+        "input": "MP",
         "startup": 9,
         "driveGain_hit": 2000,
         "driveDrain_block": -4000,
@@ -50,9 +44,7 @@
     {
         "section": "Normal Moves",
         "name": "Standing Medium Kick",
-        "input": [
-            "MK"
-        ],
+        "input": "MK",
         "startup": 7,
         "driveGain_hit": 1500,
         "driveDrain_block": -3000,
@@ -66,9 +58,7 @@
     {
         "section": "Normal Moves",
         "name": "Standing Heavy Punch",
-        "input": [
-            "HP"
-        ],
+        "input": "HP",
         "startup": 11,
         "driveGain_hit": 2000,
         "driveDrain_block": -5000,
@@ -82,9 +72,7 @@
     {
         "section": "Normal Moves",
         "name": "Standing Heavy Kick",
-        "input": [
-            "HK"
-        ],
+        "input": "HK",
         "startup": 14,
         "driveGain_hit": 3000,
         "driveDrain_block": -6000,
@@ -98,11 +86,7 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Light Punch",
-        "input": [
-            "2",
-            "+",
-            "LP"
-        ],
+        "input": "2+LP",
         "startup": 6,
         "driveGain_hit": 250,
         "driveDrain_block": -500,
@@ -116,11 +100,7 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Light Kick",
-        "input": [
-            "2",
-            "+",
-            "LK"
-        ],
+        "input": "2+LK",
         "startup": 5,
         "driveGain_hit": 250,
         "driveDrain_block": -500,
@@ -134,11 +114,7 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Medium Punch",
-        "input": [
-            "2",
-            "+",
-            "MP"
-        ],
+        "input": "2+MP",
         "startup": 8,
         "driveGain_hit": 2000,
         "driveDrain_block": -4000,
@@ -152,11 +128,7 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Medium Kick",
-        "input": [
-            "2",
-            "+",
-            "MK"
-        ],
+        "input": "2+MK",
         "startup": 10,
         "driveGain_hit": 1000,
         "driveDrain_block": -2000,
@@ -170,11 +142,7 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Heavy Punch",
-        "input": [
-            "2",
-            "+",
-            "HP"
-        ],
+        "input": "2+HP",
         "startup": 10,
         "driveGain_hit": 2000,
         "driveDrain_block": -5000,
@@ -188,11 +156,7 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Heavy Kick",
-        "input": [
-            "2",
-            "+",
-            "HK"
-        ],
+        "input": "2+HK",
         "startup": 11,
         "driveGain_hit": 3000,
         "driveDrain_block": -4000,
@@ -206,9 +170,7 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Light Punch",
-        "input": [
-            "LP"
-        ],
+        "input": "LP",
         "startup": 5,
         "driveGain_hit": 500,
         "driveDrain_block": -1500,
@@ -222,9 +184,7 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Light Kick",
-        "input": [
-            "LK"
-        ],
+        "input": "LK",
         "startup": 6,
         "driveGain_hit": 500,
         "driveDrain_block": -1500,
@@ -238,9 +198,7 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Medium Punch",
-        "input": [
-            "MP"
-        ],
+        "input": "MP",
         "startup": 9,
         "driveGain_hit": 1000,
         "driveDrain_block": -2500,
@@ -254,9 +212,7 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Medium Kick",
-        "input": [
-            "MK"
-        ],
+        "input": "MK",
         "startup": 8,
         "driveGain_hit": 1000,
         "driveDrain_block": -2500,
@@ -270,9 +226,7 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Heavy Punch",
-        "input": [
-            "HP"
-        ],
+        "input": "HP",
         "startup": 10,
         "driveGain_hit": 2000,
         "driveDrain_block": -4000,
@@ -286,9 +240,7 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Heavy Kick",
-        "input": [
-            "HK"
-        ],
+        "input": "HK",
         "startup": 11,
         "driveGain_hit": 2000,
         "driveDrain_block": -4000,
@@ -302,11 +254,7 @@
     {
         "section": "Unique Attacks",
         "name": "Ridge Thrust",
-        "input": [
-            "3",
-            "+",
-            "HP"
-        ],
+        "input": "3+HP",
         "startup": 25,
         "driveGain_hit": 2000,
         "driveDrain_block": -5000,
@@ -320,11 +268,7 @@
     {
         "section": "Unique Attacks",
         "name": "Horn Breaker",
-        "input": [
-            "4",
-            "+",
-            "HP"
-        ],
+        "input": "4+HP",
         "startup": 14,
         "driveGain_hit": 2000,
         "driveDrain_block": -5000,
@@ -338,11 +282,7 @@
     {
         "section": "Unique Attacks",
         "name": "Great Spin",
-        "input": [
-            "2",
-            "+",
-            "HP"
-        ],
+        "input": "2+HP",
         "startup": 9,
         "driveGain_hit": 2000,
         "driveDrain_block": -4000,
@@ -356,11 +296,7 @@
     {
         "section": "Unique Attacks",
         "name": "Double Arrow",
-        "input": [
-            "MP",
-            null,
-            "MP"
-        ],
+        "input": "MP>MP",
         "startup": 10,
         "driveGain_hit": 1000,
         "driveDrain_block": -2500,
@@ -374,11 +310,7 @@
     {
         "section": "Unique Attacks",
         "name": "Desert Storm(1)",
-        "input": [
-            "6",
-            "+",
-            "HP"
-        ],
+        "input": "6+HP",
         "startup": 18,
         "driveGain_hit": 2000,
         "driveDrain_block": -5000,
@@ -392,13 +324,7 @@
     {
         "section": "Unique Attacks",
         "name": "Desert Storm(2)",
-        "input": [
-            "6",
-            "+",
-            "HP",
-            null,
-            "HP"
-        ],
+        "input": "6+HP>HP",
         "startup": 20,
         "driveGain_hit": 2000,
         "driveDrain_block": -2000,
@@ -412,15 +338,7 @@
     {
         "section": "Unique Attacks",
         "name": "Desert Storm(3)",
-        "input": [
-            "6",
-            "+",
-            "HP",
-            null,
-            "HP",
-            null,
-            "HP"
-        ],
+        "input": "6+HP>HP>HP",
         "startup": 20,
         "driveGain_hit": 2000,
         "driveDrain_block": -2000,
@@ -434,13 +352,7 @@
     {
         "section": "Special Moves",
         "name": "L Condor Wind",
-        "input": [
-            "2",
-            "1",
-            "4",
-            "+",
-            "LP"
-        ],
+        "input": "214+LP",
         "startup": null,
         "driveGain_hit": 0,
         "driveDrain_block": 0,
@@ -454,13 +366,7 @@
     {
         "section": "Special Moves",
         "name": "M Condor Wind",
-        "input": [
-            "2",
-            "1",
-            "4",
-            "+",
-            "MP"
-        ],
+        "input": "214+MP",
         "startup": 23,
         "driveGain_hit": 2000,
         "driveDrain_block": -4000,
@@ -474,13 +380,7 @@
     {
         "section": "Special Moves",
         "name": "H Condor Wind",
-        "input": [
-            "2",
-            "1",
-            "4",
-            "+",
-            "HP"
-        ],
+        "input": "214+HP",
         "startup": 25,
         "driveGain_hit": 2000,
         "driveDrain_block": -4000,
@@ -494,14 +394,7 @@
     {
         "section": "Special Moves",
         "name": "OD Condor Wind",
-        "input": [
-            "2",
-            "1",
-            "4",
-            "+",
-            "P",
-            "P"
-        ],
+        "input": "214+PP",
         "startup": 21,
         "driveGain_hit": 0,
         "driveDrain_block": -4000,
@@ -515,13 +408,7 @@
     {
         "section": "Special Moves",
         "name": "L Condor Spire",
-        "input": [
-            "2",
-            "3",
-            "6",
-            "+",
-            "LK"
-        ],
+        "input": "236+LK",
         "startup": 17,
         "driveGain_hit": 2000,
         "driveDrain_block": -5000,
@@ -535,13 +422,7 @@
     {
         "section": "Special Moves",
         "name": "M Condor Spire",
-        "input": [
-            "2",
-            "3",
-            "6",
-            "+",
-            "MK"
-        ],
+        "input": "236+MK",
         "startup": 21,
         "driveGain_hit": 2000,
         "driveDrain_block": -5000,
@@ -555,13 +436,7 @@
     {
         "section": "Special Moves",
         "name": "H Condor Spire",
-        "input": [
-            "2",
-            "3",
-            "6",
-            "+",
-            "HK"
-        ],
+        "input": "236+HK",
         "startup": 25,
         "driveGain_hit": 2000,
         "driveDrain_block": -5000,
@@ -575,14 +450,7 @@
     {
         "section": "Special Moves",
         "name": "OD Condor Spire",
-        "input": [
-            "2",
-            "3",
-            "6",
-            "+",
-            "K",
-            "K"
-        ],
+        "input": "236+KK",
         "startup": 15,
         "driveGain_hit": 0,
         "driveDrain_block": -5000,
@@ -596,13 +464,7 @@
     {
         "section": "Special Moves",
         "name": "[Windclad]L Condor Spire",
-        "input": [
-            "2",
-            "3",
-            "6",
-            "+",
-            "LK"
-        ],
+        "input": "236+LK",
         "startup": 9,
         "driveGain_hit": 2000,
         "driveDrain_block": -5000,
@@ -616,13 +478,7 @@
     {
         "section": "Special Moves",
         "name": "[Windclad]M Condor Spire",
-        "input": [
-            "2",
-            "3",
-            "6",
-            "+",
-            "MK"
-        ],
+        "input": "236+MK",
         "startup": 13,
         "driveGain_hit": 2000,
         "driveDrain_block": -5000,
@@ -636,13 +492,7 @@
     {
         "section": "Special Moves",
         "name": "[Windclad]H Condor Spire",
-        "input": [
-            "2",
-            "3",
-            "6",
-            "+",
-            "HK"
-        ],
+        "input": "236+HK",
         "startup": 17,
         "driveGain_hit": 2000,
         "driveDrain_block": -5000,
@@ -656,14 +506,7 @@
     {
         "section": "Special Moves",
         "name": "[Windclad]OD Condor Spire",
-        "input": [
-            "2",
-            "3",
-            "6",
-            "+",
-            "K",
-            "K"
-        ],
+        "input": "236+KK",
         "startup": 9,
         "driveGain_hit": 0,
         "driveDrain_block": -5000,
@@ -677,13 +520,7 @@
     {
         "section": "Special Moves",
         "name": "L Tomahawk Buster",
-        "input": [
-            "6",
-            "2",
-            "3",
-            "+",
-            "LP"
-        ],
+        "input": "623+LP",
         "startup": 6,
         "driveGain_hit": 2000,
         "driveDrain_block": -4000,
@@ -697,13 +534,7 @@
     {
         "section": "Special Moves",
         "name": "M Tomahawk Buster",
-        "input": [
-            "6",
-            "2",
-            "3",
-            "+",
-            "MP"
-        ],
+        "input": "623+MP",
         "startup": 8,
         "driveGain_hit": 2000,
         "driveDrain_block": -4000,
@@ -717,13 +548,7 @@
     {
         "section": "Special Moves",
         "name": "H Tomahawk Buster",
-        "input": [
-            "6",
-            "2",
-            "3",
-            "+",
-            "HP"
-        ],
+        "input": "623+HP",
         "startup": 10,
         "driveGain_hit": 2000,
         "driveDrain_block": -4000,
@@ -737,14 +562,7 @@
     {
         "section": "Special Moves",
         "name": "OD Tomahawk Buster",
-        "input": [
-            "6",
-            "2",
-            "3",
-            "+",
-            "P",
-            "P"
-        ],
+        "input": "623+PP",
         "startup": 6,
         "driveGain_hit": 0,
         "driveDrain_block": -4000,
@@ -758,13 +576,7 @@
     {
         "section": "Special Moves",
         "name": "[Windclad]L Tomahawk Buster",
-        "input": [
-            "6",
-            "2",
-            "3",
-            "+",
-            "LP"
-        ],
+        "input": "623+LP",
         "startup": 4,
         "driveGain_hit": 2000,
         "driveDrain_block": -4000,
@@ -778,13 +590,7 @@
     {
         "section": "Special Moves",
         "name": "[Windclad]M Tomahawk Buster",
-        "input": [
-            "6",
-            "2",
-            "3",
-            "+",
-            "MP"
-        ],
+        "input": "623+MP",
         "startup": 6,
         "driveGain_hit": 2000,
         "driveDrain_block": -4000,
@@ -798,13 +604,7 @@
     {
         "section": "Special Moves",
         "name": "[Windclad]H Tomahawk Buster",
-        "input": [
-            "6",
-            "2",
-            "3",
-            "+",
-            "HP"
-        ],
+        "input": "623+HP",
         "startup": 8,
         "driveGain_hit": 3000,
         "driveDrain_block": -4000,
@@ -818,14 +618,7 @@
     {
         "section": "Special Moves",
         "name": "[Windclad]OD Tomahawk Buster",
-        "input": [
-            "6",
-            "2",
-            "3",
-            "+",
-            "P",
-            "P"
-        ],
+        "input": "623+PP",
         "startup": 4,
         "driveGain_hit": 0,
         "driveDrain_block": -4000,
@@ -839,10 +632,7 @@
     {
         "section": "Special Moves",
         "name": "Condor Dive",
-        "input": [
-            "P",
-            "P"
-        ],
+        "input": "PP",
         "startup": 12,
         "driveGain_hit": 2000,
         "driveDrain_block": -4000,
@@ -856,11 +646,7 @@
     {
         "section": "Special Moves",
         "name": "OD Condor Dive",
-        "input": [
-            "P",
-            "P",
-            "P"
-        ],
+        "input": "PPP",
         "startup": 12,
         "driveGain_hit": 0,
         "driveDrain_block": -4000,
@@ -874,10 +660,7 @@
     {
         "section": "Special Moves",
         "name": "[Windclad]Condor Dive",
-        "input": [
-            "P",
-            "P"
-        ],
+        "input": "PP",
         "startup": 12,
         "driveGain_hit": 3000,
         "driveDrain_block": -5000,
@@ -891,11 +674,7 @@
     {
         "section": "Special Moves",
         "name": "[Windclad]OD Condor Dive",
-        "input": [
-            "P",
-            "P",
-            "P"
-        ],
+        "input": "PPP",
         "startup": 12,
         "driveGain_hit": 0,
         "driveDrain_block": -5000,
@@ -909,11 +688,7 @@
     {
         "section": "Special Moves",
         "name": "L Mexican Typhoon",
-        "input": [
-            null,
-            "+",
-            "LP"
-        ],
+        "input": "360+LP",
         "startup": 5,
         "driveGain_hit": 5000,
         "driveDrain_block": 0,
@@ -927,11 +702,7 @@
     {
         "section": "Special Moves",
         "name": "M Mexican Typhoon",
-        "input": [
-            null,
-            "+",
-            "MP"
-        ],
+        "input": "360+MP",
         "startup": 5,
         "driveGain_hit": 5000,
         "driveDrain_block": 0,
@@ -945,11 +716,7 @@
     {
         "section": "Special Moves",
         "name": "H Mexican Typhoon",
-        "input": [
-            null,
-            "+",
-            "HP"
-        ],
+        "input": "360+HP",
         "startup": 5,
         "driveGain_hit": 5000,
         "driveDrain_block": 0,
@@ -963,12 +730,7 @@
     {
         "section": "Special Moves",
         "name": "OD Mexican Typhoon",
-        "input": [
-            null,
-            "+",
-            "P",
-            "P"
-        ],
+        "input": "360+PP",
         "startup": 5,
         "driveGain_hit": 5000,
         "driveDrain_block": 0,
@@ -982,16 +744,7 @@
     {
         "section": "Super Arts",
         "name": "SA1 Breezing Hawk",
-        "input": [
-            "2",
-            "3",
-            "6",
-            "2",
-            "3",
-            "6",
-            "+",
-            "P"
-        ],
+        "input": "236236+P",
         "startup": 13,
         "driveGain_hit": 0,
         "driveDrain_block": -2500,
@@ -1005,16 +758,7 @@
     {
         "section": "Super Arts",
         "name": "SA2 Thunderbird",
-        "input": [
-            "2",
-            "3",
-            "6",
-            "2",
-            "3",
-            "6",
-            "+",
-            "K"
-        ],
+        "input": "236236+K",
         "startup": 9,
         "driveGain_hit": 0,
         "driveDrain_block": -7000,
@@ -1028,16 +772,7 @@
     {
         "section": "Super Arts",
         "name": "[Windclad]SA2 Thunderbird",
-        "input": [
-            "2",
-            "3",
-            "6",
-            "2",
-            "3",
-            "6",
-            "+",
-            "K"
-        ],
+        "input": "236236+K",
         "startup": 9,
         "driveGain_hit": 0,
         "driveDrain_block": -8250,
@@ -1051,16 +786,7 @@
     {
         "section": "Super Arts",
         "name": "SA2 Soaring Thunderbird",
-        "input": [
-            "2",
-            "3",
-            "6",
-            "2",
-            "3",
-            "6",
-            "+",
-            "K"
-        ],
+        "input": "236236+K",
         "startup": 9,
         "driveGain_hit": 0,
         "driveDrain_block": -5000,
@@ -1074,16 +800,7 @@
     {
         "section": "Super Arts",
         "name": "[Windclad]SA2 Soaring Thunderbird",
-        "input": [
-            "2",
-            "3",
-            "6",
-            "2",
-            "3",
-            "6",
-            "+",
-            "K"
-        ],
+        "input": "236236+K",
         "startup": 9,
         "driveGain_hit": 0,
         "driveDrain_block": -6000,
@@ -1097,16 +814,7 @@
     {
         "section": "Super Arts",
         "name": "SA3 Raging Typhoon",
-        "input": [
-            "2",
-            "1",
-            "4",
-            "2",
-            "1",
-            "4",
-            "+",
-            "P"
-        ],
+        "input": "214214+P",
         "startup": 7,
         "driveGain_hit": 0,
         "driveDrain_block": 0,
@@ -1120,16 +828,7 @@
     {
         "section": "Super Arts",
         "name": "CA Raging Typhoon",
-        "input": [
-            "2",
-            "1",
-            "4",
-            "2",
-            "1",
-            "4",
-            "+",
-            "P"
-        ],
+        "input": "214214+P",
         "startup": 7,
         "driveGain_hit": 0,
         "driveDrain_block": 0,
@@ -1143,14 +842,7 @@
     {
         "section": "Throws",
         "name": "Canyon Throw",
-        "input": [
-            null,
-            null,
-            "6",
-            "+",
-            "LP",
-            "LK"
-        ],
+        "input": "5/6+LPLK",
         "startup": 5,
         "driveGain_hit": 2000,
         "driveDrain_block": 0,
@@ -1164,12 +856,7 @@
     {
         "section": "Throws",
         "name": "Falling Cliff",
-        "input": [
-            "4",
-            "+",
-            "LP",
-            "LK"
-        ],
+        "input": "4+LPLK",
         "startup": 5,
         "driveGain_hit": 2000,
         "driveDrain_block": 0,
@@ -1183,10 +870,7 @@
     {
         "section": "Common Moves",
         "name": "Forward Dash",
-        "input": [
-            "6",
-            "6"
-        ],
+        "input": "66",
         "startup": null,
         "driveGain_hit": 0,
         "driveDrain_block": 0,
@@ -1200,10 +884,7 @@
     {
         "section": "Common Moves",
         "name": "Backward Dash",
-        "input": [
-            "4",
-            "4"
-        ],
+        "input": "44",
         "startup": null,
         "driveGain_hit": 0,
         "driveDrain_block": 0,
@@ -1217,10 +898,7 @@
     {
         "section": "Common Moves",
         "name": "Drive Impact: Earth's Rage",
-        "input": [
-            "HP",
-            "HK"
-        ],
+        "input": "HPHK",
         "startup": 26,
         "driveGain_hit": 0,
         "driveDrain_block": -5000,
@@ -1234,12 +912,7 @@
     {
         "section": "Common Moves",
         "name": "Drive Reversal: Cross Hammer",
-        "input": [
-            "6",
-            "+",
-            "HP",
-            "HK"
-        ],
+        "input": "6+HPHK",
         "startup": 20,
         "driveGain_hit": 0,
         "driveDrain_block": 0,
@@ -1253,10 +926,7 @@
     {
         "section": "Common Moves",
         "name": "Drive Parry",
-        "input": [
-            "MP",
-            "MK"
-        ],
+        "input": "MPMK",
         "startup": 1,
         "driveGain_hit": 0,
         "driveDrain_block": 0,
@@ -1270,10 +940,7 @@
     {
         "section": "Common Moves",
         "name": "Perfect Parry (strike)",
-        "input": [
-            "MP",
-            "MK"
-        ],
+        "input": "MPMK",
         "startup": 1,
         "driveGain_hit": null,
         "driveDrain_block": null,
@@ -1287,10 +954,7 @@
     {
         "section": "Common Moves",
         "name": "Perfect Parry (projectile)",
-        "input": [
-            "MP",
-            "MK"
-        ],
+        "input": "MPMK",
         "startup": 1,
         "driveGain_hit": null,
         "driveDrain_block": null,
@@ -1304,10 +968,7 @@
     {
         "section": "Common Moves",
         "name": "Parry Drive Rush",
-        "input": [
-            "6",
-            "6"
-        ],
+        "input": "66",
         "startup": null,
         "driveGain_hit": 0,
         "driveDrain_block": 0,
@@ -1321,17 +982,7 @@
     {
         "section": "Common Moves",
         "name": "Cancel Drive Rush",
-        "input": [
-            "6",
-            "6",
-            null,
-            null,
-            null,
-            "6",
-            "+",
-            "MP",
-            "MK"
-        ],
+        "input": "66/5/6+MPMK",
         "startup": 0,
         "driveGain_hit": 0,
         "driveDrain_block": 0,

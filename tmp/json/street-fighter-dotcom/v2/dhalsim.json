@@ -2,9 +2,7 @@
     {
         "section": "Normal Moves",
         "name": "Standing Light Punch",
-        "input": [
-            "LP"
-        ],
+        "input": "LP",
         "startup": 4,
         "driveGain_hit": 250,
         "driveDrain_block": -500,
@@ -18,9 +16,7 @@
     {
         "section": "Normal Moves",
         "name": "Standing Light Kick",
-        "input": [
-            "LK"
-        ],
+        "input": "LK",
         "startup": 9,
         "driveGain_hit": 250,
         "driveDrain_block": -500,
@@ -34,9 +30,7 @@
     {
         "section": "Normal Moves",
         "name": "Standing Medium Punch",
-        "input": [
-            "MP"
-        ],
+        "input": "MP",
         "startup": 14,
         "driveGain_hit": 2000,
         "driveDrain_block": -3000,
@@ -50,9 +44,7 @@
     {
         "section": "Normal Moves",
         "name": "Standing Medium Kick",
-        "input": [
-            "MK"
-        ],
+        "input": "MK",
         "startup": 12,
         "driveGain_hit": 2000,
         "driveDrain_block": -3000,
@@ -66,9 +58,7 @@
     {
         "section": "Normal Moves",
         "name": "Standing Heavy Punch",
-        "input": [
-            "HP"
-        ],
+        "input": "HP",
         "startup": 16,
         "driveGain_hit": 2500,
         "driveDrain_block": -5000,
@@ -82,9 +72,7 @@
     {
         "section": "Normal Moves",
         "name": "Standing Heavy Kick",
-        "input": [
-            "HK"
-        ],
+        "input": "HK",
         "startup": 17,
         "driveGain_hit": 2500,
         "driveDrain_block": -4000,
@@ -98,11 +86,7 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Light Punch",
-        "input": [
-            "2",
-            "+",
-            "LP"
-        ],
+        "input": "2+LP",
         "startup": 5,
         "driveGain_hit": 250,
         "driveDrain_block": -500,
@@ -116,11 +100,7 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Light Kick",
-        "input": [
-            "2",
-            "+",
-            "LK"
-        ],
+        "input": "2+LK",
         "startup": 4,
         "driveGain_hit": 250,
         "driveDrain_block": -500,
@@ -134,11 +114,7 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Medium Punch",
-        "input": [
-            "2",
-            "+",
-            "MP"
-        ],
+        "input": "2+MP",
         "startup": 12,
         "driveGain_hit": 2000,
         "driveDrain_block": -3000,
@@ -152,11 +128,7 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Medium Kick",
-        "input": [
-            "2",
-            "+",
-            "MK"
-        ],
+        "input": "2+MK",
         "startup": 10,
         "driveGain_hit": 1000,
         "driveDrain_block": -2000,
@@ -170,11 +142,7 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Heavy Punch",
-        "input": [
-            "2",
-            "+",
-            "HP"
-        ],
+        "input": "2+HP",
         "startup": 19,
         "driveGain_hit": 2500,
         "driveDrain_block": -4000,
@@ -188,11 +156,7 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Heavy Kick",
-        "input": [
-            "2",
-            "+",
-            "HK"
-        ],
+        "input": "2+HK",
         "startup": 12,
         "driveGain_hit": 2000,
         "driveDrain_block": -4000,
@@ -206,9 +170,7 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Light Punch",
-        "input": [
-            "LP"
-        ],
+        "input": "LP",
         "startup": 4,
         "driveGain_hit": 750,
         "driveDrain_block": -1500,
@@ -222,9 +184,7 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Light Kick",
-        "input": [
-            "LK"
-        ],
+        "input": "LK",
         "startup": 6,
         "driveGain_hit": 750,
         "driveDrain_block": -1500,
@@ -238,9 +198,7 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Medium Punch",
-        "input": [
-            "MP"
-        ],
+        "input": "MP",
         "startup": 9,
         "driveGain_hit": 1500,
         "driveDrain_block": -3000,
@@ -254,9 +212,7 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Medium Kick",
-        "input": [
-            "MK"
-        ],
+        "input": "MK",
         "startup": 11,
         "driveGain_hit": 1500,
         "driveDrain_block": -3000,
@@ -270,9 +226,7 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Heavy Punch",
-        "input": [
-            "HP"
-        ],
+        "input": "HP",
         "startup": 13,
         "driveGain_hit": 2500,
         "driveDrain_block": -5000,
@@ -286,9 +240,7 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Heavy Kick",
-        "input": [
-            "HK"
-        ],
+        "input": "HK",
         "startup": 10,
         "driveGain_hit": 2500,
         "driveDrain_block": -5000,
@@ -302,11 +254,7 @@
     {
         "section": "Unique Attacks",
         "name": "Yoga Uppercut",
-        "input": [
-            "4",
-            "+",
-            "MP"
-        ],
+        "input": "4+MP",
         "startup": 8,
         "driveGain_hit": 1500,
         "driveDrain_block": -3000,
@@ -320,11 +268,7 @@
     {
         "section": "Unique Attacks",
         "name": "Yoga Lance",
-        "input": [
-            "4",
-            "+",
-            "HP"
-        ],
+        "input": "4+HP",
         "startup": 14,
         "driveGain_hit": 2500,
         "driveDrain_block": -5000,
@@ -338,11 +282,7 @@
     {
         "section": "Unique Attacks",
         "name": "Nirvana Punch",
-        "input": [
-            "1",
-            "+",
-            "HP"
-        ],
+        "input": "1+HP",
         "startup": 10,
         "driveGain_hit": 2000,
         "driveDrain_block": -5000,
@@ -356,11 +296,7 @@
     {
         "section": "Unique Attacks",
         "name": "Agile Kick",
-        "input": [
-            "1",
-            "+",
-            "LK"
-        ],
+        "input": "1+LK",
         "startup": 5,
         "driveGain_hit": 250,
         "driveDrain_block": -500,
@@ -374,11 +310,7 @@
     {
         "section": "Unique Attacks",
         "name": "Divine Kick",
-        "input": [
-            "4",
-            "+",
-            "MK"
-        ],
+        "input": "4+MK",
         "startup": 7,
         "driveGain_hit": 1500,
         "driveDrain_block": -3000,
@@ -392,11 +324,7 @@
     {
         "section": "Unique Attacks",
         "name": "Thrust Kick",
-        "input": [
-            "1",
-            "+",
-            "MK"
-        ],
+        "input": "1+MK",
         "startup": 8,
         "driveGain_hit": 1500,
         "driveDrain_block": -3000,
@@ -410,11 +338,7 @@
     {
         "section": "Unique Attacks",
         "name": "Yoga Mountain",
-        "input": [
-            "4",
-            "+",
-            "HK"
-        ],
+        "input": "4+HK",
         "startup": 14,
         "driveGain_hit": 3000,
         "driveDrain_block": -6000,
@@ -428,11 +352,7 @@
     {
         "section": "Unique Attacks",
         "name": "Karma Kick",
-        "input": [
-            "1",
-            "+",
-            "HK"
-        ],
+        "input": "1+HK",
         "startup": 9,
         "driveGain_hit": 2500,
         "driveDrain_block": -5000,
@@ -446,11 +366,7 @@
     {
         "section": "Unique Attacks",
         "name": "Yoga Mummy",
-        "input": [
-            "2",
-            "+",
-            "LP"
-        ],
+        "input": "2+LP",
         "startup": 10,
         "driveGain_hit": 1500,
         "driveDrain_block": -3000,
@@ -464,11 +380,7 @@
     {
         "section": "Unique Attacks",
         "name": "L Drill Kick",
-        "input": [
-            "2",
-            "+",
-            "LK"
-        ],
+        "input": "2+LK",
         "startup": 9,
         "driveGain_hit": 1500,
         "driveDrain_block": -3000,
@@ -482,11 +394,7 @@
     {
         "section": "Unique Attacks",
         "name": "M Drill Kick",
-        "input": [
-            "2",
-            "+",
-            "MK"
-        ],
+        "input": "2+MK",
         "startup": 9,
         "driveGain_hit": 1500,
         "driveDrain_block": -3000,
@@ -500,11 +408,7 @@
     {
         "section": "Unique Attacks",
         "name": "H Drill Kick",
-        "input": [
-            "2",
-            "+",
-            "HK"
-        ],
+        "input": "2+HK",
         "startup": 9,
         "driveGain_hit": 1500,
         "driveDrain_block": -3000,
@@ -518,13 +422,7 @@
     {
         "section": "Special Moves",
         "name": "L Yoga Fire",
-        "input": [
-            "2",
-            "3",
-            "6",
-            "+",
-            "LP"
-        ],
+        "input": "236+LP",
         "startup": 15,
         "driveGain_hit": 2000,
         "driveDrain_block": -4000,
@@ -538,13 +436,7 @@
     {
         "section": "Special Moves",
         "name": "M Yoga Fire",
-        "input": [
-            "2",
-            "3",
-            "6",
-            "+",
-            "MP"
-        ],
+        "input": "236+MP",
         "startup": 15,
         "driveGain_hit": 2000,
         "driveDrain_block": -4000,
@@ -558,13 +450,7 @@
     {
         "section": "Special Moves",
         "name": "H Yoga Fire",
-        "input": [
-            "2",
-            "3",
-            "6",
-            "+",
-            "HP"
-        ],
+        "input": "236+HP",
         "startup": 15,
         "driveGain_hit": 2000,
         "driveDrain_block": -4000,
@@ -578,14 +464,7 @@
     {
         "section": "Special Moves",
         "name": "OD L Yoga Fire",
-        "input": [
-            "2",
-            "3",
-            "6",
-            "+",
-            "LP",
-            "MP"
-        ],
+        "input": "236+LPMP",
         "startup": 13,
         "driveGain_hit": 0,
         "driveDrain_block": -4000,
@@ -599,14 +478,7 @@
     {
         "section": "Special Moves",
         "name": "OD M Yoga Fire",
-        "input": [
-            "2",
-            "3",
-            "6",
-            "+",
-            "LP",
-            "HP"
-        ],
+        "input": "236+LPHP",
         "startup": 13,
         "driveGain_hit": 0,
         "driveDrain_block": -4000,
@@ -620,14 +492,7 @@
     {
         "section": "Special Moves",
         "name": "OD H Yoga Fire",
-        "input": [
-            "2",
-            "3",
-            "6",
-            "+",
-            "MP",
-            "HP"
-        ],
+        "input": "236+MPHP",
         "startup": 13,
         "driveGain_hit": 0,
         "driveDrain_block": -4000,
@@ -641,13 +506,7 @@
     {
         "section": "Special Moves",
         "name": "L Yoga Arch",
-        "input": [
-            "2",
-            "3",
-            "6",
-            "+",
-            "LK"
-        ],
+        "input": "236+LK",
         "startup": 18,
         "driveGain_hit": 2000,
         "driveDrain_block": -4000,
@@ -661,13 +520,7 @@
     {
         "section": "Special Moves",
         "name": "M Yoga Arch",
-        "input": [
-            "2",
-            "3",
-            "6",
-            "+",
-            "MK"
-        ],
+        "input": "236+MK",
         "startup": 18,
         "driveGain_hit": 2000,
         "driveDrain_block": -4000,
@@ -681,13 +534,7 @@
     {
         "section": "Special Moves",
         "name": "H Yoga Arch",
-        "input": [
-            "2",
-            "3",
-            "6",
-            "+",
-            "HK"
-        ],
+        "input": "236+HK",
         "startup": 18,
         "driveGain_hit": 2000,
         "driveDrain_block": -4000,
@@ -701,14 +548,7 @@
     {
         "section": "Special Moves",
         "name": "OD L Yoga Arch",
-        "input": [
-            "2",
-            "3",
-            "6",
-            "+",
-            "LK",
-            "MK"
-        ],
+        "input": "236+LKMK",
         "startup": 18,
         "driveGain_hit": 0,
         "driveDrain_block": -2500,
@@ -722,14 +562,7 @@
     {
         "section": "Special Moves",
         "name": "OD M Yoga Arch",
-        "input": [
-            "2",
-            "3",
-            "6",
-            "+",
-            "LK",
-            "HK"
-        ],
+        "input": "236+LKHK",
         "startup": 18,
         "driveGain_hit": 0,
         "driveDrain_block": -2500,
@@ -743,14 +576,7 @@
     {
         "section": "Special Moves",
         "name": "OD H Yoga Arch",
-        "input": [
-            "2",
-            "3",
-            "6",
-            "+",
-            "MK",
-            "HK"
-        ],
+        "input": "236+MKHK",
         "startup": 18,
         "driveGain_hit": 0,
         "driveDrain_block": -2500,
@@ -764,15 +590,7 @@
     {
         "section": "Special Moves",
         "name": "L Yoga Flame",
-        "input": [
-            "6",
-            "3",
-            "2",
-            "1",
-            "4",
-            "+",
-            "LP"
-        ],
+        "input": "63214+LP",
         "startup": 16,
         "driveGain_hit": 2000,
         "driveDrain_block": -4000,
@@ -786,15 +604,7 @@
     {
         "section": "Special Moves",
         "name": "M Yoga Flame",
-        "input": [
-            "6",
-            "3",
-            "2",
-            "1",
-            "4",
-            "+",
-            "MP"
-        ],
+        "input": "63214+MP",
         "startup": 20,
         "driveGain_hit": 2400,
         "driveDrain_block": -5000,
@@ -808,15 +618,7 @@
     {
         "section": "Special Moves",
         "name": "H Yoga Flame",
-        "input": [
-            "6",
-            "3",
-            "2",
-            "1",
-            "4",
-            "+",
-            "HP"
-        ],
+        "input": "63214+HP",
         "startup": 26,
         "driveGain_hit": 2700,
         "driveDrain_block": -6000,
@@ -830,16 +632,7 @@
     {
         "section": "Special Moves",
         "name": "OD Yoga Flame",
-        "input": [
-            "6",
-            "3",
-            "2",
-            "1",
-            "4",
-            "+",
-            "P",
-            "P"
-        ],
+        "input": "63214+PP",
         "startup": 18,
         "driveGain_hit": 0,
         "driveDrain_block": -4000,
@@ -853,15 +646,7 @@
     {
         "section": "Special Moves",
         "name": "L Yoga Blast",
-        "input": [
-            "6",
-            "3",
-            "2",
-            "1",
-            "4",
-            "+",
-            "LK"
-        ],
+        "input": "63214+LK",
         "startup": 12,
         "driveGain_hit": 3000,
         "driveDrain_block": -6000,
@@ -875,15 +660,7 @@
     {
         "section": "Special Moves",
         "name": "M Yoga Blast",
-        "input": [
-            "6",
-            "3",
-            "2",
-            "1",
-            "4",
-            "+",
-            "MK"
-        ],
+        "input": "63214+MK",
         "startup": 15,
         "driveGain_hit": 3000,
         "driveDrain_block": -6000,
@@ -897,15 +674,7 @@
     {
         "section": "Special Moves",
         "name": "H Yoga Blast",
-        "input": [
-            "6",
-            "3",
-            "2",
-            "1",
-            "4",
-            "+",
-            "HK"
-        ],
+        "input": "63214+HK",
         "startup": 15,
         "driveGain_hit": 3000,
         "driveDrain_block": -6000,
@@ -919,16 +688,7 @@
     {
         "section": "Special Moves",
         "name": "OD Yoga Blast",
-        "input": [
-            "6",
-            "3",
-            "2",
-            "1",
-            "4",
-            "+",
-            "K",
-            "K"
-        ],
+        "input": "63214+KK",
         "startup": 12,
         "driveGain_hit": 0,
         "driveDrain_block": -5000,
@@ -942,15 +702,7 @@
     {
         "section": "Special Moves",
         "name": "L Yoga Comet",
-        "input": [
-            "6",
-            "3",
-            "2",
-            "1",
-            "4",
-            "+",
-            "LP"
-        ],
+        "input": "63214+LP",
         "startup": 30,
         "driveGain_hit": 2000,
         "driveDrain_block": -4000,
@@ -964,15 +716,7 @@
     {
         "section": "Special Moves",
         "name": "M Yoga Comet",
-        "input": [
-            "6",
-            "3",
-            "2",
-            "1",
-            "4",
-            "+",
-            "MP"
-        ],
+        "input": "63214+MP",
         "startup": 30,
         "driveGain_hit": 2000,
         "driveDrain_block": -4000,
@@ -986,15 +730,7 @@
     {
         "section": "Special Moves",
         "name": "H Yoga Comet",
-        "input": [
-            "6",
-            "3",
-            "2",
-            "1",
-            "4",
-            "+",
-            "HP"
-        ],
+        "input": "63214+HP",
         "startup": 30,
         "driveGain_hit": 2000,
         "driveDrain_block": -4000,
@@ -1008,16 +744,7 @@
     {
         "section": "Special Moves",
         "name": "OD Yoga Comet",
-        "input": [
-            "6",
-            "3",
-            "2",
-            "1",
-            "4",
-            "+",
-            "P",
-            "P"
-        ],
+        "input": "63214+PP",
         "startup": 30,
         "driveGain_hit": 0,
         "driveDrain_block": -4000,
@@ -1031,12 +758,7 @@
     {
         "section": "Special Moves",
         "name": "Yoga Float(immediately)",
-        "input": [
-            "2",
-            "+",
-            "K",
-            "K"
-        ],
+        "input": "2+KK",
         "startup": null,
         "driveGain_hit": 0,
         "driveDrain_block": 0,
@@ -1050,12 +772,7 @@
     {
         "section": "Special Moves",
         "name": "Yoga Float(Forward)",
-        "input": [
-            "3",
-            "+",
-            "K",
-            "K"
-        ],
+        "input": "3+KK",
         "startup": null,
         "driveGain_hit": 0,
         "driveDrain_block": 0,
@@ -1069,12 +786,7 @@
     {
         "section": "Special Moves",
         "name": "Aerial Yoga Float",
-        "input": [
-            "2",
-            "+",
-            "K",
-            "K"
-        ],
+        "input": "2+KK",
         "startup": null,
         "driveGain_hit": 0,
         "driveDrain_block": 0,
@@ -1088,13 +800,7 @@
     {
         "section": "Special Moves",
         "name": "P Yoga Teleport (Forward)",
-        "input": [
-            "6",
-            "+",
-            "P",
-            "P",
-            "P"
-        ],
+        "input": "6+PPP",
         "startup": null,
         "driveGain_hit": 0,
         "driveDrain_block": 0,
@@ -1108,13 +814,7 @@
     {
         "section": "Special Moves",
         "name": "K Yoga Teleport (Forward)",
-        "input": [
-            "6",
-            "+",
-            "K",
-            "K",
-            "K"
-        ],
+        "input": "6+KKK",
         "startup": null,
         "driveGain_hit": 0,
         "driveDrain_block": 0,
@@ -1128,13 +828,7 @@
     {
         "section": "Special Moves",
         "name": "P Aerial Yoga Teleport (Forward)",
-        "input": [
-            "6",
-            "+",
-            "P",
-            "P",
-            "P"
-        ],
+        "input": "6+PPP",
         "startup": null,
         "driveGain_hit": 0,
         "driveDrain_block": 0,
@@ -1148,13 +842,7 @@
     {
         "section": "Special Moves",
         "name": "K Aerial Yoga Teleport (Forward)",
-        "input": [
-            "6",
-            "+",
-            "K",
-            "K",
-            "K"
-        ],
+        "input": "6+KKK",
         "startup": null,
         "driveGain_hit": 0,
         "driveDrain_block": 0,
@@ -1168,19 +856,7 @@
     {
         "section": "Special Moves",
         "name": "Yoga Teleport (Backward)",
-        "input": [
-            "4",
-            "+",
-            "P",
-            "P",
-            "P",
-            null,
-            "4",
-            "+",
-            "K",
-            "K",
-            "K"
-        ],
+        "input": "4+PPP/4+KKK",
         "startup": null,
         "driveGain_hit": 0,
         "driveDrain_block": 0,
@@ -1194,13 +870,7 @@
     {
         "section": "Special Moves",
         "name": "P Aerial Yoga Teleport (Backward)",
-        "input": [
-            "4",
-            "+",
-            "P",
-            "P",
-            "P"
-        ],
+        "input": "4+PPP",
         "startup": null,
         "driveGain_hit": 0,
         "driveDrain_block": 0,
@@ -1214,13 +884,7 @@
     {
         "section": "Special Moves",
         "name": "K Aerial Yoga Teleport (Backward)",
-        "input": [
-            "4",
-            "+",
-            "K",
-            "K",
-            "K"
-        ],
+        "input": "4+KKK",
         "startup": null,
         "driveGain_hit": 0,
         "driveDrain_block": 0,
@@ -1234,16 +898,7 @@
     {
         "section": "Super Arts",
         "name": "SA1 L Yoga Inferno",
-        "input": [
-            "2",
-            "3",
-            "6",
-            "2",
-            "3",
-            "6",
-            "+",
-            "LP"
-        ],
+        "input": "236236+LP",
         "startup": 10,
         "driveGain_hit": 0,
         "driveDrain_block": -2520,
@@ -1257,16 +912,7 @@
     {
         "section": "Super Arts",
         "name": "SA1 M Yoga Inferno",
-        "input": [
-            "2",
-            "3",
-            "6",
-            "2",
-            "3",
-            "6",
-            "+",
-            "MP"
-        ],
+        "input": "236236+MP",
         "startup": 10,
         "driveGain_hit": 0,
         "driveDrain_block": -2520,
@@ -1280,16 +926,7 @@
     {
         "section": "Super Arts",
         "name": "SA1 H Yoga Inferno",
-        "input": [
-            "2",
-            "3",
-            "6",
-            "2",
-            "3",
-            "6",
-            "+",
-            "HP"
-        ],
+        "input": "236236+HP",
         "startup": 10,
         "driveGain_hit": 0,
         "driveDrain_block": -2520,
@@ -1303,16 +940,7 @@
     {
         "section": "Super Arts",
         "name": "SA2 Yoga Sunburst(Lv1)",
-        "input": [
-            "2",
-            "1",
-            "4",
-            "2",
-            "1",
-            "4",
-            "+",
-            "K"
-        ],
+        "input": "214214+K",
         "startup": 7,
         "driveGain_hit": 0,
         "driveDrain_block": -2500,
@@ -1326,16 +954,7 @@
     {
         "section": "Super Arts",
         "name": "SA2 Yoga Sunburst(Lv2)",
-        "input": [
-            "2",
-            "1",
-            "4",
-            "2",
-            "1",
-            "4",
-            "+",
-            "K"
-        ],
+        "input": "214214+K",
         "startup": 7,
         "driveGain_hit": 0,
         "driveDrain_block": -3500,
@@ -1349,16 +968,7 @@
     {
         "section": "Super Arts",
         "name": "SA2 Yoga Sunburst(Lv3)",
-        "input": [
-            "2",
-            "1",
-            "4",
-            "2",
-            "1",
-            "4",
-            "+",
-            "K"
-        ],
+        "input": "214214+K",
         "startup": 7,
         "driveGain_hit": 0,
         "driveDrain_block": -4500,
@@ -1372,16 +982,7 @@
     {
         "section": "Super Arts",
         "name": "SA3 Merciless Yoga",
-        "input": [
-            "2",
-            "3",
-            "6",
-            "2",
-            "3",
-            "6",
-            "+",
-            "K"
-        ],
+        "input": "236236+K",
         "startup": 10,
         "driveGain_hit": 0,
         "driveDrain_block": -7500,
@@ -1395,16 +996,7 @@
     {
         "section": "Super Arts",
         "name": "CA Merciless Yoga",
-        "input": [
-            "2",
-            "3",
-            "6",
-            "2",
-            "3",
-            "6",
-            "+",
-            "K"
-        ],
+        "input": "236236+K",
         "startup": 10,
         "driveGain_hit": 0,
         "driveDrain_block": -10000,
@@ -1418,14 +1010,7 @@
     {
         "section": "Throws",
         "name": "Yoga Smash",
-        "input": [
-            null,
-            null,
-            "6",
-            "+",
-            "LP",
-            "LK"
-        ],
+        "input": "5/6+LPLK",
         "startup": 5,
         "driveGain_hit": 2000,
         "driveDrain_block": 0,
@@ -1439,12 +1024,7 @@
     {
         "section": "Throws",
         "name": "Yoga Throw",
-        "input": [
-            "4",
-            "+",
-            "LP",
-            "LK"
-        ],
+        "input": "4+LPLK",
         "startup": 5,
         "driveGain_hit": 2000,
         "driveDrain_block": 0,
@@ -1458,12 +1038,7 @@
     {
         "section": "Throws",
         "name": "Yoga Splash",
-        "input": [
-            "2",
-            "+",
-            "LP",
-            "LK"
-        ],
+        "input": "2+LPLK",
         "startup": 5,
         "driveGain_hit": 2000,
         "driveDrain_block": 0,
@@ -1477,10 +1052,7 @@
     {
         "section": "Common Moves",
         "name": "Forward Dash",
-        "input": [
-            "6",
-            "6"
-        ],
+        "input": "66",
         "startup": null,
         "driveGain_hit": 0,
         "driveDrain_block": 0,
@@ -1494,10 +1066,7 @@
     {
         "section": "Common Moves",
         "name": "Backward Dash",
-        "input": [
-            "4",
-            "4"
-        ],
+        "input": "44",
         "startup": null,
         "driveGain_hit": 0,
         "driveDrain_block": 0,
@@ -1511,10 +1080,7 @@
     {
         "section": "Common Moves",
         "name": "Drive Impact: Yoga Rise",
-        "input": [
-            "HP",
-            "HK"
-        ],
+        "input": "HPHK",
         "startup": 26,
         "driveGain_hit": 0,
         "driveDrain_block": -5000,
@@ -1528,12 +1094,7 @@
     {
         "section": "Common Moves",
         "name": "Drive Reversal: Yoga Illusion",
-        "input": [
-            "6",
-            "+",
-            "HP",
-            "HK"
-        ],
+        "input": "6+HPHK",
         "startup": 20,
         "driveGain_hit": 0,
         "driveDrain_block": 0,
@@ -1547,10 +1108,7 @@
     {
         "section": "Common Moves",
         "name": "Drive Parry",
-        "input": [
-            "MP",
-            "MK"
-        ],
+        "input": "MPMK",
         "startup": 1,
         "driveGain_hit": 0,
         "driveDrain_block": 0,
@@ -1564,10 +1122,7 @@
     {
         "section": "Common Moves",
         "name": "Perfect Parry (strike)",
-        "input": [
-            "MP",
-            "MK"
-        ],
+        "input": "MPMK",
         "startup": 1,
         "driveGain_hit": null,
         "driveDrain_block": null,
@@ -1581,10 +1136,7 @@
     {
         "section": "Common Moves",
         "name": "Perfect Parry (projectile)",
-        "input": [
-            "MP",
-            "MK"
-        ],
+        "input": "MPMK",
         "startup": 1,
         "driveGain_hit": null,
         "driveDrain_block": null,
@@ -1598,10 +1150,7 @@
     {
         "section": "Common Moves",
         "name": "Parry Drive Rush",
-        "input": [
-            "6",
-            "6"
-        ],
+        "input": "66",
         "startup": null,
         "driveGain_hit": 0,
         "driveDrain_block": 0,
@@ -1615,17 +1164,7 @@
     {
         "section": "Common Moves",
         "name": "Cancel Drive Rush",
-        "input": [
-            "6",
-            "6",
-            null,
-            null,
-            null,
-            "6",
-            "+",
-            "MP",
-            "MK"
-        ],
+        "input": "66/5/6+MPMK",
         "startup": null,
         "driveGain_hit": 0,
         "driveDrain_block": 0,

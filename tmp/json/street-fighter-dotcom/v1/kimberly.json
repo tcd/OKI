@@ -462,11 +462,11 @@
         "section": "Unique Attacks",
         "Move Name": "Step Up",
         "input": [
-            null,
-            null,
-            null,
-            null,
-            null
+            "7",
+            "/",
+            "8",
+            "/",
+            "9"
         ],
         "Frame.Start-up": null,
         "Frame.Active": null,
@@ -511,7 +511,7 @@
         "Move Name": "Bushin Tiger Fangs",
         "input": [
             "MP",
-            null,
+            ">",
             "HP"
         ],
         "Frame.Start-up": 10,
@@ -534,7 +534,7 @@
         "Move Name": "Bushin Prism Strikes(2)",
         "input": [
             "LP",
-            null,
+            ">",
             "MP"
         ],
         "Frame.Start-up": 6,
@@ -557,9 +557,9 @@
         "Move Name": "Bushin Prism Strikes(3)",
         "input": [
             "LP",
-            null,
+            ">",
             "MP",
-            null,
+            ">",
             "HP"
         ],
         "Frame.Start-up": 12,
@@ -582,11 +582,11 @@
         "Move Name": "Bushin Prism Strikes(4)",
         "input": [
             "LP",
-            null,
+            ">",
             "MP",
-            null,
+            ">",
             "HP",
-            null,
+            ">",
             "HK"
         ],
         "Frame.Start-up": 26,
@@ -609,9 +609,9 @@
         "Move Name": "Bushin Hellchain(3)",
         "input": [
             "LP",
-            null,
+            ">",
             "MP",
-            null,
+            ">",
             "2",
             "+",
             "HP"
@@ -636,13 +636,13 @@
         "Move Name": "Bushin Hellchain(4)",
         "input": [
             "LP",
-            null,
+            ">",
             "MP",
-            null,
+            ">",
             "2",
             "+",
             "HP",
-            null,
+            ">",
             "HK"
         ],
         "Frame.Start-up": 15,
@@ -665,13 +665,13 @@
         "Move Name": "Bushin Hellchain Throw",
         "input": [
             "LP",
-            null,
+            ">",
             "MP",
-            null,
+            ">",
             "2",
             "+",
             "HP",
-            null,
+            ">",
             "2",
             "+",
             "HK"
@@ -1755,8 +1755,8 @@
         "section": "Throws",
         "Move Name": "Ripcord Throw",
         "input": [
-            null,
-            null,
+            "5",
+            "/",
             "6",
             "+",
             "LP",
@@ -1985,9 +1985,9 @@
         "input": [
             "6",
             "6",
-            null,
-            null,
-            null,
+            "/",
+            "5",
+            "/",
             "6",
             "+",
             "MP",

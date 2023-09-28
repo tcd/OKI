@@ -747,7 +747,7 @@
         "section": "Special Moves",
         "Move Name": "L Rolling Attack",
         "input": [
-            null,
+            "[4]",
             "6",
             "+",
             "LP"
@@ -771,7 +771,7 @@
         "section": "Special Moves",
         "Move Name": "[Lightning Beast] L Rolling Attack",
         "input": [
-            null,
+            "[4]",
             "6",
             "+",
             "LP"
@@ -795,7 +795,7 @@
         "section": "Special Moves",
         "Move Name": "M Rolling Attack",
         "input": [
-            null,
+            "[4]",
             "6",
             "+",
             "MP"
@@ -819,7 +819,7 @@
         "section": "Special Moves",
         "Move Name": "[Lightning Beast] M Rolling Attack",
         "input": [
-            null,
+            "[4]",
             "6",
             "+",
             "MP"
@@ -843,7 +843,7 @@
         "section": "Special Moves",
         "Move Name": "H Rolling Attack",
         "input": [
-            null,
+            "[4]",
             "6",
             "+",
             "HP"
@@ -867,7 +867,7 @@
         "section": "Special Moves",
         "Move Name": "[Lightning Beast] H Rolling Attack",
         "input": [
-            null,
+            "[4]",
             "6",
             "+",
             "HP"
@@ -891,7 +891,7 @@
         "section": "Special Moves",
         "Move Name": "OD Rolling Attack",
         "input": [
-            null,
+            "[4]",
             "6",
             "+",
             "P",
@@ -916,7 +916,7 @@
         "section": "Special Moves",
         "Move Name": "[Lightning Beast] OD Rolling Attack",
         "input": [
-            null,
+            "[4]",
             "6",
             "+",
             "P",
@@ -941,8 +941,8 @@
         "section": "Special Moves",
         "Move Name": "L Vertical Rolling Attack",
         "input": [
-            null,
-            null,
+            "[2]",
+            "8",
             "+",
             "LK"
         ],
@@ -965,8 +965,8 @@
         "section": "Special Moves",
         "Move Name": "[Lightning Beast] L Vertical Rolling Attack",
         "input": [
-            null,
-            null,
+            "[2]",
+            "8",
             "+",
             "LK"
         ],
@@ -989,8 +989,8 @@
         "section": "Special Moves",
         "Move Name": "M Vertical Rolling Attack",
         "input": [
-            null,
-            null,
+            "[2]",
+            "8",
             "+",
             "MK"
         ],
@@ -1013,8 +1013,8 @@
         "section": "Special Moves",
         "Move Name": "[Lightning Beast] M Vertical Rolling Attack",
         "input": [
-            null,
-            null,
+            "[2]",
+            "8",
             "+",
             "MK"
         ],
@@ -1037,8 +1037,8 @@
         "section": "Special Moves",
         "Move Name": "H Vertical Rolling Attack",
         "input": [
-            null,
-            null,
+            "[2]",
+            "8",
             "+",
             "HK"
         ],
@@ -1061,8 +1061,8 @@
         "section": "Special Moves",
         "Move Name": "[Lightning Beast] H Vertical Rolling Attack",
         "input": [
-            null,
-            null,
+            "[2]",
+            "8",
             "+",
             "HK"
         ],
@@ -1085,8 +1085,8 @@
         "section": "Special Moves",
         "Move Name": "OD Vertical Rolling Attack",
         "input": [
-            null,
-            null,
+            "[2]",
+            "8",
             "+",
             "K",
             "K"
@@ -1110,8 +1110,8 @@
         "section": "Special Moves",
         "Move Name": "[Lightning Beast] OD Vertical Rolling Attack",
         "input": [
-            null,
-            null,
+            "[2]",
+            "8",
             "+",
             "K",
             "K"
@@ -1353,7 +1353,7 @@
         "section": "Special Moves",
         "Move Name": "L Aerial Rolling Attack",
         "input": [
-            null,
+            "[4]",
             "6",
             "+",
             "LP"
@@ -1377,7 +1377,7 @@
         "section": "Special Moves",
         "Move Name": "[Lightning Beast] L Aerial Rolling Attack",
         "input": [
-            null,
+            "[4]",
             "6",
             "+",
             "LP"
@@ -1401,7 +1401,7 @@
         "section": "Special Moves",
         "Move Name": "M Aerial Rolling Attack",
         "input": [
-            null,
+            "[4]",
             "6",
             "+",
             "MP"
@@ -1425,7 +1425,7 @@
         "section": "Special Moves",
         "Move Name": "[Lightning Beast] M Aerial Rolling Attack",
         "input": [
-            null,
+            "[4]",
             "6",
             "+",
             "MP"
@@ -1449,7 +1449,7 @@
         "section": "Special Moves",
         "Move Name": "H Aerial Rolling Attack",
         "input": [
-            null,
+            "[4]",
             "6",
             "+",
             "HP"
@@ -1473,7 +1473,7 @@
         "section": "Special Moves",
         "Move Name": "[Lightning Beast] H Aerial Rolling Attack",
         "input": [
-            null,
+            "[4]",
             "6",
             "+",
             "HP"
@@ -1497,7 +1497,7 @@
         "section": "Special Moves",
         "Move Name": "OD Aerial Rolling Attack",
         "input": [
-            null,
+            "[4]",
             "6",
             "+",
             "P",
@@ -1522,7 +1522,7 @@
         "section": "Special Moves",
         "Move Name": "[Lightning Beast] OD Aerial Rolling Attack",
         "input": [
-            null,
+            "[4]",
             "6",
             "+",
             "P",
@@ -1834,8 +1834,8 @@
         "section": "Throws",
         "Move Name": "Wild Fang",
         "input": [
-            null,
-            null,
+            "5",
+            "/",
             "6",
             "+",
             "LP",
@@ -2086,9 +2086,9 @@
         "input": [
             "6",
             "6",
-            null,
-            null,
-            null,
+            "/",
+            "5",
+            "/",
             "6",
             "+",
             "MP",

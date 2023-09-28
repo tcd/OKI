@@ -640,7 +640,7 @@
         "section": "Unique Attacks",
         "Move Name": "Flying Headbutt",
         "input": [
-            null,
+            "8",
             "+",
             "HP"
         ],
@@ -664,7 +664,7 @@
         "Move Name": "Machine Gun Chops(2)",
         "input": [
             "MP",
-            null,
+            ">",
             "MP"
         ],
         "Frame.Start-up": 9,
@@ -687,9 +687,9 @@
         "Move Name": "Machine Gun Chops(3)",
         "input": [
             "MP",
-            null,
+            ">",
             "MP",
-            null,
+            ">",
             "MP"
         ],
         "Frame.Start-up": 15,
@@ -739,7 +739,7 @@
             "2",
             "+",
             "MK",
-            null,
+            ">",
             "MK"
         ],
         "Frame.Start-up": 9,
@@ -765,9 +765,9 @@
             "2",
             "+",
             "MK",
-            null,
+            ">",
             "MK",
-            null,
+            ">",
             "MK"
         ],
         "Frame.Start-up": 10,
@@ -834,7 +834,7 @@
         "section": "Special Moves",
         "Move Name": "L Screw Piledriver",
         "input": [
-            null,
+            "360",
             "+",
             "LP"
         ],
@@ -857,7 +857,7 @@
         "section": "Special Moves",
         "Move Name": "M Screw Piledriver",
         "input": [
-            null,
+            "360",
             "+",
             "MP"
         ],
@@ -880,7 +880,7 @@
         "section": "Special Moves",
         "Move Name": "H Screw Piledriver",
         "input": [
-            null,
+            "360",
             "+",
             "HP"
         ],
@@ -903,7 +903,7 @@
         "section": "Special Moves",
         "Move Name": "OD Screw Piledriver",
         "input": [
-            null,
+            "360",
             "+",
             "P",
             "P"
@@ -927,7 +927,7 @@
         "section": "Special Moves",
         "Move Name": "Borscht Dynamite",
         "input": [
-            null,
+            "360",
             "+",
             "K"
         ],
@@ -950,7 +950,7 @@
         "section": "Special Moves",
         "Move Name": "OD Borscht Dynamite",
         "input": [
-            null,
+            "360",
             "+",
             "K",
             "K"
@@ -1275,8 +1275,8 @@
         "section": "Super Arts",
         "Move Name": "SA3 Bolshoi Storm Buster",
         "input": [
-            null,
-            null,
+            "360",
+            "360",
             "+",
             "P"
         ],
@@ -1299,8 +1299,8 @@
         "section": "Super Arts",
         "Move Name": "CA Bolshoi Storm Buster",
         "input": [
-            null,
-            null,
+            "360",
+            "360",
             "+",
             "P"
         ],
@@ -1323,7 +1323,7 @@
         "section": "Throws",
         "Move Name": "Bodyslam",
         "input": [
-            null,
+            "5",
             "+",
             "LP",
             "LK"
@@ -1647,9 +1647,9 @@
         "input": [
             "6",
             "6",
-            null,
-            null,
-            null,
+            "/",
+            "5",
+            "/",
             "6",
             "+",
             "MP",

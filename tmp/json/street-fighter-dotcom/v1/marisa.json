@@ -524,7 +524,7 @@
         "Move Name": "Light Two Hitter",
         "input": [
             "LP",
-            null,
+            ">",
             "LP"
         ],
         "Frame.Start-up": 14,
@@ -547,7 +547,7 @@
         "Move Name": "Medium Two Hitter",
         "input": [
             "MP",
-            null,
+            ">",
             "MP"
         ],
         "Frame.Start-up": 14,
@@ -570,7 +570,7 @@
         "Move Name": "Heavy Two Hitter",
         "input": [
             "HP",
-            null,
+            ">",
             "HP"
         ],
         "Frame.Start-up": 24,
@@ -593,7 +593,7 @@
         "Move Name": "Volare Combo",
         "input": [
             "MP",
-            null,
+            ">",
             "MP"
         ],
         "Frame.Start-up": 10,
@@ -710,7 +710,7 @@
             "6",
             "+",
             "MP",
-            null,
+            ">",
             "HP"
         ],
         "Frame.Start-up": 11,
@@ -735,7 +735,7 @@
             "6",
             "+",
             "MP",
-            null,
+            ">",
             "HK"
         ],
         "Frame.Start-up": 11,
@@ -806,7 +806,7 @@
             "3",
             "+",
             "HP",
-            null,
+            ">",
             "3",
             "+",
             "HP"
@@ -879,7 +879,7 @@
             "6",
             "+",
             "HK",
-            null,
+            ">",
             "6",
             "+",
             "HK"
@@ -1135,7 +1135,7 @@
             "4",
             "+",
             "LP",
-            null,
+            ">",
             "6",
             "+",
             "P"
@@ -1189,7 +1189,7 @@
             "4",
             "+",
             "MP",
-            null,
+            ">",
             "6",
             "+",
             "P"
@@ -1243,7 +1243,7 @@
             "4",
             "+",
             "HP",
-            null,
+            ">",
             "6",
             "+",
             "P"
@@ -1299,7 +1299,7 @@
             "+",
             "P",
             "P",
-            null,
+            ">",
             "6",
             "+",
             "P"
@@ -1636,7 +1636,7 @@
         "Move Name": "Tonitrus(2)",
         "input": [
             "P",
-            null,
+            ">",
             "P"
         ],
         "Frame.Start-up": 20,
@@ -1869,8 +1869,8 @@
         "section": "Throws",
         "Move Name": "Mounted Grace",
         "input": [
-            null,
-            null,
+            "5",
+            "/",
             "6",
             "+",
             "LP",
@@ -2099,9 +2099,9 @@
         "input": [
             "6",
             "6",
-            null,
-            null,
-            null,
+            "/",
+            "5",
+            "/",
             "6",
             "+",
             "MP",

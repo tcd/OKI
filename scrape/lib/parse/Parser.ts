@@ -212,6 +212,10 @@ export class Parser extends Processor {
 
         for (const image of images.toArray()) {
             const src = image.attribs["src"].trim()
+            const input = IMG_SRC_NAMES[src]
+            if (input == null) {
+                console.log(src)
+            }
             inputs.push(IMG_SRC_NAMES[src])
         }
         return inputs
@@ -231,11 +235,21 @@ const IMG_SRC_NAMES: Record<string, TInput> = {
     "/6/assets/images/common/controller/icon_punch.png": "P",
     "/6/assets/images/common/controller/icon_kick.png":  "K",
 
-    "/6/assets/images/common/controller/key-d.png":  "2",
-    "/6/assets/images/common/controller/key-r.png":  "6",
-    "/6/assets/images/common/controller/key-l.png":  "4",
-    "/6/assets/images/common/controller/key-dr.png": "3",
-    "/6/assets/images/common/controller/key-dl.png": "1",
+    "/6/assets/images/common/controller/key-dl.png":     "1",
+    "/6/assets/images/common/controller/key-d.png":      "2",
+    "/6/assets/images/common/controller/key-dr.png":     "3",
+    "/6/assets/images/common/controller/key-l.png":      "4",
+    "/6/assets/images/common/controller/key-nutral.png": "5",
+    "/6/assets/images/common/controller/key-r.png":      "6",
+    "/6/assets/images/common/controller/key-ul.png":     "7",
+    "/6/assets/images/common/controller/key-u.png":      "8",
+    "/6/assets/images/common/controller/key-ur.png":     "9",
+    "/6/assets/images/common/controller/key-dc.png":     "[2]",
+    "/6/assets/images/common/controller/key-lc.png":     "[4]",
+
+    "/6/assets/images/common/controller/key-circle.png": "360",
 
     "/6/assets/images/common/controller/key-plus.png": "+",
+    "/6/assets/images/common/controller/arrow_3.png":  ">",
+    "/6/assets/images/common/controller/key-or.png":   "/",
 }
