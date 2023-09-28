@@ -16,7 +16,7 @@ export const Frame = (props: FrameProps): JSX.Element => {
 
     const dispatch = useDispatch()
 
-    const {
+    let {
         number,
         frame,
         rowData,
@@ -40,6 +40,7 @@ export const Frame = (props: FrameProps): JSX.Element => {
 
     if (frame >= startFrame) {
         if (rowData?.frameData?.total != null) {
+            frame = frame - startFrame
             const startup = rowData.frameData.startup
             const activeLimit = (startup + rowData.frameData.active)
             const recoveryLimit = (activeLimit + rowData.frameData.recovery)
