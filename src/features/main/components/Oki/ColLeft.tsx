@@ -12,7 +12,6 @@ export const ColLeft = (): JSX.Element => {
         <Box sx={{
             display: "flex",
             flexFlow: "column nowrap",
-            mr: 1,
             color: "#fff",
         }}>
             <span>&nbsp;</span>
@@ -44,6 +43,7 @@ const OkiButton = (props: OkiButtonProps): JSX.Element => {
     }
 
     const sx: SxProps = {
+        pr: 1,
         "&:hover": {
             cursor: "pointer",
         },

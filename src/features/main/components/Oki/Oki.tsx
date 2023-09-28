@@ -18,11 +18,11 @@ export const Oki = (): JSX.Element => {
 // =============================================================================
 
 const sx: SxProps = {
-    mx: 1,
+    px: 1,
     display: "flex",
     flexFlow: "row nowrap",
     fontSize: "13px",
     fontFamily: "monospace",
-    whiteSpace: "pre-line",
+    // whiteSpace: "pre-line",
     color: "#ccc",
 }

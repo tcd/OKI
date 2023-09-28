@@ -5,39 +5,12 @@ import type { ISxProps as SxProps } from "@app/theme"
 import { OkiConstants } from "@app/util"
 import { Actions } from "@app/state"
 
-export type OkiRowProps = {
-    number: SF6.OkiRowNumber
-}
-
-export const OkiRow = (props: OkiRowProps): JSX.Element => {
-
-    const {
-        number,
-    } = props
-
-    const $frames = OkiConstants.RANGE.map((i) => (
-        <Frame
-            key={i}
-            number={number}
-            frame={i}
-        />
-    ))
-
-    return (
-        <Box>
-            {$frames}
-        </Box>
-    )
-}
-
-// =============================================================================
-
-type FrameProps = {
+export type FrameProps = {
     number: SF6.OkiRowNumber
     frame: number
 }
 
-const Frame = (props: FrameProps): JSX.Element => {
+export const Frame = (props: FrameProps): JSX.Element => {
 
     const dispatch = useDispatch()
 
