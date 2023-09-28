@@ -29,7 +29,8 @@ export const reducers = {
         state[`oki${activeRow}`].startFrame = payload.frame
     },
     frameClick: (state: MainState, { payload }: PayloadAction<FrameClickPayload>) => {
-        // FIXME: implement
+        state.activeRow = payload.number
+        state[`oki${payload.number}`].startFrame = payload.frame
     },
 }
 

@@ -47,8 +47,8 @@ export interface ICharacterFrameData {
     startup?: any
     active?: any
     recovery?: any
-    "Recovery.Hit"?: any
-    "Recovery.Block"?: any
+    hitAdvantage?: any
+    blockAdvantage?: any
     "cancel"?: any
     damage?: any
     scaling?: any

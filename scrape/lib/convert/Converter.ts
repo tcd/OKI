@@ -46,8 +46,8 @@ class _Converter {
             name: this.rawData["Move Name"],
             input: this.rawData["input"].join(""),
             startup: this.rawData["Frame.Start-up"],
-            // "Recovery.Hit"?: any
-            // "Recovery.Block"?: any
+            hitAdvantage: this.rawData["Recovery.Hit"],
+            blockAdvantage: this.rawData["Recovery.Block"],
             // scaling?: any
             driveGain_hit: this.rawData["Drive Gauge Increase.Hit"],
             driveDrain_block: this.rawData["Drive Gauge Decrease.Block"],
