@@ -32,6 +32,10 @@ export const reducers = {
         state.activeRow = payload.number
         state[`oki${payload.number}`].startFrame = payload.frame
     },
+    clickMove: (state: MainState, { payload }: PayloadAction<string>) => {
+        const activeRow = state.activeRow
+        state[`oki${activeRow}`].name = payload
+    },
 }
 
 export const extraReducers = (builder: ActionReducerMapBuilder<MainState>) => {}

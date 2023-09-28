@@ -1,9 +1,9 @@
-import { useSelector } from "react-redux"
+import { useDispatch, useSelector } from "react-redux"
 import {
     Box,
 } from "@mui/material"
 
-import { Selectors } from "@app/state"
+import { Actions, Selectors } from "@app/state"
 import type { ISxProps as SxProps } from "@app/theme"
 
 const skips = [
@@ -11,9 +11,15 @@ const skips = [
     "Combo Scaling",
     "Properties",
     "Miscellaneous",
+    "driveGain_hit",
+    "driveDrain_block",
+    "driveDrain_punishCounter",
+    "superGain",
 ]
 
 export const Table1 = (): JSX.Element => {
+
+    const dispatch = useDispatch()
 
     const frameData = useSelector(Selectors.Main.frameData.character1)
 
@@ -24,7 +30,10 @@ export const Table1 = (): JSX.Element => {
     ))
 
     const $rows = frameData.map((row, i) => (
-        <tr key={i}>
+        <tr
+            key={i}
+            onClick={() => dispatch(Actions.Main.clickMove(row.name))}
+        >
             {columns.map((col, j) => (
                 <td key={j}>
                     {row[col] ?? ""}

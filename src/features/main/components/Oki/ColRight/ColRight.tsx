@@ -39,4 +39,5 @@ const sx: SxProps = {
     display: "flex",
     flexFlow: "row nowrap",
     ml: 1,
+    color: "#eee",
 }
