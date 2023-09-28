@@ -11,8 +11,8 @@ export const MainPage = (): JSX.Element => {
     return (
         <Box sx={rootSx}>
             <AboveTable />
-            <Table1 />
             <Oki />
+            <Table1 />
             <Help />
         </Box>
     )
