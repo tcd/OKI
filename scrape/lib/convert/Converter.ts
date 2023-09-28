@@ -58,10 +58,10 @@ class _Converter {
             active: null,
             recovery: null,
             total: null,
-            cancel: null,
-            damage: null,
             hitAdvantage: this.rawData["Recovery.Hit"],
             blockAdvantage: this.rawData["Recovery.Block"],
+            cancel: null,
+            damage: null,
             // scaling?: any
             driveGain_hit: this.rawData["Drive Gauge Increase.Hit"],
             driveDrain_block: this.rawData["Drive Gauge Decrease.Block"],
