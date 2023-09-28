@@ -47,9 +47,10 @@ export interface ICharacterFrameData {
     startup?: any
     active?: any
     recovery?: any
+    total?: any
     hitAdvantage?: any
     blockAdvantage?: any
-    "cancel"?: any
+    cancel?: any
     damage?: any
     scaling?: any
     driveGain_hit?: any
