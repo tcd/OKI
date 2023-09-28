@@ -9,6 +9,7 @@ export type FrameProps = {
     number: SF6.OkiRowNumber
     frame: number
     rowData: SF6.IOkiRow
+    startFrame: number
 }
 
 export const Frame = (props: FrameProps): JSX.Element => {
@@ -19,6 +20,7 @@ export const Frame = (props: FrameProps): JSX.Element => {
         number,
         frame,
         rowData,
+        startFrame,
     } = props
 
     const handleClick = () => {
@@ -36,25 +38,27 @@ export const Frame = (props: FrameProps): JSX.Element => {
         backgroundColor: undefined,
     }
 
-    if (rowData?.frameData?.total != null) {
-        const startup = rowData.frameData.startup
-        const activeLimit = (startup + rowData.frameData.active)
-        const recoveryLimit = (activeLimit + rowData.frameData.recovery)
+    if (frame >= startFrame) {
+        if (rowData?.frameData?.total != null) {
+            const startup = rowData.frameData.startup
+            const activeLimit = (startup + rowData.frameData.active)
+            const recoveryLimit = (activeLimit + rowData.frameData.recovery)
 
-        if (frame <= startup) {
-            $content = "s"
-            sx.color = "#AAA"
-            sx.backgroundColor = "#002222 !important"
-        }
-        if (frame >= startup && frame < activeLimit) {
-            $content = "A"
-            sx.color = "#fcc !important"
-            sx.backgroundColor = "#002222 !important"
-        }
-        if (frame >= activeLimit && frame <= recoveryLimit) {
-            $content = "r"
-            sx.color = "#AAA"
-            sx.backgroundColor = "#002222 !important"
+            if (frame <= startup) {
+                $content = "s"
+                sx.color = "#AAA"
+                sx.backgroundColor = "#002222 !important"
+            }
+            if (frame >= startup && frame < activeLimit) {
+                $content = "A"
+                sx.color = "#fcc !important"
+                sx.backgroundColor = "#002222 !important"
+            }
+            if (frame >= activeLimit && frame <= recoveryLimit) {
+                $content = "r"
+                sx.color = "#AAA"
+                sx.backgroundColor = "#002222 !important"
+            }
         }
     }
 

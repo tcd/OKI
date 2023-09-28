@@ -40,4 +40,7 @@ const sx: SxProps = {
     flexFlow: "row nowrap",
     ml: 1,
     color: "#eee",
+    "& *": {
+        whiteSpace: "nowrap",
+    },
 }

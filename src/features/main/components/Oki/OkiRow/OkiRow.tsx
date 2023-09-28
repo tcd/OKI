@@ -18,12 +18,13 @@ export const OkiRow = (props: OkiRowProps): JSX.Element => {
 
     const activeRowNumber = useSelector(Selectors.Main.activeRowNumber)
     const okiRowData = useAppSelector((state) => Selectors.Main.okiRowPlus(state, number))
+    const startFrame = !!okiRowData?.startFrame ? okiRowData?.startFrame : 0
 
     const sx: SxProps = {
         "&:hover": {
             cursor: "pointer",
         },
-        backgroundColor: (activeRowNumber == number) ? "#002200" : "#000",
+        backgroundColor: (activeRowNumber == number) ? "#002200 !important" : "#000",
     }
 
     const $frames = OkiConstants.RANGE.map((i) => (
@@ -32,6 +33,7 @@ export const OkiRow = (props: OkiRowProps): JSX.Element => {
             number={number}
             frame={i}
             rowData={okiRowData}
+            startFrame={startFrame}
         />
     ))
 
