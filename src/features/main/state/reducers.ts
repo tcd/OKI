@@ -3,6 +3,11 @@ import type { ActionReducerMapBuilder, PayloadAction } from "@reduxjs/toolkit"
 import type { MainState } from "./state"
 import { INITIAL_GAME_STATE as INITIAL_STATE } from "./state"
 
+export type Extra2ClickPayload = {
+    frame: number
+    // side: "top" | "bottom"
+}
+
 export const reducers = {
     resetState: () => INITIAL_STATE,
     setPlayer1: (state: MainState, { payload }: PayloadAction<SF6.CharacterNameClean>) => {
@@ -14,9 +19,9 @@ export const reducers = {
     setActiveRow: (state: MainState, { payload }: PayloadAction<SF6.OkiRowNumber>) => {
         state.activeRow = payload
     },
-    handleExtra2Click: (state: MainState, { payload }: PayloadAction<number>) => {
-        // FIXME: implement
-        // state.activeRow = payload
+    handleExtra2Click: (state: MainState, { payload }: PayloadAction<Extra2ClickPayload>) => {
+        const activeRow = state.activeRow
+        state[`oki${activeRow}`].startFrame = payload.frame
     },
 }
 

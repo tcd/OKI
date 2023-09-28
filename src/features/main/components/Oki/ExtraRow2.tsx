@@ -8,7 +8,7 @@ import { Actions } from "@app/state"
 export const ExtraRow2 = (): JSX.Element => {
     const numbers = range(1, 120)
 
-    const $numbers = numbers.map((i) => <Number key={i} fullNumber={i} />)
+    const $numbers = numbers.map((i) => <Number key={i} fullNumber={i}/>)
 
     return (
         <Box>
@@ -42,7 +42,7 @@ const Number = (props: NumberProps): JSX.Element => {
     }
 
     const handleClick = () => {
-        dispatch(Actions.Main.handleExtra2Click(fullNumber))
+        dispatch(Actions.Main.handleExtra2Click({ frame: fullNumber }))
     }
 
     return (

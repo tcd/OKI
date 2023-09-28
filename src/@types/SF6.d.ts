@@ -33,9 +33,9 @@ export declare global {
             | "7"
 
         export interface IOkiRow {
-            name: string
-            startFrame: number
-            rowNumber: OkiRowNumber
+            name?: string
+            startFrame?: number
+            rowNumber?: OkiRowNumber
         }
 
         export interface IColumns {
