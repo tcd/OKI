@@ -2,15 +2,15 @@ import { Box } from "@mui/material"
 
 import type { ISxProps as SxProps } from "@app/theme"
 import { Center } from "./Center"
-import { LeftCol } from "./LeftCol"
-import { RightCol } from "./RightCol"
+import { ColLeft } from "./ColLeft"
+import { ColRight } from "./ColRight"
 
 export const Oki = (): JSX.Element => {
     return (
         <Box sx={sx}>
-            <LeftCol />
+            <ColLeft />
             <Center />
-            <RightCol />
+            <ColRight />
         </Box>
     )
 }

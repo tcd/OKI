@@ -2,7 +2,7 @@ import { Box } from "@mui/material"
 
 import type { ISxProps as SxProps } from "@app/theme"
 
-export const LeftCol = (): JSX.Element => {
+export const ColLeft = (): JSX.Element => {
     return (
         <Box sx={sx}>
             <span>&nbsp;</span>
