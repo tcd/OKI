@@ -19,7 +19,7 @@ import rashid from "./rashid.json"
 import ryu from "./ryu.json"
 import zangief from "./zangief.json"
 
-export const FRAME_DATA = {
+export const FRAME_DATA: Record<SF6.CharacterNameClean, SF6.ICharacterFrameData[]> = {
     aki,
     blanka,
     cammy,

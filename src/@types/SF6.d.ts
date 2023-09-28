@@ -59,7 +59,28 @@ export declare global {
             name?: string
             startFrame?: number
             rowNumber?: OkiRowNumber
-            frameData?: any
+            frameData?: ICharacterFrameData[]
+        }
+
+        export interface ICharacterFrameData {
+            section?: string
+            name?: any
+            input?: any
+            startup?: any
+            active?: any
+            recovery?: any
+            total?: any
+            hitAdvantage?: any
+            blockAdvantage?: any
+            cancel?: any
+            damage?: any
+            scaling?: any
+            driveGain_hit?: any
+            driveDrain_block?: any
+            driveDrain_punishCounter?: any
+            superGain?: any
+            properties?: string[]
+            notes?: any
         }
 
         export interface IColumns {
