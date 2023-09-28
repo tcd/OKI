@@ -30,18 +30,48 @@ export const Frame = (props: FrameProps): JSX.Element => {
 
     let $content: React.ReactNode = OkiConstants.DOT
 
-    const sx: SxProps = {}
+    const sx = {
+        ...baseSx,
+        color: undefined,
+        backgroundColor: undefined,
+    }
 
-    if (!!rowData?.name) {
+    if (rowData?.frameData?.total != null) {
+        const startup = rowData.frameData.startup
+        const activeLimit = (startup + rowData.frameData.active)
+        const recoveryLimit = (activeLimit + rowData.frameData.recovery)
 
+        if (frame <= startup) {
+            $content = "s"
+            sx.color = "#AAA"
+            sx.backgroundColor = "#002222 !important"
+        }
+        if (frame >= startup && frame < activeLimit) {
+            $content = "A"
+            sx.color = "#fcc !important"
+            sx.backgroundColor = "#002222 !important"
+        }
+        if (frame >= activeLimit && frame <= recoveryLimit) {
+            $content = "r"
+            sx.color = "#AAA"
+            sx.backgroundColor = "#002222 !important"
+        }
     }
 
     return (
         <Box
             component="span"
             onClick={handleClick}
+            sx={sx}
         >
             {$content}
         </Box>
     )
+}
+
+const baseSx: SxProps = {
+    "&:hover": {
+        cursor: "pointer",
+        backgroundColor: "#999900",
+    },
 }

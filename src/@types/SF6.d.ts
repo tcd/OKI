@@ -59,7 +59,7 @@ export declare global {
             name?: string
             startFrame?: number
             rowNumber?: OkiRowNumber
-            frameData?: ICharacterFrameData[]
+            frameData?: ICharacterFrameData
         }
 
         export interface ICharacterFrameData {

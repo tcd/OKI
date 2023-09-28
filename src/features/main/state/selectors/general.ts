@@ -17,7 +17,7 @@ const okiRow = (s: RootState, row: SF6.OkiRowNumber) => selectSlice(s)[`oki${row
 const activeRow = (s: RootState) => okiRow(s, activeRowNumber(s))
 const activeMove = (s: RootState) => character1MoveData(s, activeRow(s).name)
 
-const okiRowPlus = (s: RootState, row: SF6.OkiRowNumber) => {
+const okiRowPlus = (s: RootState, row: SF6.OkiRowNumber): SF6.IOkiRow => {
     const okiData = okiRow(s, row)
     if (!!!okiData?.name) {
         return okiData
