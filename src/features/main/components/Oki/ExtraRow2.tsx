@@ -1,14 +1,13 @@
-import range from "lodash/range"
 import { useDispatch } from "react-redux"
 import { Box } from "@mui/material"
 
 import type { ISxProps as SxProps } from "@app/theme"
 import { Actions } from "@app/state"
+import { OkiConstants } from "@app/util"
 
 export const ExtraRow2 = (): JSX.Element => {
-    const numbers = range(1, 120)
 
-    const $numbers = numbers.map((i) => <Number key={i} fullNumber={i}/>)
+    const $numbers = OkiConstants.RANGE.map((i) => <Number key={i} fullNumber={i}/>)
 
     return (
         <Box>
