@@ -16,7 +16,7 @@ export const Frame = (props: FrameProps): JSX.Element => {
 
     const dispatch = useDispatch()
 
-    let {
+    const {
         number,
         frame,
         rowData,
@@ -40,22 +40,22 @@ export const Frame = (props: FrameProps): JSX.Element => {
 
     if (frame >= startFrame) {
         if (rowData?.frameData?.total != null) {
-            frame = frame - startFrame
+            const relativeFrame = frame - startFrame
             const startup = rowData.frameData.startup
             const activeLimit = (startup + rowData.frameData.active)
             const recoveryLimit = (activeLimit + rowData.frameData.recovery)
 
-            if (frame <= startup) {
+            if (relativeFrame <= startup) {
                 $content = "s"
                 sx.color = "#AAA"
                 sx.backgroundColor = "#002222 !important"
             }
-            if (frame >= startup && frame < activeLimit) {
+            if (relativeFrame >= startup && relativeFrame < activeLimit) {
                 $content = "A"
                 sx.color = "#fcc !important"
                 sx.backgroundColor = "#002222 !important"
             }
-            if (frame >= activeLimit && frame <= recoveryLimit) {
+            if (relativeFrame >= activeLimit && relativeFrame <= recoveryLimit) {
                 $content = "r"
                 sx.color = "#AAA"
                 sx.backgroundColor = "#002222 !important"
