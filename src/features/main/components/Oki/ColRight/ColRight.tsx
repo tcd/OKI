@@ -1,8 +1,20 @@
 import { Box } from "@mui/material"
 
 import type { ISxProps as SxProps } from "@app/theme"
+import { Col1 } from "./Col1"
+import { Col2 } from "./Col2"
+import { Col3 } from "./Col3"
+import { Col4 } from "./Col4"
 
 export const ColRight = (): JSX.Element => {
+    return (
+        <Box sx={sx}>
+            <Col1 />
+            <Col2 />
+            <Col3 />
+            <Col4 />
+        </Box>
+    )
     return (
         <Box sx={sx}>
             <span>+6   U HIT 7   · MOVE YZ M Bushin Sho</span>
@@ -25,6 +37,6 @@ export const ColRight = (): JSX.Element => {
 
 const sx: SxProps = {
     display: "flex",
-    flexFlow: "column nowrap",
+    flexFlow: "row nowrap",
     ml: 1,
 }
