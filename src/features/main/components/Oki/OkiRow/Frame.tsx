@@ -28,9 +28,11 @@ export const Frame = (props: FrameProps): JSX.Element => {
         }))
     }
 
-    const $content = OkiConstants.DOT
+    let $content: React.ReactNode = OkiConstants.DOT
 
-    const sx: SxProps = {
+    const sx: SxProps = {}
+
+    if (!!rowData?.name) {
 
     }
 
