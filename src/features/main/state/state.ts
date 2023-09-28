@@ -24,13 +24,13 @@ export const INITIAL_GAME_STATE: MainState = {
     character1: "ryu",
     character2: "ryu",
     activeRow: "1",
-    oki1: {},
-    oki2: {},
-    oki3: {},
-    oki4: {},
-    oki5: {},
-    oki6: {},
-    oki7: {},
+    oki1: { startFrame: 1 },
+    oki2: { startFrame: 1 },
+    oki3: { startFrame: 1 },
+    oki4: { startFrame: 1 },
+    oki5: { startFrame: 1 },
+    oki6: { startFrame: 1 },
+    oki7: { startFrame: 1 },
 }
 
 // =============================================================================
