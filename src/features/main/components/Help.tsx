@@ -53,7 +53,6 @@ export const Help = (): JSX.Element => {
 const rootSx: SxProps = {
     ml: 1,
     my: 3,
-    backgroundColor: "grey",
 }
 
 const pSx: SxProps = {
