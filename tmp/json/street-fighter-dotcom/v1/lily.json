@@ -2,6 +2,9 @@
     {
         "section": "Normal Moves",
         "Move Name": "Standing Light Punch",
+        "input": [
+            "LP"
+        ],
         "Frame.Start-up": 6,
         "Frame.Active": "6-8",
         "Frame.Recovery": 8,
@@ -20,6 +23,9 @@
     {
         "section": "Normal Moves",
         "Move Name": "Standing Light Kick",
+        "input": [
+            "LK"
+        ],
         "Frame.Start-up": 4,
         "Frame.Active": "4-6",
         "Frame.Recovery": 12,
@@ -38,6 +44,9 @@
     {
         "section": "Normal Moves",
         "Move Name": "Standing Medium Punch",
+        "input": [
+            "MP"
+        ],
         "Frame.Start-up": 9,
         "Frame.Active": "9-12",
         "Frame.Recovery": 17,
@@ -56,6 +65,9 @@
     {
         "section": "Normal Moves",
         "Move Name": "Standing Medium Kick",
+        "input": [
+            "MK"
+        ],
         "Frame.Start-up": 7,
         "Frame.Active": "7-9",
         "Frame.Recovery": 15,
@@ -74,6 +86,9 @@
     {
         "section": "Normal Moves",
         "Move Name": "Standing Heavy Punch",
+        "input": [
+            "HP"
+        ],
         "Frame.Start-up": 11,
         "Frame.Active": "11-13",
         "Frame.Recovery": 22,
@@ -92,6 +107,9 @@
     {
         "section": "Normal Moves",
         "Move Name": "Standing Heavy Kick",
+        "input": [
+            "HK"
+        ],
         "Frame.Start-up": 14,
         "Frame.Active": "14-17",
         "Frame.Recovery": 21,
@@ -110,6 +128,11 @@
     {
         "section": "Normal Moves",
         "Move Name": "Crouching Light Punch",
+        "input": [
+            "2",
+            "+",
+            "LP"
+        ],
         "Frame.Start-up": 6,
         "Frame.Active": "6-8",
         "Frame.Recovery": 8,
@@ -128,6 +151,11 @@
     {
         "section": "Normal Moves",
         "Move Name": "Crouching Light Kick",
+        "input": [
+            "2",
+            "+",
+            "LK"
+        ],
         "Frame.Start-up": 5,
         "Frame.Active": "5-6",
         "Frame.Recovery": 12,
@@ -146,6 +174,11 @@
     {
         "section": "Normal Moves",
         "Move Name": "Crouching Medium Punch",
+        "input": [
+            "2",
+            "+",
+            "MP"
+        ],
         "Frame.Start-up": 8,
         "Frame.Active": "8-10",
         "Frame.Recovery": 18,
@@ -164,6 +197,11 @@
     {
         "section": "Normal Moves",
         "Move Name": "Crouching Medium Kick",
+        "input": [
+            "2",
+            "+",
+            "MK"
+        ],
         "Frame.Start-up": 10,
         "Frame.Active": "10-12",
         "Frame.Recovery": 18,
@@ -182,6 +220,11 @@
     {
         "section": "Normal Moves",
         "Move Name": "Crouching Heavy Punch",
+        "input": [
+            "2",
+            "+",
+            "HP"
+        ],
         "Frame.Start-up": 10,
         "Frame.Active": "10-1510-11, 12-15",
         "Frame.Recovery": 22,
@@ -200,6 +243,11 @@
     {
         "section": "Normal Moves",
         "Move Name": "Crouching Heavy Kick",
+        "input": [
+            "2",
+            "+",
+            "HK"
+        ],
         "Frame.Start-up": 11,
         "Frame.Active": "11-2011-12, 19-20",
         "Frame.Recovery": 24,
@@ -218,6 +266,9 @@
     {
         "section": "Normal Moves",
         "Move Name": "Jumping Light Punch",
+        "input": [
+            "LP"
+        ],
         "Frame.Start-up": 5,
         "Frame.Active": "5-13",
         "Frame.Recovery": 3,
@@ -236,6 +287,9 @@
     {
         "section": "Normal Moves",
         "Move Name": "Jumping Light Kick",
+        "input": [
+            "LK"
+        ],
         "Frame.Start-up": 6,
         "Frame.Active": "6-11",
         "Frame.Recovery": 3,
@@ -254,6 +308,9 @@
     {
         "section": "Normal Moves",
         "Move Name": "Jumping Medium Punch",
+        "input": [
+            "MP"
+        ],
         "Frame.Start-up": 9,
         "Frame.Active": "9-12",
         "Frame.Recovery": 3,
@@ -272,6 +329,9 @@
     {
         "section": "Normal Moves",
         "Move Name": "Jumping Medium Kick",
+        "input": [
+            "MK"
+        ],
         "Frame.Start-up": 8,
         "Frame.Active": "8-12",
         "Frame.Recovery": 3,
@@ -290,6 +350,9 @@
     {
         "section": "Normal Moves",
         "Move Name": "Jumping Heavy Punch",
+        "input": [
+            "HP"
+        ],
         "Frame.Start-up": 10,
         "Frame.Active": "10-15",
         "Frame.Recovery": 3,
@@ -308,6 +371,9 @@
     {
         "section": "Normal Moves",
         "Move Name": "Jumping Heavy Kick",
+        "input": [
+            "HK"
+        ],
         "Frame.Start-up": 11,
         "Frame.Active": "11-16",
         "Frame.Recovery": 3,
@@ -326,6 +392,11 @@
     {
         "section": "Unique Attacks",
         "Move Name": "Ridge Thrust",
+        "input": [
+            "3",
+            "+",
+            "HP"
+        ],
         "Frame.Start-up": 25,
         "Frame.Active": "25-27",
         "Frame.Recovery": 18,
@@ -344,6 +415,11 @@
     {
         "section": "Unique Attacks",
         "Move Name": "Horn Breaker",
+        "input": [
+            "4",
+            "+",
+            "HP"
+        ],
         "Frame.Start-up": 14,
         "Frame.Active": "14-17",
         "Frame.Recovery": 18,
@@ -362,6 +438,11 @@
     {
         "section": "Unique Attacks",
         "Move Name": "Great Spin",
+        "input": [
+            "2",
+            "+",
+            "HP"
+        ],
         "Frame.Start-up": 9,
         "Frame.Active": "9-19",
         "Frame.Recovery": 3,
@@ -380,6 +461,11 @@
     {
         "section": "Unique Attacks",
         "Move Name": "Double Arrow",
+        "input": [
+            "MP",
+            null,
+            "MP"
+        ],
         "Frame.Start-up": 10,
         "Frame.Active": "10-12",
         "Frame.Recovery": 3,
@@ -398,6 +484,11 @@
     {
         "section": "Unique Attacks",
         "Move Name": "Desert Storm(1)",
+        "input": [
+            "6",
+            "+",
+            "HP"
+        ],
         "Frame.Start-up": 18,
         "Frame.Active": "18-19",
         "Frame.Recovery": 24,
@@ -416,6 +507,13 @@
     {
         "section": "Unique Attacks",
         "Move Name": "Desert Storm(2)",
+        "input": [
+            "6",
+            "+",
+            "HP",
+            null,
+            "HP"
+        ],
         "Frame.Start-up": 20,
         "Frame.Active": "20-21",
         "Frame.Recovery": 27,
@@ -434,6 +532,15 @@
     {
         "section": "Unique Attacks",
         "Move Name": "Desert Storm(3)",
+        "input": [
+            "6",
+            "+",
+            "HP",
+            null,
+            "HP",
+            null,
+            "HP"
+        ],
         "Frame.Start-up": 20,
         "Frame.Active": "20-24",
         "Frame.Recovery": 42,
@@ -452,6 +559,13 @@
     {
         "section": "Special Moves",
         "Move Name": "L Condor Wind",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "LP"
+        ],
         "Frame.Start-up": null,
         "Frame.Active": null,
         "Frame.Recovery": 47,
@@ -470,6 +584,13 @@
     {
         "section": "Special Moves",
         "Move Name": "M Condor Wind",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "MP"
+        ],
         "Frame.Start-up": 23,
         "Frame.Active": "23-26",
         "Frame.Recovery": 25,
@@ -488,6 +609,13 @@
     {
         "section": "Special Moves",
         "Move Name": "H Condor Wind",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "HP"
+        ],
         "Frame.Start-up": 25,
         "Frame.Active": "25-28",
         "Frame.Recovery": 25,
@@ -506,6 +634,14 @@
     {
         "section": "Special Moves",
         "Move Name": "OD Condor Wind",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "P",
+            "P"
+        ],
         "Frame.Start-up": 21,
         "Frame.Active": "21-24",
         "Frame.Recovery": 23,
@@ -524,6 +660,13 @@
     {
         "section": "Special Moves",
         "Move Name": "L Condor Spire",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "LK"
+        ],
         "Frame.Start-up": 17,
         "Frame.Active": "17-29",
         "Frame.Recovery": 16,
@@ -542,6 +685,13 @@
     {
         "section": "Special Moves",
         "Move Name": "M Condor Spire",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "MK"
+        ],
         "Frame.Start-up": 21,
         "Frame.Active": "21-33",
         "Frame.Recovery": 16,
@@ -560,6 +710,13 @@
     {
         "section": "Special Moves",
         "Move Name": "H Condor Spire",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "HK"
+        ],
         "Frame.Start-up": 25,
         "Frame.Active": "25-37",
         "Frame.Recovery": 16,
@@ -578,6 +735,14 @@
     {
         "section": "Special Moves",
         "Move Name": "OD Condor Spire",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "K",
+            "K"
+        ],
         "Frame.Start-up": 15,
         "Frame.Active": "15-27",
         "Frame.Recovery": 16,
@@ -596,6 +761,13 @@
     {
         "section": "Special Moves",
         "Move Name": "[Windclad]L Condor Spire",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "LK"
+        ],
         "Frame.Start-up": 9,
         "Frame.Active": "9-379-13, 20-30, 31-37",
         "Frame.Recovery": 14,
@@ -614,6 +786,13 @@
     {
         "section": "Special Moves",
         "Move Name": "[Windclad]M Condor Spire",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "MK"
+        ],
         "Frame.Start-up": 13,
         "Frame.Active": "13-4113-17, 24-34, 35-41",
         "Frame.Recovery": 14,
@@ -632,6 +811,13 @@
     {
         "section": "Special Moves",
         "Move Name": "[Windclad]H Condor Spire",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "HK"
+        ],
         "Frame.Start-up": 17,
         "Frame.Active": "17-4517-21, 28-38, 39-45",
         "Frame.Recovery": 14,
@@ -650,6 +836,14 @@
     {
         "section": "Special Moves",
         "Move Name": "[Windclad]OD Condor Spire",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "K",
+            "K"
+        ],
         "Frame.Start-up": 9,
         "Frame.Active": "9-329-22, 23-25, 26-32",
         "Frame.Recovery": 14,
@@ -668,6 +862,13 @@
     {
         "section": "Special Moves",
         "Move Name": "L Tomahawk Buster",
+        "input": [
+            "6",
+            "2",
+            "3",
+            "+",
+            "LP"
+        ],
         "Frame.Start-up": 6,
         "Frame.Active": "6-16",
         "Frame.Recovery": 20,
@@ -686,6 +887,13 @@
     {
         "section": "Special Moves",
         "Move Name": "M Tomahawk Buster",
+        "input": [
+            "6",
+            "2",
+            "3",
+            "+",
+            "MP"
+        ],
         "Frame.Start-up": 8,
         "Frame.Active": "8-19",
         "Frame.Recovery": 24,
@@ -704,6 +912,13 @@
     {
         "section": "Special Moves",
         "Move Name": "H Tomahawk Buster",
+        "input": [
+            "6",
+            "2",
+            "3",
+            "+",
+            "HP"
+        ],
         "Frame.Start-up": 10,
         "Frame.Active": "10-23",
         "Frame.Recovery": 25,
@@ -722,6 +937,14 @@
     {
         "section": "Special Moves",
         "Move Name": "OD Tomahawk Buster",
+        "input": [
+            "6",
+            "2",
+            "3",
+            "+",
+            "P",
+            "P"
+        ],
         "Frame.Start-up": 6,
         "Frame.Active": "6-17",
         "Frame.Recovery": 27,
@@ -740,6 +963,13 @@
     {
         "section": "Special Moves",
         "Move Name": "[Windclad]L Tomahawk Buster",
+        "input": [
+            "6",
+            "2",
+            "3",
+            "+",
+            "LP"
+        ],
         "Frame.Start-up": 4,
         "Frame.Active": "4-164-7, 8-16",
         "Frame.Recovery": 20,
@@ -758,6 +988,13 @@
     {
         "section": "Special Moves",
         "Move Name": "[Windclad]M Tomahawk Buster",
+        "input": [
+            "6",
+            "2",
+            "3",
+            "+",
+            "MP"
+        ],
         "Frame.Start-up": 6,
         "Frame.Active": "6-9 10-19",
         "Frame.Recovery": 24,
@@ -776,6 +1013,13 @@
     {
         "section": "Special Moves",
         "Move Name": "[Windclad]H Tomahawk Buster",
+        "input": [
+            "6",
+            "2",
+            "3",
+            "+",
+            "HP"
+        ],
         "Frame.Start-up": 8,
         "Frame.Active": "8-238-11, 12-23",
         "Frame.Recovery": 25,
@@ -794,6 +1038,14 @@
     {
         "section": "Special Moves",
         "Move Name": "[Windclad]OD Tomahawk Buster",
+        "input": [
+            "6",
+            "2",
+            "3",
+            "+",
+            "P",
+            "P"
+        ],
         "Frame.Start-up": 4,
         "Frame.Active": "4-174-5, 6-7, 8-17",
         "Frame.Recovery": 27,
@@ -812,6 +1064,10 @@
     {
         "section": "Special Moves",
         "Move Name": "Condor Dive",
+        "input": [
+            "P",
+            "P"
+        ],
         "Frame.Start-up": 12,
         "Frame.Active": "12-until landing",
         "Frame.Recovery": 24,
@@ -830,6 +1086,11 @@
     {
         "section": "Special Moves",
         "Move Name": "OD Condor Dive",
+        "input": [
+            "P",
+            "P",
+            "P"
+        ],
         "Frame.Start-up": 12,
         "Frame.Active": "12-until landing",
         "Frame.Recovery": 24,
@@ -848,6 +1109,10 @@
     {
         "section": "Special Moves",
         "Move Name": "[Windclad]Condor Dive",
+        "input": [
+            "P",
+            "P"
+        ],
         "Frame.Start-up": 12,
         "Frame.Active": "12-until landing",
         "Frame.Recovery": 24,
@@ -866,6 +1131,11 @@
     {
         "section": "Special Moves",
         "Move Name": "[Windclad]OD Condor Dive",
+        "input": [
+            "P",
+            "P",
+            "P"
+        ],
         "Frame.Start-up": 12,
         "Frame.Active": "12-until landing",
         "Frame.Recovery": 24,
@@ -884,6 +1154,11 @@
     {
         "section": "Special Moves",
         "Move Name": "L Mexican Typhoon",
+        "input": [
+            null,
+            "+",
+            "LP"
+        ],
         "Frame.Start-up": 5,
         "Frame.Active": "5-7",
         "Frame.Recovery": 53,
@@ -902,6 +1177,11 @@
     {
         "section": "Special Moves",
         "Move Name": "M Mexican Typhoon",
+        "input": [
+            null,
+            "+",
+            "MP"
+        ],
         "Frame.Start-up": 5,
         "Frame.Active": "5-7",
         "Frame.Recovery": 53,
@@ -920,6 +1200,11 @@
     {
         "section": "Special Moves",
         "Move Name": "H Mexican Typhoon",
+        "input": [
+            null,
+            "+",
+            "HP"
+        ],
         "Frame.Start-up": 5,
         "Frame.Active": "5-7",
         "Frame.Recovery": 53,
@@ -938,6 +1223,12 @@
     {
         "section": "Special Moves",
         "Move Name": "OD Mexican Typhoon",
+        "input": [
+            null,
+            "+",
+            "P",
+            "P"
+        ],
         "Frame.Start-up": 5,
         "Frame.Active": "5-7",
         "Frame.Recovery": 53,
@@ -956,6 +1247,16 @@
     {
         "section": "Super Arts",
         "Move Name": "SA1 Breezing Hawk",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "P"
+        ],
         "Frame.Start-up": 13,
         "Frame.Active": "13-5013-14, 20-21, 29-30, 39-40, 49-50",
         "Frame.Recovery": 54,
@@ -974,6 +1275,16 @@
     {
         "section": "Super Arts",
         "Move Name": "SA2 Thunderbird",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "K"
+        ],
         "Frame.Start-up": 9,
         "Frame.Active": "9-419-10, 13-15, 16-18, 19-21, 22-24, 25-27, 28-30, 40-41",
         "Frame.Recovery": 39,
@@ -992,6 +1303,16 @@
     {
         "section": "Super Arts",
         "Move Name": "[Windclad]SA2 Thunderbird",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "K"
+        ],
         "Frame.Start-up": 9,
         "Frame.Active": "9-419-10, 11-12, 13-14, 15-16, 17-18, 19-20, 21-22, 23-24, 25-26, 27-28, 29-30, 31-33, 40-41",
         "Frame.Recovery": 39,
@@ -1010,6 +1331,16 @@
     {
         "section": "Super Arts",
         "Move Name": "SA2 Soaring Thunderbird",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "K"
+        ],
         "Frame.Start-up": 9,
         "Frame.Active": "9-419-10, 13-15, 16-18, 19-21, 22-24, 25-27, 28-30, 40-41",
         "Frame.Recovery": 25,
@@ -1028,6 +1359,16 @@
     {
         "section": "Super Arts",
         "Move Name": "[Windclad]SA2 Soaring Thunderbird",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "K"
+        ],
         "Frame.Start-up": 9,
         "Frame.Active": "9-419-10, 11-12, 13-14, 15-16, 17-18, 19-20, 21-22, 23-24, 25-26, 27-28, 29-30, 31-33, 40-41",
         "Frame.Recovery": 25,
@@ -1046,6 +1387,16 @@
     {
         "section": "Super Arts",
         "Move Name": "SA3 Raging Typhoon",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "2",
+            "1",
+            "4",
+            "+",
+            "P"
+        ],
         "Frame.Start-up": 7,
         "Frame.Active": "7-8",
         "Frame.Recovery": 106,
@@ -1064,6 +1415,16 @@
     {
         "section": "Super Arts",
         "Move Name": "CA Raging Typhoon",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "2",
+            "1",
+            "4",
+            "+",
+            "P"
+        ],
         "Frame.Start-up": 7,
         "Frame.Active": "7-8",
         "Frame.Recovery": 106,
@@ -1082,6 +1443,14 @@
     {
         "section": "Throws",
         "Move Name": "Canyon Throw",
+        "input": [
+            null,
+            null,
+            "6",
+            "+",
+            "LP",
+            "LK"
+        ],
         "Frame.Start-up": 5,
         "Frame.Active": "5-7",
         "Frame.Recovery": 23,
@@ -1100,6 +1469,12 @@
     {
         "section": "Throws",
         "Move Name": "Falling Cliff",
+        "input": [
+            "4",
+            "+",
+            "LP",
+            "LK"
+        ],
         "Frame.Start-up": 5,
         "Frame.Active": "5-7",
         "Frame.Recovery": 23,
@@ -1118,6 +1493,10 @@
     {
         "section": "Common Moves",
         "Move Name": "Forward Dash",
+        "input": [
+            "6",
+            "6"
+        ],
         "Frame.Start-up": null,
         "Frame.Active": null,
         "Frame.Recovery": 21,
@@ -1136,6 +1515,10 @@
     {
         "section": "Common Moves",
         "Move Name": "Backward Dash",
+        "input": [
+            "4",
+            "4"
+        ],
         "Frame.Start-up": null,
         "Frame.Active": null,
         "Frame.Recovery": 24,
@@ -1154,6 +1537,10 @@
     {
         "section": "Common Moves",
         "Move Name": "Drive Impact: Earth's Rage",
+        "input": [
+            "HP",
+            "HK"
+        ],
         "Frame.Start-up": 26,
         "Frame.Active": "26-27",
         "Frame.Recovery": 35,
@@ -1172,6 +1559,12 @@
     {
         "section": "Common Moves",
         "Move Name": "Drive Reversal: Cross Hammer",
+        "input": [
+            "6",
+            "+",
+            "HP",
+            "HK"
+        ],
         "Frame.Start-up": 20,
         "Frame.Active": "20-22",
         "Frame.Recovery": 26,
@@ -1190,6 +1583,10 @@
     {
         "section": "Common Moves",
         "Move Name": "Drive Parry",
+        "input": [
+            "MP",
+            "MK"
+        ],
         "Frame.Start-up": 1,
         "Frame.Active": "[*1] 1-8",
         "Frame.Recovery": 29,
@@ -1208,6 +1605,10 @@
     {
         "section": "Common Moves",
         "Move Name": "Perfect Parry (strike)",
+        "input": [
+            "MP",
+            "MK"
+        ],
         "Frame.Start-up": 1,
         "Frame.Active": null,
         "Frame.Recovery": 1,
@@ -1226,6 +1627,10 @@
     {
         "section": "Common Moves",
         "Move Name": "Perfect Parry (projectile)",
+        "input": [
+            "MP",
+            "MK"
+        ],
         "Frame.Start-up": 1,
         "Frame.Active": null,
         "Frame.Recovery": 10,
@@ -1244,6 +1649,10 @@
     {
         "section": "Common Moves",
         "Move Name": "Parry Drive Rush",
+        "input": [
+            "6",
+            "6"
+        ],
         "Frame.Start-up": null,
         "Frame.Active": null,
         "Frame.Recovery": 45,
@@ -1262,6 +1671,17 @@
     {
         "section": "Common Moves",
         "Move Name": "Cancel Drive Rush",
+        "input": [
+            "6",
+            "6",
+            null,
+            null,
+            null,
+            "6",
+            "+",
+            "MP",
+            "MK"
+        ],
         "Frame.Start-up": 0,
         "Frame.Active": "0",
         "Frame.Recovery": 0,

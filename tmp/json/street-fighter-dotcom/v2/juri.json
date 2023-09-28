@@ -2,6 +2,9 @@
     {
         "section": "Normal Moves",
         "name": "Standing Light Punch",
+        "input": [
+            "LP"
+        ],
         "startup": 4,
         "driveGain_hit": 250,
         "driveDrain_block": -500,
@@ -15,6 +18,9 @@
     {
         "section": "Normal Moves",
         "name": "[Chain combo]Standing Light Punch",
+        "input": [
+            "LP"
+        ],
         "startup": 4,
         "driveGain_hit": 62,
         "driveDrain_block": -125,
@@ -28,6 +34,9 @@
     {
         "section": "Normal Moves",
         "name": "Standing Light Kick",
+        "input": [
+            "LK"
+        ],
         "startup": 5,
         "driveGain_hit": 250,
         "driveDrain_block": -500,
@@ -41,6 +50,9 @@
     {
         "section": "Normal Moves",
         "name": "[Chain combo]Standing Light Kick",
+        "input": [
+            "LK"
+        ],
         "startup": 5,
         "driveGain_hit": 62,
         "driveDrain_block": -125,
@@ -54,6 +66,9 @@
     {
         "section": "Normal Moves",
         "name": "Standing Medium Punch",
+        "input": [
+            "MP"
+        ],
         "startup": 6,
         "driveGain_hit": 1500,
         "driveDrain_block": -3000,
@@ -67,6 +82,9 @@
     {
         "section": "Normal Moves",
         "name": "[Chain combo]Standing Medium Punch",
+        "input": [
+            "MP"
+        ],
         "startup": 6,
         "driveGain_hit": 375,
         "driveDrain_block": -750,
@@ -80,6 +98,9 @@
     {
         "section": "Normal Moves",
         "name": "Standing Medium Kick",
+        "input": [
+            "MK"
+        ],
         "startup": 5,
         "driveGain_hit": 2000,
         "driveDrain_block": -4000,
@@ -93,6 +114,9 @@
     {
         "section": "Normal Moves",
         "name": "[Chain combo]Standing Medium Kick",
+        "input": [
+            "MK"
+        ],
         "startup": 5,
         "driveGain_hit": 500,
         "driveDrain_block": -1000,
@@ -106,6 +130,9 @@
     {
         "section": "Normal Moves",
         "name": "Standing Heavy Punch",
+        "input": [
+            "HP"
+        ],
         "startup": 10,
         "driveGain_hit": 2000,
         "driveDrain_block": -5000,
@@ -119,6 +146,9 @@
     {
         "section": "Normal Moves",
         "name": "[Chain combo]Standing Heavy Punch",
+        "input": [
+            "HP"
+        ],
         "startup": 10,
         "driveGain_hit": 500,
         "driveDrain_block": -1250,
@@ -132,6 +162,9 @@
     {
         "section": "Normal Moves",
         "name": "Standing Heavy Kick",
+        "input": [
+            "HK"
+        ],
         "startup": 17,
         "driveGain_hit": 3000,
         "driveDrain_block": -6000,
@@ -145,6 +178,9 @@
     {
         "section": "Normal Moves",
         "name": "[Chain combo]Standing Heavy Kick",
+        "input": [
+            "HK"
+        ],
         "startup": 17,
         "driveGain_hit": 750,
         "driveDrain_block": -1500,
@@ -158,6 +194,11 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Light Punch",
+        "input": [
+            "2",
+            "+",
+            "LP"
+        ],
         "startup": 4,
         "driveGain_hit": 250,
         "driveDrain_block": -500,
@@ -171,6 +212,11 @@
     {
         "section": "Normal Moves",
         "name": "[Chain combo]Crouching Light Punch",
+        "input": [
+            "2",
+            "+",
+            "LP"
+        ],
         "startup": 4,
         "driveGain_hit": 62,
         "driveDrain_block": -125,
@@ -184,6 +230,11 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Light Kick",
+        "input": [
+            "2",
+            "+",
+            "LK"
+        ],
         "startup": 5,
         "driveGain_hit": 250,
         "driveDrain_block": -500,
@@ -197,6 +248,11 @@
     {
         "section": "Normal Moves",
         "name": "[Chain combo]Crouching Light Kick",
+        "input": [
+            "2",
+            "+",
+            "LK"
+        ],
         "startup": 5,
         "driveGain_hit": 62,
         "driveDrain_block": -125,
@@ -210,6 +266,11 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Medium Punch",
+        "input": [
+            "2",
+            "+",
+            "MP"
+        ],
         "startup": 6,
         "driveGain_hit": 1500,
         "driveDrain_block": -3000,
@@ -223,6 +284,11 @@
     {
         "section": "Normal Moves",
         "name": "[Chain combo]Crouching Medium Punch",
+        "input": [
+            "2",
+            "+",
+            "MP"
+        ],
         "startup": 6,
         "driveGain_hit": 375,
         "driveDrain_block": -750,
@@ -236,6 +302,11 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Medium Kick",
+        "input": [
+            "2",
+            "+",
+            "MK"
+        ],
         "startup": 8,
         "driveGain_hit": 1000,
         "driveDrain_block": -2000,
@@ -249,6 +320,11 @@
     {
         "section": "Normal Moves",
         "name": "[Chain combo]Crouching Medium Kick",
+        "input": [
+            "2",
+            "+",
+            "MK"
+        ],
         "startup": 8,
         "driveGain_hit": 250,
         "driveDrain_block": -500,
@@ -262,6 +338,11 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Heavy Punch",
+        "input": [
+            "2",
+            "+",
+            "HP"
+        ],
         "startup": 8,
         "driveGain_hit": 2000,
         "driveDrain_block": -5000,
@@ -275,6 +356,11 @@
     {
         "section": "Normal Moves",
         "name": "[Chain combo]Crouching Heavy Punch",
+        "input": [
+            "2",
+            "+",
+            "HP"
+        ],
         "startup": 8,
         "driveGain_hit": 500,
         "driveDrain_block": -1250,
@@ -288,6 +374,11 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Heavy Kick",
+        "input": [
+            "2",
+            "+",
+            "HK"
+        ],
         "startup": 10,
         "driveGain_hit": 3000,
         "driveDrain_block": -4000,
@@ -301,6 +392,11 @@
     {
         "section": "Normal Moves",
         "name": "[Chain combo]Crouching Heavy Kick",
+        "input": [
+            "2",
+            "+",
+            "HK"
+        ],
         "startup": 10,
         "driveGain_hit": 750,
         "driveDrain_block": -1000,
@@ -314,6 +410,9 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Light Punch",
+        "input": [
+            "LP"
+        ],
         "startup": 5,
         "driveGain_hit": 500,
         "driveDrain_block": -1500,
@@ -327,6 +426,9 @@
     {
         "section": "Normal Moves",
         "name": "[Chain combo]Jumping Light Punch",
+        "input": [
+            "LP"
+        ],
         "startup": 5,
         "driveGain_hit": 125,
         "driveDrain_block": -375,
@@ -340,6 +442,9 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Light Kick",
+        "input": [
+            "LK"
+        ],
         "startup": 4,
         "driveGain_hit": 500,
         "driveDrain_block": -1500,
@@ -353,6 +458,9 @@
     {
         "section": "Normal Moves",
         "name": "[Chain combo]Jumping Light Kick",
+        "input": [
+            "LK"
+        ],
         "startup": 4,
         "driveGain_hit": 125,
         "driveDrain_block": -375,
@@ -366,6 +474,9 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Medium Punch",
+        "input": [
+            "MP"
+        ],
         "startup": 7,
         "driveGain_hit": 1000,
         "driveDrain_block": -2500,
@@ -379,6 +490,9 @@
     {
         "section": "Normal Moves",
         "name": "[Chain combo]Jumping Medium Punch",
+        "input": [
+            "MP"
+        ],
         "startup": 7,
         "driveGain_hit": 250,
         "driveDrain_block": -625,
@@ -392,6 +506,9 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Medium Kick",
+        "input": [
+            "MK"
+        ],
         "startup": 6,
         "driveGain_hit": 1000,
         "driveDrain_block": -2500,
@@ -405,6 +522,9 @@
     {
         "section": "Normal Moves",
         "name": "[Chain combo]Jumping Medium Kick",
+        "input": [
+            "MK"
+        ],
         "startup": 6,
         "driveGain_hit": 250,
         "driveDrain_block": -625,
@@ -418,6 +538,9 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Heavy Punch",
+        "input": [
+            "HP"
+        ],
         "startup": 12,
         "driveGain_hit": 2000,
         "driveDrain_block": -4000,
@@ -431,6 +554,9 @@
     {
         "section": "Normal Moves",
         "name": "[Chain combo]Neutral Jumping Heavy Kick",
+        "input": [
+            "HP"
+        ],
         "startup": 12,
         "driveGain_hit": 500,
         "driveDrain_block": -1000,
@@ -444,6 +570,9 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Heavy Kick",
+        "input": [
+            "HK"
+        ],
         "startup": 10,
         "driveGain_hit": 2000,
         "driveDrain_block": -4000,
@@ -457,6 +586,9 @@
     {
         "section": "Normal Moves",
         "name": "[Chain combo]Jumping Heavy Kick",
+        "input": [
+            "HK"
+        ],
         "startup": 10,
         "driveGain_hit": 500,
         "driveDrain_block": -1000,
@@ -470,6 +602,9 @@
     {
         "section": "Normal Moves",
         "name": "Neutral Jumping Heavy Kick",
+        "input": [
+            "HK"
+        ],
         "startup": 10,
         "driveGain_hit": 2000,
         "driveDrain_block": -4000,
@@ -483,6 +618,9 @@
     {
         "section": "Normal Moves",
         "name": "[Chain combo]Neutral Jumping Heavy Kick",
+        "input": [
+            "HK"
+        ],
         "startup": 10,
         "driveGain_hit": 500,
         "driveDrain_block": -1000,
@@ -496,6 +634,11 @@
     {
         "section": "Unique Attacks",
         "name": "Kyosesho",
+        "input": [
+            "6",
+            "+",
+            "MP"
+        ],
         "startup": 8,
         "driveGain_hit": 1500,
         "driveDrain_block": -3000,
@@ -509,6 +652,11 @@
     {
         "section": "Unique Attacks",
         "name": "[Chain combo]Kyosesho",
+        "input": [
+            "6",
+            "+",
+            "MP"
+        ],
         "startup": 8,
         "driveGain_hit": 375,
         "driveDrain_block": -750,
@@ -522,6 +670,11 @@
     {
         "section": "Unique Attacks",
         "name": "Senkai Kick",
+        "input": [
+            "6",
+            "+",
+            "MK"
+        ],
         "startup": 21,
         "driveGain_hit": 1500,
         "driveDrain_block": -2500,
@@ -535,6 +688,11 @@
     {
         "section": "Unique Attacks",
         "name": "[Chain combo]Senkai Kick",
+        "input": [
+            "6",
+            "+",
+            "MK"
+        ],
         "startup": 21,
         "driveGain_hit": 375,
         "driveDrain_block": -625,
@@ -548,6 +706,11 @@
     {
         "section": "Unique Attacks",
         "name": "Renko Kicks",
+        "input": [
+            "6",
+            "+",
+            "HP"
+        ],
         "startup": 15,
         "driveGain_hit": 2500,
         "driveDrain_block": -5000,
@@ -561,6 +724,11 @@
     {
         "section": "Unique Attacks",
         "name": "[Chain combo]Renko Kicks",
+        "input": [
+            "6",
+            "+",
+            "HP"
+        ],
         "startup": 15,
         "driveGain_hit": 625,
         "driveDrain_block": -1250,
@@ -574,6 +742,11 @@
     {
         "section": "Unique Attacks",
         "name": "Korenzan",
+        "input": [
+            "4",
+            "+",
+            "HK"
+        ],
         "startup": 10,
         "driveGain_hit": 1500,
         "driveDrain_block": -3000,
@@ -587,6 +760,11 @@
     {
         "section": "Unique Attacks",
         "name": "[Chain combo]Korenzan",
+        "input": [
+            "4",
+            "+",
+            "HK"
+        ],
         "startup": 10,
         "driveGain_hit": 375,
         "driveDrain_block": -750,
@@ -600,6 +778,13 @@
     {
         "section": "Unique Attacks",
         "name": "Death Crest(2)",
+        "input": [
+            "MP",
+            null,
+            "4",
+            "+",
+            "HP"
+        ],
         "startup": 12,
         "driveGain_hit": 1000,
         "driveDrain_block": -2000,
@@ -613,6 +798,15 @@
     {
         "section": "Unique Attacks",
         "name": "Death Crest(3)",
+        "input": [
+            "MP",
+            null,
+            "4",
+            "+",
+            "HP",
+            null,
+            "HP"
+        ],
         "startup": 17,
         "driveGain_hit": 1000,
         "driveDrain_block": -1000,
@@ -626,6 +820,13 @@
     {
         "section": "Special Moves",
         "name": "L Fuhajin",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "LK"
+        ],
         "startup": 10,
         "driveGain_hit": 2000,
         "driveDrain_block": -2500,
@@ -639,6 +840,13 @@
     {
         "section": "Special Moves",
         "name": "M Fuhajin",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "MK"
+        ],
         "startup": 13,
         "driveGain_hit": 2000,
         "driveDrain_block": -2500,
@@ -652,6 +860,13 @@
     {
         "section": "Special Moves",
         "name": "H Fuhajin",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "HK"
+        ],
         "startup": 25,
         "driveGain_hit": 2000,
         "driveDrain_block": -2500,
@@ -665,6 +880,14 @@
     {
         "section": "Special Moves",
         "name": "OD Fuhajin",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "K",
+            "K"
+        ],
         "startup": 16,
         "driveGain_hit": 0,
         "driveDrain_block": -2500,
@@ -678,6 +901,13 @@
     {
         "section": "Special Moves",
         "name": "Saihasho",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "LK"
+        ],
         "startup": 16,
         "driveGain_hit": 1000,
         "driveDrain_block": -2500,
@@ -691,6 +921,13 @@
     {
         "section": "Special Moves",
         "name": "[Boosted]Saihasho",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "LK"
+        ],
         "startup": 16,
         "driveGain_hit": 1000,
         "driveDrain_block": -2500,
@@ -704,6 +941,14 @@
     {
         "section": "Special Moves",
         "name": "OD Saihasho",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "LK",
+            "MK"
+        ],
         "startup": 11,
         "driveGain_hit": 0,
         "driveDrain_block": -3000,
@@ -717,6 +962,13 @@
     {
         "section": "Special Moves",
         "name": "Ankensatsu",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "MK"
+        ],
         "startup": 24,
         "driveGain_hit": 2000,
         "driveDrain_block": -3000,
@@ -730,6 +982,13 @@
     {
         "section": "Special Moves",
         "name": "[Boosted]Ankensatsu",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "MK"
+        ],
         "startup": 24,
         "driveGain_hit": 2000,
         "driveDrain_block": -3000,
@@ -743,6 +1002,14 @@
     {
         "section": "Special Moves",
         "name": "OD Ankensatsu",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "LK",
+            "HK"
+        ],
         "startup": 24,
         "driveGain_hit": 0,
         "driveDrain_block": -3000,
@@ -756,6 +1023,13 @@
     {
         "section": "Special Moves",
         "name": "Go Ohsatsu",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "HK"
+        ],
         "startup": 18,
         "driveGain_hit": 1000,
         "driveDrain_block": -4000,
@@ -769,6 +1043,13 @@
     {
         "section": "Special Moves",
         "name": "[Boosted]Go Ohsatsu",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "HK"
+        ],
         "startup": 18,
         "driveGain_hit": 2000,
         "driveDrain_block": -5000,
@@ -782,6 +1063,14 @@
     {
         "section": "Special Moves",
         "name": "OD Go Ohsatsu",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "MK",
+            "HK"
+        ],
         "startup": 18,
         "driveGain_hit": 0,
         "driveDrain_block": -6000,
@@ -795,6 +1084,13 @@
     {
         "section": "Special Moves",
         "name": "L Tensenrin",
+        "input": [
+            "6",
+            "2",
+            "3",
+            "+",
+            "LP"
+        ],
         "startup": 11,
         "driveGain_hit": 2000,
         "driveDrain_block": -4000,
@@ -808,6 +1104,13 @@
     {
         "section": "Special Moves",
         "name": "M Tensenrin",
+        "input": [
+            "6",
+            "2",
+            "3",
+            "+",
+            "MP"
+        ],
         "startup": 5,
         "driveGain_hit": 2000,
         "driveDrain_block": -4000,
@@ -821,6 +1124,13 @@
     {
         "section": "Special Moves",
         "name": "H Tensenrin",
+        "input": [
+            "6",
+            "2",
+            "3",
+            "+",
+            "HP"
+        ],
         "startup": 5,
         "driveGain_hit": 2000,
         "driveDrain_block": -4000,
@@ -834,6 +1144,14 @@
     {
         "section": "Special Moves",
         "name": "OD Tensenrin",
+        "input": [
+            "6",
+            "2",
+            "3",
+            "+",
+            "P",
+            "P"
+        ],
         "startup": 6,
         "driveGain_hit": 0,
         "driveDrain_block": -4000,
@@ -847,6 +1165,13 @@
     {
         "section": "Special Moves",
         "name": "Shiku-sen",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "K"
+        ],
         "startup": 18,
         "driveGain_hit": 2000,
         "driveDrain_block": -3000,
@@ -860,6 +1185,14 @@
     {
         "section": "Special Moves",
         "name": "OD Shiku-sen",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "K",
+            "K"
+        ],
         "startup": 16,
         "driveGain_hit": 0,
         "driveDrain_block": -3000,
@@ -873,6 +1206,9 @@
     {
         "section": "Special Moves",
         "name": "Shiren-sen",
+        "input": [
+            "K"
+        ],
         "startup": 6,
         "driveGain_hit": 1800,
         "driveDrain_block": null,
@@ -886,6 +1222,9 @@
     {
         "section": "Special Moves",
         "name": "OD Shiren-sen",
+        "input": [
+            "K"
+        ],
         "startup": 6,
         "driveGain_hit": 0,
         "driveDrain_block": null,
@@ -899,6 +1238,16 @@
     {
         "section": "Super Arts",
         "name": "SA1 Sakkai Fuhazan",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "K"
+        ],
         "startup": 7,
         "driveGain_hit": 0,
         "driveDrain_block": -2500,
@@ -912,6 +1261,16 @@
     {
         "section": "Super Arts",
         "name": "SA2 Feng Shui Engine",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "2",
+            "1",
+            "4",
+            "+",
+            "P"
+        ],
         "startup": null,
         "driveGain_hit": 0,
         "driveDrain_block": 0,
@@ -925,6 +1284,9 @@
     {
         "section": "Super Arts",
         "name": "SA2 Feng Shui Engine(Rush)",
+        "input": [
+            "P"
+        ],
         "startup": 9,
         "driveGain_hit": 0,
         "driveDrain_block": -5000,
@@ -938,6 +1300,16 @@
     {
         "section": "Super Arts",
         "name": "SA3 Kaisen Dankai Raku",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "2",
+            "1",
+            "4",
+            "+",
+            "K"
+        ],
         "startup": 10,
         "driveGain_hit": 0,
         "driveDrain_block": -7500,
@@ -951,6 +1323,16 @@
     {
         "section": "Super Arts",
         "name": "CA Kaisen Dankai Raku",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "2",
+            "1",
+            "4",
+            "+",
+            "K"
+        ],
         "startup": 10,
         "driveGain_hit": 0,
         "driveDrain_block": -10000,
@@ -964,6 +1346,14 @@
     {
         "section": "Throws",
         "name": "Spider Fang Throw",
+        "input": [
+            null,
+            null,
+            "6",
+            "+",
+            "LP",
+            "LK"
+        ],
         "startup": 5,
         "driveGain_hit": 2000,
         "driveDrain_block": 0,
@@ -977,6 +1367,12 @@
     {
         "section": "Throws",
         "name": "Shadow Kick Throw",
+        "input": [
+            "4",
+            "+",
+            "LP",
+            "LK"
+        ],
         "startup": 5,
         "driveGain_hit": 2000,
         "driveDrain_block": 0,
@@ -990,6 +1386,10 @@
     {
         "section": "Throws",
         "name": "Zanka-sen",
+        "input": [
+            "LP",
+            "LK"
+        ],
         "startup": 5,
         "driveGain_hit": 2000,
         "driveDrain_block": 0,
@@ -1003,6 +1403,10 @@
     {
         "section": "Common Moves",
         "name": "Forward Dash",
+        "input": [
+            "6",
+            "6"
+        ],
         "startup": null,
         "driveGain_hit": 0,
         "driveDrain_block": 0,
@@ -1016,6 +1420,10 @@
     {
         "section": "Common Moves",
         "name": "Backward Dash",
+        "input": [
+            "4",
+            "4"
+        ],
         "startup": null,
         "driveGain_hit": 0,
         "driveDrain_block": 0,
@@ -1029,6 +1437,10 @@
     {
         "section": "Common Moves",
         "name": "Drive Impact: Sekkan Kick",
+        "input": [
+            "HP",
+            "HK"
+        ],
         "startup": 26,
         "driveGain_hit": 0,
         "driveDrain_block": -5000,
@@ -1042,6 +1454,12 @@
     {
         "section": "Common Moves",
         "name": "Drive Reversal: Kaita Raid",
+        "input": [
+            "6",
+            "+",
+            "HP",
+            "HK"
+        ],
         "startup": 20,
         "driveGain_hit": 0,
         "driveDrain_block": 0,
@@ -1055,6 +1473,10 @@
     {
         "section": "Common Moves",
         "name": "Drive Parry",
+        "input": [
+            "MP",
+            "MK"
+        ],
         "startup": 1,
         "driveGain_hit": 0,
         "driveDrain_block": 0,
@@ -1068,6 +1490,10 @@
     {
         "section": "Common Moves",
         "name": "Perfect Parry (strike)",
+        "input": [
+            "MP",
+            "MK"
+        ],
         "startup": 1,
         "driveGain_hit": null,
         "driveDrain_block": null,
@@ -1081,6 +1507,10 @@
     {
         "section": "Common Moves",
         "name": "Perfect Parry (projectile)",
+        "input": [
+            "MP",
+            "MK"
+        ],
         "startup": 1,
         "driveGain_hit": null,
         "driveDrain_block": null,
@@ -1094,6 +1524,10 @@
     {
         "section": "Common Moves",
         "name": "Parry Drive Rush",
+        "input": [
+            "6",
+            "6"
+        ],
         "startup": null,
         "driveGain_hit": 0,
         "driveDrain_block": 0,
@@ -1107,6 +1541,17 @@
     {
         "section": "Common Moves",
         "name": "Cancel Drive Rush",
+        "input": [
+            "6",
+            "6",
+            null,
+            null,
+            null,
+            "6",
+            "+",
+            "MP",
+            "MK"
+        ],
         "startup": null,
         "driveGain_hit": 0,
         "driveDrain_block": 0,

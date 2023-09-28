@@ -2,6 +2,9 @@
     {
         "section": "Normal Moves",
         "Move Name": "Standing Light Punch",
+        "input": [
+            "LP"
+        ],
         "Frame.Start-up": 4,
         "Frame.Active": "4-6",
         "Frame.Recovery": 6,
@@ -20,6 +23,9 @@
     {
         "section": "Normal Moves",
         "Move Name": "Standing Light Kick",
+        "input": [
+            "LK"
+        ],
         "Frame.Start-up": 5,
         "Frame.Active": "5-6",
         "Frame.Recovery": 12,
@@ -38,6 +44,9 @@
     {
         "section": "Normal Moves",
         "Move Name": "Standing Medium Punch",
+        "input": [
+            "MP"
+        ],
         "Frame.Start-up": 7,
         "Frame.Active": "7-8",
         "Frame.Recovery": 13,
@@ -56,6 +65,9 @@
     {
         "section": "Normal Moves",
         "Move Name": "Standing Medium Kick",
+        "input": [
+            "MK"
+        ],
         "Frame.Start-up": 9,
         "Frame.Active": "9-11",
         "Frame.Recovery": 16,
@@ -74,6 +86,9 @@
     {
         "section": "Normal Moves",
         "Move Name": "Standing Heavy Punch",
+        "input": [
+            "HP"
+        ],
         "Frame.Start-up": 9,
         "Frame.Active": "9-14",
         "Frame.Recovery": 18,
@@ -92,6 +107,9 @@
     {
         "section": "Normal Moves",
         "Move Name": "Standing Heavy Kick",
+        "input": [
+            "HK"
+        ],
         "Frame.Start-up": 12,
         "Frame.Active": "12-14",
         "Frame.Recovery": null,
@@ -110,6 +128,11 @@
     {
         "section": "Normal Moves",
         "Move Name": "Crouching Light Punch",
+        "input": [
+            "2",
+            "+",
+            "LP"
+        ],
         "Frame.Start-up": 5,
         "Frame.Active": "5-7",
         "Frame.Recovery": 8,
@@ -128,6 +151,11 @@
     {
         "section": "Normal Moves",
         "Move Name": "Crouching Light Kick",
+        "input": [
+            "2",
+            "+",
+            "LK"
+        ],
         "Frame.Start-up": 5,
         "Frame.Active": "5-6",
         "Frame.Recovery": 10,
@@ -146,6 +174,11 @@
     {
         "section": "Normal Moves",
         "Move Name": "Crouching Medium Punch",
+        "input": [
+            "2",
+            "+",
+            "MP"
+        ],
         "Frame.Start-up": 6,
         "Frame.Active": "6-9",
         "Frame.Recovery": 14,
@@ -164,6 +197,11 @@
     {
         "section": "Normal Moves",
         "Move Name": "Crouching Medium Kick",
+        "input": [
+            "2",
+            "+",
+            "MK"
+        ],
         "Frame.Start-up": 8,
         "Frame.Active": "8-11",
         "Frame.Recovery": 19,
@@ -182,6 +220,11 @@
     {
         "section": "Normal Moves",
         "Move Name": "Crouching Heavy Punch",
+        "input": [
+            "2",
+            "+",
+            "HP"
+        ],
         "Frame.Start-up": 8,
         "Frame.Active": "8-9",
         "Frame.Recovery": 20,
@@ -200,6 +243,11 @@
     {
         "section": "Normal Moves",
         "Move Name": "Crouching Heavy Kick",
+        "input": [
+            "2",
+            "+",
+            "HK"
+        ],
         "Frame.Start-up": 14,
         "Frame.Active": "14-23",
         "Frame.Recovery": 15,
@@ -218,6 +266,9 @@
     {
         "section": "Normal Moves",
         "Move Name": "Jumping Light Punch",
+        "input": [
+            "LP"
+        ],
         "Frame.Start-up": 4,
         "Frame.Active": "4-10",
         "Frame.Recovery": 3,
@@ -236,6 +287,9 @@
     {
         "section": "Normal Moves",
         "Move Name": "Jumping Light Kick",
+        "input": [
+            "LK"
+        ],
         "Frame.Start-up": 4,
         "Frame.Active": "4-9",
         "Frame.Recovery": 3,
@@ -254,6 +308,9 @@
     {
         "section": "Normal Moves",
         "Move Name": "Jumping Medium Punch",
+        "input": [
+            "MP"
+        ],
         "Frame.Start-up": 6,
         "Frame.Active": "6-9",
         "Frame.Recovery": 3,
@@ -272,6 +329,9 @@
     {
         "section": "Normal Moves",
         "Move Name": "Jumping Medium Kick",
+        "input": [
+            "MK"
+        ],
         "Frame.Start-up": 8,
         "Frame.Active": "8-13",
         "Frame.Recovery": 3,
@@ -290,6 +350,9 @@
     {
         "section": "Normal Moves",
         "Move Name": "Jumping Heavy Punch",
+        "input": [
+            "HP"
+        ],
         "Frame.Start-up": 9,
         "Frame.Active": "9-14",
         "Frame.Recovery": 3,
@@ -308,6 +371,9 @@
     {
         "section": "Normal Moves",
         "Move Name": "Jumping Heavy Kick",
+        "input": [
+            "HK"
+        ],
         "Frame.Start-up": 10,
         "Frame.Active": "10-14",
         "Frame.Recovery": 3,
@@ -326,6 +392,11 @@
     {
         "section": "Unique Attacks",
         "Move Name": "Knee Shot",
+        "input": [
+            "2",
+            "+",
+            "LK"
+        ],
         "Frame.Start-up": 6,
         "Frame.Active": "6-until landing",
         "Frame.Recovery": 3,
@@ -344,6 +415,11 @@
     {
         "section": "Unique Attacks",
         "Move Name": "Sunrise Heel",
+        "input": [
+            "6",
+            "+",
+            "MK"
+        ],
         "Frame.Start-up": 19,
         "Frame.Active": "19-23",
         "Frame.Recovery": 16,
@@ -362,6 +438,11 @@
     {
         "section": "Unique Attacks",
         "Move Name": "Face Breaker",
+        "input": [
+            "4",
+            "+",
+            "HK"
+        ],
         "Frame.Start-up": 7,
         "Frame.Active": "7-127-8, 9-12",
         "Frame.Recovery": 20,
@@ -380,6 +461,11 @@
     {
         "section": "Unique Attacks",
         "Move Name": "Threebeat Combo (2)",
+        "input": [
+            "LP",
+            null,
+            "MK"
+        ],
         "Frame.Start-up": 9,
         "Frame.Active": "9-11",
         "Frame.Recovery": 18,
@@ -398,6 +484,13 @@
     {
         "section": "Unique Attacks",
         "Move Name": "Threebeat Combo (3)",
+        "input": [
+            "LP",
+            null,
+            "MK",
+            null,
+            "MK"
+        ],
         "Frame.Start-up": 14,
         "Frame.Active": "14-16",
         "Frame.Recovery": 21,
@@ -416,6 +509,11 @@
     {
         "section": "Unique Attacks",
         "Move Name": "Dee Jay Special (2)",
+        "input": [
+            "MP",
+            null,
+            "HP"
+        ],
         "Frame.Start-up": 11,
         "Frame.Active": "11-17",
         "Frame.Recovery": 24,
@@ -434,6 +532,13 @@
     {
         "section": "Unique Attacks",
         "Move Name": "Dee Jay Special (3)",
+        "input": [
+            "MP",
+            null,
+            "HP",
+            null,
+            "HK"
+        ],
         "Frame.Start-up": 13,
         "Frame.Active": "13-15",
         "Frame.Recovery": 30,
@@ -452,6 +557,11 @@
     {
         "section": "Unique Attacks",
         "Move Name": "Funky Dance (2)",
+        "input": [
+            "MP",
+            null,
+            "MP"
+        ],
         "Frame.Start-up": 12,
         "Frame.Active": "12-13",
         "Frame.Recovery": 17,
@@ -470,6 +580,13 @@
     {
         "section": "Unique Attacks",
         "Move Name": "Funky Dance (3)",
+        "input": [
+            "MP",
+            null,
+            "MP",
+            null,
+            "HP"
+        ],
         "Frame.Start-up": 20,
         "Frame.Active": "20-21",
         "Frame.Recovery": 24,
@@ -488,6 +605,15 @@
     {
         "section": "Unique Attacks",
         "Move Name": "Funky Dance Feint",
+        "input": [
+            "MP",
+            null,
+            "MP",
+            null,
+            "4",
+            "+",
+            "HP"
+        ],
         "Frame.Start-up": null,
         "Frame.Active": null,
         "Frame.Recovery": 23,
@@ -506,6 +632,11 @@
     {
         "section": "Unique Attacks",
         "Move Name": "Party in the Air",
+        "input": [
+            "MP",
+            null,
+            "HP"
+        ],
         "Frame.Start-up": 8,
         "Frame.Active": "8-14",
         "Frame.Recovery": 3,
@@ -524,6 +655,13 @@
     {
         "section": "Unique Attacks",
         "Move Name": "Speedy Maracas",
+        "input": [
+            "2",
+            "2",
+            "+",
+            "P",
+            "P"
+        ],
         "Frame.Start-up": null,
         "Frame.Active": null,
         "Frame.Recovery": 65,
@@ -542,6 +680,12 @@
     {
         "section": "Special Moves",
         "Move Name": "L Air Slasher",
+        "input": [
+            null,
+            "6",
+            "+",
+            "LP"
+        ],
         "Frame.Start-up": null,
         "Frame.Active": null,
         "Frame.Recovery": 21,
@@ -560,6 +704,12 @@
     {
         "section": "Special Moves",
         "Move Name": "M Air Slasher",
+        "input": [
+            null,
+            "6",
+            "+",
+            "MP"
+        ],
         "Frame.Start-up": 17,
         "Frame.Active": null,
         "Frame.Recovery": 44,
@@ -578,6 +728,12 @@
     {
         "section": "Special Moves",
         "Move Name": "H Air Slasher",
+        "input": [
+            null,
+            "6",
+            "+",
+            "HP"
+        ],
         "Frame.Start-up": 17,
         "Frame.Active": null,
         "Frame.Recovery": 60,
@@ -596,6 +752,13 @@
     {
         "section": "Special Moves",
         "Move Name": "OD Air Slasher",
+        "input": [
+            null,
+            "6",
+            "+",
+            "P",
+            "P"
+        ],
         "Frame.Start-up": 10,
         "Frame.Active": null,
         "Frame.Recovery": 46,
@@ -614,6 +777,13 @@
     {
         "section": "Special Moves",
         "Move Name": "OD Air Slasher (projectile)",
+        "input": [
+            null,
+            "6",
+            "+",
+            "P",
+            "P"
+        ],
         "Frame.Start-up": 22,
         "Frame.Active": null,
         "Frame.Recovery": 46,
@@ -632,6 +802,12 @@
     {
         "section": "Special Moves",
         "Move Name": "L Jackknife Maximum",
+        "input": [
+            null,
+            null,
+            "+",
+            "LK"
+        ],
         "Frame.Start-up": null,
         "Frame.Active": null,
         "Frame.Recovery": 6,
@@ -650,6 +826,12 @@
     {
         "section": "Special Moves",
         "Move Name": "M Jackknife Maximum",
+        "input": [
+            null,
+            null,
+            "+",
+            "MK"
+        ],
         "Frame.Start-up": 6,
         "Frame.Active": "6-226-8, 19-22",
         "Frame.Recovery": 22,
@@ -668,6 +850,12 @@
     {
         "section": "Special Moves",
         "Move Name": "H Jackknife Maximum",
+        "input": [
+            null,
+            null,
+            "+",
+            "HK"
+        ],
         "Frame.Start-up": 6,
         "Frame.Active": "6-346-9, 18-22, 31-34",
         "Frame.Recovery": 17,
@@ -686,6 +874,13 @@
     {
         "section": "Special Moves",
         "Move Name": "OD Jackknife Maximum",
+        "input": [
+            null,
+            null,
+            "+",
+            "K",
+            "K"
+        ],
         "Frame.Start-up": 6,
         "Frame.Active": "6-646-11, 19-21, 31-33, 49-51, 61-64",
         "Frame.Recovery": 29,
@@ -704,6 +899,13 @@
     {
         "section": "Special Moves",
         "Move Name": "Roll Through Feint",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "LK"
+        ],
         "Frame.Start-up": null,
         "Frame.Active": null,
         "Frame.Recovery": 26,
@@ -722,6 +924,13 @@
     {
         "section": "Special Moves",
         "Move Name": "Quick Rolling Sobat",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "MK"
+        ],
         "Frame.Start-up": 12,
         "Frame.Active": "12-14",
         "Frame.Recovery": 23,
@@ -740,6 +949,13 @@
     {
         "section": "Special Moves",
         "Move Name": "Double Rolling Sobat",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "HK"
+        ],
         "Frame.Start-up": 15,
         "Frame.Active": "15-3915-17, 36-39",
         "Frame.Recovery": 24,
@@ -758,6 +974,14 @@
     {
         "section": "Special Moves",
         "Move Name": "OD Double Rolling Sobat",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "K",
+            "K"
+        ],
         "Frame.Start-up": 19,
         "Frame.Active": "19-3219-20, 30-32",
         "Frame.Recovery": 19,
@@ -776,6 +1000,13 @@
     {
         "section": "Special Moves",
         "Move Name": "L Machine Gun Uppercut",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "LP"
+        ],
         "Frame.Start-up": 15,
         "Frame.Active": "15-18",
         "Frame.Recovery": 35,
@@ -794,6 +1025,13 @@
     {
         "section": "Special Moves",
         "Move Name": "M Machine Gun Uppercut",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "MP"
+        ],
         "Frame.Start-up": 22,
         "Frame.Active": "22-25",
         "Frame.Recovery": 35,
@@ -812,6 +1050,13 @@
     {
         "section": "Special Moves",
         "Move Name": "H Machine Gun Uppercut",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "HP"
+        ],
         "Frame.Start-up": 28,
         "Frame.Active": "28-31",
         "Frame.Recovery": 35,
@@ -830,6 +1075,14 @@
     {
         "section": "Special Moves",
         "Move Name": "OD Machine Gun Uppercut",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "P",
+            "P"
+        ],
         "Frame.Start-up": 28,
         "Frame.Active": "28-31",
         "Frame.Recovery": 35,
@@ -848,6 +1101,13 @@
     {
         "section": "Special Moves",
         "Move Name": "Jus Cool",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "K"
+        ],
         "Frame.Start-up": null,
         "Frame.Active": null,
         "Frame.Recovery": 37,
@@ -866,6 +1126,14 @@
     {
         "section": "Special Moves",
         "Move Name": "OD Jus Cool",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "K",
+            "K"
+        ],
         "Frame.Start-up": 8,
         "Frame.Active": "8-12",
         "Frame.Recovery": 36,
@@ -884,6 +1152,9 @@
     {
         "section": "Special Moves",
         "Move Name": "Funky Slicer",
+        "input": [
+            "LK"
+        ],
         "Frame.Start-up": 12,
         "Frame.Active": "12-14",
         "Frame.Recovery": null,
@@ -902,6 +1173,9 @@
     {
         "section": "Special Moves",
         "Move Name": "OD Funky Slicer",
+        "input": [
+            "LK"
+        ],
         "Frame.Start-up": 9,
         "Frame.Active": "9-11",
         "Frame.Recovery": null,
@@ -920,6 +1194,9 @@
     {
         "section": "Special Moves",
         "Move Name": "Waning Moon",
+        "input": [
+            "MK"
+        ],
         "Frame.Start-up": 25,
         "Frame.Active": "25-27",
         "Frame.Recovery": 16,
@@ -938,6 +1215,9 @@
     {
         "section": "Special Moves",
         "Move Name": "OD Waning Moon",
+        "input": [
+            "MK"
+        ],
         "Frame.Start-up": 19,
         "Frame.Active": "19-23",
         "Frame.Recovery": 17,
@@ -956,6 +1236,9 @@
     {
         "section": "Special Moves",
         "Move Name": "Maximum Strike",
+        "input": [
+            "HK"
+        ],
         "Frame.Start-up": 15,
         "Frame.Active": "15-19",
         "Frame.Recovery": 25,
@@ -974,6 +1257,9 @@
     {
         "section": "Special Moves",
         "Move Name": "OD Maximum Strike",
+        "input": [
+            "HK"
+        ],
         "Frame.Start-up": 11,
         "Frame.Active": "11-15",
         "Frame.Recovery": 21,
@@ -992,6 +1278,11 @@
     {
         "section": "Special Moves",
         "Move Name": "Juggling Dash",
+        "input": [
+            "6",
+            "+",
+            "P"
+        ],
         "Frame.Start-up": null,
         "Frame.Active": null,
         "Frame.Recovery": 27,
@@ -1010,6 +1301,11 @@
     {
         "section": "Special Moves",
         "Move Name": "OD Juggling Dash",
+        "input": [
+            "6",
+            "+",
+            "P"
+        ],
         "Frame.Start-up": null,
         "Frame.Active": null,
         "Frame.Recovery": 22,
@@ -1028,6 +1324,11 @@
     {
         "section": "Special Moves",
         "Move Name": "Juggling Sway",
+        "input": [
+            "4",
+            "+",
+            "P"
+        ],
         "Frame.Start-up": null,
         "Frame.Active": null,
         "Frame.Recovery": 29,
@@ -1046,6 +1347,11 @@
     {
         "section": "Special Moves",
         "Move Name": "OD Juggling Sway",
+        "input": [
+            "4",
+            "+",
+            "P"
+        ],
         "Frame.Start-up": null,
         "Frame.Active": null,
         "Frame.Recovery": 22,
@@ -1064,6 +1370,16 @@
     {
         "section": "Super Arts",
         "Move Name": "SA1 The Greatest Sobat",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "K"
+        ],
         "Frame.Start-up": 7,
         "Frame.Active": "7-10",
         "Frame.Recovery": 45,
@@ -1082,6 +1398,16 @@
     {
         "section": "Super Arts",
         "Move Name": "SA2 Lowkey Sunrise Festival",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "LP"
+        ],
         "Frame.Start-up": 12,
         "Frame.Active": "12-16",
         "Frame.Recovery": 46,
@@ -1100,6 +1426,18 @@
     {
         "section": "Super Arts",
         "Move Name": "SA2 Lowkey Sunrise Festival (2)",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "LP",
+            null,
+            "LP"
+        ],
         "Frame.Start-up": 11,
         "Frame.Active": "11-14",
         "Frame.Recovery": 24,
@@ -1118,6 +1456,20 @@
     {
         "section": "Super Arts",
         "Move Name": "SA2 Lowkey Sunrise Festival (3)",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "LP",
+            null,
+            "LP",
+            null,
+            "MP"
+        ],
         "Frame.Start-up": 10,
         "Frame.Active": "10-11",
         "Frame.Recovery": 23,
@@ -1136,6 +1488,22 @@
     {
         "section": "Super Arts",
         "Move Name": "SA2 Lowkey Sunrise Festival (4)",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "LP",
+            null,
+            "LP",
+            null,
+            "MP",
+            null,
+            "HP"
+        ],
         "Frame.Start-up": 12,
         "Frame.Active": "12-14",
         "Frame.Recovery": 23,
@@ -1154,6 +1522,24 @@
     {
         "section": "Super Arts",
         "Move Name": "SA2 Lowkey Sunrise Festival (5)",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "LP",
+            null,
+            "LP",
+            null,
+            "MP",
+            null,
+            "HP",
+            null,
+            "LK"
+        ],
         "Frame.Start-up": 15,
         "Frame.Active": "15-18",
         "Frame.Recovery": 35,
@@ -1172,6 +1558,26 @@
     {
         "section": "Super Arts",
         "Move Name": "SA2 Lowkey Sunrise Festival (6)",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "LP",
+            null,
+            "LP",
+            null,
+            "MP",
+            null,
+            "HP",
+            null,
+            "LK",
+            null,
+            "MK"
+        ],
         "Frame.Start-up": 17,
         "Frame.Active": "17-19",
         "Frame.Recovery": 45,
@@ -1190,6 +1596,28 @@
     {
         "section": "Super Arts",
         "Move Name": "SA2 Lowkey Sunrise Festival (7)",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "LP",
+            null,
+            "LP",
+            null,
+            "MP",
+            null,
+            "HP",
+            null,
+            "LK",
+            null,
+            "MK",
+            null,
+            "HK"
+        ],
         "Frame.Start-up": 18,
         "Frame.Active": "18-2818-20, 26-28",
         "Frame.Recovery": 79,
@@ -1208,6 +1636,16 @@
     {
         "section": "Super Arts",
         "Move Name": "SA2 Marvelous Sunrise Festival",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "MP"
+        ],
         "Frame.Start-up": 12,
         "Frame.Active": "12-16",
         "Frame.Recovery": 46,
@@ -1226,6 +1664,18 @@
     {
         "section": "Super Arts",
         "Move Name": "SA2 Marvelous Sunrise Festival (2)",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "MP",
+            null,
+            "LP"
+        ],
         "Frame.Start-up": 11,
         "Frame.Active": "11-14",
         "Frame.Recovery": 24,
@@ -1244,6 +1694,20 @@
     {
         "section": "Super Arts",
         "Move Name": "SA2 Marvelous Sunrise Festival (3)",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "MP",
+            null,
+            "LP",
+            null,
+            "MP"
+        ],
         "Frame.Start-up": 10,
         "Frame.Active": "10-11",
         "Frame.Recovery": 23,
@@ -1262,6 +1726,22 @@
     {
         "section": "Super Arts",
         "Move Name": "SA2 Marvelous Sunrise Festival (4)",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "MP",
+            null,
+            "LP",
+            null,
+            "MP",
+            null,
+            "HP"
+        ],
         "Frame.Start-up": 12,
         "Frame.Active": "12-14",
         "Frame.Recovery": 23,
@@ -1280,6 +1760,24 @@
     {
         "section": "Super Arts",
         "Move Name": "SA2 Marvelous Sunrise Festival (5)",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "MP",
+            null,
+            "LP",
+            null,
+            "MP",
+            null,
+            "HP",
+            null,
+            "LK"
+        ],
         "Frame.Start-up": 15,
         "Frame.Active": "15-18",
         "Frame.Recovery": 35,
@@ -1298,6 +1796,26 @@
     {
         "section": "Super Arts",
         "Move Name": "SA2 Marvelous Sunrise Festival (6)",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "MP",
+            null,
+            "LP",
+            null,
+            "MP",
+            null,
+            "HP",
+            null,
+            "LK",
+            null,
+            "MK"
+        ],
         "Frame.Start-up": 17,
         "Frame.Active": "17-19",
         "Frame.Recovery": 45,
@@ -1316,6 +1834,28 @@
     {
         "section": "Super Arts",
         "Move Name": "SA2 Marvelous Sunrise Festival (7)",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "MP",
+            null,
+            "LP",
+            null,
+            "MP",
+            null,
+            "HP",
+            null,
+            "LK",
+            null,
+            "MK",
+            null,
+            "HK"
+        ],
         "Frame.Start-up": 18,
         "Frame.Active": "18-2818-20, 26-28",
         "Frame.Recovery": 64,
@@ -1334,6 +1874,16 @@
     {
         "section": "Super Arts",
         "Move Name": "SA2 Headliner Sunrise Festival",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "HP"
+        ],
         "Frame.Start-up": 12,
         "Frame.Active": "12-16",
         "Frame.Recovery": 46,
@@ -1352,6 +1902,18 @@
     {
         "section": "Super Arts",
         "Move Name": "SA2 Headliner Sunrise Festival (2)",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "HP",
+            null,
+            "LP"
+        ],
         "Frame.Start-up": 11,
         "Frame.Active": "11-14",
         "Frame.Recovery": 24,
@@ -1370,6 +1932,20 @@
     {
         "section": "Super Arts",
         "Move Name": "SA2 Headliner Sunrise Festival (3)",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "HP",
+            null,
+            "LP",
+            null,
+            "MP"
+        ],
         "Frame.Start-up": 10,
         "Frame.Active": "10-11",
         "Frame.Recovery": 23,
@@ -1388,6 +1964,22 @@
     {
         "section": "Super Arts",
         "Move Name": "SA2 Headliner Sunrise Festival (4)",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "HP",
+            null,
+            "LP",
+            null,
+            "MP",
+            null,
+            "HP"
+        ],
         "Frame.Start-up": 12,
         "Frame.Active": "12-14",
         "Frame.Recovery": 23,
@@ -1406,6 +1998,24 @@
     {
         "section": "Super Arts",
         "Move Name": "SA2 Headliner Sunrise Festival (5)",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "HP",
+            null,
+            "LP",
+            null,
+            "MP",
+            null,
+            "HP",
+            null,
+            "LK"
+        ],
         "Frame.Start-up": 15,
         "Frame.Active": "15-18",
         "Frame.Recovery": 35,
@@ -1424,6 +2034,26 @@
     {
         "section": "Super Arts",
         "Move Name": "SA2 Headliner Sunrise Festival (6)",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "HP",
+            null,
+            "LP",
+            null,
+            "MP",
+            null,
+            "HP",
+            null,
+            "LK",
+            null,
+            "MK"
+        ],
         "Frame.Start-up": 17,
         "Frame.Active": "17-19",
         "Frame.Recovery": 45,
@@ -1442,6 +2072,28 @@
     {
         "section": "Super Arts",
         "Move Name": "SA2 Headliner Sunrise Festival (7)",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "HP",
+            null,
+            "LP",
+            null,
+            "MP",
+            null,
+            "HP",
+            null,
+            "LK",
+            null,
+            "MK",
+            null,
+            "HK"
+        ],
         "Frame.Start-up": 18,
         "Frame.Active": "18-2818-20, 26-28",
         "Frame.Recovery": 64,
@@ -1460,6 +2112,9 @@
     {
         "section": "Super Arts",
         "Move Name": "SA2 Climactic Strike (Marvelous)",
+        "input": [
+            "HP"
+        ],
         "Frame.Start-up": 11,
         "Frame.Active": "11-9711-13, 91-97",
         "Frame.Recovery": 84,
@@ -1478,6 +2133,9 @@
     {
         "section": "Super Arts",
         "Move Name": "SA2 Climactic Strike (Headliner)",
+        "input": [
+            "HP"
+        ],
         "Frame.Start-up": 11,
         "Frame.Active": "11-9711-13, 91-97",
         "Frame.Recovery": 84,
@@ -1496,6 +2154,9 @@
     {
         "section": "Super Arts",
         "Move Name": "SA2 Encore Beat (Marvelous)",
+        "input": [
+            "HK"
+        ],
         "Frame.Start-up": 33,
         "Frame.Active": "33-39",
         "Frame.Recovery": 112,
@@ -1514,6 +2175,9 @@
     {
         "section": "Super Arts",
         "Move Name": "SA2 Encore Beat (Headliner)",
+        "input": [
+            "HK"
+        ],
         "Frame.Start-up": 33,
         "Frame.Active": "33-39",
         "Frame.Recovery": 112,
@@ -1532,6 +2196,18 @@
     {
         "section": "Super Arts",
         "Move Name": "(Failed version) SA2 Sunrise Festival (2)",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "LP",
+            null,
+            "LP"
+        ],
         "Frame.Start-up": 11,
         "Frame.Active": "11-14",
         "Frame.Recovery": 24,
@@ -1550,6 +2226,20 @@
     {
         "section": "Super Arts",
         "Move Name": "(Failed version) SA2 Sunrise Festival (3)",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "LP",
+            null,
+            "LP",
+            null,
+            "MP"
+        ],
         "Frame.Start-up": 10,
         "Frame.Active": "10-11",
         "Frame.Recovery": 23,
@@ -1568,6 +2258,22 @@
     {
         "section": "Super Arts",
         "Move Name": "(Failed version) SA2 Sunrise Festival (4)",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "LP",
+            null,
+            "LP",
+            null,
+            "MP",
+            null,
+            "HP"
+        ],
         "Frame.Start-up": 12,
         "Frame.Active": "12-14",
         "Frame.Recovery": 23,
@@ -1586,6 +2292,24 @@
     {
         "section": "Super Arts",
         "Move Name": "(Failed version) SA2 Sunrise Festival (5)",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "LP",
+            null,
+            "LP",
+            null,
+            "MP",
+            null,
+            "HP",
+            null,
+            "LK"
+        ],
         "Frame.Start-up": 15,
         "Frame.Active": "15-18",
         "Frame.Recovery": 35,
@@ -1604,6 +2328,26 @@
     {
         "section": "Super Arts",
         "Move Name": "(Failed version) SA2 Sunrise Festival (6)",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "LP",
+            null,
+            "LP",
+            null,
+            "MP",
+            null,
+            "HP",
+            null,
+            "LK",
+            null,
+            "MK"
+        ],
         "Frame.Start-up": 17,
         "Frame.Active": "17-19",
         "Frame.Recovery": 45,
@@ -1622,6 +2366,28 @@
     {
         "section": "Super Arts",
         "Move Name": "(Failed version) SA2 Sunrise Festival (7)",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "LP",
+            null,
+            "LP",
+            null,
+            "MP",
+            null,
+            "HP",
+            null,
+            "LK",
+            null,
+            "MK",
+            null,
+            "HK"
+        ],
         "Frame.Start-up": 18,
         "Frame.Active": "18-2818-20, 26-28",
         "Frame.Recovery": 64,
@@ -1640,6 +2406,16 @@
     {
         "section": "Super Arts",
         "Move Name": "SA3 Weekend Pleasure",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "2",
+            "1",
+            "4",
+            "+",
+            "P"
+        ],
         "Frame.Start-up": 9,
         "Frame.Active": "9-13",
         "Frame.Recovery": 48,
@@ -1658,6 +2434,16 @@
     {
         "section": "Super Arts",
         "Move Name": "CA Weekend Pleasure",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "2",
+            "1",
+            "4",
+            "+",
+            "P"
+        ],
         "Frame.Start-up": 9,
         "Frame.Active": "9-13",
         "Frame.Recovery": 48,
@@ -1676,6 +2462,14 @@
     {
         "section": "Throws",
         "Move Name": "Diss Track",
+        "input": [
+            null,
+            null,
+            "6",
+            "+",
+            "LP",
+            "LK"
+        ],
         "Frame.Start-up": 5,
         "Frame.Active": "5-7",
         "Frame.Recovery": 23,
@@ -1694,6 +2488,12 @@
     {
         "section": "Throws",
         "Move Name": "Flip Throw",
+        "input": [
+            "4",
+            "+",
+            "LP",
+            "LK"
+        ],
         "Frame.Start-up": 5,
         "Frame.Active": "5-7",
         "Frame.Recovery": 23,
@@ -1712,6 +2512,10 @@
     {
         "section": "Common Moves",
         "Move Name": "Forward Dash",
+        "input": [
+            "6",
+            "6"
+        ],
         "Frame.Start-up": null,
         "Frame.Active": null,
         "Frame.Recovery": 19,
@@ -1730,6 +2534,10 @@
     {
         "section": "Common Moves",
         "Move Name": "Backward Dash",
+        "input": [
+            "4",
+            "4"
+        ],
         "Frame.Start-up": null,
         "Frame.Active": null,
         "Frame.Recovery": 23,
@@ -1748,6 +2556,10 @@
     {
         "section": "Common Moves",
         "Move Name": "Drive Impact: Wild Beat",
+        "input": [
+            "HP",
+            "HK"
+        ],
         "Frame.Start-up": 26,
         "Frame.Active": "26-27",
         "Frame.Recovery": 35,
@@ -1766,6 +2578,12 @@
     {
         "section": "Common Moves",
         "Move Name": "Drive Reversal: Leg Scratch",
+        "input": [
+            "6",
+            "+",
+            "HP",
+            "HK"
+        ],
         "Frame.Start-up": 20,
         "Frame.Active": "20-22",
         "Frame.Recovery": 26,
@@ -1784,6 +2602,10 @@
     {
         "section": "Common Moves",
         "Move Name": "Drive Parry",
+        "input": [
+            "MP",
+            "MK"
+        ],
         "Frame.Start-up": 1,
         "Frame.Active": "[*1] 1-8",
         "Frame.Recovery": 29,
@@ -1802,6 +2624,10 @@
     {
         "section": "Common Moves",
         "Move Name": "Perfect Parry (strike)",
+        "input": [
+            "MP",
+            "MK"
+        ],
         "Frame.Start-up": 1,
         "Frame.Active": null,
         "Frame.Recovery": 1,
@@ -1820,6 +2646,10 @@
     {
         "section": "Common Moves",
         "Move Name": "Perfect Parry (projectile)",
+        "input": [
+            "MP",
+            "MK"
+        ],
         "Frame.Start-up": 1,
         "Frame.Active": null,
         "Frame.Recovery": 10,
@@ -1838,6 +2668,10 @@
     {
         "section": "Common Moves",
         "Move Name": "Parry Drive Rush",
+        "input": [
+            "6",
+            "6"
+        ],
         "Frame.Start-up": null,
         "Frame.Active": null,
         "Frame.Recovery": 55,
@@ -1856,6 +2690,17 @@
     {
         "section": "Common Moves",
         "Move Name": "Cancel Drive Rush",
+        "input": [
+            "6",
+            "6",
+            null,
+            null,
+            null,
+            "6",
+            "+",
+            "MP",
+            "MK"
+        ],
         "Frame.Start-up": null,
         "Frame.Active": null,
         "Frame.Recovery": 55,

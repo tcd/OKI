@@ -1,6 +1,29 @@
 export declare global {
     export namespace SF6 {
 
+        export type TInput =
+            | "1"
+            | "2"
+            | "3"
+            | "4"
+            | "5"
+            | "6"
+            | "7"
+            | "8"
+            | "9"
+            | "LP"
+            | "MP"
+            | "HP"
+            | "LK"
+            | "MK"
+            | "HK"
+            | "P"
+            | "K"
+            | "+"
+            | "arrow"
+            | "c4"
+            | "c2"
+
         export type CharacterNameClean =
             | "aki"
             | "blanka"

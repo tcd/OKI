@@ -2,6 +2,9 @@
     {
         "section": "Normal Moves",
         "Move Name": "Standing Light Punch",
+        "input": [
+            "LP"
+        ],
         "Frame.Start-up": 7,
         "Frame.Active": "7-9",
         "Frame.Recovery": 9,
@@ -20,6 +23,9 @@
     {
         "section": "Normal Moves",
         "Move Name": "(Rapid cancel version)Standing Light Punch",
+        "input": [
+            "LP"
+        ],
         "Frame.Start-up": 4,
         "Frame.Active": "4-6",
         "Frame.Recovery": 9,
@@ -38,6 +44,9 @@
     {
         "section": "Normal Moves",
         "Move Name": "Standing Light Kick",
+        "input": [
+            "LK"
+        ],
         "Frame.Start-up": 7,
         "Frame.Active": "7-8",
         "Frame.Recovery": 17,
@@ -56,6 +65,9 @@
     {
         "section": "Normal Moves",
         "Move Name": "Standing Medium Punch",
+        "input": [
+            "MP"
+        ],
         "Frame.Start-up": 9,
         "Frame.Active": "9-12",
         "Frame.Recovery": 17,
@@ -74,6 +86,9 @@
     {
         "section": "Normal Moves",
         "Move Name": "Standing Medium Kick",
+        "input": [
+            "MK"
+        ],
         "Frame.Start-up": 10,
         "Frame.Active": "10-13",
         "Frame.Recovery": 19,
@@ -92,6 +107,9 @@
     {
         "section": "Normal Moves",
         "Move Name": "Standing Heavy Punch",
+        "input": [
+            "HP"
+        ],
         "Frame.Start-up": 16,
         "Frame.Active": "16-18",
         "Frame.Recovery": 22,
@@ -110,6 +128,9 @@
     {
         "section": "Normal Moves",
         "Move Name": "Standing Heavy Punch(Charged)",
+        "input": [
+            "HP"
+        ],
         "Frame.Start-up": 32,
         "Frame.Active": "32-34",
         "Frame.Recovery": 22,
@@ -128,6 +149,9 @@
     {
         "section": "Normal Moves",
         "Move Name": "Standing Heavy Kick",
+        "input": [
+            "HK"
+        ],
         "Frame.Start-up": 13,
         "Frame.Active": "13-16",
         "Frame.Recovery": 21,
@@ -146,6 +170,11 @@
     {
         "section": "Normal Moves",
         "Move Name": "Crouching Light Punch",
+        "input": [
+            "2",
+            "+",
+            "LP"
+        ],
         "Frame.Start-up": 6,
         "Frame.Active": "6-7",
         "Frame.Recovery": 8,
@@ -164,6 +193,11 @@
     {
         "section": "Normal Moves",
         "Move Name": "(Rapid cancel version)Crouching Light Punch",
+        "input": [
+            "2",
+            "+",
+            "LP"
+        ],
         "Frame.Start-up": 3,
         "Frame.Active": "3-4",
         "Frame.Recovery": 8,
@@ -182,6 +216,11 @@
     {
         "section": "Normal Moves",
         "Move Name": "Crouching Light Kick",
+        "input": [
+            "2",
+            "+",
+            "LK"
+        ],
         "Frame.Start-up": 4,
         "Frame.Active": "4-6",
         "Frame.Recovery": 12,
@@ -200,6 +239,11 @@
     {
         "section": "Normal Moves",
         "Move Name": "(Rapid cancel version)Crouching Light Kick",
+        "input": [
+            "2",
+            "+",
+            "LK"
+        ],
         "Frame.Start-up": 3,
         "Frame.Active": "3-5",
         "Frame.Recovery": 12,
@@ -218,6 +262,11 @@
     {
         "section": "Normal Moves",
         "Move Name": "Crouching Medium Punch",
+        "input": [
+            "2",
+            "+",
+            "MP"
+        ],
         "Frame.Start-up": 8,
         "Frame.Active": "8-10",
         "Frame.Recovery": 16,
@@ -236,6 +285,11 @@
     {
         "section": "Normal Moves",
         "Move Name": "Crouching Medium Kick",
+        "input": [
+            "2",
+            "+",
+            "MK"
+        ],
         "Frame.Start-up": 9,
         "Frame.Active": "9-11",
         "Frame.Recovery": 18,
@@ -254,6 +308,11 @@
     {
         "section": "Normal Moves",
         "Move Name": "Crouching Heavy Punch",
+        "input": [
+            "2",
+            "+",
+            "HP"
+        ],
         "Frame.Start-up": 12,
         "Frame.Active": "12-19",
         "Frame.Recovery": 35,
@@ -272,6 +331,11 @@
     {
         "section": "Normal Moves",
         "Move Name": "Crouching Heavy Kick",
+        "input": [
+            "2",
+            "+",
+            "HK"
+        ],
         "Frame.Start-up": 12,
         "Frame.Active": "12-14",
         "Frame.Recovery": 27,
@@ -290,6 +354,9 @@
     {
         "section": "Normal Moves",
         "Move Name": "Jumping Light Punch",
+        "input": [
+            "LP"
+        ],
         "Frame.Start-up": 5,
         "Frame.Active": "5-11",
         "Frame.Recovery": 3,
@@ -308,6 +375,9 @@
     {
         "section": "Normal Moves",
         "Move Name": "Jumping Light Kick",
+        "input": [
+            "LK"
+        ],
         "Frame.Start-up": 5,
         "Frame.Active": "5-14",
         "Frame.Recovery": 3,
@@ -326,6 +396,9 @@
     {
         "section": "Normal Moves",
         "Move Name": "Jumping Medium Punch",
+        "input": [
+            "MP"
+        ],
         "Frame.Start-up": 8,
         "Frame.Active": "8-12",
         "Frame.Recovery": 3,
@@ -344,6 +417,9 @@
     {
         "section": "Normal Moves",
         "Move Name": "Jumping Medium Kick",
+        "input": [
+            "MK"
+        ],
         "Frame.Start-up": 8,
         "Frame.Active": "8-15",
         "Frame.Recovery": 3,
@@ -362,6 +438,9 @@
     {
         "section": "Normal Moves",
         "Move Name": "Jumping Heavy Punch",
+        "input": [
+            "HP"
+        ],
         "Frame.Start-up": 9,
         "Frame.Active": "9-14",
         "Frame.Recovery": 3,
@@ -380,6 +459,9 @@
     {
         "section": "Normal Moves",
         "Move Name": "Jumping Heavy Kick",
+        "input": [
+            "HK"
+        ],
         "Frame.Start-up": 10,
         "Frame.Active": "10-16",
         "Frame.Recovery": 3,
@@ -398,6 +480,9 @@
     {
         "section": "Normal Moves",
         "Move Name": "Jumping Heavy Kick(Charged)",
+        "input": [
+            "HK"
+        ],
         "Frame.Start-up": 32,
         "Frame.Active": "32-37",
         "Frame.Recovery": 20,
@@ -416,6 +501,11 @@
     {
         "section": "Unique Attacks",
         "Move Name": "Hellstab",
+        "input": [
+            "3",
+            "+",
+            "MP"
+        ],
         "Frame.Start-up": 7,
         "Frame.Active": "7-9",
         "Frame.Recovery": 21,
@@ -434,6 +524,11 @@
     {
         "section": "Unique Attacks",
         "Move Name": "Knee Hammer",
+        "input": [
+            "6",
+            "+",
+            "MK"
+        ],
         "Frame.Start-up": 14,
         "Frame.Active": "14-20",
         "Frame.Recovery": 14,
@@ -452,6 +547,11 @@
     {
         "section": "Unique Attacks",
         "Move Name": "Headbutt",
+        "input": [
+            "6",
+            "+",
+            "HP"
+        ],
         "Frame.Start-up": 14,
         "Frame.Active": "14-18",
         "Frame.Recovery": 15,
@@ -470,6 +570,11 @@
     {
         "section": "Unique Attacks",
         "Move Name": "Cyclone Wheel Kick",
+        "input": [
+            "6",
+            "+",
+            "HK"
+        ],
         "Frame.Start-up": 22,
         "Frame.Active": "22-28",
         "Frame.Recovery": 25,
@@ -488,6 +593,11 @@
     {
         "section": "Unique Attacks",
         "Move Name": "Smetana Dropkick",
+        "input": [
+            "3",
+            "+",
+            "HK"
+        ],
         "Frame.Start-up": 16,
         "Frame.Active": "16-19",
         "Frame.Recovery": 40,
@@ -506,6 +616,11 @@
     {
         "section": "Unique Attacks",
         "Move Name": "Flying Body Press",
+        "input": [
+            "2",
+            "+",
+            "HP"
+        ],
         "Frame.Start-up": 9,
         "Frame.Active": "9-17",
         "Frame.Recovery": 8,
@@ -524,6 +639,11 @@
     {
         "section": "Unique Attacks",
         "Move Name": "Flying Headbutt",
+        "input": [
+            null,
+            "+",
+            "HP"
+        ],
         "Frame.Start-up": 8,
         "Frame.Active": "8-11",
         "Frame.Recovery": 3,
@@ -542,6 +662,11 @@
     {
         "section": "Unique Attacks",
         "Move Name": "Machine Gun Chops(2)",
+        "input": [
+            "MP",
+            null,
+            "MP"
+        ],
         "Frame.Start-up": 9,
         "Frame.Active": "9-12",
         "Frame.Recovery": 20,
@@ -560,6 +685,13 @@
     {
         "section": "Unique Attacks",
         "Move Name": "Machine Gun Chops(3)",
+        "input": [
+            "MP",
+            null,
+            "MP",
+            null,
+            "MP"
+        ],
         "Frame.Start-up": 15,
         "Frame.Active": "15-17",
         "Frame.Recovery": 32,
@@ -578,6 +710,12 @@
     {
         "section": "Unique Attacks",
         "Move Name": "Power Stomps(1)",
+        "input": [
+            "2",
+            "2",
+            "+",
+            "MK"
+        ],
         "Frame.Start-up": 9,
         "Frame.Active": "9-11",
         "Frame.Recovery": 17,
@@ -596,6 +734,14 @@
     {
         "section": "Unique Attacks",
         "Move Name": "Power Stomps(2)",
+        "input": [
+            "2",
+            "2",
+            "+",
+            "MK",
+            null,
+            "MK"
+        ],
         "Frame.Start-up": 9,
         "Frame.Active": "9-11",
         "Frame.Recovery": 19,
@@ -614,6 +760,16 @@
     {
         "section": "Unique Attacks",
         "Move Name": "Power Stomps(3)",
+        "input": [
+            "2",
+            "2",
+            "+",
+            "MK",
+            null,
+            "MK",
+            null,
+            "MK"
+        ],
         "Frame.Start-up": 10,
         "Frame.Active": "10-12",
         "Frame.Recovery": 24,
@@ -632,6 +788,10 @@
     {
         "section": "Special Moves",
         "Move Name": "Double Lariat",
+        "input": [
+            "P",
+            "P"
+        ],
         "Frame.Start-up": 15,
         "Frame.Active": "15-4515-16, 26-27, 36-37, 44-45",
         "Frame.Recovery": 27,
@@ -650,6 +810,11 @@
     {
         "section": "Special Moves",
         "Move Name": "OD Double Lariat",
+        "input": [
+            "LP",
+            "MP",
+            "HP"
+        ],
         "Frame.Start-up": 12,
         "Frame.Active": "12-3612-13, 16-17, 21-22, 29-30, 35-36",
         "Frame.Recovery": 26,
@@ -668,6 +833,11 @@
     {
         "section": "Special Moves",
         "Move Name": "L Screw Piledriver",
+        "input": [
+            null,
+            "+",
+            "LP"
+        ],
         "Frame.Start-up": 5,
         "Frame.Active": "5-7",
         "Frame.Recovery": 54,
@@ -686,6 +856,11 @@
     {
         "section": "Special Moves",
         "Move Name": "M Screw Piledriver",
+        "input": [
+            null,
+            "+",
+            "MP"
+        ],
         "Frame.Start-up": 5,
         "Frame.Active": "5-7",
         "Frame.Recovery": 54,
@@ -704,6 +879,11 @@
     {
         "section": "Special Moves",
         "Move Name": "H Screw Piledriver",
+        "input": [
+            null,
+            "+",
+            "HP"
+        ],
         "Frame.Start-up": 5,
         "Frame.Active": "5-7",
         "Frame.Recovery": 54,
@@ -722,6 +902,12 @@
     {
         "section": "Special Moves",
         "Move Name": "OD Screw Piledriver",
+        "input": [
+            null,
+            "+",
+            "P",
+            "P"
+        ],
         "Frame.Start-up": 5,
         "Frame.Active": "5-7",
         "Frame.Recovery": 54,
@@ -740,6 +926,11 @@
     {
         "section": "Special Moves",
         "Move Name": "Borscht Dynamite",
+        "input": [
+            null,
+            "+",
+            "K"
+        ],
         "Frame.Start-up": 4,
         "Frame.Active": "4-6",
         "Frame.Recovery": 16,
@@ -758,6 +949,12 @@
     {
         "section": "Special Moves",
         "Move Name": "OD Borscht Dynamite",
+        "input": [
+            null,
+            "+",
+            "K",
+            "K"
+        ],
         "Frame.Start-up": 4,
         "Frame.Active": "4-6",
         "Frame.Recovery": 16,
@@ -776,6 +973,15 @@
     {
         "section": "Special Moves",
         "Move Name": "Russian Suplex",
+        "input": [
+            "6",
+            "3",
+            "2",
+            "1",
+            "4",
+            "+",
+            "K"
+        ],
         "Frame.Start-up": 10,
         "Frame.Active": "10-11",
         "Frame.Recovery": 50,
@@ -794,6 +1000,16 @@
     {
         "section": "Special Moves",
         "Move Name": "OD Russian Suplex",
+        "input": [
+            "6",
+            "3",
+            "2",
+            "1",
+            "4",
+            "+",
+            "K",
+            "K"
+        ],
         "Frame.Start-up": 10,
         "Frame.Active": "10-11",
         "Frame.Recovery": 50,
@@ -812,6 +1028,15 @@
     {
         "section": "Special Moves",
         "Move Name": "Siberian Express(Close range)",
+        "input": [
+            "6",
+            "3",
+            "2",
+            "1",
+            "4",
+            "+",
+            "K"
+        ],
         "Frame.Start-up": 28,
         "Frame.Active": "28-29",
         "Frame.Recovery": 41,
@@ -830,6 +1055,16 @@
     {
         "section": "Special Moves",
         "Move Name": "OD Siberian Express(Close range)",
+        "input": [
+            "6",
+            "3",
+            "2",
+            "1",
+            "4",
+            "+",
+            "K",
+            "K"
+        ],
         "Frame.Start-up": 23,
         "Frame.Active": "23-24",
         "Frame.Recovery": 44,
@@ -848,6 +1083,15 @@
     {
         "section": "Special Moves",
         "Move Name": "Siberian Express(Far range)",
+        "input": [
+            "6",
+            "3",
+            "2",
+            "1",
+            "4",
+            "+",
+            "K"
+        ],
         "Frame.Start-up": 55,
         "Frame.Active": "55-56",
         "Frame.Recovery": 40,
@@ -866,6 +1110,16 @@
     {
         "section": "Special Moves",
         "Move Name": "OD Siberian Express(Far range)",
+        "input": [
+            "6",
+            "3",
+            "2",
+            "1",
+            "4",
+            "+",
+            "K",
+            "K"
+        ],
         "Frame.Start-up": 54,
         "Frame.Active": "54-55",
         "Frame.Recovery": 40,
@@ -884,6 +1138,12 @@
     {
         "section": "Special Moves",
         "Move Name": "Tundra Storm",
+        "input": [
+            "2",
+            "2",
+            "+",
+            "HK"
+        ],
         "Frame.Start-up": 5,
         "Frame.Active": "5-55",
         "Frame.Recovery": 24,
@@ -902,6 +1162,16 @@
     {
         "section": "Super Arts",
         "Move Name": "SA1 Aerial Russian Slam",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "K"
+        ],
         "Frame.Start-up": 11,
         "Frame.Active": "11-17",
         "Frame.Recovery": 60,
@@ -920,6 +1190,16 @@
     {
         "section": "Super Arts",
         "Move Name": "SA2 Cyclone Lariat(Charged)",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "P"
+        ],
         "Frame.Start-up": 18,
         "Frame.Active": "※18-122※18-111, 33-35, 41-42, 50-51, 60-61, 69-70, 79-80, 90-91, 99-100, 110-111, 120-122",
         "Frame.Recovery": 52,
@@ -938,6 +1218,16 @@
     {
         "section": "Super Arts",
         "Move Name": "SA2 Cyclone Lariat(immediately)",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "P"
+        ],
         "Frame.Start-up": null,
         "Frame.Active": null,
         "Frame.Recovery": "",
@@ -956,6 +1246,16 @@
     {
         "section": "Super Arts",
         "Move Name": "SA2 Cyclone Lariat(Movement)",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "P"
+        ],
         "Frame.Start-up": null,
         "Frame.Active": null,
         "Frame.Recovery": "",
@@ -974,6 +1274,12 @@
     {
         "section": "Super Arts",
         "Move Name": "SA3 Bolshoi Storm Buster",
+        "input": [
+            null,
+            null,
+            "+",
+            "P"
+        ],
         "Frame.Start-up": 6,
         "Frame.Active": "6-7",
         "Frame.Recovery": 116,
@@ -992,6 +1298,12 @@
     {
         "section": "Super Arts",
         "Move Name": "CA Bolshoi Storm Buster",
+        "input": [
+            null,
+            null,
+            "+",
+            "P"
+        ],
         "Frame.Start-up": 6,
         "Frame.Active": "6-7",
         "Frame.Recovery": 116,
@@ -1010,6 +1322,12 @@
     {
         "section": "Throws",
         "Move Name": "Bodyslam",
+        "input": [
+            null,
+            "+",
+            "LP",
+            "LK"
+        ],
         "Frame.Start-up": 5,
         "Frame.Active": "5-7",
         "Frame.Recovery": 23,
@@ -1028,6 +1346,12 @@
     {
         "section": "Throws",
         "Move Name": "Capture Suplex",
+        "input": [
+            "4",
+            "+",
+            "LP",
+            "LK"
+        ],
         "Frame.Start-up": 5,
         "Frame.Active": "5-7",
         "Frame.Recovery": 23,
@@ -1046,6 +1370,12 @@
     {
         "section": "Throws",
         "Move Name": "German Suplex",
+        "input": [
+            "6",
+            "+",
+            "LP",
+            "LK"
+        ],
         "Frame.Start-up": 5,
         "Frame.Active": "5-7",
         "Frame.Recovery": 23,
@@ -1064,6 +1394,12 @@
     {
         "section": "Throws",
         "Move Name": "Spinebuster",
+        "input": [
+            "3",
+            "+",
+            "LP",
+            "LK"
+        ],
         "Frame.Start-up": 5,
         "Frame.Active": "5-7",
         "Frame.Recovery": 23,
@@ -1082,6 +1418,12 @@
     {
         "section": "Throws",
         "Move Name": "Russian Drop",
+        "input": [
+            "1",
+            "+",
+            "LP",
+            "LK"
+        ],
         "Frame.Start-up": 5,
         "Frame.Active": "5-7",
         "Frame.Recovery": 23,
@@ -1100,6 +1442,12 @@
     {
         "section": "Throws",
         "Move Name": "Brain Buster",
+        "input": [
+            "2",
+            "+",
+            "LP",
+            "LK"
+        ],
         "Frame.Start-up": 5,
         "Frame.Active": "5-7",
         "Frame.Recovery": 23,
@@ -1118,6 +1466,10 @@
     {
         "section": "Common Moves",
         "Move Name": "Forward Dash",
+        "input": [
+            "6",
+            "6"
+        ],
         "Frame.Start-up": null,
         "Frame.Active": null,
         "Frame.Recovery": 22,
@@ -1136,6 +1488,10 @@
     {
         "section": "Common Moves",
         "Move Name": "Backward Dash",
+        "input": [
+            "4",
+            "4"
+        ],
         "Frame.Start-up": null,
         "Frame.Active": null,
         "Frame.Recovery": 25,
@@ -1154,6 +1510,10 @@
     {
         "section": "Common Moves",
         "Move Name": "Drive Impact: Double Russian Chop",
+        "input": [
+            "HP",
+            "HK"
+        ],
         "Frame.Start-up": 26,
         "Frame.Active": "26-27",
         "Frame.Recovery": 35,
@@ -1172,6 +1532,12 @@
     {
         "section": "Common Moves",
         "Move Name": "Drive Reversal: Reverse Russian Kick",
+        "input": [
+            "6",
+            "+",
+            "HP",
+            "HK"
+        ],
         "Frame.Start-up": 20,
         "Frame.Active": "20-22",
         "Frame.Recovery": 26,
@@ -1190,6 +1556,10 @@
     {
         "section": "Common Moves",
         "Move Name": "Drive Parry",
+        "input": [
+            "MP",
+            "MK"
+        ],
         "Frame.Start-up": 1,
         "Frame.Active": "[※1] 1-8",
         "Frame.Recovery": 29,
@@ -1208,6 +1578,10 @@
     {
         "section": "Common Moves",
         "Move Name": "Perfect Parry (strike)",
+        "input": [
+            "MP",
+            "MK"
+        ],
         "Frame.Start-up": 1,
         "Frame.Active": null,
         "Frame.Recovery": 1,
@@ -1226,6 +1600,10 @@
     {
         "section": "Common Moves",
         "Move Name": "Perfect Parry (projectile)",
+        "input": [
+            "MP",
+            "MK"
+        ],
         "Frame.Start-up": 1,
         "Frame.Active": null,
         "Frame.Recovery": 10,
@@ -1244,6 +1622,10 @@
     {
         "section": "Common Moves",
         "Move Name": "Parry Drive Rush",
+        "input": [
+            "6",
+            "6"
+        ],
         "Frame.Start-up": null,
         "Frame.Active": null,
         "Frame.Recovery": 45,
@@ -1262,6 +1644,17 @@
     {
         "section": "Common Moves",
         "Move Name": "Cancel Drive Rush",
+        "input": [
+            "6",
+            "6",
+            null,
+            null,
+            null,
+            "6",
+            "+",
+            "MP",
+            "MK"
+        ],
         "Frame.Start-up": null,
         "Frame.Active": null,
         "Frame.Recovery": 46,

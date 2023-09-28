@@ -44,6 +44,7 @@ class _Converter {
         this.result = {
             section: this.rawData["section"],
             name: this.rawData["Move Name"],
+            input: this.rawData["input"],
             startup: this.rawData["Frame.Start-up"],
             // "Recovery.Hit"?: any
             // "Recovery.Block"?: any

@@ -2,6 +2,9 @@
     {
         "section": "Normal Moves",
         "name": "Standing Light Punch",
+        "input": [
+            "LP"
+        ],
         "startup": 4,
         "driveGain_hit": 250,
         "driveDrain_block": -500,
@@ -15,6 +18,9 @@
     {
         "section": "Normal Moves",
         "name": "Standing Light Kick",
+        "input": [
+            "LK"
+        ],
         "startup": 5,
         "driveGain_hit": 250,
         "driveDrain_block": -500,
@@ -28,6 +34,9 @@
     {
         "section": "Normal Moves",
         "name": "Standing Medium Punch",
+        "input": [
+            "MP"
+        ],
         "startup": 7,
         "driveGain_hit": 2000,
         "driveDrain_block": -4000,
@@ -41,6 +50,9 @@
     {
         "section": "Normal Moves",
         "name": "Standing Medium Kick",
+        "input": [
+            "MK"
+        ],
         "startup": 9,
         "driveGain_hit": 2000,
         "driveDrain_block": -4000,
@@ -54,6 +66,9 @@
     {
         "section": "Normal Moves",
         "name": "Standing Heavy Punch",
+        "input": [
+            "HP"
+        ],
         "startup": 9,
         "driveGain_hit": 2000,
         "driveDrain_block": -5000,
@@ -67,6 +82,9 @@
     {
         "section": "Normal Moves",
         "name": "Standing Heavy Kick",
+        "input": [
+            "HK"
+        ],
         "startup": 12,
         "driveGain_hit": 3000,
         "driveDrain_block": -6000,
@@ -80,6 +98,11 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Light Punch",
+        "input": [
+            "2",
+            "+",
+            "LP"
+        ],
         "startup": 5,
         "driveGain_hit": 250,
         "driveDrain_block": -500,
@@ -93,6 +116,11 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Light Kick",
+        "input": [
+            "2",
+            "+",
+            "LK"
+        ],
         "startup": 5,
         "driveGain_hit": 250,
         "driveDrain_block": -500,
@@ -106,6 +134,11 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Medium Punch",
+        "input": [
+            "2",
+            "+",
+            "MP"
+        ],
         "startup": 6,
         "driveGain_hit": 1500,
         "driveDrain_block": -3000,
@@ -119,6 +152,11 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Medium Kick",
+        "input": [
+            "2",
+            "+",
+            "MK"
+        ],
         "startup": 8,
         "driveGain_hit": 2000,
         "driveDrain_block": -4000,
@@ -132,6 +170,11 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Heavy Punch",
+        "input": [
+            "2",
+            "+",
+            "HP"
+        ],
         "startup": 8,
         "driveGain_hit": 3000,
         "driveDrain_block": -4000,
@@ -145,6 +188,11 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Heavy Kick",
+        "input": [
+            "2",
+            "+",
+            "HK"
+        ],
         "startup": 14,
         "driveGain_hit": 3000,
         "driveDrain_block": -4000,
@@ -158,6 +206,9 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Light Punch",
+        "input": [
+            "LP"
+        ],
         "startup": 4,
         "driveGain_hit": 500,
         "driveDrain_block": -1500,
@@ -171,6 +222,9 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Light Kick",
+        "input": [
+            "LK"
+        ],
         "startup": 4,
         "driveGain_hit": 500,
         "driveDrain_block": -1500,
@@ -184,6 +238,9 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Medium Punch",
+        "input": [
+            "MP"
+        ],
         "startup": 6,
         "driveGain_hit": 1000,
         "driveDrain_block": -2500,
@@ -197,6 +254,9 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Medium Kick",
+        "input": [
+            "MK"
+        ],
         "startup": 8,
         "driveGain_hit": 1000,
         "driveDrain_block": -2500,
@@ -210,6 +270,9 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Heavy Punch",
+        "input": [
+            "HP"
+        ],
         "startup": 9,
         "driveGain_hit": 2000,
         "driveDrain_block": -4000,
@@ -223,6 +286,9 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Heavy Kick",
+        "input": [
+            "HK"
+        ],
         "startup": 10,
         "driveGain_hit": 2000,
         "driveDrain_block": -4000,
@@ -236,6 +302,11 @@
     {
         "section": "Unique Attacks",
         "name": "Knee Shot",
+        "input": [
+            "2",
+            "+",
+            "LK"
+        ],
         "startup": 6,
         "driveGain_hit": 500,
         "driveDrain_block": -1500,
@@ -249,6 +320,11 @@
     {
         "section": "Unique Attacks",
         "name": "Sunrise Heel",
+        "input": [
+            "6",
+            "+",
+            "MK"
+        ],
         "startup": 19,
         "driveGain_hit": 2000,
         "driveDrain_block": -4000,
@@ -262,6 +338,11 @@
     {
         "section": "Unique Attacks",
         "name": "Face Breaker",
+        "input": [
+            "4",
+            "+",
+            "HK"
+        ],
         "startup": 7,
         "driveGain_hit": 2000,
         "driveDrain_block": -5000,
@@ -275,6 +356,11 @@
     {
         "section": "Unique Attacks",
         "name": "Threebeat Combo (2)",
+        "input": [
+            "LP",
+            null,
+            "MK"
+        ],
         "startup": 9,
         "driveGain_hit": 250,
         "driveDrain_block": -2000,
@@ -288,6 +374,13 @@
     {
         "section": "Unique Attacks",
         "name": "Threebeat Combo (3)",
+        "input": [
+            "LP",
+            null,
+            "MK",
+            null,
+            "MK"
+        ],
         "startup": 14,
         "driveGain_hit": 500,
         "driveDrain_block": -2000,
@@ -301,6 +394,11 @@
     {
         "section": "Unique Attacks",
         "name": "Dee Jay Special (2)",
+        "input": [
+            "MP",
+            null,
+            "HP"
+        ],
         "startup": 11,
         "driveGain_hit": 2000,
         "driveDrain_block": -3000,
@@ -314,6 +412,13 @@
     {
         "section": "Unique Attacks",
         "name": "Dee Jay Special (3)",
+        "input": [
+            "MP",
+            null,
+            "HP",
+            null,
+            "HK"
+        ],
         "startup": 13,
         "driveGain_hit": 2500,
         "driveDrain_block": -5000,
@@ -327,6 +432,11 @@
     {
         "section": "Unique Attacks",
         "name": "Funky Dance (2)",
+        "input": [
+            "MP",
+            null,
+            "MP"
+        ],
         "startup": 12,
         "driveGain_hit": 400,
         "driveDrain_block": -1000,
@@ -340,6 +450,13 @@
     {
         "section": "Unique Attacks",
         "name": "Funky Dance (3)",
+        "input": [
+            "MP",
+            null,
+            "MP",
+            null,
+            "HP"
+        ],
         "startup": 20,
         "driveGain_hit": 2500,
         "driveDrain_block": -7000,
@@ -353,6 +470,15 @@
     {
         "section": "Unique Attacks",
         "name": "Funky Dance Feint",
+        "input": [
+            "MP",
+            null,
+            "MP",
+            null,
+            "4",
+            "+",
+            "HP"
+        ],
         "startup": null,
         "driveGain_hit": 0,
         "driveDrain_block": 0,
@@ -366,6 +492,11 @@
     {
         "section": "Unique Attacks",
         "name": "Party in the Air",
+        "input": [
+            "MP",
+            null,
+            "HP"
+        ],
         "startup": 8,
         "driveGain_hit": 2000,
         "driveDrain_block": -4000,
@@ -379,6 +510,13 @@
     {
         "section": "Unique Attacks",
         "name": "Speedy Maracas",
+        "input": [
+            "2",
+            "2",
+            "+",
+            "P",
+            "P"
+        ],
         "startup": null,
         "driveGain_hit": 0,
         "driveDrain_block": 0,
@@ -392,6 +530,12 @@
     {
         "section": "Special Moves",
         "name": "L Air Slasher",
+        "input": [
+            null,
+            "6",
+            "+",
+            "LP"
+        ],
         "startup": null,
         "driveGain_hit": 0,
         "driveDrain_block": 0,
@@ -405,6 +549,12 @@
     {
         "section": "Special Moves",
         "name": "M Air Slasher",
+        "input": [
+            null,
+            "6",
+            "+",
+            "MP"
+        ],
         "startup": 17,
         "driveGain_hit": 1000,
         "driveDrain_block": -2500,
@@ -418,6 +568,12 @@
     {
         "section": "Special Moves",
         "name": "H Air Slasher",
+        "input": [
+            null,
+            "6",
+            "+",
+            "HP"
+        ],
         "startup": 17,
         "driveGain_hit": 1500,
         "driveDrain_block": -5000,
@@ -431,6 +587,13 @@
     {
         "section": "Special Moves",
         "name": "OD Air Slasher",
+        "input": [
+            null,
+            "6",
+            "+",
+            "P",
+            "P"
+        ],
         "startup": 10,
         "driveGain_hit": 0,
         "driveDrain_block": -2500,
@@ -444,6 +607,13 @@
     {
         "section": "Special Moves",
         "name": "OD Air Slasher (projectile)",
+        "input": [
+            null,
+            "6",
+            "+",
+            "P",
+            "P"
+        ],
         "startup": 22,
         "driveGain_hit": 0,
         "driveDrain_block": -2500,
@@ -457,6 +627,12 @@
     {
         "section": "Special Moves",
         "name": "L Jackknife Maximum",
+        "input": [
+            null,
+            null,
+            "+",
+            "LK"
+        ],
         "startup": null,
         "driveGain_hit": 0,
         "driveDrain_block": 0,
@@ -470,6 +646,12 @@
     {
         "section": "Special Moves",
         "name": "M Jackknife Maximum",
+        "input": [
+            null,
+            null,
+            "+",
+            "MK"
+        ],
         "startup": 6,
         "driveGain_hit": 2000,
         "driveDrain_block": -4000,
@@ -483,6 +665,12 @@
     {
         "section": "Special Moves",
         "name": "H Jackknife Maximum",
+        "input": [
+            null,
+            null,
+            "+",
+            "HK"
+        ],
         "startup": 6,
         "driveGain_hit": 2000,
         "driveDrain_block": -4000,
@@ -496,6 +684,13 @@
     {
         "section": "Special Moves",
         "name": "OD Jackknife Maximum",
+        "input": [
+            null,
+            null,
+            "+",
+            "K",
+            "K"
+        ],
         "startup": 6,
         "driveGain_hit": 0,
         "driveDrain_block": -4200,
@@ -509,6 +704,13 @@
     {
         "section": "Special Moves",
         "name": "Roll Through Feint",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "LK"
+        ],
         "startup": null,
         "driveGain_hit": 0,
         "driveDrain_block": 0,
@@ -522,6 +724,13 @@
     {
         "section": "Special Moves",
         "name": "Quick Rolling Sobat",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "MK"
+        ],
         "startup": 12,
         "driveGain_hit": 2000,
         "driveDrain_block": -4000,
@@ -535,6 +744,13 @@
     {
         "section": "Special Moves",
         "name": "Double Rolling Sobat",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "HK"
+        ],
         "startup": 15,
         "driveGain_hit": 2000,
         "driveDrain_block": -2000,
@@ -548,6 +764,14 @@
     {
         "section": "Special Moves",
         "name": "OD Double Rolling Sobat",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "K",
+            "K"
+        ],
         "startup": 19,
         "driveGain_hit": 0,
         "driveDrain_block": -2000,
@@ -561,6 +785,13 @@
     {
         "section": "Special Moves",
         "name": "L Machine Gun Uppercut",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "LP"
+        ],
         "startup": 15,
         "driveGain_hit": 2800,
         "driveDrain_block": -3000,
@@ -574,6 +805,13 @@
     {
         "section": "Special Moves",
         "name": "M Machine Gun Uppercut",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "MP"
+        ],
         "startup": 22,
         "driveGain_hit": 3200,
         "driveDrain_block": -3000,
@@ -587,6 +825,13 @@
     {
         "section": "Special Moves",
         "name": "H Machine Gun Uppercut",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "HP"
+        ],
         "startup": 28,
         "driveGain_hit": 4000,
         "driveDrain_block": -3000,
@@ -600,6 +845,14 @@
     {
         "section": "Special Moves",
         "name": "OD Machine Gun Uppercut",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "P",
+            "P"
+        ],
         "startup": 28,
         "driveGain_hit": 0,
         "driveDrain_block": -3000,
@@ -613,6 +866,13 @@
     {
         "section": "Special Moves",
         "name": "Jus Cool",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "K"
+        ],
         "startup": null,
         "driveGain_hit": 0,
         "driveDrain_block": 0,
@@ -626,6 +886,14 @@
     {
         "section": "Special Moves",
         "name": "OD Jus Cool",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "K",
+            "K"
+        ],
         "startup": 8,
         "driveGain_hit": 0,
         "driveDrain_block": -4000,
@@ -639,6 +907,9 @@
     {
         "section": "Special Moves",
         "name": "Funky Slicer",
+        "input": [
+            "LK"
+        ],
         "startup": 12,
         "driveGain_hit": 2000,
         "driveDrain_block": -4000,
@@ -652,6 +923,9 @@
     {
         "section": "Special Moves",
         "name": "OD Funky Slicer",
+        "input": [
+            "LK"
+        ],
         "startup": 9,
         "driveGain_hit": 0,
         "driveDrain_block": -4000,
@@ -665,6 +939,9 @@
     {
         "section": "Special Moves",
         "name": "Waning Moon",
+        "input": [
+            "MK"
+        ],
         "startup": 25,
         "driveGain_hit": 2000,
         "driveDrain_block": -4000,
@@ -678,6 +955,9 @@
     {
         "section": "Special Moves",
         "name": "OD Waning Moon",
+        "input": [
+            "MK"
+        ],
         "startup": 19,
         "driveGain_hit": 0,
         "driveDrain_block": -4000,
@@ -691,6 +971,9 @@
     {
         "section": "Special Moves",
         "name": "Maximum Strike",
+        "input": [
+            "HK"
+        ],
         "startup": 15,
         "driveGain_hit": 2000,
         "driveDrain_block": -4000,
@@ -704,6 +987,9 @@
     {
         "section": "Special Moves",
         "name": "OD Maximum Strike",
+        "input": [
+            "HK"
+        ],
         "startup": 11,
         "driveGain_hit": 0,
         "driveDrain_block": -4000,
@@ -717,6 +1003,11 @@
     {
         "section": "Special Moves",
         "name": "Juggling Dash",
+        "input": [
+            "6",
+            "+",
+            "P"
+        ],
         "startup": null,
         "driveGain_hit": 0,
         "driveDrain_block": 0,
@@ -730,6 +1021,11 @@
     {
         "section": "Special Moves",
         "name": "OD Juggling Dash",
+        "input": [
+            "6",
+            "+",
+            "P"
+        ],
         "startup": null,
         "driveGain_hit": 0,
         "driveDrain_block": 0,
@@ -743,6 +1039,11 @@
     {
         "section": "Special Moves",
         "name": "Juggling Sway",
+        "input": [
+            "4",
+            "+",
+            "P"
+        ],
         "startup": null,
         "driveGain_hit": 0,
         "driveDrain_block": 0,
@@ -756,6 +1057,11 @@
     {
         "section": "Special Moves",
         "name": "OD Juggling Sway",
+        "input": [
+            "4",
+            "+",
+            "P"
+        ],
         "startup": null,
         "driveGain_hit": 0,
         "driveDrain_block": 0,
@@ -769,6 +1075,16 @@
     {
         "section": "Super Arts",
         "name": "SA1 The Greatest Sobat",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "K"
+        ],
         "startup": 7,
         "driveGain_hit": 0,
         "driveDrain_block": -2500,
@@ -782,6 +1098,16 @@
     {
         "section": "Super Arts",
         "name": "SA2 Lowkey Sunrise Festival",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "LP"
+        ],
         "startup": 12,
         "driveGain_hit": 0,
         "driveDrain_block": -5000,
@@ -795,6 +1121,18 @@
     {
         "section": "Super Arts",
         "name": "SA2 Lowkey Sunrise Festival (2)",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "LP",
+            null,
+            "LP"
+        ],
         "startup": 11,
         "driveGain_hit": 0,
         "driveDrain_block": -800,
@@ -808,6 +1146,20 @@
     {
         "section": "Super Arts",
         "name": "SA2 Lowkey Sunrise Festival (3)",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "LP",
+            null,
+            "LP",
+            null,
+            "MP"
+        ],
         "startup": 10,
         "driveGain_hit": 0,
         "driveDrain_block": -800,
@@ -821,6 +1173,22 @@
     {
         "section": "Super Arts",
         "name": "SA2 Lowkey Sunrise Festival (4)",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "LP",
+            null,
+            "LP",
+            null,
+            "MP",
+            null,
+            "HP"
+        ],
         "startup": 12,
         "driveGain_hit": 0,
         "driveDrain_block": -800,
@@ -834,6 +1202,24 @@
     {
         "section": "Super Arts",
         "name": "SA2 Lowkey Sunrise Festival (5)",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "LP",
+            null,
+            "LP",
+            null,
+            "MP",
+            null,
+            "HP",
+            null,
+            "LK"
+        ],
         "startup": 15,
         "driveGain_hit": 0,
         "driveDrain_block": -800,
@@ -847,6 +1233,26 @@
     {
         "section": "Super Arts",
         "name": "SA2 Lowkey Sunrise Festival (6)",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "LP",
+            null,
+            "LP",
+            null,
+            "MP",
+            null,
+            "HP",
+            null,
+            "LK",
+            null,
+            "MK"
+        ],
         "startup": 17,
         "driveGain_hit": 0,
         "driveDrain_block": -800,
@@ -860,6 +1266,28 @@
     {
         "section": "Super Arts",
         "name": "SA2 Lowkey Sunrise Festival (7)",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "LP",
+            null,
+            "LP",
+            null,
+            "MP",
+            null,
+            "HP",
+            null,
+            "LK",
+            null,
+            "MK",
+            null,
+            "HK"
+        ],
         "startup": 18,
         "driveGain_hit": 0,
         "driveDrain_block": -5000,
@@ -873,6 +1301,16 @@
     {
         "section": "Super Arts",
         "name": "SA2 Marvelous Sunrise Festival",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "MP"
+        ],
         "startup": 12,
         "driveGain_hit": 0,
         "driveDrain_block": -5000,
@@ -886,6 +1324,18 @@
     {
         "section": "Super Arts",
         "name": "SA2 Marvelous Sunrise Festival (2)",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "MP",
+            null,
+            "LP"
+        ],
         "startup": 11,
         "driveGain_hit": 0,
         "driveDrain_block": -1000,
@@ -899,6 +1349,20 @@
     {
         "section": "Super Arts",
         "name": "SA2 Marvelous Sunrise Festival (3)",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "MP",
+            null,
+            "LP",
+            null,
+            "MP"
+        ],
         "startup": 10,
         "driveGain_hit": 0,
         "driveDrain_block": -1000,
@@ -912,6 +1376,22 @@
     {
         "section": "Super Arts",
         "name": "SA2 Marvelous Sunrise Festival (4)",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "MP",
+            null,
+            "LP",
+            null,
+            "MP",
+            null,
+            "HP"
+        ],
         "startup": 12,
         "driveGain_hit": 0,
         "driveDrain_block": -1000,
@@ -925,6 +1405,24 @@
     {
         "section": "Super Arts",
         "name": "SA2 Marvelous Sunrise Festival (5)",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "MP",
+            null,
+            "LP",
+            null,
+            "MP",
+            null,
+            "HP",
+            null,
+            "LK"
+        ],
         "startup": 15,
         "driveGain_hit": 0,
         "driveDrain_block": -1000,
@@ -938,6 +1436,26 @@
     {
         "section": "Super Arts",
         "name": "SA2 Marvelous Sunrise Festival (6)",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "MP",
+            null,
+            "LP",
+            null,
+            "MP",
+            null,
+            "HP",
+            null,
+            "LK",
+            null,
+            "MK"
+        ],
         "startup": 17,
         "driveGain_hit": 0,
         "driveDrain_block": -1000,
@@ -951,6 +1469,28 @@
     {
         "section": "Super Arts",
         "name": "SA2 Marvelous Sunrise Festival (7)",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "MP",
+            null,
+            "LP",
+            null,
+            "MP",
+            null,
+            "HP",
+            null,
+            "LK",
+            null,
+            "MK",
+            null,
+            "HK"
+        ],
         "startup": 18,
         "driveGain_hit": 0,
         "driveDrain_block": -1000,
@@ -964,6 +1504,16 @@
     {
         "section": "Super Arts",
         "name": "SA2 Headliner Sunrise Festival",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "HP"
+        ],
         "startup": 12,
         "driveGain_hit": 0,
         "driveDrain_block": -5000,
@@ -977,6 +1527,18 @@
     {
         "section": "Super Arts",
         "name": "SA2 Headliner Sunrise Festival (2)",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "HP",
+            null,
+            "LP"
+        ],
         "startup": 11,
         "driveGain_hit": 0,
         "driveDrain_block": -1000,
@@ -990,6 +1552,20 @@
     {
         "section": "Super Arts",
         "name": "SA2 Headliner Sunrise Festival (3)",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "HP",
+            null,
+            "LP",
+            null,
+            "MP"
+        ],
         "startup": 10,
         "driveGain_hit": 0,
         "driveDrain_block": -1000,
@@ -1003,6 +1579,22 @@
     {
         "section": "Super Arts",
         "name": "SA2 Headliner Sunrise Festival (4)",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "HP",
+            null,
+            "LP",
+            null,
+            "MP",
+            null,
+            "HP"
+        ],
         "startup": 12,
         "driveGain_hit": 0,
         "driveDrain_block": -1000,
@@ -1016,6 +1608,24 @@
     {
         "section": "Super Arts",
         "name": "SA2 Headliner Sunrise Festival (5)",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "HP",
+            null,
+            "LP",
+            null,
+            "MP",
+            null,
+            "HP",
+            null,
+            "LK"
+        ],
         "startup": 15,
         "driveGain_hit": 0,
         "driveDrain_block": -1000,
@@ -1029,6 +1639,26 @@
     {
         "section": "Super Arts",
         "name": "SA2 Headliner Sunrise Festival (6)",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "HP",
+            null,
+            "LP",
+            null,
+            "MP",
+            null,
+            "HP",
+            null,
+            "LK",
+            null,
+            "MK"
+        ],
         "startup": 17,
         "driveGain_hit": 0,
         "driveDrain_block": -1000,
@@ -1042,6 +1672,28 @@
     {
         "section": "Super Arts",
         "name": "SA2 Headliner Sunrise Festival (7)",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "HP",
+            null,
+            "LP",
+            null,
+            "MP",
+            null,
+            "HP",
+            null,
+            "LK",
+            null,
+            "MK",
+            null,
+            "HK"
+        ],
         "startup": 18,
         "driveGain_hit": 0,
         "driveDrain_block": -2000,
@@ -1055,6 +1707,9 @@
     {
         "section": "Super Arts",
         "name": "SA2 Climactic Strike (Marvelous)",
+        "input": [
+            "HP"
+        ],
         "startup": 11,
         "driveGain_hit": 0,
         "driveDrain_block": -5760,
@@ -1068,6 +1723,9 @@
     {
         "section": "Super Arts",
         "name": "SA2 Climactic Strike (Headliner)",
+        "input": [
+            "HP"
+        ],
         "startup": 11,
         "driveGain_hit": 0,
         "driveDrain_block": -5760,
@@ -1081,6 +1739,9 @@
     {
         "section": "Super Arts",
         "name": "SA2 Encore Beat (Marvelous)",
+        "input": [
+            "HK"
+        ],
         "startup": 33,
         "driveGain_hit": 0,
         "driveDrain_block": -3000,
@@ -1094,6 +1755,9 @@
     {
         "section": "Super Arts",
         "name": "SA2 Encore Beat (Headliner)",
+        "input": [
+            "HK"
+        ],
         "startup": 33,
         "driveGain_hit": 0,
         "driveDrain_block": -3000,
@@ -1107,6 +1771,18 @@
     {
         "section": "Super Arts",
         "name": "(Failed version) SA2 Sunrise Festival (2)",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "LP",
+            null,
+            "LP"
+        ],
         "startup": 11,
         "driveGain_hit": 0,
         "driveDrain_block": -1000,
@@ -1120,6 +1796,20 @@
     {
         "section": "Super Arts",
         "name": "(Failed version) SA2 Sunrise Festival (3)",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "LP",
+            null,
+            "LP",
+            null,
+            "MP"
+        ],
         "startup": 10,
         "driveGain_hit": 0,
         "driveDrain_block": -1000,
@@ -1133,6 +1823,22 @@
     {
         "section": "Super Arts",
         "name": "(Failed version) SA2 Sunrise Festival (4)",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "LP",
+            null,
+            "LP",
+            null,
+            "MP",
+            null,
+            "HP"
+        ],
         "startup": 12,
         "driveGain_hit": 0,
         "driveDrain_block": -1000,
@@ -1146,6 +1852,24 @@
     {
         "section": "Super Arts",
         "name": "(Failed version) SA2 Sunrise Festival (5)",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "LP",
+            null,
+            "LP",
+            null,
+            "MP",
+            null,
+            "HP",
+            null,
+            "LK"
+        ],
         "startup": 15,
         "driveGain_hit": 0,
         "driveDrain_block": -1000,
@@ -1159,6 +1883,26 @@
     {
         "section": "Super Arts",
         "name": "(Failed version) SA2 Sunrise Festival (6)",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "LP",
+            null,
+            "LP",
+            null,
+            "MP",
+            null,
+            "HP",
+            null,
+            "LK",
+            null,
+            "MK"
+        ],
         "startup": 17,
         "driveGain_hit": 0,
         "driveDrain_block": -1000,
@@ -1172,6 +1916,28 @@
     {
         "section": "Super Arts",
         "name": "(Failed version) SA2 Sunrise Festival (7)",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "LP",
+            null,
+            "LP",
+            null,
+            "MP",
+            null,
+            "HP",
+            null,
+            "LK",
+            null,
+            "MK",
+            null,
+            "HK"
+        ],
         "startup": 18,
         "driveGain_hit": 0,
         "driveDrain_block": -2000,
@@ -1185,6 +1951,16 @@
     {
         "section": "Super Arts",
         "name": "SA3 Weekend Pleasure",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "2",
+            "1",
+            "4",
+            "+",
+            "P"
+        ],
         "startup": 9,
         "driveGain_hit": 0,
         "driveDrain_block": -7500,
@@ -1198,6 +1974,16 @@
     {
         "section": "Super Arts",
         "name": "CA Weekend Pleasure",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "2",
+            "1",
+            "4",
+            "+",
+            "P"
+        ],
         "startup": 9,
         "driveGain_hit": 0,
         "driveDrain_block": -10000,
@@ -1211,6 +1997,14 @@
     {
         "section": "Throws",
         "name": "Diss Track",
+        "input": [
+            null,
+            null,
+            "6",
+            "+",
+            "LP",
+            "LK"
+        ],
         "startup": 5,
         "driveGain_hit": 2000,
         "driveDrain_block": 0,
@@ -1224,6 +2018,12 @@
     {
         "section": "Throws",
         "name": "Flip Throw",
+        "input": [
+            "4",
+            "+",
+            "LP",
+            "LK"
+        ],
         "startup": 5,
         "driveGain_hit": 2000,
         "driveDrain_block": 0,
@@ -1237,6 +2037,10 @@
     {
         "section": "Common Moves",
         "name": "Forward Dash",
+        "input": [
+            "6",
+            "6"
+        ],
         "startup": null,
         "driveGain_hit": 0,
         "driveDrain_block": 0,
@@ -1250,6 +2054,10 @@
     {
         "section": "Common Moves",
         "name": "Backward Dash",
+        "input": [
+            "4",
+            "4"
+        ],
         "startup": null,
         "driveGain_hit": 0,
         "driveDrain_block": 0,
@@ -1263,6 +2071,10 @@
     {
         "section": "Common Moves",
         "name": "Drive Impact: Wild Beat",
+        "input": [
+            "HP",
+            "HK"
+        ],
         "startup": 26,
         "driveGain_hit": 0,
         "driveDrain_block": -5000,
@@ -1276,6 +2088,12 @@
     {
         "section": "Common Moves",
         "name": "Drive Reversal: Leg Scratch",
+        "input": [
+            "6",
+            "+",
+            "HP",
+            "HK"
+        ],
         "startup": 20,
         "driveGain_hit": 0,
         "driveDrain_block": 0,
@@ -1289,6 +2107,10 @@
     {
         "section": "Common Moves",
         "name": "Drive Parry",
+        "input": [
+            "MP",
+            "MK"
+        ],
         "startup": 1,
         "driveGain_hit": 0,
         "driveDrain_block": 0,
@@ -1302,6 +2124,10 @@
     {
         "section": "Common Moves",
         "name": "Perfect Parry (strike)",
+        "input": [
+            "MP",
+            "MK"
+        ],
         "startup": 1,
         "driveGain_hit": null,
         "driveDrain_block": null,
@@ -1315,6 +2141,10 @@
     {
         "section": "Common Moves",
         "name": "Perfect Parry (projectile)",
+        "input": [
+            "MP",
+            "MK"
+        ],
         "startup": 1,
         "driveGain_hit": null,
         "driveDrain_block": null,
@@ -1328,6 +2158,10 @@
     {
         "section": "Common Moves",
         "name": "Parry Drive Rush",
+        "input": [
+            "6",
+            "6"
+        ],
         "startup": null,
         "driveGain_hit": 0,
         "driveDrain_block": 0,
@@ -1341,6 +2175,17 @@
     {
         "section": "Common Moves",
         "name": "Cancel Drive Rush",
+        "input": [
+            "6",
+            "6",
+            null,
+            null,
+            null,
+            "6",
+            "+",
+            "MP",
+            "MK"
+        ],
         "startup": null,
         "driveGain_hit": 0,
         "driveDrain_block": 0,

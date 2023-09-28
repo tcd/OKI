@@ -48,7 +48,7 @@ export class Parser extends Processor {
         const row: ICharacterTableRow = {
             section:                               this.currentSection,
             "Move Name":                           this.col_1_moveName(cells[0]),
-            // input:                                 this.col_1_input(cells[0]),
+            input:                                 this.col_1_input(cells[0]),
             "Frame.Start-up":                      this.col_2_frame_startup(cells[1]),
             "Frame.Active":                        this.col_3_frame_active(cells[2]),
             "Frame.Recovery":                      this.col_4_frame_recovery(cells[3]),
@@ -211,8 +211,8 @@ export class Parser extends Processor {
         const inputs: TInput[] = []
 
         for (const image of images.toArray()) {
-            // @ts-ignore: next-line
-            inputs.push(image.attribs["src"].trim())
+            const src = image.attribs["src"].trim()
+            inputs.push(IMG_SRC_NAMES[src])
         }
         return inputs
     }

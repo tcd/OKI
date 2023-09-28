@@ -2,6 +2,9 @@
     {
         "section": "Normal Moves",
         "Move Name": "Standing Light Punch",
+        "input": [
+            "LP"
+        ],
         "Frame.Start-up": 4,
         "Frame.Active": "4-6",
         "Frame.Recovery": 7,
@@ -20,6 +23,9 @@
     {
         "section": "Normal Moves",
         "Move Name": "Standing Light Kick",
+        "input": [
+            "LK"
+        ],
         "Frame.Start-up": 5,
         "Frame.Active": "5-6",
         "Frame.Recovery": 12,
@@ -38,6 +44,9 @@
     {
         "section": "Normal Moves",
         "Move Name": "Standing Medium Punch",
+        "input": [
+            "MP"
+        ],
         "Frame.Start-up": 5,
         "Frame.Active": "5-8",
         "Frame.Recovery": 14,
@@ -56,6 +65,9 @@
     {
         "section": "Normal Moves",
         "Move Name": "Standing Medium Kick",
+        "input": [
+            "MK"
+        ],
         "Frame.Start-up": 8,
         "Frame.Active": "8-10",
         "Frame.Recovery": 20,
@@ -74,6 +86,9 @@
     {
         "section": "Normal Moves",
         "Move Name": "Standing Heavy Punch",
+        "input": [
+            "HP"
+        ],
         "Frame.Start-up": 10,
         "Frame.Active": "10-14",
         "Frame.Recovery": 17,
@@ -92,6 +107,9 @@
     {
         "section": "Normal Moves",
         "Move Name": "Standing Heavy Kick",
+        "input": [
+            "HK"
+        ],
         "Frame.Start-up": 12,
         "Frame.Active": "12-13",
         "Frame.Recovery": null,
@@ -110,6 +128,11 @@
     {
         "section": "Normal Moves",
         "Move Name": "Crouching Light Punch",
+        "input": [
+            "2",
+            "+",
+            "LP"
+        ],
         "Frame.Start-up": 4,
         "Frame.Active": "4-5",
         "Frame.Recovery": 9,
@@ -128,6 +151,11 @@
     {
         "section": "Normal Moves",
         "Move Name": "Crouching Light Kick",
+        "input": [
+            "2",
+            "+",
+            "LK"
+        ],
         "Frame.Start-up": 5,
         "Frame.Active": "5-7",
         "Frame.Recovery": 10,
@@ -146,6 +174,11 @@
     {
         "section": "Normal Moves",
         "Move Name": "Crouching Medium Punch",
+        "input": [
+            "2",
+            "+",
+            "MP"
+        ],
         "Frame.Start-up": 6,
         "Frame.Active": "6-8",
         "Frame.Recovery": 14,
@@ -164,6 +197,11 @@
     {
         "section": "Normal Moves",
         "Move Name": "Crouching Medium Kick",
+        "input": [
+            "2",
+            "+",
+            "MK"
+        ],
         "Frame.Start-up": 7,
         "Frame.Active": "7-9",
         "Frame.Recovery": 19,
@@ -182,6 +220,11 @@
     {
         "section": "Normal Moves",
         "Move Name": "Crouching Heavy Punch",
+        "input": [
+            "2",
+            "+",
+            "HP"
+        ],
         "Frame.Start-up": 8,
         "Frame.Active": "8-11",
         "Frame.Recovery": 24,
@@ -200,6 +243,11 @@
     {
         "section": "Normal Moves",
         "Move Name": "Crouching Heavy Kick",
+        "input": [
+            "2",
+            "+",
+            "HK"
+        ],
         "Frame.Start-up": 8,
         "Frame.Active": "8-10",
         "Frame.Recovery": null,
@@ -218,6 +266,9 @@
     {
         "section": "Normal Moves",
         "Move Name": "Jumping Light Punch",
+        "input": [
+            "LP"
+        ],
         "Frame.Start-up": 5,
         "Frame.Active": "5-11",
         "Frame.Recovery": 3,
@@ -236,6 +287,9 @@
     {
         "section": "Normal Moves",
         "Move Name": "Jumping Light Kick",
+        "input": [
+            "LK"
+        ],
         "Frame.Start-up": 6,
         "Frame.Active": "6-11",
         "Frame.Recovery": 3,
@@ -254,6 +308,9 @@
     {
         "section": "Normal Moves",
         "Move Name": "Jumping Medium Punch",
+        "input": [
+            "MP"
+        ],
         "Frame.Start-up": 6,
         "Frame.Active": "6-9",
         "Frame.Recovery": 3,
@@ -272,6 +329,9 @@
     {
         "section": "Normal Moves",
         "Move Name": "Jumping Medium Kick",
+        "input": [
+            "MK"
+        ],
         "Frame.Start-up": 7,
         "Frame.Active": "7-12",
         "Frame.Recovery": 3,
@@ -290,6 +350,9 @@
     {
         "section": "Normal Moves",
         "Move Name": "Jumping Heavy Punch",
+        "input": [
+            "HP"
+        ],
         "Frame.Start-up": 9,
         "Frame.Active": "9-14",
         "Frame.Recovery": 3,
@@ -308,6 +371,9 @@
     {
         "section": "Normal Moves",
         "Move Name": "Jumping Heavy Kick",
+        "input": [
+            "HK"
+        ],
         "Frame.Start-up": 10,
         "Frame.Active": "10-16",
         "Frame.Recovery": 3,
@@ -326,6 +392,9 @@
     {
         "section": "Normal Moves",
         "Move Name": "Neutral Jumping Heavy Kick",
+        "input": [
+            "HK"
+        ],
         "Frame.Start-up": 6,
         "Frame.Active": "6-9",
         "Frame.Recovery": 3,
@@ -344,6 +413,10 @@
     {
         "section": "Unique Attacks",
         "Move Name": "Quick Dash",
+        "input": [
+            "K",
+            "K"
+        ],
         "Frame.Start-up": null,
         "Frame.Active": null,
         "Frame.Recovery": 45,
@@ -362,6 +435,9 @@
     {
         "section": "Unique Attacks",
         "Move Name": "Emergency Stop",
+        "input": [
+            "LK"
+        ],
         "Frame.Start-up": null,
         "Frame.Active": null,
         "Frame.Recovery": 16,
@@ -380,6 +456,9 @@
     {
         "section": "Unique Attacks",
         "Move Name": "Thunder Kick",
+        "input": [
+            "MK"
+        ],
         "Frame.Start-up": 18,
         "Frame.Active": "18-20",
         "Frame.Recovery": 20,
@@ -398,6 +477,9 @@
     {
         "section": "Unique Attacks",
         "Move Name": "Forward Step Kick",
+        "input": [
+            "HK"
+        ],
         "Frame.Start-up": 10,
         "Frame.Active": "10-13",
         "Frame.Recovery": 20,
@@ -416,6 +498,11 @@
     {
         "section": "Unique Attacks",
         "Move Name": "Chin Buster",
+        "input": [
+            "MP",
+            null,
+            "HP"
+        ],
         "Frame.Start-up": 11,
         "Frame.Active": "11-13",
         "Frame.Recovery": 27,
@@ -434,6 +521,11 @@
     {
         "section": "Unique Attacks",
         "Move Name": "Triple Flash Kicks (2)",
+        "input": [
+            "MK",
+            null,
+            "MK"
+        ],
         "Frame.Start-up": 11,
         "Frame.Active": "11-12",
         "Frame.Recovery": 27,
@@ -452,6 +544,13 @@
     {
         "section": "Unique Attacks",
         "Move Name": "Triple Flash Kicks (3)",
+        "input": [
+            "MK",
+            null,
+            "MK",
+            null,
+            "HK"
+        ],
         "Frame.Start-up": 13,
         "Frame.Active": "13-15",
         "Frame.Recovery": 28,
@@ -470,6 +569,13 @@
     {
         "section": "Special Moves",
         "Move Name": "L Hadoken",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "LP"
+        ],
         "Frame.Start-up": 16,
         "Frame.Active": null,
         "Frame.Recovery": 49,
@@ -488,6 +594,13 @@
     {
         "section": "Special Moves",
         "Move Name": "M Hadoken",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "MP"
+        ],
         "Frame.Start-up": 14,
         "Frame.Active": null,
         "Frame.Recovery": 49,
@@ -506,6 +619,13 @@
     {
         "section": "Special Moves",
         "Move Name": "H Hadoken",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "HP"
+        ],
         "Frame.Start-up": 12,
         "Frame.Active": null,
         "Frame.Recovery": 49,
@@ -524,6 +644,14 @@
     {
         "section": "Special Moves",
         "Move Name": "OD Hadoken",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "P",
+            "P"
+        ],
         "Frame.Start-up": 12,
         "Frame.Active": null,
         "Frame.Recovery": 40,
@@ -542,6 +670,13 @@
     {
         "section": "Special Moves",
         "Move Name": "L Shoryuken",
+        "input": [
+            "6",
+            "2",
+            "3",
+            "+",
+            "LP"
+        ],
         "Frame.Start-up": 5,
         "Frame.Active": "5-14",
         "Frame.Recovery": 21,
@@ -560,6 +695,13 @@
     {
         "section": "Special Moves",
         "Move Name": "M Shoryuken",
+        "input": [
+            "6",
+            "2",
+            "3",
+            "+",
+            "MP"
+        ],
         "Frame.Start-up": 6,
         "Frame.Active": "6-156-8, 9-15",
         "Frame.Recovery": 28,
@@ -578,6 +720,13 @@
     {
         "section": "Special Moves",
         "Move Name": "H Shoryuken",
+        "input": [
+            "6",
+            "2",
+            "3",
+            "+",
+            "HP"
+        ],
         "Frame.Start-up": 7,
         "Frame.Active": "7-167-8, 9-10, 11-16",
         "Frame.Recovery": 35,
@@ -596,6 +745,14 @@
     {
         "section": "Special Moves",
         "Move Name": "OD Shoryuken",
+        "input": [
+            "6",
+            "2",
+            "3",
+            "+",
+            "P",
+            "P"
+        ],
         "Frame.Start-up": 6,
         "Frame.Active": "6-396-7, 8-15, 30-31, 32, 33-34, 35-39",
         "Frame.Recovery": 35,
@@ -614,6 +771,13 @@
     {
         "section": "Special Moves",
         "Move Name": "[Quick Dash] Shoryuken",
+        "input": [
+            "6",
+            "2",
+            "3",
+            "+",
+            "P"
+        ],
         "Frame.Start-up": 9,
         "Frame.Active": "9-189, 10, 11, 12, 13-18",
         "Frame.Recovery": 33,
@@ -632,6 +796,13 @@
     {
         "section": "Special Moves",
         "Move Name": "L Tatsumaki Senpu-kyaku",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "LK"
+        ],
         "Frame.Start-up": 4,
         "Frame.Active": "4-144-5, 12-14",
         "Frame.Recovery": 32,
@@ -650,6 +821,13 @@
     {
         "section": "Special Moves",
         "Move Name": "M Tatsumaki Senpu-kyaku",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "MK"
+        ],
         "Frame.Start-up": 14,
         "Frame.Active": "14-3014-15, 29-30",
         "Frame.Recovery": 31,
@@ -668,6 +846,13 @@
     {
         "section": "Special Moves",
         "Move Name": "H Tatsumaki Senpu-kyaku",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "HK"
+        ],
         "Frame.Start-up": 16,
         "Frame.Active": "16-4716-17, 31-32, 46-47",
         "Frame.Recovery": 31,
@@ -686,6 +871,14 @@
     {
         "section": "Special Moves",
         "Move Name": "OD Tatsumaki Senpu-kyaku",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "K",
+            "K"
+        ],
         "Frame.Start-up": 9,
         "Frame.Active": "9-569-12, 18-20, 27-29, 36-38, 54-56",
         "Frame.Recovery": 22,
@@ -704,6 +897,13 @@
     {
         "section": "Special Moves",
         "Move Name": "[Quick Dash] Tatsumaki Senpu-kyaku",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "K"
+        ],
         "Frame.Start-up": 13,
         "Frame.Active": "13-5813-14, 17-19, 22-23, 26-28, 31-32, 35-37, 40-41, 44-46, 49-50, 56-58",
         "Frame.Recovery": 20,
@@ -722,6 +922,13 @@
     {
         "section": "Special Moves",
         "Move Name": "Aerial Tatsumaki Senpu-kyaku",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "K"
+        ],
         "Frame.Start-up": 11,
         "Frame.Active": "11-2711-12, 18-19, 26-27",
         "Frame.Recovery": 14,
@@ -740,6 +947,14 @@
     {
         "section": "Special Moves",
         "Move Name": "OD Aerial Tatsumaki Senpu-kyaku",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "K",
+            "K"
+        ],
         "Frame.Start-up": 11,
         "Frame.Active": "11-2811-12, 14-15, 18-19, 22-23, 27-28",
         "Frame.Recovery": 14,
@@ -758,6 +973,13 @@
     {
         "section": "Special Moves",
         "Move Name": "L Dragonlash Kick",
+        "input": [
+            "6",
+            "2",
+            "3",
+            "+",
+            "LK"
+        ],
         "Frame.Start-up": 18,
         "Frame.Active": "18-23",
         "Frame.Recovery": 21,
@@ -776,6 +998,13 @@
     {
         "section": "Special Moves",
         "Move Name": "M Dragonlash Kick",
+        "input": [
+            "6",
+            "2",
+            "3",
+            "+",
+            "MK"
+        ],
         "Frame.Start-up": 23,
         "Frame.Active": "23-27",
         "Frame.Recovery": 25,
@@ -794,6 +1023,13 @@
     {
         "section": "Special Moves",
         "Move Name": "H Dragonlash Kick",
+        "input": [
+            "6",
+            "2",
+            "3",
+            "+",
+            "HK"
+        ],
         "Frame.Start-up": 28,
         "Frame.Active": "28-32",
         "Frame.Recovery": 21,
@@ -812,6 +1048,14 @@
     {
         "section": "Special Moves",
         "Move Name": "OD Dragonlash Kick",
+        "input": [
+            "6",
+            "2",
+            "3",
+            "+",
+            "K",
+            "K"
+        ],
         "Frame.Start-up": 9,
         "Frame.Active": "9-249-10, 18-24",
         "Frame.Recovery": 24,
@@ -830,6 +1074,13 @@
     {
         "section": "Special Moves",
         "Move Name": "[Quick Dash] Dragonlash Kick",
+        "input": [
+            "6",
+            "2",
+            "3",
+            "+",
+            "K"
+        ],
         "Frame.Start-up": 9,
         "Frame.Active": "9-239-12, 18-23",
         "Frame.Recovery": 24,
@@ -848,6 +1099,13 @@
     {
         "section": "Special Moves",
         "Move Name": "L Jinrai Kick",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "LK"
+        ],
         "Frame.Start-up": 12,
         "Frame.Active": "12-14",
         "Frame.Recovery": 28,
@@ -866,6 +1124,13 @@
     {
         "section": "Special Moves",
         "Move Name": "M Jinrai Kick",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "MK"
+        ],
         "Frame.Start-up": 16,
         "Frame.Active": "16-18",
         "Frame.Recovery": 24,
@@ -884,6 +1149,13 @@
     {
         "section": "Special Moves",
         "Move Name": "H Jinrai Kick",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "HK"
+        ],
         "Frame.Start-up": 25,
         "Frame.Active": "25-27",
         "Frame.Recovery": 19,
@@ -902,6 +1174,14 @@
     {
         "section": "Special Moves",
         "Move Name": "OD Jinrai Kick",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "K",
+            "K"
+        ],
         "Frame.Start-up": 13,
         "Frame.Active": "13-15",
         "Frame.Recovery": 25,
@@ -920,6 +1200,11 @@
     {
         "section": "Special Moves",
         "Move Name": "Kazekama Shin Kick",
+        "input": [
+            "6",
+            "+",
+            "LK"
+        ],
         "Frame.Start-up": 6,
         "Frame.Active": "6-9",
         "Frame.Recovery": 19,
@@ -938,6 +1223,11 @@
     {
         "section": "Special Moves",
         "Move Name": "OD Kazekama Shin Kick",
+        "input": [
+            "6",
+            "+",
+            "LK"
+        ],
         "Frame.Start-up": 6,
         "Frame.Active": "6-8",
         "Frame.Recovery": 20,
@@ -956,6 +1246,11 @@
     {
         "section": "Special Moves",
         "Move Name": "Kasai Thrust Kick",
+        "input": [
+            "6",
+            "+",
+            "K"
+        ],
         "Frame.Start-up": 15,
         "Frame.Active": "15-17",
         "Frame.Recovery": 29,
@@ -974,6 +1269,11 @@
     {
         "section": "Special Moves",
         "Move Name": "Gorai Axe Kick",
+        "input": [
+            "6",
+            "+",
+            "MK"
+        ],
         "Frame.Start-up": 18,
         "Frame.Active": "18-20",
         "Frame.Recovery": 20,
@@ -992,6 +1292,11 @@
     {
         "section": "Special Moves",
         "Move Name": "OD Gorai Axe Kick",
+        "input": [
+            "6",
+            "+",
+            "MK"
+        ],
         "Frame.Start-up": 17,
         "Frame.Active": "17-19",
         "Frame.Recovery": 24,
@@ -1010,6 +1315,11 @@
     {
         "section": "Special Moves",
         "Move Name": "Kasai Thrust Kick",
+        "input": [
+            "6",
+            "+",
+            "K"
+        ],
         "Frame.Start-up": 11,
         "Frame.Active": "11-13",
         "Frame.Recovery": 29,
@@ -1028,6 +1338,11 @@
     {
         "section": "Special Moves",
         "Move Name": "Senka Snap Kick",
+        "input": [
+            "6",
+            "+",
+            "HK"
+        ],
         "Frame.Start-up": 10,
         "Frame.Active": "10-12",
         "Frame.Recovery": 25,
@@ -1046,6 +1361,11 @@
     {
         "section": "Special Moves",
         "Move Name": "OD Senka Snap Kick",
+        "input": [
+            "6",
+            "+",
+            "HK"
+        ],
         "Frame.Start-up": 10,
         "Frame.Active": "10-13",
         "Frame.Recovery": 20,
@@ -1064,6 +1384,11 @@
     {
         "section": "Special Moves",
         "Move Name": "Kasai Thrust Kick",
+        "input": [
+            "6",
+            "+",
+            "K"
+        ],
         "Frame.Start-up": 15,
         "Frame.Active": "15-17",
         "Frame.Recovery": 37,
@@ -1082,6 +1407,16 @@
     {
         "section": "Super Arts",
         "Move Name": "SA1 Dragonlash Flame",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "2",
+            "1",
+            "4",
+            "+",
+            "K"
+        ],
         "Frame.Start-up": 7,
         "Frame.Active": "7-9",
         "Frame.Recovery": 41,
@@ -1100,6 +1435,16 @@
     {
         "section": "Super Arts",
         "Move Name": "SA2 Shippu Jinrai-kyaku",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "K"
+        ],
         "Frame.Start-up": 6,
         "Frame.Active": "6-606-7, 18-20, 31-33, 45-47, 59-60",
         "Frame.Recovery": 32,
@@ -1118,6 +1463,16 @@
     {
         "section": "Super Arts",
         "Move Name": "SA3 Shinryu Reppa",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "P"
+        ],
         "Frame.Start-up": 7,
         "Frame.Active": "7-457-9, 11-13, 14-16, 33-35, 36-37, 38-39, 40-41, 42-43, 44-45",
         "Frame.Recovery": 45,
@@ -1136,6 +1491,16 @@
     {
         "section": "Super Arts",
         "Move Name": "CA Shinryu Reppa",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "P"
+        ],
         "Frame.Start-up": 7,
         "Frame.Active": "7-457-9, 11-13, 14-16, 33-35, 36-37, 38-39, 40-41, 42-43, 44-45",
         "Frame.Recovery": 45,
@@ -1154,6 +1519,14 @@
     {
         "section": "Throws",
         "Move Name": "Knee Strikes",
+        "input": [
+            null,
+            null,
+            "6",
+            "+",
+            "LP",
+            "LK"
+        ],
         "Frame.Start-up": 5,
         "Frame.Active": "5-7",
         "Frame.Recovery": 23,
@@ -1172,6 +1545,12 @@
     {
         "section": "Throws",
         "Move Name": "Hell Wheel",
+        "input": [
+            "4",
+            "+",
+            "LP",
+            "LK"
+        ],
         "Frame.Start-up": 5,
         "Frame.Active": "5-7",
         "Frame.Recovery": 23,
@@ -1190,6 +1569,10 @@
     {
         "section": "Common Moves",
         "Move Name": "Forward Dash",
+        "input": [
+            "6",
+            "6"
+        ],
         "Frame.Start-up": null,
         "Frame.Active": null,
         "Frame.Recovery": 19,
@@ -1208,6 +1591,10 @@
     {
         "section": "Common Moves",
         "Move Name": "Backward Dash",
+        "input": [
+            "4",
+            "4"
+        ],
         "Frame.Start-up": null,
         "Frame.Active": null,
         "Frame.Recovery": 23,
@@ -1226,6 +1613,10 @@
     {
         "section": "Common Moves",
         "Move Name": "Drive Impact: Flame Strike",
+        "input": [
+            "HP",
+            "HK"
+        ],
         "Frame.Start-up": 26,
         "Frame.Active": "26-27",
         "Frame.Recovery": 35,
@@ -1244,6 +1635,12 @@
     {
         "section": "Common Moves",
         "Move Name": "Drive Reversal: Lightning Crack",
+        "input": [
+            "6",
+            "+",
+            "HP",
+            "HK"
+        ],
         "Frame.Start-up": 20,
         "Frame.Active": "20-22",
         "Frame.Recovery": 26,
@@ -1262,6 +1659,10 @@
     {
         "section": "Common Moves",
         "Move Name": "Drive Parry",
+        "input": [
+            "MP",
+            "MK"
+        ],
         "Frame.Start-up": 1,
         "Frame.Active": "[*1] 1-8",
         "Frame.Recovery": 29,
@@ -1280,6 +1681,10 @@
     {
         "section": "Common Moves",
         "Move Name": "Perfect Parry (strike)",
+        "input": [
+            "MP",
+            "MK"
+        ],
         "Frame.Start-up": 1,
         "Frame.Active": null,
         "Frame.Recovery": 1,
@@ -1298,6 +1703,10 @@
     {
         "section": "Common Moves",
         "Move Name": "Perfect Parry (projectile)",
+        "input": [
+            "MP",
+            "MK"
+        ],
         "Frame.Start-up": 1,
         "Frame.Active": null,
         "Frame.Recovery": 10,
@@ -1316,6 +1725,10 @@
     {
         "section": "Common Moves",
         "Move Name": "Parry Drive Rush",
+        "input": [
+            "6",
+            "6"
+        ],
         "Frame.Start-up": null,
         "Frame.Active": null,
         "Frame.Recovery": 48,
@@ -1334,6 +1747,17 @@
     {
         "section": "Common Moves",
         "Move Name": "Cancel Drive Rush",
+        "input": [
+            "6",
+            "6",
+            null,
+            null,
+            null,
+            "6",
+            "+",
+            "MP",
+            "MK"
+        ],
         "Frame.Start-up": null,
         "Frame.Active": null,
         "Frame.Recovery": 48,

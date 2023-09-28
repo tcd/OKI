@@ -2,6 +2,9 @@
     {
         "section": "Normal Moves",
         "name": "Standing Light Punch",
+        "input": [
+            "LP"
+        ],
         "startup": 6,
         "driveGain_hit": 250,
         "driveDrain_block": -500,
@@ -15,6 +18,9 @@
     {
         "section": "Normal Moves",
         "name": "Standing Light Kick",
+        "input": [
+            "LK"
+        ],
         "startup": 6,
         "driveGain_hit": 250,
         "driveDrain_block": -500,
@@ -28,6 +34,9 @@
     {
         "section": "Normal Moves",
         "name": "Standing Medium Punch",
+        "input": [
+            "MP"
+        ],
         "startup": 7,
         "driveGain_hit": 1500,
         "driveDrain_block": -3000,
@@ -41,6 +50,9 @@
     {
         "section": "Normal Moves",
         "name": "Standing Medium Kick",
+        "input": [
+            "MK"
+        ],
         "startup": 11,
         "driveGain_hit": 2000,
         "driveDrain_block": -4000,
@@ -54,6 +66,9 @@
     {
         "section": "Normal Moves",
         "name": "Standing Heavy Punch",
+        "input": [
+            "HP"
+        ],
         "startup": 12,
         "driveGain_hit": 2000,
         "driveDrain_block": -5000,
@@ -67,6 +82,9 @@
     {
         "section": "Normal Moves",
         "name": "Standing Heavy Punch(Charged)",
+        "input": [
+            "HP"
+        ],
         "startup": 26,
         "driveGain_hit": 3000,
         "driveDrain_block": -8000,
@@ -80,6 +98,9 @@
     {
         "section": "Normal Moves",
         "name": "Standing Heavy Kick",
+        "input": [
+            "HK"
+        ],
         "startup": 15,
         "driveGain_hit": 3000,
         "driveDrain_block": -5000,
@@ -93,6 +114,9 @@
     {
         "section": "Normal Moves",
         "name": "Standing Heavy Kick(Charged)",
+        "input": [
+            "HK"
+        ],
         "startup": 27,
         "driveGain_hit": 3000,
         "driveDrain_block": -8000,
@@ -106,6 +130,11 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Light Punch",
+        "input": [
+            "2",
+            "+",
+            "LP"
+        ],
         "startup": 4,
         "driveGain_hit": 250,
         "driveDrain_block": -500,
@@ -119,6 +148,11 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Light Kick",
+        "input": [
+            "2",
+            "+",
+            "LK"
+        ],
         "startup": 5,
         "driveGain_hit": 250,
         "driveDrain_block": -500,
@@ -132,6 +166,11 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Medium Punch",
+        "input": [
+            "2",
+            "+",
+            "MP"
+        ],
         "startup": 8,
         "driveGain_hit": 1500,
         "driveDrain_block": -3000,
@@ -145,6 +184,11 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Medium Kick",
+        "input": [
+            "2",
+            "+",
+            "MK"
+        ],
         "startup": 9,
         "driveGain_hit": 2000,
         "driveDrain_block": -4000,
@@ -158,6 +202,11 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Heavy Punch",
+        "input": [
+            "2",
+            "+",
+            "HP"
+        ],
         "startup": 9,
         "driveGain_hit": 2500,
         "driveDrain_block": -5000,
@@ -171,6 +220,11 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Heavy Punch(Charged)",
+        "input": [
+            "2",
+            "+",
+            "HP"
+        ],
         "startup": 21,
         "driveGain_hit": 3000,
         "driveDrain_block": -8000,
@@ -184,6 +238,11 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Heavy Kick",
+        "input": [
+            "2",
+            "+",
+            "HK"
+        ],
         "startup": 11,
         "driveGain_hit": 2500,
         "driveDrain_block": -3000,
@@ -197,6 +256,11 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Heavy Kick(Charged)",
+        "input": [
+            "2",
+            "+",
+            "HK"
+        ],
         "startup": 23,
         "driveGain_hit": 3000,
         "driveDrain_block": -8000,
@@ -210,6 +274,9 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Light Punch",
+        "input": [
+            "LP"
+        ],
         "startup": 4,
         "driveGain_hit": 500,
         "driveDrain_block": -1500,
@@ -223,6 +290,9 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Light Kick",
+        "input": [
+            "LK"
+        ],
         "startup": 5,
         "driveGain_hit": 500,
         "driveDrain_block": -1500,
@@ -236,6 +306,9 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Medium Punch",
+        "input": [
+            "MP"
+        ],
         "startup": 7,
         "driveGain_hit": 1000,
         "driveDrain_block": -3000,
@@ -249,6 +322,9 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Medium Kick",
+        "input": [
+            "MK"
+        ],
         "startup": 8,
         "driveGain_hit": 1000,
         "driveDrain_block": -2500,
@@ -262,6 +338,9 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Heavy Punch",
+        "input": [
+            "HP"
+        ],
         "startup": 10,
         "driveGain_hit": 2000,
         "driveDrain_block": -4000,
@@ -275,6 +354,9 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Heavy Punch(Charged)",
+        "input": [
+            "HP"
+        ],
         "startup": 28,
         "driveGain_hit": 2000,
         "driveDrain_block": -6000,
@@ -288,6 +370,9 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Heavy Kick",
+        "input": [
+            "HK"
+        ],
         "startup": 10,
         "driveGain_hit": 2000,
         "driveDrain_block": -4000,
@@ -301,6 +386,9 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Heavy Kick(Charged)",
+        "input": [
+            "HK"
+        ],
         "startup": 29,
         "driveGain_hit": 2000,
         "driveDrain_block": -6000,
@@ -314,6 +402,11 @@
     {
         "section": "Unique Attacks",
         "name": "Light Two Hitter",
+        "input": [
+            "LP",
+            null,
+            "LP"
+        ],
         "startup": 14,
         "driveGain_hit": 1000,
         "driveDrain_block": -1000,
@@ -327,6 +420,11 @@
     {
         "section": "Unique Attacks",
         "name": "Medium Two Hitter",
+        "input": [
+            "MP",
+            null,
+            "MP"
+        ],
         "startup": 14,
         "driveGain_hit": 1500,
         "driveDrain_block": -3000,
@@ -340,6 +438,11 @@
     {
         "section": "Unique Attacks",
         "name": "Heavy Two Hitter",
+        "input": [
+            "HP",
+            null,
+            "HP"
+        ],
         "startup": 24,
         "driveGain_hit": 2000,
         "driveDrain_block": -5000,
@@ -353,6 +456,11 @@
     {
         "section": "Unique Attacks",
         "name": "Volare Combo",
+        "input": [
+            "MP",
+            null,
+            "MP"
+        ],
         "startup": 10,
         "driveGain_hit": 1000,
         "driveDrain_block": -2000,
@@ -366,6 +474,11 @@
     {
         "section": "Unique Attacks",
         "name": "Caelum Arc",
+        "input": [
+            "2",
+            "+",
+            "HP"
+        ],
         "startup": 9,
         "driveGain_hit": 2000,
         "driveDrain_block": -4000,
@@ -379,6 +492,11 @@
     {
         "section": "Unique Attacks",
         "name": "Caelum Arc(Charged)",
+        "input": [
+            "2",
+            "+",
+            "HP"
+        ],
         "startup": 28,
         "driveGain_hit": 2000,
         "driveDrain_block": -6000,
@@ -392,6 +510,11 @@
     {
         "section": "Unique Attacks",
         "name": "Magna Bunker",
+        "input": [
+            "4",
+            "+",
+            "HP"
+        ],
         "startup": 8,
         "driveGain_hit": 2000,
         "driveDrain_block": -5000,
@@ -405,6 +528,11 @@
     {
         "section": "Unique Attacks",
         "name": "Magna Bunker(Charged)",
+        "input": [
+            "4",
+            "+",
+            "HP"
+        ],
         "startup": 20,
         "driveGain_hit": 2500,
         "driveDrain_block": -6000,
@@ -418,6 +546,13 @@
     {
         "section": "Unique Attacks",
         "name": "Novacula Swipe",
+        "input": [
+            "6",
+            "+",
+            "MP",
+            null,
+            "HP"
+        ],
         "startup": 11,
         "driveGain_hit": 2000,
         "driveDrain_block": -5000,
@@ -431,6 +566,13 @@
     {
         "section": "Unique Attacks",
         "name": "Novacula Thrust",
+        "input": [
+            "6",
+            "+",
+            "MP",
+            null,
+            "HK"
+        ],
         "startup": 11,
         "driveGain_hit": 2500,
         "driveDrain_block": -5000,
@@ -444,6 +586,11 @@
     {
         "section": "Unique Attacks",
         "name": "Malleus Breaker(1)",
+        "input": [
+            "3",
+            "+",
+            "HP"
+        ],
         "startup": 21,
         "driveGain_hit": 1000,
         "driveDrain_block": -5000,
@@ -457,6 +604,11 @@
     {
         "section": "Unique Attacks",
         "name": "Malleus Breaker(1)(Charged)",
+        "input": [
+            "3",
+            "+",
+            "HP"
+        ],
         "startup": 31,
         "driveGain_hit": 1500,
         "driveDrain_block": -5000,
@@ -470,6 +622,15 @@
     {
         "section": "Unique Attacks",
         "name": "Malleus Breaker(2)",
+        "input": [
+            "3",
+            "+",
+            "HP",
+            null,
+            "3",
+            "+",
+            "HP"
+        ],
         "startup": 18,
         "driveGain_hit": 1000,
         "driveDrain_block": -5000,
@@ -483,6 +644,11 @@
     {
         "section": "Unique Attacks",
         "name": "Falx Crusher(1)",
+        "input": [
+            "6",
+            "+",
+            "HK"
+        ],
         "startup": 14,
         "driveGain_hit": 2500,
         "driveDrain_block": -5000,
@@ -496,6 +662,11 @@
     {
         "section": "Unique Attacks",
         "name": "Falx Crusher(1)(Charged)",
+        "input": [
+            "6",
+            "+",
+            "HK"
+        ],
         "startup": 27,
         "driveGain_hit": 3000,
         "driveDrain_block": -8000,
@@ -509,6 +680,15 @@
     {
         "section": "Unique Attacks",
         "name": "Falx Crusher(2)",
+        "input": [
+            "6",
+            "+",
+            "HK",
+            null,
+            "6",
+            "+",
+            "HK"
+        ],
         "startup": 16,
         "driveGain_hit": 2500,
         "driveDrain_block": -3000,
@@ -522,6 +702,13 @@
     {
         "section": "Special Moves",
         "name": "L Gladius",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "LP"
+        ],
         "startup": 17,
         "driveGain_hit": 2000,
         "driveDrain_block": -5000,
@@ -535,6 +722,13 @@
     {
         "section": "Special Moves",
         "name": "L Gladius(Charged)",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "LP"
+        ],
         "startup": 30,
         "driveGain_hit": 4000,
         "driveDrain_block": -8000,
@@ -548,6 +742,13 @@
     {
         "section": "Special Moves",
         "name": "M Gladius",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "MP"
+        ],
         "startup": 19,
         "driveGain_hit": 2000,
         "driveDrain_block": -5000,
@@ -561,6 +762,13 @@
     {
         "section": "Special Moves",
         "name": "M Gladius(Charged)",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "MP"
+        ],
         "startup": 35,
         "driveGain_hit": 4000,
         "driveDrain_block": -8000,
@@ -574,6 +782,13 @@
     {
         "section": "Special Moves",
         "name": "H Gladius",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "HP"
+        ],
         "startup": 22,
         "driveGain_hit": 2000,
         "driveDrain_block": -5000,
@@ -587,6 +802,13 @@
     {
         "section": "Special Moves",
         "name": "H Gladius(Charged)",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "HP"
+        ],
         "startup": 41,
         "driveGain_hit": 4000,
         "driveDrain_block": -8000,
@@ -600,6 +822,14 @@
     {
         "section": "Special Moves",
         "name": "OD Gladius",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "P",
+            "P"
+        ],
         "startup": 19,
         "driveGain_hit": 0,
         "driveDrain_block": -5000,
@@ -613,6 +843,14 @@
     {
         "section": "Special Moves",
         "name": "OD Gladius(Charged)",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "P",
+            "P"
+        ],
         "startup": 35,
         "driveGain_hit": 0,
         "driveDrain_block": -8000,
@@ -626,6 +864,13 @@
     {
         "section": "Special Moves",
         "name": "L Dimachaerus(1)",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "LP"
+        ],
         "startup": 12,
         "driveGain_hit": 1250,
         "driveDrain_block": -5000,
@@ -639,6 +884,17 @@
     {
         "section": "Special Moves",
         "name": "L Dimachaerus(2)",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "LP",
+            null,
+            "6",
+            "+",
+            "P"
+        ],
         "startup": 13,
         "driveGain_hit": 1250,
         "driveDrain_block": -5000,
@@ -652,6 +908,13 @@
     {
         "section": "Special Moves",
         "name": "M Dimachaerus(1)",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "MP"
+        ],
         "startup": 16,
         "driveGain_hit": 1250,
         "driveDrain_block": -5000,
@@ -665,6 +928,17 @@
     {
         "section": "Special Moves",
         "name": "M Dimachaerus(2)",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "MP",
+            null,
+            "6",
+            "+",
+            "P"
+        ],
         "startup": 13,
         "driveGain_hit": 1250,
         "driveDrain_block": -5000,
@@ -678,6 +952,13 @@
     {
         "section": "Special Moves",
         "name": "H Dimachaerus(1)",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "HP"
+        ],
         "startup": 22,
         "driveGain_hit": 1250,
         "driveDrain_block": -5000,
@@ -691,6 +972,17 @@
     {
         "section": "Special Moves",
         "name": "H Dimachaerus(2)",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "HP",
+            null,
+            "6",
+            "+",
+            "P"
+        ],
         "startup": 18,
         "driveGain_hit": 1250,
         "driveDrain_block": -5000,
@@ -704,6 +996,14 @@
     {
         "section": "Special Moves",
         "name": "OD Dimachaerus(1)",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "P",
+            "P"
+        ],
         "startup": 16,
         "driveGain_hit": 0,
         "driveDrain_block": -5000,
@@ -717,6 +1017,18 @@
     {
         "section": "Special Moves",
         "name": "OD Dimachaerus(2)",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "P",
+            "P",
+            null,
+            "6",
+            "+",
+            "P"
+        ],
         "startup": 13,
         "driveGain_hit": 0,
         "driveDrain_block": -5000,
@@ -730,6 +1042,13 @@
     {
         "section": "Special Moves",
         "name": "L Phalanx",
+        "input": [
+            "6",
+            "2",
+            "3",
+            "+",
+            "LP"
+        ],
         "startup": 25,
         "driveGain_hit": 2000,
         "driveDrain_block": -5000,
@@ -743,6 +1062,13 @@
     {
         "section": "Special Moves",
         "name": "M Phalanx",
+        "input": [
+            "6",
+            "2",
+            "3",
+            "+",
+            "MP"
+        ],
         "startup": 28,
         "driveGain_hit": 2000,
         "driveDrain_block": -5000,
@@ -756,6 +1082,13 @@
     {
         "section": "Special Moves",
         "name": "H Phalanx",
+        "input": [
+            "6",
+            "2",
+            "3",
+            "+",
+            "HP"
+        ],
         "startup": 32,
         "driveGain_hit": 2000,
         "driveDrain_block": -5000,
@@ -769,6 +1102,14 @@
     {
         "section": "Special Moves",
         "name": "OD Phalanx",
+        "input": [
+            "6",
+            "2",
+            "3",
+            "+",
+            "P",
+            "P"
+        ],
         "startup": 28,
         "driveGain_hit": 0,
         "driveDrain_block": -5000,
@@ -782,6 +1123,13 @@
     {
         "section": "Special Moves",
         "name": "L Quadriga",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "LK"
+        ],
         "startup": 20,
         "driveGain_hit": 2000,
         "driveDrain_block": -5000,
@@ -795,6 +1143,13 @@
     {
         "section": "Special Moves",
         "name": "M Quadriga",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "MK"
+        ],
         "startup": 24,
         "driveGain_hit": 2000,
         "driveDrain_block": -5000,
@@ -808,6 +1163,13 @@
     {
         "section": "Special Moves",
         "name": "H Quadriga",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "HK"
+        ],
         "startup": 29,
         "driveGain_hit": 2000,
         "driveDrain_block": -5000,
@@ -821,6 +1183,14 @@
     {
         "section": "Special Moves",
         "name": "OD Quadriga",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "K",
+            "K"
+        ],
         "startup": 24,
         "driveGain_hit": 0,
         "driveDrain_block": -5000,
@@ -834,6 +1204,13 @@
     {
         "section": "Special Moves",
         "name": "Scutum",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "K"
+        ],
         "startup": null,
         "driveGain_hit": 0,
         "driveDrain_block": 0,
@@ -847,6 +1224,7 @@
     {
         "section": "Special Moves",
         "name": "Scutum(Physical counter version)",
+        "input": [],
         "startup": 7,
         "driveGain_hit": 1000,
         "driveDrain_block": -2500,
@@ -860,6 +1238,14 @@
     {
         "section": "Special Moves",
         "name": "OD Scutum",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "K",
+            "K"
+        ],
         "startup": null,
         "driveGain_hit": 0,
         "driveDrain_block": 0,
@@ -873,6 +1259,7 @@
     {
         "section": "Special Moves",
         "name": "OD Scutum(Physical counter version)",
+        "input": [],
         "startup": 7,
         "driveGain_hit": 0,
         "driveDrain_block": -2500,
@@ -886,6 +1273,9 @@
     {
         "section": "Special Moves",
         "name": "Tonitrus(1)",
+        "input": [
+            "P"
+        ],
         "startup": 15,
         "driveGain_hit": 1000,
         "driveDrain_block": -5000,
@@ -899,6 +1289,11 @@
     {
         "section": "Special Moves",
         "name": "Tonitrus(2)",
+        "input": [
+            "P",
+            null,
+            "P"
+        ],
         "startup": 20,
         "driveGain_hit": 2500,
         "driveDrain_block": -5000,
@@ -912,6 +1307,9 @@
     {
         "section": "Special Moves",
         "name": "Procella",
+        "input": [
+            "K"
+        ],
         "startup": 16,
         "driveGain_hit": 2000,
         "driveDrain_block": -3000,
@@ -925,6 +1323,10 @@
     {
         "section": "Special Moves",
         "name": "Enfold",
+        "input": [
+            "LP",
+            "LK"
+        ],
         "startup": 5,
         "driveGain_hit": 2000,
         "driveDrain_block": 0,
@@ -938,6 +1340,16 @@
     {
         "section": "Super Arts",
         "name": "SA1 Javelin of Marisa",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "P"
+        ],
         "startup": 19,
         "driveGain_hit": 0,
         "driveDrain_block": -2500,
@@ -951,6 +1363,16 @@
     {
         "section": "Super Arts",
         "name": "SA1 Javelin of Marisa(Charged)",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "P"
+        ],
         "startup": 42,
         "driveGain_hit": 0,
         "driveDrain_block": -2500,
@@ -964,6 +1386,16 @@
     {
         "section": "Super Arts",
         "name": "SA1 Javelin of Marisa(Physical counter version)",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "P"
+        ],
         "startup": 7,
         "driveGain_hit": 0,
         "driveDrain_block": -2500,
@@ -977,6 +1409,16 @@
     {
         "section": "Super Arts",
         "name": "SA2 Meteorite",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "2",
+            "1",
+            "4",
+            "+",
+            "P"
+        ],
         "startup": 9,
         "driveGain_hit": 0,
         "driveDrain_block": -5000,
@@ -990,6 +1432,16 @@
     {
         "section": "Super Arts",
         "name": "SA3 Goddess of the Hunt",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "K"
+        ],
         "startup": 13,
         "driveGain_hit": 0,
         "driveDrain_block": -7500,
@@ -1003,6 +1455,16 @@
     {
         "section": "Super Arts",
         "name": "CA Goddess of the Hunt",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "K"
+        ],
         "startup": 13,
         "driveGain_hit": 0,
         "driveDrain_block": -10000,
@@ -1016,6 +1478,14 @@
     {
         "section": "Throws",
         "name": "Mounted Grace",
+        "input": [
+            null,
+            null,
+            "6",
+            "+",
+            "LP",
+            "LK"
+        ],
         "startup": 5,
         "driveGain_hit": 2000,
         "driveDrain_block": 0,
@@ -1029,6 +1499,12 @@
     {
         "section": "Throws",
         "name": "Ponte Milvio",
+        "input": [
+            "4",
+            "+",
+            "LP",
+            "LK"
+        ],
         "startup": 5,
         "driveGain_hit": 2000,
         "driveDrain_block": 0,
@@ -1042,6 +1518,10 @@
     {
         "section": "Common Moves",
         "name": "Forward Dash",
+        "input": [
+            "6",
+            "6"
+        ],
         "startup": null,
         "driveGain_hit": 0,
         "driveDrain_block": 0,
@@ -1055,6 +1535,10 @@
     {
         "section": "Common Moves",
         "name": "Backward Dash",
+        "input": [
+            "4",
+            "4"
+        ],
         "startup": null,
         "driveGain_hit": 0,
         "driveDrain_block": 0,
@@ -1068,6 +1552,10 @@
     {
         "section": "Common Moves",
         "name": "Drive Impact: Secutor",
+        "input": [
+            "HP",
+            "HK"
+        ],
         "startup": 26,
         "driveGain_hit": 0,
         "driveDrain_block": -5000,
@@ -1081,6 +1569,12 @@
     {
         "section": "Common Moves",
         "name": "Drive Reversal: Love Tap",
+        "input": [
+            "6",
+            "+",
+            "HP",
+            "HK"
+        ],
         "startup": 20,
         "driveGain_hit": 0,
         "driveDrain_block": 0,
@@ -1094,6 +1588,10 @@
     {
         "section": "Common Moves",
         "name": "Drive Parry",
+        "input": [
+            "MP",
+            "MK"
+        ],
         "startup": 1,
         "driveGain_hit": 0,
         "driveDrain_block": 0,
@@ -1107,6 +1605,10 @@
     {
         "section": "Common Moves",
         "name": "Perfect Parry (strike)",
+        "input": [
+            "MP",
+            "MK"
+        ],
         "startup": 1,
         "driveGain_hit": null,
         "driveDrain_block": null,
@@ -1120,6 +1622,10 @@
     {
         "section": "Common Moves",
         "name": "Perfect Parry (projectile)",
+        "input": [
+            "MP",
+            "MK"
+        ],
         "startup": 1,
         "driveGain_hit": null,
         "driveDrain_block": null,
@@ -1133,6 +1639,10 @@
     {
         "section": "Common Moves",
         "name": "Parry Drive Rush",
+        "input": [
+            "6",
+            "6"
+        ],
         "startup": null,
         "driveGain_hit": 0,
         "driveDrain_block": 0,
@@ -1146,6 +1656,17 @@
     {
         "section": "Common Moves",
         "name": "Cancel Drive Rush",
+        "input": [
+            "6",
+            "6",
+            null,
+            null,
+            null,
+            "6",
+            "+",
+            "MP",
+            "MK"
+        ],
         "startup": null,
         "driveGain_hit": 0,
         "driveDrain_block": 0,

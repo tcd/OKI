@@ -2,6 +2,9 @@
     {
         "section": "Normal Moves",
         "Move Name": "Standing Light Punch",
+        "input": [
+            "LP"
+        ],
         "Frame.Start-up": 5,
         "Frame.Active": "5-7",
         "Frame.Recovery": 10,
@@ -20,6 +23,9 @@
     {
         "section": "Normal Moves",
         "Move Name": "Standing Light Kick",
+        "input": [
+            "LK"
+        ],
         "Frame.Start-up": 4,
         "Frame.Active": "4-7",
         "Frame.Recovery": 7,
@@ -38,6 +44,9 @@
     {
         "section": "Normal Moves",
         "Move Name": "Standing Medium Punch",
+        "input": [
+            "MP"
+        ],
         "Frame.Start-up": 10,
         "Frame.Active": "10-12",
         "Frame.Recovery": 15,
@@ -56,6 +65,9 @@
     {
         "section": "Normal Moves",
         "Move Name": "Standing Medium Kick",
+        "input": [
+            "MK"
+        ],
         "Frame.Start-up": 8,
         "Frame.Active": "8-10",
         "Frame.Recovery": 17,
@@ -74,6 +86,9 @@
     {
         "section": "Normal Moves",
         "Move Name": "Standing Heavy Punch",
+        "input": [
+            "HP"
+        ],
         "Frame.Start-up": 10,
         "Frame.Active": "10-16",
         "Frame.Recovery": 22,
@@ -92,6 +107,9 @@
     {
         "section": "Normal Moves",
         "Move Name": "Standing Heavy Kick",
+        "input": [
+            "HK"
+        ],
         "Frame.Start-up": 7,
         "Frame.Active": "7-15",
         "Frame.Recovery": 18,
@@ -110,6 +128,11 @@
     {
         "section": "Normal Moves",
         "Move Name": "Crouching Light Punch",
+        "input": [
+            "2",
+            "+",
+            "LP"
+        ],
         "Frame.Start-up": 6,
         "Frame.Active": "6-8",
         "Frame.Recovery": 8,
@@ -128,6 +151,11 @@
     {
         "section": "Normal Moves",
         "Move Name": "Crouching Light Kick",
+        "input": [
+            "2",
+            "+",
+            "LK"
+        ],
         "Frame.Start-up": 5,
         "Frame.Active": "5-6",
         "Frame.Recovery": 10,
@@ -146,6 +174,11 @@
     {
         "section": "Normal Moves",
         "Move Name": "Crouching Medium Punch",
+        "input": [
+            "2",
+            "+",
+            "MP"
+        ],
         "Frame.Start-up": 9,
         "Frame.Active": "9-13",
         "Frame.Recovery": 16,
@@ -164,6 +197,11 @@
     {
         "section": "Normal Moves",
         "Move Name": "Crouching Medium Kick",
+        "input": [
+            "2",
+            "+",
+            "MK"
+        ],
         "Frame.Start-up": 8,
         "Frame.Active": "8-10",
         "Frame.Recovery": 16,
@@ -182,6 +220,11 @@
     {
         "section": "Normal Moves",
         "Move Name": "Crouching Heavy Punch",
+        "input": [
+            "2",
+            "+",
+            "HP"
+        ],
         "Frame.Start-up": 15,
         "Frame.Active": "15-19",
         "Frame.Recovery": 20,
@@ -200,6 +243,11 @@
     {
         "section": "Normal Moves",
         "Move Name": "Crouching Heavy Kick",
+        "input": [
+            "2",
+            "+",
+            "HK"
+        ],
         "Frame.Start-up": 11,
         "Frame.Active": "11-14",
         "Frame.Recovery": 23,
@@ -218,6 +266,9 @@
     {
         "section": "Normal Moves",
         "Move Name": "Jumping Light Punch",
+        "input": [
+            "LP"
+        ],
         "Frame.Start-up": 4,
         "Frame.Active": "4-8",
         "Frame.Recovery": 3,
@@ -236,6 +287,9 @@
     {
         "section": "Normal Moves",
         "Move Name": "Jumping Light Kick",
+        "input": [
+            "LK"
+        ],
         "Frame.Start-up": 5,
         "Frame.Active": "5-10",
         "Frame.Recovery": 3,
@@ -254,6 +308,9 @@
     {
         "section": "Normal Moves",
         "Move Name": "Jumping Medium Punch",
+        "input": [
+            "MP"
+        ],
         "Frame.Start-up": 7,
         "Frame.Active": "7-13",
         "Frame.Recovery": 3,
@@ -272,6 +329,9 @@
     {
         "section": "Normal Moves",
         "Move Name": "Jumping Medium Kick",
+        "input": [
+            "MK"
+        ],
         "Frame.Start-up": 7,
         "Frame.Active": "7-12",
         "Frame.Recovery": 3,
@@ -290,6 +350,9 @@
     {
         "section": "Normal Moves",
         "Move Name": "Jumping Heavy Punch",
+        "input": [
+            "HP"
+        ],
         "Frame.Start-up": 9,
         "Frame.Active": "9",
         "Frame.Recovery": 3,
@@ -308,6 +371,9 @@
     {
         "section": "Normal Moves",
         "Move Name": "Jumping Heavy Kick",
+        "input": [
+            "HK"
+        ],
         "Frame.Start-up": 11,
         "Frame.Active": "11-16",
         "Frame.Recovery": 3,
@@ -326,6 +392,9 @@
     {
         "section": "Normal Moves",
         "Move Name": "Neutral Jumping Heavy Punch",
+        "input": [
+            "HP"
+        ],
         "Frame.Start-up": 7,
         "Frame.Active": "7-9",
         "Frame.Recovery": 3,
@@ -344,6 +413,11 @@
     {
         "section": "Unique Attacks",
         "Move Name": "Rock Crusher",
+        "input": [
+            "6",
+            "+",
+            "MP"
+        ],
         "Frame.Start-up": 20,
         "Frame.Active": "20-22",
         "Frame.Recovery": 20,
@@ -362,6 +436,11 @@
     {
         "section": "Unique Attacks",
         "Move Name": "Double Knee Bombs",
+        "input": [
+            "6",
+            "+",
+            "MK"
+        ],
         "Frame.Start-up": 9,
         "Frame.Active": "9-209-11, 19-20",
         "Frame.Recovery": 18,
@@ -380,6 +459,11 @@
     {
         "section": "Unique Attacks",
         "Move Name": "Wild Edge",
+        "input": [
+            "4",
+            "+",
+            "MK"
+        ],
         "Frame.Start-up": 9,
         "Frame.Active": "9-14",
         "Frame.Recovery": 12,
@@ -398,6 +482,11 @@
     {
         "section": "Unique Attacks",
         "Move Name": "Wild Nail",
+        "input": [
+            "6",
+            "+",
+            "HP"
+        ],
         "Frame.Start-up": 18,
         "Frame.Active": "18-21",
         "Frame.Recovery": 31,
@@ -416,6 +505,11 @@
     {
         "section": "Unique Attacks",
         "Move Name": "Amazon River Run",
+        "input": [
+            "3",
+            "+",
+            "HP"
+        ],
         "Frame.Start-up": 14,
         "Frame.Active": "14-23",
         "Frame.Recovery": 22,
@@ -434,6 +528,12 @@
     {
         "section": "Unique Attacks",
         "Move Name": "Coward Crouch",
+        "input": [
+            "2",
+            "+",
+            "P",
+            "P"
+        ],
         "Frame.Start-up": null,
         "Frame.Active": null,
         "Frame.Recovery": 98,
@@ -452,6 +552,9 @@
     {
         "section": "Unique Attacks",
         "Move Name": "Wild Lift",
+        "input": [
+            "P"
+        ],
         "Frame.Start-up": 8,
         "Frame.Active": "8-14",
         "Frame.Recovery": 31,
@@ -470,6 +573,9 @@
     {
         "section": "Unique Attacks",
         "Move Name": "Raid Jump",
+        "input": [
+            "K"
+        ],
         "Frame.Start-up": null,
         "Frame.Active": null,
         "Frame.Recovery": 43,
@@ -488,6 +594,13 @@
     {
         "section": "Unique Attacks",
         "Move Name": "Surprise Forward Hop",
+        "input": [
+            "6",
+            "+",
+            "K",
+            "K",
+            "K"
+        ],
         "Frame.Start-up": null,
         "Frame.Active": null,
         "Frame.Recovery": 27,
@@ -506,6 +619,13 @@
     {
         "section": "Unique Attacks",
         "Move Name": "Surprise Back Hop",
+        "input": [
+            "4",
+            "+",
+            "K",
+            "K",
+            "K"
+        ],
         "Frame.Start-up": null,
         "Frame.Active": null,
         "Frame.Recovery": 32,
@@ -524,6 +644,13 @@
     {
         "section": "Special Moves",
         "Move Name": "Electric Thunder",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "P"
+        ],
         "Frame.Start-up": 10,
         "Frame.Active": "10-2110-11, 15-16, 20-21",
         "Frame.Recovery": 17,
@@ -542,6 +669,13 @@
     {
         "section": "Special Moves",
         "Move Name": "[Lightning Beast] Electric Thunder",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "P"
+        ],
         "Frame.Start-up": 10,
         "Frame.Active": "10-2110-11, 15-16, 20-21",
         "Frame.Recovery": 17,
@@ -560,6 +694,14 @@
     {
         "section": "Special Moves",
         "Move Name": "OD Electric Thunder",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "P",
+            "P"
+        ],
         "Frame.Start-up": 10,
         "Frame.Active": "10-1810-11, 15-16, 17-18",
         "Frame.Recovery": 17,
@@ -578,6 +720,14 @@
     {
         "section": "Special Moves",
         "Move Name": "[Lightning Beast]OD Electric Thunder",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "P",
+            "P"
+        ],
         "Frame.Start-up": 10,
         "Frame.Active": "10-1810-11, 15-16, 17-18",
         "Frame.Recovery": 17,
@@ -596,6 +746,12 @@
     {
         "section": "Special Moves",
         "Move Name": "L Rolling Attack",
+        "input": [
+            null,
+            "6",
+            "+",
+            "LP"
+        ],
         "Frame.Start-up": 10,
         "Frame.Active": "10-20",
         "Frame.Recovery": 11,
@@ -614,6 +770,12 @@
     {
         "section": "Special Moves",
         "Move Name": "[Lightning Beast] L Rolling Attack",
+        "input": [
+            null,
+            "6",
+            "+",
+            "LP"
+        ],
         "Frame.Start-up": 10,
         "Frame.Active": "10-20",
         "Frame.Recovery": 11,
@@ -632,6 +794,12 @@
     {
         "section": "Special Moves",
         "Move Name": "M Rolling Attack",
+        "input": [
+            null,
+            "6",
+            "+",
+            "MP"
+        ],
         "Frame.Start-up": 12,
         "Frame.Active": "12-30",
         "Frame.Recovery": 11,
@@ -650,6 +818,12 @@
     {
         "section": "Special Moves",
         "Move Name": "[Lightning Beast] M Rolling Attack",
+        "input": [
+            null,
+            "6",
+            "+",
+            "MP"
+        ],
         "Frame.Start-up": 12,
         "Frame.Active": "12-30",
         "Frame.Recovery": 11,
@@ -668,6 +842,12 @@
     {
         "section": "Special Moves",
         "Move Name": "H Rolling Attack",
+        "input": [
+            null,
+            "6",
+            "+",
+            "HP"
+        ],
         "Frame.Start-up": 22,
         "Frame.Active": "22-41",
         "Frame.Recovery": 26,
@@ -686,6 +866,12 @@
     {
         "section": "Special Moves",
         "Move Name": "[Lightning Beast] H Rolling Attack",
+        "input": [
+            null,
+            "6",
+            "+",
+            "HP"
+        ],
         "Frame.Start-up": 22,
         "Frame.Active": "22-41",
         "Frame.Recovery": 26,
@@ -704,6 +890,13 @@
     {
         "section": "Special Moves",
         "Move Name": "OD Rolling Attack",
+        "input": [
+            null,
+            "6",
+            "+",
+            "P",
+            "P"
+        ],
         "Frame.Start-up": 18,
         "Frame.Active": "18-39",
         "Frame.Recovery": 17,
@@ -722,6 +915,13 @@
     {
         "section": "Special Moves",
         "Move Name": "[Lightning Beast] OD Rolling Attack",
+        "input": [
+            null,
+            "6",
+            "+",
+            "P",
+            "P"
+        ],
         "Frame.Start-up": 18,
         "Frame.Active": "18-39",
         "Frame.Recovery": 17,
@@ -740,6 +940,12 @@
     {
         "section": "Special Moves",
         "Move Name": "L Vertical Rolling Attack",
+        "input": [
+            null,
+            null,
+            "+",
+            "LK"
+        ],
         "Frame.Start-up": 8,
         "Frame.Active": "8-27",
         "Frame.Recovery": 31,
@@ -758,6 +964,12 @@
     {
         "section": "Special Moves",
         "Move Name": "[Lightning Beast] L Vertical Rolling Attack",
+        "input": [
+            null,
+            null,
+            "+",
+            "LK"
+        ],
         "Frame.Start-up": 8,
         "Frame.Active": "8-27",
         "Frame.Recovery": 31,
@@ -776,6 +988,12 @@
     {
         "section": "Special Moves",
         "Move Name": "M Vertical Rolling Attack",
+        "input": [
+            null,
+            null,
+            "+",
+            "MK"
+        ],
         "Frame.Start-up": 8,
         "Frame.Active": "8-27",
         "Frame.Recovery": 31,
@@ -794,6 +1012,12 @@
     {
         "section": "Special Moves",
         "Move Name": "[Lightning Beast] M Vertical Rolling Attack",
+        "input": [
+            null,
+            null,
+            "+",
+            "MK"
+        ],
         "Frame.Start-up": 8,
         "Frame.Active": "8-27",
         "Frame.Recovery": 31,
@@ -812,6 +1036,12 @@
     {
         "section": "Special Moves",
         "Move Name": "H Vertical Rolling Attack",
+        "input": [
+            null,
+            null,
+            "+",
+            "HK"
+        ],
         "Frame.Start-up": 8,
         "Frame.Active": "8-27",
         "Frame.Recovery": 31,
@@ -830,6 +1060,12 @@
     {
         "section": "Special Moves",
         "Move Name": "[Lightning Beast] H Vertical Rolling Attack",
+        "input": [
+            null,
+            null,
+            "+",
+            "HK"
+        ],
         "Frame.Start-up": 8,
         "Frame.Active": "8-27",
         "Frame.Recovery": 31,
@@ -848,6 +1084,13 @@
     {
         "section": "Special Moves",
         "Move Name": "OD Vertical Rolling Attack",
+        "input": [
+            null,
+            null,
+            "+",
+            "K",
+            "K"
+        ],
         "Frame.Start-up": 7,
         "Frame.Active": "7-227-14, 17-22",
         "Frame.Recovery": 31,
@@ -866,6 +1109,13 @@
     {
         "section": "Special Moves",
         "Move Name": "[Lightning Beast] OD Vertical Rolling Attack",
+        "input": [
+            null,
+            null,
+            "+",
+            "K",
+            "K"
+        ],
         "Frame.Start-up": 7,
         "Frame.Active": "7-227-14, 17-22",
         "Frame.Recovery": 31,
@@ -884,6 +1134,15 @@
     {
         "section": "Special Moves",
         "Move Name": "L Backstep Rolling Attack",
+        "input": [
+            "6",
+            "3",
+            "2",
+            "1",
+            "4",
+            "+",
+            "LK"
+        ],
         "Frame.Start-up": 41,
         "Frame.Active": "41-until landing",
         "Frame.Recovery": 5,
@@ -902,6 +1161,15 @@
     {
         "section": "Special Moves",
         "Move Name": "[Lightning Beast] L Backstep Rolling Attack",
+        "input": [
+            "6",
+            "3",
+            "2",
+            "1",
+            "4",
+            "+",
+            "LK"
+        ],
         "Frame.Start-up": 41,
         "Frame.Active": "41-until landing",
         "Frame.Recovery": 5,
@@ -920,6 +1188,15 @@
     {
         "section": "Special Moves",
         "Move Name": "M Backstep Rolling Attack",
+        "input": [
+            "6",
+            "3",
+            "2",
+            "1",
+            "4",
+            "+",
+            "MK"
+        ],
         "Frame.Start-up": 41,
         "Frame.Active": "41-until landing",
         "Frame.Recovery": 5,
@@ -938,6 +1215,15 @@
     {
         "section": "Special Moves",
         "Move Name": "[Lightning Beast] M Backstep Rolling Attack",
+        "input": [
+            "6",
+            "3",
+            "2",
+            "1",
+            "4",
+            "+",
+            "MK"
+        ],
         "Frame.Start-up": 41,
         "Frame.Active": "41-until landing",
         "Frame.Recovery": 5,
@@ -956,6 +1242,15 @@
     {
         "section": "Special Moves",
         "Move Name": "H Backstep Rolling Attack",
+        "input": [
+            "6",
+            "3",
+            "2",
+            "1",
+            "4",
+            "+",
+            "HK"
+        ],
         "Frame.Start-up": 41,
         "Frame.Active": "41-until landing",
         "Frame.Recovery": 5,
@@ -974,6 +1269,15 @@
     {
         "section": "Special Moves",
         "Move Name": "[Lightning Beast] H Backstep Rolling Attack",
+        "input": [
+            "6",
+            "3",
+            "2",
+            "1",
+            "4",
+            "+",
+            "HK"
+        ],
         "Frame.Start-up": 41,
         "Frame.Active": "41-until landing",
         "Frame.Recovery": 5,
@@ -992,6 +1296,16 @@
     {
         "section": "Special Moves",
         "Move Name": "OD Backstep Rolling Attack",
+        "input": [
+            "6",
+            "3",
+            "2",
+            "1",
+            "4",
+            "+",
+            "K",
+            "K"
+        ],
         "Frame.Start-up": 8,
         "Frame.Active": "8-668-12, 41-61, 63-66",
         "Frame.Recovery": 4,
@@ -1010,6 +1324,16 @@
     {
         "section": "Special Moves",
         "Move Name": "[Lightning Beast] OD Backstep Rolling Attack",
+        "input": [
+            "6",
+            "3",
+            "2",
+            "1",
+            "4",
+            "+",
+            "K",
+            "K"
+        ],
         "Frame.Start-up": 8,
         "Frame.Active": "8-668-12, 41-61, 63-66",
         "Frame.Recovery": 4,
@@ -1028,6 +1352,12 @@
     {
         "section": "Special Moves",
         "Move Name": "L Aerial Rolling Attack",
+        "input": [
+            null,
+            "6",
+            "+",
+            "LP"
+        ],
         "Frame.Start-up": 13,
         "Frame.Active": "13-until landing",
         "Frame.Recovery": 17,
@@ -1046,6 +1376,12 @@
     {
         "section": "Special Moves",
         "Move Name": "[Lightning Beast] L Aerial Rolling Attack",
+        "input": [
+            null,
+            "6",
+            "+",
+            "LP"
+        ],
         "Frame.Start-up": 13,
         "Frame.Active": "13-until landing",
         "Frame.Recovery": 17,
@@ -1064,6 +1400,12 @@
     {
         "section": "Special Moves",
         "Move Name": "M Aerial Rolling Attack",
+        "input": [
+            null,
+            "6",
+            "+",
+            "MP"
+        ],
         "Frame.Start-up": 13,
         "Frame.Active": "13-until landing",
         "Frame.Recovery": 17,
@@ -1082,6 +1424,12 @@
     {
         "section": "Special Moves",
         "Move Name": "[Lightning Beast] M Aerial Rolling Attack",
+        "input": [
+            null,
+            "6",
+            "+",
+            "MP"
+        ],
         "Frame.Start-up": 13,
         "Frame.Active": "13-until landing",
         "Frame.Recovery": 17,
@@ -1100,6 +1448,12 @@
     {
         "section": "Special Moves",
         "Move Name": "H Aerial Rolling Attack",
+        "input": [
+            null,
+            "6",
+            "+",
+            "HP"
+        ],
         "Frame.Start-up": 13,
         "Frame.Active": "13-until landing",
         "Frame.Recovery": 17,
@@ -1118,6 +1472,12 @@
     {
         "section": "Special Moves",
         "Move Name": "[Lightning Beast] H Aerial Rolling Attack",
+        "input": [
+            null,
+            "6",
+            "+",
+            "HP"
+        ],
         "Frame.Start-up": 13,
         "Frame.Active": "13-until landing",
         "Frame.Recovery": 17,
@@ -1136,6 +1496,13 @@
     {
         "section": "Special Moves",
         "Move Name": "OD Aerial Rolling Attack",
+        "input": [
+            null,
+            "6",
+            "+",
+            "P",
+            "P"
+        ],
         "Frame.Start-up": 13,
         "Frame.Active": "13-until landing",
         "Frame.Recovery": 10,
@@ -1154,6 +1521,13 @@
     {
         "section": "Special Moves",
         "Move Name": "[Lightning Beast] OD Aerial Rolling Attack",
+        "input": [
+            null,
+            "6",
+            "+",
+            "P",
+            "P"
+        ],
         "Frame.Start-up": 13,
         "Frame.Active": "13-until landing",
         "Frame.Recovery": 10,
@@ -1172,6 +1546,13 @@
     {
         "section": "Special Moves",
         "Move Name": "L Wild Hunt",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "LK"
+        ],
         "Frame.Start-up": 34,
         "Frame.Active": "34-36",
         "Frame.Recovery": 57,
@@ -1190,6 +1571,13 @@
     {
         "section": "Special Moves",
         "Move Name": "M Wild Hunt",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "MK"
+        ],
         "Frame.Start-up": 39,
         "Frame.Active": "39-41",
         "Frame.Recovery": 57,
@@ -1208,6 +1596,13 @@
     {
         "section": "Special Moves",
         "Move Name": "H Wild Hunt",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "HK"
+        ],
         "Frame.Start-up": 43,
         "Frame.Active": "43-45",
         "Frame.Recovery": 57,
@@ -1226,6 +1621,14 @@
     {
         "section": "Special Moves",
         "Move Name": "OD Wild Hunt",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "K",
+            "K"
+        ],
         "Frame.Start-up": 32,
         "Frame.Active": "32-34",
         "Frame.Recovery": 57,
@@ -1244,6 +1647,12 @@
     {
         "section": "Special Moves",
         "Move Name": "Blanka-chan Bomb",
+        "input": [
+            "2",
+            "2",
+            "+",
+            "P"
+        ],
         "Frame.Start-up": null,
         "Frame.Active": null,
         "Frame.Recovery": 50,
@@ -1262,6 +1671,10 @@
     {
         "section": "Special Moves",
         "Move Name": "Rolling Cannon",
+        "input": [
+            "+",
+            "P"
+        ],
         "Frame.Start-up": 3,
         "Frame.Active": "3-27",
         "Frame.Recovery": 9,
@@ -1280,6 +1693,16 @@
     {
         "section": "Super Arts",
         "Move Name": "SA1 Shout of Earth",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "P"
+        ],
         "Frame.Start-up": 8,
         "Frame.Active": "8-16",
         "Frame.Recovery": 78,
@@ -1298,6 +1721,16 @@
     {
         "section": "Super Arts",
         "Move Name": "[Lightning Beast] SA1 Shout of Earth",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "P"
+        ],
         "Frame.Start-up": 8,
         "Frame.Active": "8-16",
         "Frame.Recovery": 78,
@@ -1316,6 +1749,16 @@
     {
         "section": "Super Arts",
         "Move Name": "SA2 Lightning Beast",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "2",
+            "1",
+            "4",
+            "+",
+            "P"
+        ],
         "Frame.Start-up": null,
         "Frame.Active": null,
         "Frame.Recovery": 10,
@@ -1334,6 +1777,16 @@
     {
         "section": "Super Arts",
         "Move Name": "SA3 Ground Shave Cannonball",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "K"
+        ],
         "Frame.Start-up": 10,
         "Frame.Active": "10-12",
         "Frame.Recovery": 61,
@@ -1352,6 +1805,16 @@
     {
         "section": "Super Arts",
         "Move Name": "CA Ground Shave Cannonball",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "K"
+        ],
         "Frame.Start-up": 10,
         "Frame.Active": "10-12",
         "Frame.Recovery": 61,
@@ -1370,6 +1833,14 @@
     {
         "section": "Throws",
         "Move Name": "Wild Fang",
+        "input": [
+            null,
+            null,
+            "6",
+            "+",
+            "LP",
+            "LK"
+        ],
         "Frame.Start-up": 5,
         "Frame.Active": "5-7",
         "Frame.Recovery": 23,
@@ -1388,6 +1859,12 @@
     {
         "section": "Throws",
         "Move Name": "Jungle Flip",
+        "input": [
+            "4",
+            "+",
+            "LP",
+            "LK"
+        ],
         "Frame.Start-up": 5,
         "Frame.Active": "5-7",
         "Frame.Recovery": 23,
@@ -1406,6 +1883,10 @@
     {
         "section": "Throws",
         "Move Name": "Wild Bites",
+        "input": [
+            "LP",
+            "LK"
+        ],
         "Frame.Start-up": 5,
         "Frame.Active": "5-7",
         "Frame.Recovery": "",
@@ -1424,6 +1905,10 @@
     {
         "section": "Common Moves",
         "Move Name": "Forward Dash",
+        "input": [
+            "6",
+            "6"
+        ],
         "Frame.Start-up": null,
         "Frame.Active": null,
         "Frame.Recovery": 19,
@@ -1442,6 +1927,10 @@
     {
         "section": "Common Moves",
         "Move Name": "Backward Dash",
+        "input": [
+            "4",
+            "4"
+        ],
         "Frame.Start-up": null,
         "Frame.Active": null,
         "Frame.Recovery": 23,
@@ -1460,6 +1949,10 @@
     {
         "section": "Common Moves",
         "Move Name": "Drive Impact: Wild Scratch",
+        "input": [
+            "HP",
+            "HK"
+        ],
         "Frame.Start-up": 26,
         "Frame.Active": "26-27",
         "Frame.Recovery": 35,
@@ -1478,6 +1971,12 @@
     {
         "section": "Common Moves",
         "Move Name": "Drive Reversal: Quick Rolling Attack",
+        "input": [
+            "6",
+            "+",
+            "HP",
+            "HK"
+        ],
         "Frame.Start-up": 20,
         "Frame.Active": "20-22",
         "Frame.Recovery": 26,
@@ -1496,6 +1995,10 @@
     {
         "section": "Common Moves",
         "Move Name": "Drive Parry",
+        "input": [
+            "MP",
+            "MK"
+        ],
         "Frame.Start-up": 1,
         "Frame.Active": "[*1] 1-8",
         "Frame.Recovery": 29,
@@ -1514,6 +2017,10 @@
     {
         "section": "Common Moves",
         "Move Name": "Perfect Parry (strike)",
+        "input": [
+            "MP",
+            "MK"
+        ],
         "Frame.Start-up": 1,
         "Frame.Active": null,
         "Frame.Recovery": 1,
@@ -1532,6 +2039,10 @@
     {
         "section": "Common Moves",
         "Move Name": "Perfect Parry (projectile)",
+        "input": [
+            "MP",
+            "MK"
+        ],
         "Frame.Start-up": 1,
         "Frame.Active": null,
         "Frame.Recovery": 10,
@@ -1550,6 +2061,10 @@
     {
         "section": "Common Moves",
         "Move Name": "Parry Drive Rush",
+        "input": [
+            "6",
+            "6"
+        ],
         "Frame.Start-up": null,
         "Frame.Active": null,
         "Frame.Recovery": 55,
@@ -1568,6 +2083,17 @@
     {
         "section": "Common Moves",
         "Move Name": "Cancel Drive Rush",
+        "input": [
+            "6",
+            "6",
+            null,
+            null,
+            null,
+            "6",
+            "+",
+            "MP",
+            "MK"
+        ],
         "Frame.Start-up": null,
         "Frame.Active": null,
         "Frame.Recovery": 55,

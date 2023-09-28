@@ -2,6 +2,9 @@
     {
         "section": "Normal Moves",
         "Move Name": "Standing Light Punch",
+        "input": [
+            "LP"
+        ],
         "Frame.Start-up": 4,
         "Frame.Active": "4-6",
         "Frame.Recovery": 8,
@@ -20,6 +23,9 @@
     {
         "section": "Normal Moves",
         "Move Name": "Standing Light Kick",
+        "input": [
+            "LK"
+        ],
         "Frame.Start-up": 9,
         "Frame.Active": "9-12",
         "Frame.Recovery": 11,
@@ -38,6 +44,9 @@
     {
         "section": "Normal Moves",
         "Move Name": "Standing Medium Punch",
+        "input": [
+            "MP"
+        ],
         "Frame.Start-up": 14,
         "Frame.Active": "14-16",
         "Frame.Recovery": 19,
@@ -56,6 +65,9 @@
     {
         "section": "Normal Moves",
         "Move Name": "Standing Medium Kick",
+        "input": [
+            "MK"
+        ],
         "Frame.Start-up": 12,
         "Frame.Active": "12-14",
         "Frame.Recovery": 18,
@@ -74,6 +86,9 @@
     {
         "section": "Normal Moves",
         "Move Name": "Standing Heavy Punch",
+        "input": [
+            "HP"
+        ],
         "Frame.Start-up": 16,
         "Frame.Active": "16-19",
         "Frame.Recovery": 27,
@@ -92,6 +107,9 @@
     {
         "section": "Normal Moves",
         "Move Name": "Standing Heavy Kick",
+        "input": [
+            "HK"
+        ],
         "Frame.Start-up": 17,
         "Frame.Active": "17-19",
         "Frame.Recovery": 20,
@@ -110,6 +128,11 @@
     {
         "section": "Normal Moves",
         "Move Name": "Crouching Light Punch",
+        "input": [
+            "2",
+            "+",
+            "LP"
+        ],
         "Frame.Start-up": 5,
         "Frame.Active": "5-7",
         "Frame.Recovery": 9,
@@ -128,6 +151,11 @@
     {
         "section": "Normal Moves",
         "Move Name": "Crouching Light Kick",
+        "input": [
+            "2",
+            "+",
+            "LK"
+        ],
         "Frame.Start-up": 4,
         "Frame.Active": "4-10",
         "Frame.Recovery": 16,
@@ -146,6 +174,11 @@
     {
         "section": "Normal Moves",
         "Move Name": "Crouching Medium Punch",
+        "input": [
+            "2",
+            "+",
+            "MP"
+        ],
         "Frame.Start-up": 12,
         "Frame.Active": "12-14",
         "Frame.Recovery": 16,
@@ -164,6 +197,11 @@
     {
         "section": "Normal Moves",
         "Move Name": "Crouching Medium Kick",
+        "input": [
+            "2",
+            "+",
+            "MK"
+        ],
         "Frame.Start-up": 10,
         "Frame.Active": "10-22",
         "Frame.Recovery": 14,
@@ -182,6 +220,11 @@
     {
         "section": "Normal Moves",
         "Move Name": "Crouching Heavy Punch",
+        "input": [
+            "2",
+            "+",
+            "HP"
+        ],
         "Frame.Start-up": 19,
         "Frame.Active": "19-22",
         "Frame.Recovery": 24,
@@ -200,6 +243,11 @@
     {
         "section": "Normal Moves",
         "Move Name": "Crouching Heavy Kick",
+        "input": [
+            "2",
+            "+",
+            "HK"
+        ],
         "Frame.Start-up": 12,
         "Frame.Active": "12-27",
         "Frame.Recovery": 20,
@@ -218,6 +266,9 @@
     {
         "section": "Normal Moves",
         "Move Name": "Jumping Light Punch",
+        "input": [
+            "LP"
+        ],
         "Frame.Start-up": 4,
         "Frame.Active": "4-7",
         "Frame.Recovery": 3,
@@ -236,6 +287,9 @@
     {
         "section": "Normal Moves",
         "Move Name": "Jumping Light Kick",
+        "input": [
+            "LK"
+        ],
         "Frame.Start-up": 6,
         "Frame.Active": "6-9",
         "Frame.Recovery": 3,
@@ -254,6 +308,9 @@
     {
         "section": "Normal Moves",
         "Move Name": "Jumping Medium Punch",
+        "input": [
+            "MP"
+        ],
         "Frame.Start-up": 9,
         "Frame.Active": "9-14",
         "Frame.Recovery": 3,
@@ -272,6 +329,9 @@
     {
         "section": "Normal Moves",
         "Move Name": "Jumping Medium Kick",
+        "input": [
+            "MK"
+        ],
         "Frame.Start-up": 11,
         "Frame.Active": "11-16",
         "Frame.Recovery": 3,
@@ -290,6 +350,9 @@
     {
         "section": "Normal Moves",
         "Move Name": "Jumping Heavy Punch",
+        "input": [
+            "HP"
+        ],
         "Frame.Start-up": 13,
         "Frame.Active": "13-16",
         "Frame.Recovery": 3,
@@ -308,6 +371,9 @@
     {
         "section": "Normal Moves",
         "Move Name": "Jumping Heavy Kick",
+        "input": [
+            "HK"
+        ],
         "Frame.Start-up": 10,
         "Frame.Active": "10-19",
         "Frame.Recovery": 3,
@@ -326,6 +392,11 @@
     {
         "section": "Unique Attacks",
         "Move Name": "Yoga Uppercut",
+        "input": [
+            "4",
+            "+",
+            "MP"
+        ],
         "Frame.Start-up": 8,
         "Frame.Active": "8-13",
         "Frame.Recovery": 16,
@@ -344,6 +415,11 @@
     {
         "section": "Unique Attacks",
         "Move Name": "Yoga Lance",
+        "input": [
+            "4",
+            "+",
+            "HP"
+        ],
         "Frame.Start-up": 14,
         "Frame.Active": "14-20",
         "Frame.Recovery": 29,
@@ -362,6 +438,11 @@
     {
         "section": "Unique Attacks",
         "Move Name": "Nirvana Punch",
+        "input": [
+            "1",
+            "+",
+            "HP"
+        ],
         "Frame.Start-up": 10,
         "Frame.Active": "10-13",
         "Frame.Recovery": 20,
@@ -380,6 +461,11 @@
     {
         "section": "Unique Attacks",
         "Move Name": "Agile Kick",
+        "input": [
+            "1",
+            "+",
+            "LK"
+        ],
         "Frame.Start-up": 5,
         "Frame.Active": "5-7",
         "Frame.Recovery": 10,
@@ -398,6 +484,11 @@
     {
         "section": "Unique Attacks",
         "Move Name": "Divine Kick",
+        "input": [
+            "4",
+            "+",
+            "MK"
+        ],
         "Frame.Start-up": 7,
         "Frame.Active": "7-10",
         "Frame.Recovery": 17,
@@ -416,6 +507,11 @@
     {
         "section": "Unique Attacks",
         "Move Name": "Thrust Kick",
+        "input": [
+            "1",
+            "+",
+            "MK"
+        ],
         "Frame.Start-up": 8,
         "Frame.Active": "8-10",
         "Frame.Recovery": 20,
@@ -434,6 +530,11 @@
     {
         "section": "Unique Attacks",
         "Move Name": "Yoga Mountain",
+        "input": [
+            "4",
+            "+",
+            "HK"
+        ],
         "Frame.Start-up": 14,
         "Frame.Active": "14-19",
         "Frame.Recovery": 20,
@@ -452,6 +553,11 @@
     {
         "section": "Unique Attacks",
         "Move Name": "Karma Kick",
+        "input": [
+            "1",
+            "+",
+            "HK"
+        ],
         "Frame.Start-up": 9,
         "Frame.Active": "9-11",
         "Frame.Recovery": 22,
@@ -470,6 +576,11 @@
     {
         "section": "Unique Attacks",
         "Move Name": "Yoga Mummy",
+        "input": [
+            "2",
+            "+",
+            "LP"
+        ],
         "Frame.Start-up": 10,
         "Frame.Active": "10-until landing",
         "Frame.Recovery": 9,
@@ -488,6 +599,11 @@
     {
         "section": "Unique Attacks",
         "Move Name": "L Drill Kick",
+        "input": [
+            "2",
+            "+",
+            "LK"
+        ],
         "Frame.Start-up": 9,
         "Frame.Active": "9-until landing",
         "Frame.Recovery": 11,
@@ -506,6 +622,11 @@
     {
         "section": "Unique Attacks",
         "Move Name": "M Drill Kick",
+        "input": [
+            "2",
+            "+",
+            "MK"
+        ],
         "Frame.Start-up": 9,
         "Frame.Active": "9-until landing",
         "Frame.Recovery": 11,
@@ -524,6 +645,11 @@
     {
         "section": "Unique Attacks",
         "Move Name": "H Drill Kick",
+        "input": [
+            "2",
+            "+",
+            "HK"
+        ],
         "Frame.Start-up": 9,
         "Frame.Active": "9-until landing",
         "Frame.Recovery": 11,
@@ -542,6 +668,13 @@
     {
         "section": "Special Moves",
         "Move Name": "L Yoga Fire",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "LP"
+        ],
         "Frame.Start-up": 15,
         "Frame.Active": null,
         "Frame.Recovery": 48,
@@ -560,6 +693,13 @@
     {
         "section": "Special Moves",
         "Move Name": "M Yoga Fire",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "MP"
+        ],
         "Frame.Start-up": 15,
         "Frame.Active": null,
         "Frame.Recovery": 48,
@@ -578,6 +718,13 @@
     {
         "section": "Special Moves",
         "Move Name": "H Yoga Fire",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "HP"
+        ],
         "Frame.Start-up": 15,
         "Frame.Active": null,
         "Frame.Recovery": 48,
@@ -596,6 +743,14 @@
     {
         "section": "Special Moves",
         "Move Name": "OD L Yoga Fire",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "LP",
+            "MP"
+        ],
         "Frame.Start-up": 13,
         "Frame.Active": null,
         "Frame.Recovery": 45,
@@ -614,6 +769,14 @@
     {
         "section": "Special Moves",
         "Move Name": "OD M Yoga Fire",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "LP",
+            "HP"
+        ],
         "Frame.Start-up": 13,
         "Frame.Active": null,
         "Frame.Recovery": 45,
@@ -632,6 +795,14 @@
     {
         "section": "Special Moves",
         "Move Name": "OD H Yoga Fire",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "MP",
+            "HP"
+        ],
         "Frame.Start-up": 13,
         "Frame.Active": null,
         "Frame.Recovery": 45,
@@ -650,6 +821,13 @@
     {
         "section": "Special Moves",
         "Move Name": "L Yoga Arch",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "LK"
+        ],
         "Frame.Start-up": 18,
         "Frame.Active": null,
         "Frame.Recovery": 45,
@@ -668,6 +846,13 @@
     {
         "section": "Special Moves",
         "Move Name": "M Yoga Arch",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "MK"
+        ],
         "Frame.Start-up": 18,
         "Frame.Active": null,
         "Frame.Recovery": 45,
@@ -686,6 +871,13 @@
     {
         "section": "Special Moves",
         "Move Name": "H Yoga Arch",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "HK"
+        ],
         "Frame.Start-up": 18,
         "Frame.Active": null,
         "Frame.Recovery": 45,
@@ -704,6 +896,14 @@
     {
         "section": "Special Moves",
         "Move Name": "OD L Yoga Arch",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "LK",
+            "MK"
+        ],
         "Frame.Start-up": 18,
         "Frame.Active": null,
         "Frame.Recovery": 45,
@@ -722,6 +922,14 @@
     {
         "section": "Special Moves",
         "Move Name": "OD M Yoga Arch",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "LK",
+            "HK"
+        ],
         "Frame.Start-up": 18,
         "Frame.Active": null,
         "Frame.Recovery": 45,
@@ -740,6 +948,14 @@
     {
         "section": "Special Moves",
         "Move Name": "OD H Yoga Arch",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "MK",
+            "HK"
+        ],
         "Frame.Start-up": 18,
         "Frame.Active": null,
         "Frame.Recovery": 45,
@@ -758,6 +974,15 @@
     {
         "section": "Special Moves",
         "Move Name": "L Yoga Flame",
+        "input": [
+            "6",
+            "3",
+            "2",
+            "1",
+            "4",
+            "+",
+            "LP"
+        ],
         "Frame.Start-up": 16,
         "Frame.Active": "16-30",
         "Frame.Recovery": 45,
@@ -776,6 +1001,15 @@
     {
         "section": "Special Moves",
         "Move Name": "M Yoga Flame",
+        "input": [
+            "6",
+            "3",
+            "2",
+            "1",
+            "4",
+            "+",
+            "MP"
+        ],
         "Frame.Start-up": 20,
         "Frame.Active": "19-34",
         "Frame.Recovery": 51,
@@ -794,6 +1028,15 @@
     {
         "section": "Special Moves",
         "Move Name": "H Yoga Flame",
+        "input": [
+            "6",
+            "3",
+            "2",
+            "1",
+            "4",
+            "+",
+            "HP"
+        ],
         "Frame.Start-up": 26,
         "Frame.Active": "26-42",
         "Frame.Recovery": 58,
@@ -812,6 +1055,16 @@
     {
         "section": "Special Moves",
         "Move Name": "OD Yoga Flame",
+        "input": [
+            "6",
+            "3",
+            "2",
+            "1",
+            "4",
+            "+",
+            "P",
+            "P"
+        ],
         "Frame.Start-up": 18,
         "Frame.Active": "18-42",
         "Frame.Recovery": 66,
@@ -830,6 +1083,15 @@
     {
         "section": "Special Moves",
         "Move Name": "L Yoga Blast",
+        "input": [
+            "6",
+            "3",
+            "2",
+            "1",
+            "4",
+            "+",
+            "LK"
+        ],
         "Frame.Start-up": 12,
         "Frame.Active": "12-21",
         "Frame.Recovery": 44,
@@ -848,6 +1110,15 @@
     {
         "section": "Special Moves",
         "Move Name": "M Yoga Blast",
+        "input": [
+            "6",
+            "3",
+            "2",
+            "1",
+            "4",
+            "+",
+            "MK"
+        ],
         "Frame.Start-up": 15,
         "Frame.Active": "15-24",
         "Frame.Recovery": 44,
@@ -866,6 +1137,15 @@
     {
         "section": "Special Moves",
         "Move Name": "H Yoga Blast",
+        "input": [
+            "6",
+            "3",
+            "2",
+            "1",
+            "4",
+            "+",
+            "HK"
+        ],
         "Frame.Start-up": 15,
         "Frame.Active": "15-24",
         "Frame.Recovery": 44,
@@ -884,6 +1164,16 @@
     {
         "section": "Special Moves",
         "Move Name": "OD Yoga Blast",
+        "input": [
+            "6",
+            "3",
+            "2",
+            "1",
+            "4",
+            "+",
+            "K",
+            "K"
+        ],
         "Frame.Start-up": 12,
         "Frame.Active": "12-21",
         "Frame.Recovery": 41,
@@ -902,6 +1192,15 @@
     {
         "section": "Special Moves",
         "Move Name": "L Yoga Comet",
+        "input": [
+            "6",
+            "3",
+            "2",
+            "1",
+            "4",
+            "+",
+            "LP"
+        ],
         "Frame.Start-up": 30,
         "Frame.Active": null,
         "Frame.Recovery": 8,
@@ -920,6 +1219,15 @@
     {
         "section": "Special Moves",
         "Move Name": "M Yoga Comet",
+        "input": [
+            "6",
+            "3",
+            "2",
+            "1",
+            "4",
+            "+",
+            "MP"
+        ],
         "Frame.Start-up": 30,
         "Frame.Active": null,
         "Frame.Recovery": 8,
@@ -938,6 +1246,15 @@
     {
         "section": "Special Moves",
         "Move Name": "H Yoga Comet",
+        "input": [
+            "6",
+            "3",
+            "2",
+            "1",
+            "4",
+            "+",
+            "HP"
+        ],
         "Frame.Start-up": 30,
         "Frame.Active": null,
         "Frame.Recovery": 8,
@@ -956,6 +1273,16 @@
     {
         "section": "Special Moves",
         "Move Name": "OD Yoga Comet",
+        "input": [
+            "6",
+            "3",
+            "2",
+            "1",
+            "4",
+            "+",
+            "P",
+            "P"
+        ],
         "Frame.Start-up": 30,
         "Frame.Active": null,
         "Frame.Recovery": 3,
@@ -974,6 +1301,12 @@
     {
         "section": "Special Moves",
         "Move Name": "Yoga Float(immediately)",
+        "input": [
+            "2",
+            "+",
+            "K",
+            "K"
+        ],
         "Frame.Start-up": null,
         "Frame.Active": null,
         "Frame.Recovery": 35,
@@ -992,6 +1325,12 @@
     {
         "section": "Special Moves",
         "Move Name": "Yoga Float(Forward)",
+        "input": [
+            "3",
+            "+",
+            "K",
+            "K"
+        ],
         "Frame.Start-up": null,
         "Frame.Active": null,
         "Frame.Recovery": 35,
@@ -1010,6 +1349,12 @@
     {
         "section": "Special Moves",
         "Move Name": "Aerial Yoga Float",
+        "input": [
+            "2",
+            "+",
+            "K",
+            "K"
+        ],
         "Frame.Start-up": null,
         "Frame.Active": null,
         "Frame.Recovery": 15,
@@ -1028,6 +1373,13 @@
     {
         "section": "Special Moves",
         "Move Name": "P Yoga Teleport (Forward)",
+        "input": [
+            "6",
+            "+",
+            "P",
+            "P",
+            "P"
+        ],
         "Frame.Start-up": null,
         "Frame.Active": null,
         "Frame.Recovery": 39,
@@ -1046,6 +1398,13 @@
     {
         "section": "Special Moves",
         "Move Name": "K Yoga Teleport (Forward)",
+        "input": [
+            "6",
+            "+",
+            "K",
+            "K",
+            "K"
+        ],
         "Frame.Start-up": null,
         "Frame.Active": null,
         "Frame.Recovery": 39,
@@ -1064,6 +1423,13 @@
     {
         "section": "Special Moves",
         "Move Name": "P Aerial Yoga Teleport (Forward)",
+        "input": [
+            "6",
+            "+",
+            "P",
+            "P",
+            "P"
+        ],
         "Frame.Start-up": null,
         "Frame.Active": null,
         "Frame.Recovery": 29,
@@ -1082,6 +1448,13 @@
     {
         "section": "Special Moves",
         "Move Name": "K Aerial Yoga Teleport (Forward)",
+        "input": [
+            "6",
+            "+",
+            "K",
+            "K",
+            "K"
+        ],
         "Frame.Start-up": null,
         "Frame.Active": null,
         "Frame.Recovery": 29,
@@ -1100,6 +1473,19 @@
     {
         "section": "Special Moves",
         "Move Name": "Yoga Teleport (Backward)",
+        "input": [
+            "4",
+            "+",
+            "P",
+            "P",
+            "P",
+            null,
+            "4",
+            "+",
+            "K",
+            "K",
+            "K"
+        ],
         "Frame.Start-up": null,
         "Frame.Active": null,
         "Frame.Recovery": 46,
@@ -1118,6 +1504,13 @@
     {
         "section": "Special Moves",
         "Move Name": "P Aerial Yoga Teleport (Backward)",
+        "input": [
+            "4",
+            "+",
+            "P",
+            "P",
+            "P"
+        ],
         "Frame.Start-up": null,
         "Frame.Active": null,
         "Frame.Recovery": 34,
@@ -1136,6 +1529,13 @@
     {
         "section": "Special Moves",
         "Move Name": "K Aerial Yoga Teleport (Backward)",
+        "input": [
+            "4",
+            "+",
+            "K",
+            "K",
+            "K"
+        ],
         "Frame.Start-up": null,
         "Frame.Active": null,
         "Frame.Recovery": 34,
@@ -1154,6 +1554,16 @@
     {
         "section": "Super Arts",
         "Move Name": "SA1 L Yoga Inferno",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "LP"
+        ],
         "Frame.Start-up": 10,
         "Frame.Active": "10-93",
         "Frame.Recovery": 133,
@@ -1172,6 +1582,16 @@
     {
         "section": "Super Arts",
         "Move Name": "SA1 M Yoga Inferno",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "MP"
+        ],
         "Frame.Start-up": 10,
         "Frame.Active": "10-93",
         "Frame.Recovery": 133,
@@ -1190,6 +1610,16 @@
     {
         "section": "Super Arts",
         "Move Name": "SA1 H Yoga Inferno",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "HP"
+        ],
         "Frame.Start-up": 10,
         "Frame.Active": "10-93",
         "Frame.Recovery": 133,
@@ -1208,6 +1638,16 @@
     {
         "section": "Super Arts",
         "Move Name": "SA2 Yoga Sunburst(Lv1)",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "2",
+            "1",
+            "4",
+            "+",
+            "K"
+        ],
         "Frame.Start-up": 7,
         "Frame.Active": null,
         "Frame.Recovery": 67,
@@ -1226,6 +1666,16 @@
     {
         "section": "Super Arts",
         "Move Name": "SA2 Yoga Sunburst(Lv2)",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "2",
+            "1",
+            "4",
+            "+",
+            "K"
+        ],
         "Frame.Start-up": 7,
         "Frame.Active": null,
         "Frame.Recovery": 80,
@@ -1244,6 +1694,16 @@
     {
         "section": "Super Arts",
         "Move Name": "SA2 Yoga Sunburst(Lv3)",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "2",
+            "1",
+            "4",
+            "+",
+            "K"
+        ],
         "Frame.Start-up": 7,
         "Frame.Active": null,
         "Frame.Recovery": 128,
@@ -1262,6 +1722,16 @@
     {
         "section": "Super Arts",
         "Move Name": "SA3 Merciless Yoga",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "K"
+        ],
         "Frame.Start-up": 10,
         "Frame.Active": "10-14",
         "Frame.Recovery": 75,
@@ -1280,6 +1750,16 @@
     {
         "section": "Super Arts",
         "Move Name": "CA Merciless Yoga",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "K"
+        ],
         "Frame.Start-up": 10,
         "Frame.Active": "10-14",
         "Frame.Recovery": 75,
@@ -1298,6 +1778,14 @@
     {
         "section": "Throws",
         "Move Name": "Yoga Smash",
+        "input": [
+            null,
+            null,
+            "6",
+            "+",
+            "LP",
+            "LK"
+        ],
         "Frame.Start-up": 5,
         "Frame.Active": "5-7",
         "Frame.Recovery": 23,
@@ -1316,6 +1804,12 @@
     {
         "section": "Throws",
         "Move Name": "Yoga Throw",
+        "input": [
+            "4",
+            "+",
+            "LP",
+            "LK"
+        ],
         "Frame.Start-up": 5,
         "Frame.Active": "5-7",
         "Frame.Recovery": 23,
@@ -1334,6 +1828,12 @@
     {
         "section": "Throws",
         "Move Name": "Yoga Splash",
+        "input": [
+            "2",
+            "+",
+            "LP",
+            "LK"
+        ],
         "Frame.Start-up": 5,
         "Frame.Active": "5-7",
         "Frame.Recovery": 23,
@@ -1352,6 +1852,10 @@
     {
         "section": "Common Moves",
         "Move Name": "Forward Dash",
+        "input": [
+            "6",
+            "6"
+        ],
         "Frame.Start-up": null,
         "Frame.Active": null,
         "Frame.Recovery": 25,
@@ -1370,6 +1874,10 @@
     {
         "section": "Common Moves",
         "Move Name": "Backward Dash",
+        "input": [
+            "4",
+            "4"
+        ],
         "Frame.Start-up": null,
         "Frame.Active": null,
         "Frame.Recovery": 23,
@@ -1388,6 +1896,10 @@
     {
         "section": "Common Moves",
         "Move Name": "Drive Impact: Yoga Rise",
+        "input": [
+            "HP",
+            "HK"
+        ],
         "Frame.Start-up": 26,
         "Frame.Active": "26-27",
         "Frame.Recovery": 35,
@@ -1406,6 +1918,12 @@
     {
         "section": "Common Moves",
         "Move Name": "Drive Reversal: Yoga Illusion",
+        "input": [
+            "6",
+            "+",
+            "HP",
+            "HK"
+        ],
         "Frame.Start-up": 20,
         "Frame.Active": "20-3120-22, 29-31",
         "Frame.Recovery": 26,
@@ -1424,6 +1942,10 @@
     {
         "section": "Common Moves",
         "Move Name": "Drive Parry",
+        "input": [
+            "MP",
+            "MK"
+        ],
         "Frame.Start-up": 1,
         "Frame.Active": "[*1] 1-8",
         "Frame.Recovery": 29,
@@ -1442,6 +1964,10 @@
     {
         "section": "Common Moves",
         "Move Name": "Perfect Parry (strike)",
+        "input": [
+            "MP",
+            "MK"
+        ],
         "Frame.Start-up": 1,
         "Frame.Active": null,
         "Frame.Recovery": 1,
@@ -1460,6 +1986,10 @@
     {
         "section": "Common Moves",
         "Move Name": "Perfect Parry (projectile)",
+        "input": [
+            "MP",
+            "MK"
+        ],
         "Frame.Start-up": 1,
         "Frame.Active": null,
         "Frame.Recovery": 10,
@@ -1478,6 +2008,10 @@
     {
         "section": "Common Moves",
         "Move Name": "Parry Drive Rush",
+        "input": [
+            "6",
+            "6"
+        ],
         "Frame.Start-up": null,
         "Frame.Active": null,
         "Frame.Recovery": 45,
@@ -1496,6 +2030,17 @@
     {
         "section": "Common Moves",
         "Move Name": "Cancel Drive Rush",
+        "input": [
+            "6",
+            "6",
+            null,
+            null,
+            null,
+            "6",
+            "+",
+            "MP",
+            "MK"
+        ],
         "Frame.Start-up": null,
         "Frame.Active": null,
         "Frame.Recovery": 46,
