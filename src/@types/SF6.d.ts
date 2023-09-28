@@ -59,6 +59,7 @@ export declare global {
             name?: string
             startFrame?: number
             rowNumber?: OkiRowNumber
+            frameData?: any
         }
 
         export interface IColumns {

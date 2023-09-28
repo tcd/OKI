@@ -3,7 +3,7 @@ import { Box } from "@mui/material"
 
 import type { ISxProps as SxProps } from "@app/theme"
 import { OkiConstants } from "@app/util"
-import { Selectors } from "@app/state"
+import { Selectors, useAppSelector } from "@app/state"
 import { Frame } from "./Frame"
 
 export type OkiRowProps = {
@@ -17,6 +17,7 @@ export const OkiRow = (props: OkiRowProps): JSX.Element => {
     } = props
 
     const activeRowNumber = useSelector(Selectors.Main.activeRowNumber)
+    const okiRowData = useAppSelector((state) => Selectors.Main.okiRowPlus(state, number))
 
     const sx: SxProps = {
         "&:hover": {
@@ -30,6 +31,7 @@ export const OkiRow = (props: OkiRowProps): JSX.Element => {
             key={i}
             number={number}
             frame={i}
+            rowData={okiRowData}
         />
     ))
 

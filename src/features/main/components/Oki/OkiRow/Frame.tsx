@@ -8,6 +8,7 @@ import { Actions } from "@app/state"
 export type FrameProps = {
     number: SF6.OkiRowNumber
     frame: number
+    rowData: SF6.IOkiRow
 }
 
 export const Frame = (props: FrameProps): JSX.Element => {
@@ -17,6 +18,7 @@ export const Frame = (props: FrameProps): JSX.Element => {
     const {
         number,
         frame,
+        rowData,
     } = props
 
     const handleClick = () => {
@@ -28,6 +30,10 @@ export const Frame = (props: FrameProps): JSX.Element => {
 
     const $content = OkiConstants.DOT
 
+    const sx: SxProps = {
+
+    }
+
     return (
         <Box
             component="span"
@@ -36,11 +42,4 @@ export const Frame = (props: FrameProps): JSX.Element => {
             {$content}
         </Box>
     )
-}
-
-
-// =============================================================================
-
-const sx: SxProps = {
-
 }

@@ -17,6 +17,18 @@ const okiRow = (s: RootState, row: SF6.OkiRowNumber) => selectSlice(s)[`oki${row
 const activeRow = (s: RootState) => okiRow(s, activeRowNumber(s))
 const activeMove = (s: RootState) => character1MoveData(s, activeRow(s).name)
 
+const okiRowPlus = (s: RootState, row: SF6.OkiRowNumber) => {
+    const okiData = okiRow(s, row)
+    if (!!!okiData?.name) {
+        return okiData
+    }
+    const frameData = character1MoveData(s, okiData.name)
+    return {
+        ...okiData,
+        frameData,
+    }
+}
+
 // =============================================================================
 
 export default {
@@ -30,4 +42,5 @@ export default {
     activeRowNumber,
     activeRow,
     activeMove,
+    okiRowPlus,
 }
