@@ -1,5 +1,6 @@
 export * from "./ErrorBoundary"
 export * from "./Img"
+export * from "./InputDisplay"
 export * from "./JsonDisplay"
 export * from "./Link"
 export * from "./None"

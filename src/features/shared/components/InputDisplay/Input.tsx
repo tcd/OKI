@@ -1,5 +1,6 @@
 import { Box } from "@mui/material"
 
+import type { ISxProps as SxProps } from "@app/theme"
 import { Img } from "@app/features/shared/components/Img"
 import { INPUT_URLS } from "./InputUrls"
 
@@ -16,12 +17,24 @@ export const Input = (props: InputProps): JSX.Element => {
     return (
         <Box
             component="span"
-            sx={{}}
+            sx={rootSx}
         >
             <Img
                 src={inputSrc}
-                sx={{}}
+                sx={imgSx}
             />
         </Box>
     )
+}
+
+// =============================================================================
+
+const rootSx: SxProps = {
+    width: "20px",
+    height: "20px",
+}
+
+const imgSx: SxProps = {
+    width: "20px",
+    height: "20px",
 }

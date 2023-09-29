@@ -67,7 +67,7 @@ const rootSx: SxProps = {
 
 const tableSx: SxProps = {
     color: "#ccc",
-    fontSize: "10px",
+    fontSize: "14px",
     "& td": {
         textAlign: "center",
     },
