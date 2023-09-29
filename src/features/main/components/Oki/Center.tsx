@@ -11,7 +11,7 @@ export const Center = (): JSX.Element => {
         <Box sx={sx}>
             <ExtraRow1 />
             <ExtraRow2 />
-            {/* <KdRow /> */}
+            <KdRow />
             <OkiRow number="1" />
             <OkiRow number="2" />
             <OkiRow number="3" />

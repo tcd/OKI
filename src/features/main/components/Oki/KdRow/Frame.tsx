@@ -5,6 +5,7 @@ import { Box } from "@mui/material"
 import type { ISxProps as SxProps } from "@app/theme"
 import { OkiConstants } from "@app/util"
 import { Actions } from "@app/state"
+import { BasicFrame } from "./BasicFrame"
 
 export type FrameProps = {
     frame: number
@@ -58,31 +59,6 @@ export const Frame = (props: FrameProps): JSX.Element => {
             sx={sx}
         >
             {$content}
-        </Box>
-    )
-}
-
-// =============================================================================
-
-type BasicFrameProps = {
-    frame: number
-}
-
-const BasicFrame = ({ frame }: BasicFrameProps): JSX.Element => {
-
-    const dispatch = useDispatch()
-
-    return (
-        <Box
-            component="span"
-            onClick={dispatch(Actions.Main.setKdFrame(frame))}
-            sx={{
-                ...baseSx,
-                color: undefined,
-                backgroundColor: undefined,
-            }}
-        >
-            {OkiConstants.DOT}
         </Box>
     )
 }
