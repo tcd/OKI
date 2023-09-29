@@ -30,24 +30,23 @@ const okiRowPlus = (s: RootState, row: SF6.OkiRowNumber): SF6.IOkiRow => {
     }
 }
 
-const player1_activeMoveNames = (s: RootState): string[] => {
-    const slice = selectSlice(s)
-    const results: string[] = []
-    for (const row of OkiConstants.ROWS_RANGE) {
-        const moveName = slice[`oki${row}`]?.name
-        if (!!moveName) {
-            results.push(moveName)
-        }
-    }
-    return results
-}
+// const player1_activeMoveNames = (s: RootState): string[] => {
+//     const slice = selectSlice(s)
+//     const results: string[] = []
+//     for (const row of OkiConstants.ROWS_RANGE) {
+//         const moveName = slice[`oki${row}`]?.name
+//         if (!!moveName) {
+//             results.push(moveName)
+//         }
+//     }
+//     return results
+// }
 
 // =============================================================================
 
 export default {
     character1,
     character2,
-    character1FrameData,
     frameData: {
         character1: character1FrameData,
         character2: character2FrameData,

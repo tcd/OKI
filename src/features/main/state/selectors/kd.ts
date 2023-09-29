@@ -16,9 +16,16 @@ const rowDataPlus = (s: RootState): SF6.IOkiRow => {
     }
 }
 
+const knockdownMoves = (s: RootState) => {
+    const frameData = general.frameData.character1(s)
+    const knockdowns = frameData.filter((move) => move?.hitAdvantage == "D")
+    return knockdowns
+}
+
 // =============================================================================
 
 export default {
     rowData,
     rowDataPlus,
+    knockdownMoves,
 }

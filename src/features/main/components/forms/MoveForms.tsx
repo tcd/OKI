@@ -6,6 +6,7 @@ import {
 
 import { OkiConstants } from "@app/util"
 import { MoveForm } from "./MoveForm"
+import { KdForm } from "./KdForm"
 
 export const MoveForms = (): JSX.Element => {
 
@@ -18,8 +19,12 @@ export const MoveForms = (): JSX.Element => {
     ))
 
     return (
-        <Stack direction="row" spacing={3}>
-            {$forms}
-        </Stack>
+        <>
+            <KdForm />
+            <br />
+            <Stack direction="row" spacing={3}>
+                {$forms}
+            </Stack>
+        </>
     )
 }
