@@ -5,16 +5,17 @@ import type { ISxProps as SxProps } from "@app/theme"
 import { Help } from "./Help"
 import { AboveTable } from "./AboveTable"
 import { Oki } from "./Oki"
-import { Table1 } from "./Table1"
 import { MoveForms } from "./forms"
+import { MovesTable } from "./MovesTable"
 
 export const MainPage = (): JSX.Element => {
     return (
         <Box sx={rootSx}>
             <AboveTable />
             <Oki />
-            <MoveForms />
-            <Table1 />
+            {/* <MoveForms /> */}
+            {/* <Table1 /> */}
+            <MovesTable player="1" />
             <Help />
         </Box>
     )

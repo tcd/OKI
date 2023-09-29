@@ -5,26 +5,24 @@ import {
 
 import { Actions, Selectors } from "@app/state"
 import type { ISxProps as SxProps } from "@app/theme"
+import { EXCLUDED_COLUMNS } from "./shared"
 
-const skips = [
-    "section",
-    "Combo Scaling",
-    "Properties",
-    "Miscellaneous",
-    "driveGain_hit",
-    "driveDrain_block",
-    "driveDrain_punishCounter",
-    "superGain",
-]
+export type MovesTableProps = {
+    player: SF6.TPlayerNumber
+}
 
-export const Table1 = (): JSX.Element => {
+export const MovesTable = (props: MovesTableProps): JSX.Element => {
+
+    const {
+        player,
+    } = props
 
     const dispatch = useDispatch()
 
     const frameData = useSelector(Selectors.Main.frameData.character1)
     const activeMove = useSelector(Selectors.Main.activeMove)
 
-    const columns = Object.keys(frameData[0]).filter(x => !skips.includes(x))
+    const columns = Object.keys(frameData[0]).filter(x => !EXCLUDED_COLUMNS.includes(x))
 
     const $headers = columns.map((col, i) => (
         <td key={i}>{col}</td>
