@@ -5,6 +5,7 @@
         "input": [
             "LP"
         ],
+        "inputString": "LP",
         "startup": 6,
         "active": 3,
         "recovery": 9,
@@ -24,6 +25,7 @@
         "input": [
             "LP"
         ],
+        "inputString": "LP",
         "startup": 3,
         "active": 3,
         "recovery": 9,
@@ -43,6 +45,7 @@
         "input": [
             "LK"
         ],
+        "inputString": "LK",
         "startup": 6,
         "active": 2,
         "recovery": 17,
@@ -62,6 +65,7 @@
         "input": [
             "MP"
         ],
+        "inputString": "MP",
         "startup": 8,
         "active": 4,
         "recovery": 17,
@@ -81,6 +85,7 @@
         "input": [
             "MK"
         ],
+        "inputString": "MK",
         "startup": 9,
         "active": 4,
         "recovery": 19,
@@ -100,6 +105,7 @@
         "input": [
             "HP"
         ],
+        "inputString": "HP",
         "startup": 15,
         "active": 3,
         "recovery": 22,
@@ -119,6 +125,7 @@
         "input": [
             "HP"
         ],
+        "inputString": "HP",
         "startup": 31,
         "active": 3,
         "recovery": 22,
@@ -138,6 +145,7 @@
         "input": [
             "HK"
         ],
+        "inputString": "HK",
         "startup": 12,
         "active": 4,
         "recovery": 21,
@@ -159,6 +167,7 @@
             "+",
             "LP"
         ],
+        "inputString": "2+LP",
         "startup": 5,
         "active": 2,
         "recovery": 8,
@@ -180,6 +189,7 @@
             "+",
             "LP"
         ],
+        "inputString": "2+LP",
         "startup": 2,
         "active": 2,
         "recovery": 8,
@@ -201,6 +211,7 @@
             "+",
             "LK"
         ],
+        "inputString": "2+LK",
         "startup": 3,
         "active": 3,
         "recovery": 12,
@@ -222,6 +233,7 @@
             "+",
             "LK"
         ],
+        "inputString": "2+LK",
         "startup": 2,
         "active": 3,
         "recovery": 12,
@@ -243,6 +255,7 @@
             "+",
             "MP"
         ],
+        "inputString": "2+MP",
         "startup": 7,
         "active": 3,
         "recovery": 16,
@@ -264,6 +277,7 @@
             "+",
             "MK"
         ],
+        "inputString": "2+MK",
         "startup": 8,
         "active": 3,
         "recovery": 18,
@@ -285,6 +299,7 @@
             "+",
             "HP"
         ],
+        "inputString": "2+HP",
         "startup": 11,
         "active": 8,
         "recovery": 35,
@@ -306,6 +321,7 @@
             "+",
             "HK"
         ],
+        "inputString": "2+HK",
         "startup": 11,
         "active": 3,
         "recovery": 27,
@@ -325,6 +341,7 @@
         "input": [
             "LP"
         ],
+        "inputString": "LP",
         "startup": 4,
         "active": 7,
         "recovery": 3,
@@ -344,6 +361,7 @@
         "input": [
             "LK"
         ],
+        "inputString": "LK",
         "startup": 4,
         "active": 10,
         "recovery": 3,
@@ -363,6 +381,7 @@
         "input": [
             "MP"
         ],
+        "inputString": "MP",
         "startup": 7,
         "active": 5,
         "recovery": 3,
@@ -382,6 +401,7 @@
         "input": [
             "MK"
         ],
+        "inputString": "MK",
         "startup": 7,
         "active": 8,
         "recovery": 3,
@@ -401,6 +421,7 @@
         "input": [
             "HP"
         ],
+        "inputString": "HP",
         "startup": 8,
         "active": 6,
         "recovery": 3,
@@ -420,6 +441,7 @@
         "input": [
             "HK"
         ],
+        "inputString": "HK",
         "startup": 9,
         "active": 7,
         "recovery": 3,
@@ -439,6 +461,7 @@
         "input": [
             "HK"
         ],
+        "inputString": "HK",
         "startup": 31,
         "active": 6,
         "recovery": 20,
@@ -460,6 +483,7 @@
             "+",
             "MP"
         ],
+        "inputString": "3+MP",
         "startup": 6,
         "active": 3,
         "recovery": 21,
@@ -481,6 +505,7 @@
             "+",
             "MK"
         ],
+        "inputString": "6+MK",
         "startup": 13,
         "active": 7,
         "recovery": 14,
@@ -502,6 +527,7 @@
             "+",
             "HP"
         ],
+        "inputString": "6+HP",
         "startup": 13,
         "active": 5,
         "recovery": 15,
@@ -523,6 +549,7 @@
             "+",
             "HK"
         ],
+        "inputString": "6+HK",
         "startup": 21,
         "active": 7,
         "recovery": 25,
@@ -544,6 +571,7 @@
             "+",
             "HK"
         ],
+        "inputString": "3+HK",
         "startup": 15,
         "active": 4,
         "recovery": 40,
@@ -565,6 +593,7 @@
             "+",
             "HP"
         ],
+        "inputString": "2+HP",
         "startup": 8,
         "active": 9,
         "recovery": 8,
@@ -586,6 +615,7 @@
             "+",
             "HP"
         ],
+        "inputString": "8+HP",
         "startup": 7,
         "active": 4,
         "recovery": 3,
@@ -607,6 +637,7 @@
             ">",
             "MP"
         ],
+        "inputString": "MP>MP",
         "startup": 8,
         "active": 4,
         "recovery": 20,
@@ -630,6 +661,7 @@
             ">",
             "MP"
         ],
+        "inputString": "MP>MP>MP",
         "startup": 14,
         "active": 3,
         "recovery": 32,
@@ -652,6 +684,7 @@
             "+",
             "MK"
         ],
+        "inputString": "22+MK",
         "startup": 8,
         "active": 3,
         "recovery": 17,
@@ -676,6 +709,7 @@
             ">",
             "MK"
         ],
+        "inputString": "22+MK>MK",
         "startup": 8,
         "active": 3,
         "recovery": 19,
@@ -702,6 +736,7 @@
             ">",
             "MK"
         ],
+        "inputString": "22+MK>MK>MK",
         "startup": 9,
         "active": 3,
         "recovery": 24,
@@ -722,6 +757,7 @@
             "P",
             "P"
         ],
+        "inputString": "PP",
         "startup": 14,
         "active": 4501,
         "recovery": 27,
@@ -743,6 +779,7 @@
             "MP",
             "HP"
         ],
+        "inputString": "LPMPHP",
         "startup": 11,
         "active": 3601,
         "recovery": 26,
@@ -764,6 +801,7 @@
             "+",
             "LP"
         ],
+        "inputString": "360+LP",
         "startup": 4,
         "active": 3,
         "recovery": 54,
@@ -785,6 +823,7 @@
             "+",
             "MP"
         ],
+        "inputString": "360+MP",
         "startup": 4,
         "active": 3,
         "recovery": 54,
@@ -806,6 +845,7 @@
             "+",
             "HP"
         ],
+        "inputString": "360+HP",
         "startup": 4,
         "active": 3,
         "recovery": 54,
@@ -828,6 +868,7 @@
             "P",
             "P"
         ],
+        "inputString": "360+PP",
         "startup": 4,
         "active": 3,
         "recovery": 54,
@@ -849,6 +890,7 @@
             "+",
             "K"
         ],
+        "inputString": "360+K",
         "startup": 3,
         "active": 3,
         "recovery": 16,
@@ -871,6 +913,7 @@
             "K",
             "K"
         ],
+        "inputString": "360+KK",
         "startup": 3,
         "active": 3,
         "recovery": 16,
@@ -896,6 +939,7 @@
             "+",
             "K"
         ],
+        "inputString": "63214+K",
         "startup": 9,
         "active": 2,
         "recovery": 50,
@@ -922,6 +966,7 @@
             "K",
             "K"
         ],
+        "inputString": "63214+KK",
         "startup": 9,
         "active": 2,
         "recovery": 50,
@@ -947,6 +992,7 @@
             "+",
             "K"
         ],
+        "inputString": "63214+K",
         "startup": 27,
         "active": 2,
         "recovery": 41,
@@ -973,6 +1019,7 @@
             "K",
             "K"
         ],
+        "inputString": "63214+KK",
         "startup": 22,
         "active": 2,
         "recovery": 44,
@@ -998,6 +1045,7 @@
             "+",
             "K"
         ],
+        "inputString": "63214+K",
         "startup": 54,
         "active": 2,
         "recovery": 40,
@@ -1024,6 +1072,7 @@
             "K",
             "K"
         ],
+        "inputString": "63214+KK",
         "startup": 53,
         "active": 2,
         "recovery": 40,
@@ -1046,6 +1095,7 @@
             "+",
             "HK"
         ],
+        "inputString": "22+HK",
         "startup": 4,
         "active": 51,
         "recovery": 24,
@@ -1072,6 +1122,7 @@
             "+",
             "K"
         ],
+        "inputString": "236236+K",
         "startup": 10,
         "active": 7,
         "recovery": 60,
@@ -1098,6 +1149,7 @@
             "+",
             "P"
         ],
+        "inputString": "236236+P",
         "startup": null,
         "active": null,
         "recovery": 52,
@@ -1124,6 +1176,7 @@
             "+",
             "P"
         ],
+        "inputString": "236236+P",
         "startup": null,
         "active": null,
         "recovery": "",
@@ -1150,6 +1203,7 @@
             "+",
             "P"
         ],
+        "inputString": "236236+P",
         "startup": null,
         "active": null,
         "recovery": "",
@@ -1172,6 +1226,7 @@
             "+",
             "P"
         ],
+        "inputString": "360360+P",
         "startup": 5,
         "active": 2,
         "recovery": 116,
@@ -1194,6 +1249,7 @@
             "+",
             "P"
         ],
+        "inputString": "360360+P",
         "startup": 5,
         "active": 2,
         "recovery": 116,
@@ -1216,6 +1272,7 @@
             "LP",
             "LK"
         ],
+        "inputString": "5+LPLK",
         "startup": 4,
         "active": 3,
         "recovery": 23,
@@ -1238,6 +1295,7 @@
             "LP",
             "LK"
         ],
+        "inputString": "4+LPLK",
         "startup": 4,
         "active": 3,
         "recovery": 23,
@@ -1260,6 +1318,7 @@
             "LP",
             "LK"
         ],
+        "inputString": "6+LPLK",
         "startup": 4,
         "active": 3,
         "recovery": 23,
@@ -1282,6 +1341,7 @@
             "LP",
             "LK"
         ],
+        "inputString": "3+LPLK",
         "startup": 4,
         "active": 3,
         "recovery": 23,
@@ -1304,6 +1364,7 @@
             "LP",
             "LK"
         ],
+        "inputString": "1+LPLK",
         "startup": 4,
         "active": 3,
         "recovery": 23,
@@ -1326,6 +1387,7 @@
             "LP",
             "LK"
         ],
+        "inputString": "2+LPLK",
         "startup": 4,
         "active": 3,
         "recovery": 23,
@@ -1346,6 +1408,7 @@
             "6",
             "6"
         ],
+        "inputString": "66",
         "startup": null,
         "active": null,
         "recovery": 22,
@@ -1366,6 +1429,7 @@
             "4",
             "4"
         ],
+        "inputString": "44",
         "startup": null,
         "active": null,
         "recovery": 25,
@@ -1386,6 +1450,7 @@
             "HP",
             "HK"
         ],
+        "inputString": "HPHK",
         "startup": 25,
         "active": 2,
         "recovery": 35,
@@ -1408,6 +1473,7 @@
             "HP",
             "HK"
         ],
+        "inputString": "6+HPHK",
         "startup": 19,
         "active": 3,
         "recovery": 26,
@@ -1428,6 +1494,7 @@
             "MP",
             "MK"
         ],
+        "inputString": "MPMK",
         "startup": null,
         "active": null,
         "recovery": 29,
@@ -1448,6 +1515,7 @@
             "MP",
             "MK"
         ],
+        "inputString": "MPMK",
         "startup": 1,
         "active": null,
         "recovery": 1,
@@ -1468,6 +1536,7 @@
             "MP",
             "MK"
         ],
+        "inputString": "MPMK",
         "startup": 1,
         "active": null,
         "recovery": 10,
@@ -1488,6 +1557,7 @@
             "6",
             "6"
         ],
+        "inputString": "66",
         "startup": null,
         "active": null,
         "recovery": 45,
@@ -1515,6 +1585,7 @@
             "MP",
             "MK"
         ],
+        "inputString": "66/5/6+MPMK",
         "startup": null,
         "active": null,
         "recovery": 46,
