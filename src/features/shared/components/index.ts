@@ -1,3 +1,4 @@
+export * from "./DescriptionList"
 export * from "./ErrorBoundary"
 export * from "./Img"
 export * from "./InputDisplay"
