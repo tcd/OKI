@@ -10,10 +10,10 @@ export const KdRow = (): JSX.Element => {
 
     const kd = useSelector(Selectors.Main.kd.rowDataPlus)
 
-    const $frames = OkiConstants.FRAMES_RANGE.map((i) => (
+    const $frames = OkiConstants.FRAMES_RANGE.map((frame) => (
         <Frame
-            key={i}
-            frame={i}
+            key={frame}
+            frame={frame}
             kd={kd}
         />
     ))
