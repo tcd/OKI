@@ -3,6 +3,7 @@ import { Box } from "@mui/material"
 import type { ISxProps as SxProps } from "@app/theme"
 import { ErrorBoundary } from "@app/features/shared"
 import { MainPage } from "@app/features/main"
+import { Modals } from "../modals"
 import { AppHeader } from "./AppHeader"
 import { AppFooter } from "./AppFooter"
 
@@ -13,6 +14,7 @@ export const AppLayout = (): JSX.Element => {
             <Box sx={{ flexGrow: 1 }}>
                 <ErrorBoundary name="AppLayout">
                     <MainPage />
+                    <Modals />
                 </ErrorBoundary>
             </Box>
             <AppFooter />

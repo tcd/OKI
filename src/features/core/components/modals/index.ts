@@ -1,1 +1,1 @@
-export * from "./HelpModal"
+export * from "./Modals"

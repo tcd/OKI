@@ -1,6 +1,7 @@
+import { useDispatch } from "react-redux"
+
 import { Link, type LinkProps } from "@app/features/shared"
 import { Actions } from "@app/state"
-import { useDispatch } from "react-redux"
 
 export const AppHeader = (): JSX.Element => {
 

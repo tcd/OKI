@@ -11,7 +11,7 @@ export const HelpModal = (): JSX.Element => {
     const open = useSelector(Selectors.Core.openModals.help)
 
     const handleClose = () => {
-        dispatch(Actions.Core.closeModal())
+        dispatch(Actions.Core.closeModal("help"))
     }
 
     return (
