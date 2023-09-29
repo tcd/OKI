@@ -19,6 +19,7 @@ export const Oki = (): JSX.Element => {
 
 const sx: SxProps = {
     px: 1,
+    py: 3,
     display: "flex",
     flexFlow: "row nowrap",
     fontSize: "13px",
