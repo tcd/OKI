@@ -1,9 +1,9 @@
 import { OkiConstants } from "@app/util"
 import { type ISxProps as SxProps } from "@app/theme"
 import { type RootState } from "@app/state"
-import { type MainState } from "../state"
-import { selectSlice } from "./select-slice"
-import general from "./general"
+import { type MainState } from "../../state"
+import { selectSlice } from "../select-slice"
+import general from "../general"
 
 export interface IOkiRowProps {
     frame: {
