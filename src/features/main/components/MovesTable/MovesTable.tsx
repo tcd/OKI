@@ -5,7 +5,8 @@ import {
 
 import { Actions, Selectors } from "@app/state"
 import type { ISxProps as SxProps } from "@app/theme"
-import { EXCLUDED_COLUMNS } from "./shared"
+import { filterColumns } from "./shared"
+import { Cell } from "./Cell"
 
 export type MovesTableProps = {
     player: SF6.TPlayerNumber
@@ -22,7 +23,7 @@ export const MovesTable = (props: MovesTableProps): JSX.Element => {
     const frameData = useSelector(Selectors.Main.frameData.character1)
     const activeMove = useSelector(Selectors.Main.activeMove)
 
-    const columns = Object.keys(frameData[0]).filter(x => !EXCLUDED_COLUMNS.includes(x))
+    const columns = filterColumns(frameData)
 
     const $headers = columns.map((col, i) => (
         <td key={i}>{col}</td>
@@ -37,9 +38,13 @@ export const MovesTable = (props: MovesTableProps): JSX.Element => {
             }}
         >
             {columns.map((col, j) => (
-                <td key={j}>
-                    {row[col] ?? ""}
-                </td>
+                <Cell
+                    key={j}
+                    player={player}
+                    row={row}
+                    column={col}
+                    active={row.name == activeMove?.name}
+                />
             ))}
         </tr>
     ))
@@ -70,16 +75,15 @@ const rootSx: SxProps = {
 const tableSx: SxProps = {
     color: "#ccc",
     fontSize: "10px",
+    "& td": {
+        textAlign: "center",
+    },
     "& thead": {
         backgroundColor: "#111111",
-        "& tr > td": {
-            textAlign: "center",
-            fontWeight: "bold",
-        },
+        fontWeight: "bold",
     },
     "& tbody": {
         backgroundColor: "#333333",
-        textAlign: "center",
         "& tr": {
             "&:nth-of-type(even)": {
                 backgroundColor: "#333333",

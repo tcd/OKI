@@ -31,6 +31,4 @@ export const Cell = (props: CellProps): JSX.Element => {
 // =============================================================================
 
 const rootSx: SxProps = {
-    textAlign: "center",
-    fontWeight: "bold",
 }

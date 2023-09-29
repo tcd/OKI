@@ -8,3 +8,7 @@ export const EXCLUDED_COLUMNS = [
     "driveDrain_punishCounter",
     "superGain",
 ]
+
+export const filterColumns = (frameData: SF6.ICharacterFrameData[]): (keyof SF6.ICharacterFrameData)[] => {
+    return Object.keys(frameData[0]).filter(x => !EXCLUDED_COLUMNS.includes(x)) as (keyof SF6.ICharacterFrameData)[]
+}
