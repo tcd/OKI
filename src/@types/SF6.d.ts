@@ -1,6 +1,8 @@
 export declare global {
     export namespace SF6 {
 
+        export type TPlayerNumber = "1" | "2"
+
         export type TInput =
             | "1"
             | "2"
@@ -20,9 +22,11 @@ export declare global {
             | "P"
             | "K"
             | "+"
-            | "arrow"
+            | ">"
+            | "|"
             | "c4"
             | "c2"
+            | "360"
 
         export type CharacterNameClean =
             | "aki"
