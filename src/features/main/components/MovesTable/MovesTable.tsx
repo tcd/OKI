@@ -6,6 +6,7 @@ import {
 import { Actions, Selectors } from "@app/state"
 import type { ISxProps as SxProps } from "@app/theme"
 import { filterColumns } from "./shared"
+import { THead } from "./THead"
 import { Cell } from "./Cell"
 
 export type MovesTableProps = {
@@ -24,15 +25,6 @@ export const MovesTable = (props: MovesTableProps): JSX.Element => {
     const activeMove = useSelector(Selectors.Main.activeMove)
 
     const columns = filterColumns(frameData)
-
-    const $headers = columns.map((col, i) => (
-        <td
-            key={i}
-            onClick={() => {}}
-        >
-            {col}
-        </td>
-    ))
 
     const $rows = frameData.map((row, i) => (
         <tr
@@ -57,11 +49,7 @@ export const MovesTable = (props: MovesTableProps): JSX.Element => {
     return (
         <Box sx={rootSx}>
             <Box component="table" sx={tableSx}>
-                <thead>
-                    <tr>
-                        {$headers}
-                    </tr>
-                </thead>
+                <THead player={player} columns={columns}/>
                 <tbody>
                     {$rows}
                 </tbody>

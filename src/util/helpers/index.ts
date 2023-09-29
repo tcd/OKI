@@ -1,5 +1,6 @@
 export * from "./create-request-selectors"
 export * from "./merge"
 export * from "./sha1"
+export * from "./title-case"
 export * from "./try-parse-int"
 export * from "./update-array"
