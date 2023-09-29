@@ -1,6 +1,7 @@
 import type { RootState } from "@app/state"
 import { FRAME_DATA } from "@app/data"
 import { selectSlice } from "./select-slice"
+import { OkiConstants } from "@app/util"
 
 const character1 = (s: RootState) => selectSlice(s).character1
 const character2 = (s: RootState) => selectSlice(s).character2
@@ -27,6 +28,18 @@ const okiRowPlus = (s: RootState, row: SF6.OkiRowNumber): SF6.IOkiRow => {
         ...okiData,
         frameData,
     }
+}
+
+const player1_activeMoveNames = (s: RootState): string[] => {
+    const slice = selectSlice(s)
+    const results: string[] = []
+    for (const row of OkiConstants.ROWS_RANGE) {
+        const moveName = slice[`oki${row}`]?.name
+        if (!!moveName) {
+            results.push(moveName)
+        }
+    }
+    return results
 }
 
 // =============================================================================
