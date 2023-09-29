@@ -11,7 +11,7 @@ import { Actions, Selectors } from "@app/state"
 import { CHARACTER_OPTIONS, prettyCharacterName } from "./options"
 
 export type CharacterPickerProps = {
-    player: "1" | "2"
+    player: SF6.TPlayerNumber
 }
 
 export const CharacterPicker = (props: CharacterPickerProps): JSX.Element => {

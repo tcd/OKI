@@ -3,13 +3,8 @@ import type { ActionReducerMapBuilder, PayloadAction } from "@reduxjs/toolkit"
 import type { MainState } from "./state"
 import { INITIAL_GAME_STATE as INITIAL_STATE } from "./state"
 
-export type Extra2ClickPayload = {
-    frame: number
-    // side: "top" | "bottom"
-}
-
 export type SetCharacterPayload = {
-    player: "1" | "2"
+    player: SF6.TPlayerNumber
     character: SF6.CharacterNameClean
 }
 
@@ -18,16 +13,15 @@ export type FrameClickPayload = {
     frame: number
 }
 
+export type Extra2ClickPayload = {
+    frame: number
+    // side: "top" | "bottom"
+}
+
 export const reducers = {
     resetState: () => INITIAL_STATE,
     setCharacter: (state: MainState, { payload }: PayloadAction<SetCharacterPayload>) => {
         state[`character${payload.player}`] = payload.character
-    },
-    setPlayer1: (state: MainState, { payload }: PayloadAction<SF6.CharacterNameClean>) => {
-        state.character1 = payload
-    },
-    setPlayer2: (state: MainState, { payload }: PayloadAction<SF6.CharacterNameClean>) => {
-        state.character2 = payload
     },
     setActiveRow: (state: MainState, { payload }: PayloadAction<SF6.OkiRowNumber>) => {
         state.activeRow = payload
