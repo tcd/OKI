@@ -27,7 +27,7 @@ export const OkiRow = (props: OkiRowProps): JSX.Element => {
         backgroundColor: (activeRowNumber == number) ? "#002200 !important" : "#000",
     }
 
-    const $frames = OkiConstants.RANGE.map((i) => (
+    const $frames = OkiConstants.FRAMES_RANGE.map((i) => (
         <Frame
             key={i}
             number={number}

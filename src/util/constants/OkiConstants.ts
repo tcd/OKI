@@ -1,9 +1,11 @@
 import range from "lodash/range"
 
 const DOT = "·"
-const RANGE = range(1, 120)
+const FRAMES_RANGE = range(1, 120)
+const ROWS_RANGE   = range(1, 7)
 
 export const OkiConstants = {
     DOT,
-    RANGE,
+    FRAMES_RANGE,
+    ROWS_RANGE,
 }

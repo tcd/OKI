@@ -7,7 +7,7 @@ import { OkiConstants } from "@app/util"
 
 export const ExtraRow2 = (): JSX.Element => {
 
-    const $numbers = OkiConstants.RANGE.map((i) => <Number key={i} fullNumber={i}/>)
+    const $numbers = OkiConstants.FRAMES_RANGE.map((i) => <Number key={i} fullNumber={i}/>)
 
     return (
         <Box>
