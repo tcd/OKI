@@ -8,6 +8,11 @@ export type Extra2ClickPayload = {
     // side: "top" | "bottom"
 }
 
+export type SetCharacterPayload = {
+    player: "1" | "2"
+    character: SF6.CharacterNameClean
+}
+
 export type FrameClickPayload = {
     rowNumber: SF6.OkiRowNumber
     frame: number
@@ -15,6 +20,9 @@ export type FrameClickPayload = {
 
 export const reducers = {
     resetState: () => INITIAL_STATE,
+    setCharacter: (state: MainState, { payload }: PayloadAction<SetCharacterPayload>) => {
+        state[`character${payload.player}`] = payload.character
+    },
     setPlayer1: (state: MainState, { payload }: PayloadAction<SF6.CharacterNameClean>) => {
         state.character1 = payload
     },
