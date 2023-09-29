@@ -1,8 +1,4 @@
-import {
-    Box,
-    Paper,
-    Stack,
-} from "@mui/material"
+import { Box } from "@mui/material"
 
 import { Img } from "@app/features/shared/components/Img"
 import { INPUT_URLS } from "./InputUrls"
