@@ -10,6 +10,7 @@ export const ColRight = (): JSX.Element => {
     return (
         <Box sx={sx}>
             <Col1 />
+            <Col3 />
             <Col2 />
             <Col3 />
             <Col4 />

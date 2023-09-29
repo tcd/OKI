@@ -1,3 +1,4 @@
+import range from "lodash/range"
 import { useDispatch } from "react-redux"
 import { Box } from "@mui/material"
 
@@ -44,21 +45,28 @@ export const Frame = (props: FrameProps): JSX.Element => {
             const startup = rowData.frameData.startup
             const activeLimit = (startup + rowData.frameData.active)
             const recoveryLimit = (activeLimit + rowData.frameData.recovery)
+            const plusRange = range(activeLimit, activeLimit + rowData.frameData.hitAdvantage)
 
-            if (relativeFrame <= startup) {
-                $content = "s"
-                sx.color = "#AAA"
-                sx.backgroundColor = "#002222 !important"
-            }
-            if (relativeFrame >= startup && relativeFrame < activeLimit) {
-                $content = "A"
-                sx.color = "#fcc !important"
-                sx.backgroundColor = "#002222 !important"
-            }
-            if (relativeFrame >= activeLimit && relativeFrame <= recoveryLimit) {
-                $content = "r"
-                sx.color = "#AAA"
-                sx.backgroundColor = "#002222 !important"
+            if (relativeFrame <= recoveryLimit) {
+                if (relativeFrame <= startup) {
+                    $content = "s"
+                    sx.color = "#AAA"
+                    sx.backgroundColor = "#002222"
+                }
+                if (relativeFrame >= startup && relativeFrame < activeLimit) {
+                    $content = "A"
+                    sx.color = "#fcc !important"
+                    sx.backgroundColor = "#002222"
+                }
+                if (relativeFrame >= activeLimit && relativeFrame <= recoveryLimit) {
+                    $content = "r"
+                    sx.color = "#AAA"
+                    sx.backgroundColor = "#002222"
+                }
+                if (plusRange.includes(relativeFrame)) {
+                    $content = "r"
+                    sx.color = "green"
+                }
             }
         }
     }
