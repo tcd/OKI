@@ -75,22 +75,18 @@ export const componentOverrides: Components<ITheme> = {
     // -------------------------------------------------------------------------
     // Inputs
     // -------------------------------------------------------------------------
-    MuiInputBase: {
-        styleOverrides: {
-            root: {
-                backgroundColor: "white",
-            },
-        },
-    },
     MuiTextField: {
         defaultProps: {
             // variant: "outlined",
             size: "small",
         },
         // styleOverrides: {
-        //     root: ({ theme: _theme }) => ({
-        //         // background: theme.palette.mode === "dark" ? "black" : "white",
-        //         // backgroundColor: theme.palette.mode === "dark" ? "black" : "white",
+        //     root: {
+        //         backgroundColor: "white",
+        //     },
+        //     root: ({ theme: theme }) => ({
+        //         background: theme.palette.mode === "dark" ? "black" : "white",
+        //         backgroundColor: theme.palette.mode === "dark" ? "black" : "white",
         //     }),
         // },
     },
@@ -101,13 +97,13 @@ export const componentOverrides: Components<ITheme> = {
     //         },
     //     },
     // },
-    MuiFormControl: {
-        styleOverrides: {
-            root: {
-                backgroundColor: "transparent",
-            },
-        },
-    },
+    // MuiFormControl: {
+    //     styleOverrides: {
+    //         root: {
+    //             backgroundColor: "transparent",
+    //         },
+    //     },
+    // },
     MuiFormHelperText: {
         defaultProps: {
             // @ts-ignore: next-line
