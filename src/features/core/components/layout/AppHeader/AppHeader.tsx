@@ -1,6 +1,10 @@
 import { Link, type LinkProps } from "@app/features/shared"
+import { Actions } from "@app/state"
+import { useDispatch } from "react-redux"
 
 export const AppHeader = (): JSX.Element => {
+
+    const dispatch = useDispatch()
 
     const $links = links.map((link, i) => (
         <li key={i}><Link {...link}/></li>
@@ -10,6 +14,9 @@ export const AppHeader = (): JSX.Element => {
         <>
             <ul>
                 {$links}
+                <li onClick={() => dispatch(Actions.Core.openModal("help"))}>
+                    Help
+                </li>
             </ul>
         </>
     )

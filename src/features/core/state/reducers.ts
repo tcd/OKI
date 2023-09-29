@@ -23,10 +23,10 @@ export const reducers = {
     // -------------------------------------------------------------------------
     // Modals
     // -------------------------------------------------------------------------
-    openModal: (state: CoreState, { payload }: PayloadAction<string>) => {
+    openModal: (state: CoreState, { payload }: PayloadAction<keyof CoreState["openModals"]>) => {
         state.openModals[payload] = true
     },
-    closeModal: (state: CoreState, { payload }: PayloadAction<string>) => {
+    closeModal: (state: CoreState, { payload }: PayloadAction<keyof CoreState["openModals"]>) => {
         state.openModals[payload] = false
     },
 }
