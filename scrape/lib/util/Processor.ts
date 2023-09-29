@@ -11,5 +11,5 @@ export class Processor {
 
     public get htmlFilePath()   { return PATHS.TMP_FOLDER.join("html", "street-fighter-dotcom", `${this.character}.html`)}
     public get jsonFilePathV1() { return PATHS.TMP_FOLDER.join("json", "street-fighter-dotcom", "v1", `${this.character}.json`)}
-    public get jsonFilePathV2() { return PATHS.TMP_FOLDER.join("json", "street-fighter-dotcom", "v2", `${this.character}.json`)}
+    public get jsonFilePathV2() { return PATHS.PROJECT_ROOT.join("src", "data", "json", `${this.character}.json`)}
 }

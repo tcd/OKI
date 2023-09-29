@@ -26,7 +26,12 @@ export const MovesTable = (props: MovesTableProps): JSX.Element => {
     const columns = filterColumns(frameData)
 
     const $headers = columns.map((col, i) => (
-        <td key={i}>{col}</td>
+        <td
+            key={i}
+            onClick={() => {}}
+        >
+            {col}
+        </td>
     ))
 
     const $rows = frameData.map((row, i) => (
@@ -81,6 +86,9 @@ const tableSx: SxProps = {
     "& thead": {
         backgroundColor: "#111111",
         fontWeight: "bold",
+        "&:hover": {
+            cursor: "pointer",
+        },
     },
     "& tbody": {
         backgroundColor: "#333333",

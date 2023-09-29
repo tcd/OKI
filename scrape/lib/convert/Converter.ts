@@ -54,6 +54,7 @@ class _Converter {
             section: this.rawData["section"],
             name: this.rawData["Move Name"],
             input: this.rawData["input"],
+            inputString: this.rawData["input"].join(""),
             startup: null,
             active: null,
             recovery: null,

@@ -42,8 +42,9 @@ export interface ICharacterTableRow {
 
 export interface ICharacterFrameData {
     section?: string
-    name?: any
-    input?: any
+    name?: string
+    input?: TInput[]
+    inputString?: TInput
     startup?: any
     active?: any
     recovery?: any
