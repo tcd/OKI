@@ -27,7 +27,7 @@ export const Frame = (props: FrameProps): JSX.Element => {
     const handleClick = () => {
         dispatch(Actions.Main.frameClick({
             frame,
-            number,
+            rowNumber: number,
         }))
     }
 

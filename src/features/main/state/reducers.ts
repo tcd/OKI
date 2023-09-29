@@ -9,7 +9,7 @@ export type Extra2ClickPayload = {
 }
 
 export type FrameClickPayload = {
-    number: SF6.OkiRowNumber
+    rowNumber: SF6.OkiRowNumber
     frame: number
 }
 
@@ -29,8 +29,8 @@ export const reducers = {
         state[`oki${activeRow}`].startFrame = payload.frame
     },
     frameClick: (state: MainState, { payload }: PayloadAction<FrameClickPayload>) => {
-        state.activeRow = payload.number
-        state[`oki${payload.number}`].startFrame = payload.frame
+        state.activeRow = payload.rowNumber
+        state[`oki${payload.rowNumber}`].startFrame = payload.frame
     },
     clickMove: (state: MainState, { payload }: PayloadAction<string>) => {
         const activeRow = state.activeRow
