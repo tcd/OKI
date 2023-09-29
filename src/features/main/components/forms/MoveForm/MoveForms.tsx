@@ -18,13 +18,8 @@ export const MoveForms = (): JSX.Element => {
     ))
 
     return (
-        <Paper
-            elevation={2}
-            sx={{ p: 2, m: 2 }}
-        >
-            <Stack direction="column" spacing={3}>
-                {$forms}
-            </Stack>
-        </Paper>
+        <Stack direction="column" spacing={3}>
+            {$forms}
+        </Stack>
     )
 }

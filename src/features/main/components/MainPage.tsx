@@ -24,4 +24,5 @@ export const MainPage = (): JSX.Element => {
 const rootSx: SxProps = {
     display: "flex",
     flexFlow: "column nowrap",
+    px: 3,
 }
