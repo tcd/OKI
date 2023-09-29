@@ -34,6 +34,7 @@ const okiRowPlus = (s: RootState, row: SF6.OkiRowNumber): SF6.IOkiRow => {
 export default {
     character1,
     character2,
+    character1FrameData,
     frameData: {
         character1: character1FrameData,
         character2: character2FrameData,

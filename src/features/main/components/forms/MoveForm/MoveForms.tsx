@@ -13,7 +13,7 @@ export const MoveForms = (): JSX.Element => {
         <MoveForm
             key={row}
             row={row}
-            character="1"
+            player="1"
         />
     ))
 

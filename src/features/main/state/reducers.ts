@@ -18,6 +18,12 @@ export type Extra2ClickPayload = {
     // side: "top" | "bottom"
 }
 
+export type SetMovePayload = {
+    player: SF6.TPlayerNumber
+    rowNumber: SF6.OkiRowNumber
+    move: string
+}
+
 export const reducers = {
     resetState: () => INITIAL_STATE,
     setCharacter: (state: MainState, { payload }: PayloadAction<SetCharacterPayload>) => {
@@ -37,6 +43,10 @@ export const reducers = {
     clickMove: (state: MainState, { payload }: PayloadAction<string>) => {
         const activeRow = state.activeRow
         state[`oki${activeRow}`].name = payload
+    },
+    setMove: (state: MainState, { payload }: PayloadAction<SetMovePayload>) => {
+        state.activeRow = payload.rowNumber
+        state[`oki${payload.rowNumber}`].name = payload.move
     },
 }
 

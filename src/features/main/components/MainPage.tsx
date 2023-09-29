@@ -13,8 +13,7 @@ export const MainPage = (): JSX.Element => {
         <Box sx={rootSx}>
             <AboveTable />
             <Oki />
-            {/* <MoveForms /> */}
-            {/* <Table1 /> */}
+            <MoveForms />
             <MovesTable player="1" />
             <Help />
         </Box>

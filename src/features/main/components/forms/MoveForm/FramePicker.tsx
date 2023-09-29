@@ -8,14 +8,14 @@ import { Actions, Selectors, useAppSelector } from "@app/state"
 import { OkiConstants } from "@app/util"
 
 export type FramePickerProps = {
-    character: SF6.TPlayerNumber
+    player: SF6.TPlayerNumber
     row: SF6.OkiRowNumber
 }
 
 export const FramePicker = (props: FramePickerProps): JSX.Element => {
 
     const {
-        character = "1",
+        player = "1",
         row,
     } = props
 
