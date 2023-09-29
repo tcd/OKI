@@ -8,6 +8,9 @@ import { reducers } from "./reducers"
 export interface CoreState {
     pageTitle: string
     darkModeEnabled: boolean
+    openModals: {
+        help: boolean
+    }
 }
 
 // =============================================================================
@@ -15,6 +18,9 @@ export interface CoreState {
 export const INITIAL_CORE_STATE: CoreState = {
     pageTitle: "",
     darkModeEnabled: true,
+    openModals: {
+        help: false,
+    },
 }
 
 // =============================================================================

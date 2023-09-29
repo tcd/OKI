@@ -2,7 +2,6 @@ import { Box } from "@mui/material"
 
 import type { ISxProps as SxProps } from "@app/theme"
 
-import { Help } from "./Help"
 import { AboveTable } from "./AboveTable"
 import { Oki } from "./Oki"
 import { MoveForms } from "./forms"
@@ -15,7 +14,6 @@ export const MainPage = (): JSX.Element => {
             <Oki />
             <MoveForms />
             <MovesTable player="1" />
-            <Help />
         </Box>
     )
 }

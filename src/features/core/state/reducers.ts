@@ -20,6 +20,15 @@ export const reducers = {
     toggleDarkMode: (state: CoreState) => {
         state.darkModeEnabled = !!!state?.darkModeEnabled
     },
+    // -------------------------------------------------------------------------
+    // Modals
+    // -------------------------------------------------------------------------
+    openModal: (state: CoreState, { payload }: PayloadAction<string>) => {
+        state.openModals[payload] = true
+    },
+    closeModal: (state: CoreState, { payload }: PayloadAction<string>) => {
+        state.openModals[payload] = false
+    },
 }
 
 export const extraReducers = (_builder: ActionReducerMapBuilder<CoreState>) => {}
