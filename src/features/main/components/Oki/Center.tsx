@@ -4,12 +4,14 @@ import type { ISxProps as SxProps } from "@app/theme"
 import { ExtraRow1 } from "./ExtraRow1"
 import { ExtraRow2 } from "./ExtraRow2"
 import { OkiRow } from "./OkiRow"
+import { KdRow } from "./KdRow"
 
 export const Center = (): JSX.Element => {
     return (
         <Box sx={sx}>
             <ExtraRow1 />
             <ExtraRow2 />
+            {/* <KdRow /> */}
             <OkiRow number="1" />
             <OkiRow number="2" />
             <OkiRow number="3" />

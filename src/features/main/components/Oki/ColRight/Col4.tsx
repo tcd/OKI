@@ -14,6 +14,7 @@ export const Col4 = (): JSX.Element => {
             {/* <span>&nbsp;</span> */}
             <span>MOVE: {moveData?.name}</span>
             <span>CMD: {moveData?.input}</span>
+            <span>&nbsp;</span>
             {/* <span>1F OKI1-OKI2</span> */}
             <span>0F</span>
             <span>0F</span>

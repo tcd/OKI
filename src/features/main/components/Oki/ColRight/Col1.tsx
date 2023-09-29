@@ -8,6 +8,7 @@ export const Col1 = (): JSX.Element => {
         <Box sx={sx}>
             <span>&nbsp;</span>
             <span>&nbsp;</span>
+            <span>&nbsp;</span>
             {/* <span>+6</span> */}
             {/* <span>+6</span> */}
             {/* <span>+55</span> */}

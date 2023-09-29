@@ -18,3 +18,11 @@
 ## Frame Data
 
 - [StreetFighter.com](https://www.streetfighter.com/6/character/ryu/frame)
+
+
+## SFV Tuts
+
+- [Toolassisted Okizeme & Frametrapped Lab Class](https://www.twitch.tv/videos/72545696)
+- [Rashid's Basic Throw Mix Up Game with gootecks - Street Fighter V](https://www.youtube.com/watch?v=h6CwoMrM3cM)
+- [How To Use the Oki Calculator with Zangief in Street Fighter V - gootecks tutorial](https://www.youtube.com/watch?v=Bw8vPh5qaVM)
+- [[SFV] How to Use Tool Assisted's Oki Calculator In Minutes!](https://www.youtube.com/watch?v=-regXznuzS0)

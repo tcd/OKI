@@ -16,6 +16,7 @@ export const ColLeft = (): JSX.Element => {
         }}>
             <span>&nbsp;</span>
             <span>&nbsp;</span>
+            <span>KD</span>
             <OkiButton rowNumber="1" active={activeNumber == "1"} />
             <OkiButton rowNumber="2" active={activeNumber == "2"} />
             <OkiButton rowNumber="3" active={activeNumber == "3"} />

@@ -57,4 +57,7 @@ export default {
     activeRow,
     activeMove,
     okiRowPlus,
+    util: {
+        character1MoveData,
+    },
 }

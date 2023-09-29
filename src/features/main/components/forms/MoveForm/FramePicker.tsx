@@ -33,9 +33,9 @@ export const FramePicker = (props: FramePickerProps): JSX.Element => {
                     rowNumber: row,
                 }))
             }}
-            // disablePortal
             sx={{ width: 300 }}
             renderInput={(params) => <TextField {...params} label="Start Frame" />}
+            getOptionLabel={(option) => `${option}`}
         />
     )
 }

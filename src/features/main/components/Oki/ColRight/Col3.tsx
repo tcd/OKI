@@ -8,6 +8,7 @@ export const Col3 = (): JSX.Element => {
         <Box sx={sx}>
             <span>&nbsp;</span>
             <span>&nbsp;</span>
+            <span>&nbsp;</span>
             {/* <span>{OkiConstants.DOT}</span> */}
             {/* <span>{OkiConstants.DOT}</span> */}
             {/* <span>{OkiConstants.DOT}</span> */}
