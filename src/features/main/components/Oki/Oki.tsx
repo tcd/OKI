@@ -1,4 +1,4 @@
-import { Box } from "@mui/material"
+import { Box, Paper } from "@mui/material"
 
 import type { ISxProps as SxProps } from "@app/theme"
 import { Center } from "./Center"
@@ -7,7 +7,9 @@ import { ColRight } from "./ColRight"
 
 export const Oki = (): JSX.Element => {
     return (
-        <Box sx={sx}>
+        <Box
+            sx={sx}
+        >
             <ColLeft />
             <Center />
             <ColRight />
@@ -18,8 +20,10 @@ export const Oki = (): JSX.Element => {
 // =============================================================================
 
 const sx: SxProps = {
-    px: 1,
-    py: 3,
+    flexShrink: 1,
+    flexGrow: 0,
+    p: 1,
+    my: 3,
     display: "flex",
     flexFlow: "row nowrap",
     fontSize: "13px",

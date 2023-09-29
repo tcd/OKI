@@ -8,7 +8,8 @@ import { CharacterPicker } from "../forms"
 export const AboveTable = (): JSX.Element => {
     return (
         <Box sx={rootSx}>
-            <RedditLink />
+            {/* <RedditLink /> */}
+            <br />
             <Box sx={buttonsSx}>
                 <CharacterPicker player="1" />
                 <CharacterPicker player="2" />
