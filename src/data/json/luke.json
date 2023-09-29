@@ -2,7 +2,9 @@
     {
         "section": "Normal Moves",
         "name": "Standing Light Punch",
-        "input": "LP",
+        "input": [
+            "LP"
+        ],
         "startup": 6,
         "active": 2,
         "recovery": null,
@@ -19,7 +21,9 @@
     {
         "section": "Normal Moves",
         "name": "Standing Light Kick",
-        "input": "LK",
+        "input": [
+            "LK"
+        ],
         "startup": 4,
         "active": 2,
         "recovery": 12,
@@ -36,7 +40,9 @@
     {
         "section": "Normal Moves",
         "name": "Standing Medium Punch",
-        "input": "MP",
+        "input": [
+            "MP"
+        ],
         "startup": 8,
         "active": 4,
         "recovery": 16,
@@ -53,7 +59,9 @@
     {
         "section": "Normal Moves",
         "name": "Standing Medium Kick",
-        "input": "MK",
+        "input": [
+            "MK"
+        ],
         "startup": 6,
         "active": 3,
         "recovery": null,
@@ -70,7 +78,9 @@
     {
         "section": "Normal Moves",
         "name": "Standing Heavy Punch",
-        "input": "HP",
+        "input": [
+            "HP"
+        ],
         "startup": 9,
         "active": 3,
         "recovery": 23,
@@ -87,7 +97,9 @@
     {
         "section": "Normal Moves",
         "name": "Standing Heavy Kick",
-        "input": "HK",
+        "input": [
+            "HK"
+        ],
         "startup": 9,
         "active": 6,
         "recovery": 17,
@@ -104,7 +116,11 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Light Punch",
-        "input": "2+LP",
+        "input": [
+            "2",
+            "+",
+            "LP"
+        ],
         "startup": 3,
         "active": 2,
         "recovery": 10,
@@ -121,7 +137,11 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Light Kick",
-        "input": "2+LK",
+        "input": [
+            "2",
+            "+",
+            "LK"
+        ],
         "startup": 4,
         "active": 3,
         "recovery": 12,
@@ -138,7 +158,11 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Medium Punch",
-        "input": "2+MP",
+        "input": [
+            "2",
+            "+",
+            "MP"
+        ],
         "startup": 5,
         "active": 2,
         "recovery": 14,
@@ -155,7 +179,11 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Medium Kick",
-        "input": "2+MK",
+        "input": [
+            "2",
+            "+",
+            "MK"
+        ],
         "startup": 7,
         "active": 3,
         "recovery": 19,
@@ -172,7 +200,11 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Heavy Punch",
-        "input": "2+HP",
+        "input": [
+            "2",
+            "+",
+            "HP"
+        ],
         "startup": 6,
         "active": 5,
         "recovery": 24,
@@ -189,7 +221,11 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Heavy Kick",
-        "input": "2+HK",
+        "input": [
+            "2",
+            "+",
+            "HK"
+        ],
         "startup": 9,
         "active": 3,
         "recovery": 27,
@@ -206,7 +242,9 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Light Punch",
-        "input": "LP",
+        "input": [
+            "LP"
+        ],
         "startup": 4,
         "active": 9,
         "recovery": 3,
@@ -223,7 +261,9 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Light Kick",
-        "input": "LK",
+        "input": [
+            "LK"
+        ],
         "startup": 5,
         "active": 6,
         "recovery": 3,
@@ -240,7 +280,9 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Medium Punch",
-        "input": "MP",
+        "input": [
+            "MP"
+        ],
         "startup": 8,
         "active": 4,
         "recovery": 3,
@@ -257,7 +299,9 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Medium Kick",
-        "input": "MK",
+        "input": [
+            "MK"
+        ],
         "startup": 6,
         "active": 6,
         "recovery": 3,
@@ -274,7 +318,9 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Heavy Punch",
-        "input": "HP",
+        "input": [
+            "HP"
+        ],
         "startup": 8,
         "active": 6,
         "recovery": 3,
@@ -291,7 +337,9 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Heavy Kick",
-        "input": "HK",
+        "input": [
+            "HK"
+        ],
         "startup": 9,
         "active": 6,
         "recovery": 3,
@@ -308,7 +356,11 @@
     {
         "section": "Unique Attacks",
         "name": "Rawhide",
-        "input": "6+MP",
+        "input": [
+            "6",
+            "+",
+            "MP"
+        ],
         "startup": 20,
         "active": 2,
         "recovery": 21,
@@ -325,7 +377,11 @@
     {
         "section": "Unique Attacks",
         "name": "Suppressor",
-        "input": "4+HP",
+        "input": [
+            "4",
+            "+",
+            "HP"
+        ],
         "startup": 15,
         "active": 3,
         "recovery": 20,
@@ -342,7 +398,11 @@
     {
         "section": "Unique Attacks",
         "name": "Outlaw Kick",
-        "input": "4+HK",
+        "input": [
+            "4",
+            "+",
+            "HK"
+        ],
         "startup": 11,
         "active": 4,
         "recovery": 24,
@@ -359,7 +419,11 @@
     {
         "section": "Unique Attacks",
         "name": "Double Impact(1)",
-        "input": "6+HP",
+        "input": [
+            "6",
+            "+",
+            "HP"
+        ],
         "startup": 15,
         "active": 3,
         "recovery": null,
@@ -376,7 +440,13 @@
     {
         "section": "Unique Attacks",
         "name": "Double Impact(2)",
-        "input": "6+HP>HP",
+        "input": [
+            "6",
+            "+",
+            "HP",
+            ">",
+            "HP"
+        ],
         "startup": 10,
         "active": 2,
         "recovery": 34,
@@ -393,7 +463,11 @@
     {
         "section": "Unique Attacks",
         "name": "Triple Impact(2)",
-        "input": "LP>MP",
+        "input": [
+            "LP",
+            ">",
+            "MP"
+        ],
         "startup": 7,
         "active": 4,
         "recovery": 20,
@@ -410,7 +484,13 @@
     {
         "section": "Unique Attacks",
         "name": "Triple Impact(3)",
-        "input": "LP>MP>HP",
+        "input": [
+            "LP",
+            ">",
+            "MP",
+            ">",
+            "HP"
+        ],
         "startup": 9,
         "active": 3,
         "recovery": 27,
@@ -427,7 +507,11 @@
     {
         "section": "Unique Attacks",
         "name": "Snapback Combo(2)",
-        "input": "MP>MP",
+        "input": [
+            "MP",
+            ">",
+            "MP"
+        ],
         "startup": 11,
         "active": 2,
         "recovery": 23,
@@ -444,7 +528,15 @@
     {
         "section": "Unique Attacks",
         "name": "Nose Breaker",
-        "input": "2+MK>2+HP",
+        "input": [
+            "2",
+            "+",
+            "MK",
+            ">",
+            "2",
+            "+",
+            "HP"
+        ],
         "startup": 8,
         "active": 3,
         "recovery": 25,
@@ -461,7 +553,13 @@
     {
         "section": "Unique Attacks",
         "name": "Snapback Combo(3)",
-        "input": "MP>MP>MP",
+        "input": [
+            "MP",
+            ">",
+            "MP",
+            ">",
+            "MP"
+        ],
         "startup": 10,
         "active": 2,
         "recovery": 29,
@@ -478,7 +576,15 @@
     {
         "section": "Unique Attacks",
         "name": "Snapback Combo(4)",
-        "input": "MP>MP>MP>MP",
+        "input": [
+            "MP",
+            ">",
+            "MP",
+            ">",
+            "MP",
+            ">",
+            "MP"
+        ],
         "startup": 10,
         "active": 2,
         "recovery": 27,
@@ -495,7 +601,13 @@
     {
         "section": "Special Moves",
         "name": "L Sand Blast",
-        "input": "236+LP",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "LP"
+        ],
         "startup": 13,
         "active": 5,
         "recovery": 47,
@@ -512,7 +624,13 @@
     {
         "section": "Special Moves",
         "name": "M Sand Blast",
-        "input": "236+MP",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "MP"
+        ],
         "startup": 16,
         "active": 7,
         "recovery": 47,
@@ -529,7 +647,13 @@
     {
         "section": "Special Moves",
         "name": "H Sand Blast",
-        "input": "236+HP",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "HP"
+        ],
         "startup": 19,
         "active": 10,
         "recovery": 47,
@@ -546,7 +670,14 @@
     {
         "section": "Special Moves",
         "name": "OD Sand Blast",
-        "input": "236+PP",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "P",
+            "P"
+        ],
         "startup": 16,
         "active": null,
         "recovery": 40,
@@ -563,7 +694,10 @@
     {
         "section": "Special Moves",
         "name": "Fatal Shot",
-        "input": "PP",
+        "input": [
+            "P",
+            "P"
+        ],
         "startup": 12,
         "active": null,
         "recovery": 54,
@@ -580,7 +714,13 @@
     {
         "section": "Special Moves",
         "name": "L Flash Knuckle",
-        "input": "214+LP",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "LP"
+        ],
         "startup": 12,
         "active": 3,
         "recovery": 31,
@@ -597,7 +737,13 @@
     {
         "section": "Special Moves",
         "name": "L Flash Knuckle(Charged)",
-        "input": "214+LP",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "LP"
+        ],
         "startup": 25,
         "active": 4,
         "recovery": 25,
@@ -614,7 +760,13 @@
     {
         "section": "Special Moves",
         "name": "L Flash Knuckle(Perfect)",
-        "input": "214+LP",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "LP"
+        ],
         "startup": 25,
         "active": 4,
         "recovery": 25,
@@ -631,7 +783,13 @@
     {
         "section": "Special Moves",
         "name": "M Flash Knuckle",
-        "input": "214+MP",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "MP"
+        ],
         "startup": 18,
         "active": 3,
         "recovery": 27,
@@ -648,7 +806,13 @@
     {
         "section": "Special Moves",
         "name": "M Flash Knuckle(Charged)",
-        "input": "214+MP",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "MP"
+        ],
         "startup": 29,
         "active": 4,
         "recovery": 26,
@@ -665,7 +829,13 @@
     {
         "section": "Special Moves",
         "name": "M Flash Knuckle(Perfect)",
-        "input": "214+MP",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "MP"
+        ],
         "startup": 28,
         "active": 4,
         "recovery": 26,
@@ -682,7 +852,13 @@
     {
         "section": "Special Moves",
         "name": "H Flash Knuckle",
-        "input": "214+HP",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "HP"
+        ],
         "startup": 21,
         "active": 3,
         "recovery": 21,
@@ -699,7 +875,13 @@
     {
         "section": "Special Moves",
         "name": "H Flash Knuckle(Charged)",
-        "input": "214+HP",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "HP"
+        ],
         "startup": 32,
         "active": 4,
         "recovery": 24,
@@ -716,7 +898,13 @@
     {
         "section": "Special Moves",
         "name": "H Flash Knuckle(Perfect)",
-        "input": "214+HP",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "HP"
+        ],
         "startup": 32,
         "active": 4,
         "recovery": 24,
@@ -733,7 +921,14 @@
     {
         "section": "Special Moves",
         "name": "OD Flash Knuckle",
-        "input": "214+PP",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "P",
+            "P"
+        ],
         "startup": 15,
         "active": "15",
         "recovery": 39,
@@ -750,7 +945,14 @@
     {
         "section": "Special Moves",
         "name": "OD Flash Knuckle(2)",
-        "input": "214+PP",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "P",
+            "P"
+        ],
         "startup": 32,
         "active": 4,
         "recovery": 16,
@@ -767,7 +969,10 @@
     {
         "section": "Special Moves",
         "name": "DDT",
-        "input": "PP",
+        "input": [
+            "P",
+            "P"
+        ],
         "startup": 1,
         "active": "1",
         "recovery": "",
@@ -784,7 +989,13 @@
     {
         "section": "Special Moves",
         "name": "Aerial Flash Knuckle",
-        "input": "214+P",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "P"
+        ],
         "startup": 13,
         "active": 5,
         "recovery": 13,
@@ -801,7 +1012,13 @@
     {
         "section": "Special Moves",
         "name": "Aerial Flash Knuckle(Charged)",
-        "input": "214+P",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "P"
+        ],
         "startup": 22,
         "active": 6,
         "recovery": 15,
@@ -818,7 +1035,14 @@
     {
         "section": "Special Moves",
         "name": "OD Aerial Flash Knuckle",
-        "input": "214+PP",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "P",
+            "P"
+        ],
         "startup": 13,
         "active": 6,
         "recovery": 15,
@@ -835,7 +1059,13 @@
     {
         "section": "Special Moves",
         "name": "Avenger",
-        "input": "236+K",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "K"
+        ],
         "startup": null,
         "active": null,
         "recovery": 45,
@@ -852,7 +1082,14 @@
     {
         "section": "Special Moves",
         "name": "OD Avenger",
-        "input": "236+KK",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "K",
+            "K"
+        ],
         "startup": null,
         "active": null,
         "recovery": 45,
@@ -869,7 +1106,9 @@
     {
         "section": "Special Moves",
         "name": "No Chaser",
-        "input": "P",
+        "input": [
+            "P"
+        ],
         "startup": 11,
         "active": 3,
         "recovery": 19,
@@ -886,7 +1125,9 @@
     {
         "section": "Special Moves",
         "name": "OD Chaser",
-        "input": "P",
+        "input": [
+            "P"
+        ],
         "startup": 11,
         "active": 3,
         "recovery": 19,
@@ -903,7 +1144,9 @@
     {
         "section": "Special Moves",
         "name": "Impaler",
-        "input": "K",
+        "input": [
+            "K"
+        ],
         "startup": 13,
         "active": "13",
         "recovery": 22,
@@ -920,7 +1163,9 @@
     {
         "section": "Special Moves",
         "name": "OD Impaler",
-        "input": "K",
+        "input": [
+            "K"
+        ],
         "startup": 13,
         "active": "13",
         "recovery": 19,
@@ -937,7 +1182,13 @@
     {
         "section": "Special Moves",
         "name": "L Rising Uppercut",
-        "input": "623+LP",
+        "input": [
+            "6",
+            "2",
+            "3",
+            "+",
+            "LP"
+        ],
         "startup": 4,
         "active": 10,
         "recovery": 22,
@@ -954,7 +1205,13 @@
     {
         "section": "Special Moves",
         "name": "M Rising Uppercut",
-        "input": "623+MP",
+        "input": [
+            "6",
+            "2",
+            "3",
+            "+",
+            "MP"
+        ],
         "startup": 5,
         "active": 10,
         "recovery": 24,
@@ -971,7 +1228,13 @@
     {
         "section": "Special Moves",
         "name": "H Rising Uppercut",
-        "input": "623+HP",
+        "input": [
+            "6",
+            "2",
+            "3",
+            "+",
+            "HP"
+        ],
         "startup": 8,
         "active": 10,
         "recovery": 25,
@@ -988,7 +1251,14 @@
     {
         "section": "Special Moves",
         "name": "OD Rising Uppercut",
-        "input": "623+PP",
+        "input": [
+            "6",
+            "2",
+            "3",
+            "+",
+            "P",
+            "P"
+        ],
         "startup": 5,
         "active": 151,
         "recovery": 35,
@@ -1005,7 +1275,10 @@
     {
         "section": "Special Moves",
         "name": "Slam Dunk",
-        "input": "PP",
+        "input": [
+            "P",
+            "P"
+        ],
         "startup": 15,
         "active": 3,
         "recovery": 14,
@@ -1022,7 +1295,16 @@
     {
         "section": "Super Arts",
         "name": "SA1 Vulcan Blast",
-        "input": "236236+P",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "P"
+        ],
         "startup": 6,
         "active": null,
         "recovery": 108,
@@ -1039,7 +1321,16 @@
     {
         "section": "Super Arts",
         "name": "SA2 Eraser",
-        "input": "214214+P",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "2",
+            "1",
+            "4",
+            "+",
+            "P"
+        ],
         "startup": 4,
         "active": 3,
         "recovery": 51,
@@ -1056,7 +1347,16 @@
     {
         "section": "Super Arts",
         "name": "SA3 Pale Rider",
-        "input": "236236+K",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "K"
+        ],
         "startup": 9,
         "active": 4,
         "recovery": 92,
@@ -1073,7 +1373,16 @@
     {
         "section": "Super Arts",
         "name": "CA Pale Rider",
-        "input": "236236+K",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "K"
+        ],
         "startup": 9,
         "active": 4,
         "recovery": 92,
@@ -1090,7 +1399,14 @@
     {
         "section": "Throws",
         "name": "Sweeper",
-        "input": "5/6+LPLK",
+        "input": [
+            "5",
+            "/",
+            "6",
+            "+",
+            "LP",
+            "LK"
+        ],
         "startup": 4,
         "active": 3,
         "recovery": 23,
@@ -1107,7 +1423,12 @@
     {
         "section": "Throws",
         "name": "Scrapper",
-        "input": "4+LPLK",
+        "input": [
+            "4",
+            "+",
+            "LP",
+            "LK"
+        ],
         "startup": 4,
         "active": 3,
         "recovery": 23,
@@ -1124,7 +1445,10 @@
     {
         "section": "Common Moves",
         "name": "Forward Dash",
-        "input": "66",
+        "input": [
+            "6",
+            "6"
+        ],
         "startup": null,
         "active": null,
         "recovery": 19,
@@ -1141,7 +1465,10 @@
     {
         "section": "Common Moves",
         "name": "Backward Dash",
-        "input": "44",
+        "input": [
+            "4",
+            "4"
+        ],
         "startup": null,
         "active": null,
         "recovery": 23,
@@ -1158,7 +1485,10 @@
     {
         "section": "Common Moves",
         "name": "Drive Impact: Muzzle Flash",
-        "input": "HPHK",
+        "input": [
+            "HP",
+            "HK"
+        ],
         "startup": 25,
         "active": 2,
         "recovery": 35,
@@ -1175,7 +1505,12 @@
     {
         "section": "Common Moves",
         "name": "Drive Reversal: Battering Ram",
-        "input": "6+HPHK",
+        "input": [
+            "6",
+            "+",
+            "HP",
+            "HK"
+        ],
         "startup": 19,
         "active": 3,
         "recovery": 26,
@@ -1192,7 +1527,10 @@
     {
         "section": "Common Moves",
         "name": "Drive Parry",
-        "input": "MPMK",
+        "input": [
+            "MP",
+            "MK"
+        ],
         "startup": null,
         "active": null,
         "recovery": 29,
@@ -1209,7 +1547,10 @@
     {
         "section": "Common Moves",
         "name": "Perfect Parry (strike)",
-        "input": "MPMK",
+        "input": [
+            "MP",
+            "MK"
+        ],
         "startup": 1,
         "active": null,
         "recovery": 1,
@@ -1226,7 +1567,10 @@
     {
         "section": "Common Moves",
         "name": "Perfect Parry (projectile)",
-        "input": "MPMK",
+        "input": [
+            "MP",
+            "MK"
+        ],
         "startup": 1,
         "active": null,
         "recovery": 10,
@@ -1243,7 +1587,10 @@
     {
         "section": "Common Moves",
         "name": "Parry Drive Rush",
-        "input": "66",
+        "input": [
+            "6",
+            "6"
+        ],
         "startup": null,
         "active": null,
         "recovery": 45,
@@ -1260,7 +1607,17 @@
     {
         "section": "Common Moves",
         "name": "Cancel Drive Rush",
-        "input": "66/5/6+MPMK",
+        "input": [
+            "6",
+            "6",
+            "/",
+            "5",
+            "/",
+            "6",
+            "+",
+            "MP",
+            "MK"
+        ],
         "startup": null,
         "active": null,
         "recovery": 46,

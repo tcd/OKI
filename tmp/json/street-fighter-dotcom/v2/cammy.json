@@ -2,7 +2,9 @@
     {
         "section": "Normal Moves",
         "name": "Standing Light Punch",
-        "input": "LP",
+        "input": [
+            "LP"
+        ],
         "startup": 3,
         "active": 3,
         "recovery": 7,
@@ -19,7 +21,9 @@
     {
         "section": "Normal Moves",
         "name": "Standing Light Kick",
-        "input": "LK",
+        "input": [
+            "LK"
+        ],
         "startup": 4,
         "active": 3,
         "recovery": 10,
@@ -36,7 +40,9 @@
     {
         "section": "Normal Moves",
         "name": "Standing Medium Punch",
-        "input": "MP",
+        "input": [
+            "MP"
+        ],
         "startup": 5,
         "active": 4,
         "recovery": 13,
@@ -53,7 +59,9 @@
     {
         "section": "Normal Moves",
         "name": "Standing Medium Kick",
-        "input": "MK",
+        "input": [
+            "MK"
+        ],
         "startup": 7,
         "active": 3,
         "recovery": 18,
@@ -70,7 +78,9 @@
     {
         "section": "Normal Moves",
         "name": "Standing Heavy Punch",
-        "input": "HP",
+        "input": [
+            "HP"
+        ],
         "startup": 7,
         "active": 3,
         "recovery": 20,
@@ -87,7 +97,9 @@
     {
         "section": "Normal Moves",
         "name": "Standing Heavy Kick",
-        "input": "HK",
+        "input": [
+            "HK"
+        ],
         "startup": 10,
         "active": 3,
         "recovery": 21,
@@ -104,7 +116,11 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Light Punch",
-        "input": "2+LP",
+        "input": [
+            "2",
+            "+",
+            "LP"
+        ],
         "startup": 3,
         "active": 2,
         "recovery": 8,
@@ -121,7 +137,11 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Light Kick",
-        "input": "2+LK",
+        "input": [
+            "2",
+            "+",
+            "LK"
+        ],
         "startup": 4,
         "active": 3,
         "recovery": 7,
@@ -138,7 +158,11 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Medium Punch",
-        "input": "2+MP",
+        "input": [
+            "2",
+            "+",
+            "MP"
+        ],
         "startup": 6,
         "active": 3,
         "recovery": 14,
@@ -155,7 +179,11 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Medium Kick",
-        "input": "2+MK",
+        "input": [
+            "2",
+            "+",
+            "MK"
+        ],
         "startup": 7,
         "active": 3,
         "recovery": 18,
@@ -172,7 +200,11 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Heavy Punch",
-        "input": "2+HP",
+        "input": [
+            "2",
+            "+",
+            "HP"
+        ],
         "startup": 9,
         "active": 4,
         "recovery": 15,
@@ -189,7 +221,11 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Heavy Kick",
-        "input": "2+HK",
+        "input": [
+            "2",
+            "+",
+            "HK"
+        ],
         "startup": 8,
         "active": 3,
         "recovery": 24,
@@ -206,7 +242,9 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Light Punch",
-        "input": "LP",
+        "input": [
+            "LP"
+        ],
         "startup": 3,
         "active": 10,
         "recovery": 3,
@@ -223,7 +261,9 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Light Kick",
-        "input": "LK",
+        "input": [
+            "LK"
+        ],
         "startup": 3,
         "active": 10,
         "recovery": 3,
@@ -240,7 +280,9 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Medium Punch",
-        "input": "MP",
+        "input": [
+            "MP"
+        ],
         "startup": 5,
         "active": 8,
         "recovery": 3,
@@ -257,7 +299,9 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Medium Kick",
-        "input": "MK",
+        "input": [
+            "MK"
+        ],
         "startup": 6,
         "active": 6,
         "recovery": 3,
@@ -274,7 +318,9 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Heavy Punch",
-        "input": "HP",
+        "input": [
+            "HP"
+        ],
         "startup": 7,
         "active": 5,
         "recovery": 3,
@@ -291,7 +337,9 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Heavy Kick",
-        "input": "HK",
+        "input": [
+            "HK"
+        ],
         "startup": 9,
         "active": 6,
         "recovery": 3,
@@ -308,7 +356,11 @@
     {
         "section": "Unique Attacks",
         "name": "Lift Uppercut",
-        "input": "4+MP",
+        "input": [
+            "4",
+            "+",
+            "MP"
+        ],
         "startup": 4,
         "active": 5,
         "recovery": 12,
@@ -325,7 +377,11 @@
     {
         "section": "Unique Attacks",
         "name": "Delayed Ripper",
-        "input": "6+HK",
+        "input": [
+            "6",
+            "+",
+            "HK"
+        ],
         "startup": 17,
         "active": 3,
         "recovery": 25,
@@ -342,7 +398,11 @@
     {
         "section": "Unique Attacks",
         "name": "Assault Blade",
-        "input": "4+HK",
+        "input": [
+            "4",
+            "+",
+            "HK"
+        ],
         "startup": 8,
         "active": 3,
         "recovery": 18,
@@ -359,7 +419,13 @@
     {
         "section": "Unique Attacks",
         "name": "Lift Combination",
-        "input": "4+MP>HK",
+        "input": [
+            "4",
+            "+",
+            "MP",
+            ">",
+            "HK"
+        ],
         "startup": 8,
         "active": 3,
         "recovery": 23,
@@ -376,7 +442,11 @@
     {
         "section": "Unique Attacks",
         "name": "Swing Combination",
-        "input": "HP>HK",
+        "input": [
+            "HP",
+            ">",
+            "HK"
+        ],
         "startup": 12,
         "active": 3101,
         "recovery": 29,
@@ -393,7 +463,13 @@
     {
         "section": "Special Moves",
         "name": "L Spiral Arrow",
-        "input": "236+LK",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "LK"
+        ],
         "startup": 8,
         "active": 13,
         "recovery": 21,
@@ -410,7 +486,13 @@
     {
         "section": "Special Moves",
         "name": "M Spiral Arrow",
-        "input": "236+MK",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "MK"
+        ],
         "startup": 8,
         "active": 15,
         "recovery": 21,
@@ -427,7 +509,13 @@
     {
         "section": "Special Moves",
         "name": "H Spiral Arrow",
-        "input": "236+HK",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "HK"
+        ],
         "startup": 14,
         "active": 3001,
         "recovery": 21,
@@ -444,7 +532,13 @@
     {
         "section": "Special Moves",
         "name": "H Spiral Arrow(Charged)",
-        "input": "236+HK",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "HK"
+        ],
         "startup": 26,
         "active": 4201,
         "recovery": 20,
@@ -461,7 +555,14 @@
     {
         "section": "Special Moves",
         "name": "OD Spiral Arrow",
-        "input": "236+KK",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "K",
+            "K"
+        ],
         "startup": 12,
         "active": 2801,
         "recovery": 20,
@@ -478,7 +579,13 @@
     {
         "section": "Special Moves",
         "name": "L Cannon Spike",
-        "input": "623+LK",
+        "input": [
+            "6",
+            "2",
+            "3",
+            "+",
+            "LK"
+        ],
         "startup": 4,
         "active": 12,
         "recovery": 24,
@@ -495,7 +602,13 @@
     {
         "section": "Special Moves",
         "name": "M Cannon Spike",
-        "input": "623+MK",
+        "input": [
+            "6",
+            "2",
+            "3",
+            "+",
+            "MK"
+        ],
         "startup": 5,
         "active": 12,
         "recovery": 25,
@@ -512,7 +625,13 @@
     {
         "section": "Special Moves",
         "name": "H Cannon Spike",
-        "input": "623+HK",
+        "input": [
+            "6",
+            "2",
+            "3",
+            "+",
+            "HK"
+        ],
         "startup": 6,
         "active": 12,
         "recovery": 28,
@@ -529,7 +648,13 @@
     {
         "section": "Special Moves",
         "name": "H Cannon Spike(Charged)",
-        "input": "623+HK",
+        "input": [
+            "6",
+            "2",
+            "3",
+            "+",
+            "HK"
+        ],
         "startup": 23,
         "active": 12,
         "recovery": 29,
@@ -546,7 +671,14 @@
     {
         "section": "Special Moves",
         "name": "OD Cannon Spike",
-        "input": "623+KK",
+        "input": [
+            "6",
+            "2",
+            "3",
+            "+",
+            "K",
+            "K"
+        ],
         "startup": 5,
         "active": 12,
         "recovery": 30,
@@ -563,7 +695,13 @@
     {
         "section": "Special Moves",
         "name": "L Quick Spin Knuckle",
-        "input": "214+LP",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "LP"
+        ],
         "startup": 20,
         "active": 4,
         "recovery": 16,
@@ -580,7 +718,13 @@
     {
         "section": "Special Moves",
         "name": "M Quick Spin Knuckle",
-        "input": "214+MP",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "MP"
+        ],
         "startup": 23,
         "active": 4,
         "recovery": 16,
@@ -597,7 +741,13 @@
     {
         "section": "Special Moves",
         "name": "H Quick Spin Knuckle",
-        "input": "214+HP",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "HP"
+        ],
         "startup": 27,
         "active": 4,
         "recovery": 17,
@@ -614,7 +764,14 @@
     {
         "section": "Special Moves",
         "name": "OD Quick Spin Knuckle",
-        "input": "214+PP",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "P",
+            "P"
+        ],
         "startup": 24,
         "active": 4,
         "recovery": 17,
@@ -631,7 +788,13 @@
     {
         "section": "Special Moves",
         "name": "Cannon Strike",
-        "input": "214+K",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "K"
+        ],
         "startup": 12,
         "active": 11,
         "recovery": 12,
@@ -648,7 +811,14 @@
     {
         "section": "Special Moves",
         "name": "OD Cannon Strike",
-        "input": "214+KK",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "K",
+            "K"
+        ],
         "startup": 12,
         "active": 10,
         "recovery": 12,
@@ -665,7 +835,13 @@
     {
         "section": "Special Moves",
         "name": "Hooligan Combination",
-        "input": "236+P",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "P"
+        ],
         "startup": null,
         "active": null,
         "recovery": "",
@@ -682,7 +858,13 @@
     {
         "section": "Special Moves",
         "name": "Hooligan Combination(Charged)",
-        "input": "236+HP",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "HP"
+        ],
         "startup": null,
         "active": null,
         "recovery": "",
@@ -699,7 +881,14 @@
     {
         "section": "Special Moves",
         "name": "OD Hooligan Combination",
-        "input": "236+PP",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "P",
+            "P"
+        ],
         "startup": null,
         "active": null,
         "recovery": "",
@@ -716,7 +905,7 @@
     {
         "section": "Special Moves",
         "name": "Razor's Edge Slicer",
-        "input": "",
+        "input": [],
         "startup": 9,
         "active": 9,
         "recovery": 13,
@@ -733,7 +922,7 @@
     {
         "section": "Special Moves",
         "name": "Razor's Edge Slicer(Charged)",
-        "input": "",
+        "input": [],
         "startup": 9,
         "active": 3301,
         "recovery": 17,
@@ -750,7 +939,7 @@
     {
         "section": "Special Moves",
         "name": "OD Razor's Edge Slicer",
-        "input": "",
+        "input": [],
         "startup": 9,
         "active": 3301,
         "recovery": 17,
@@ -767,7 +956,9 @@
     {
         "section": "Special Moves",
         "name": "Cannon Strike",
-        "input": "K",
+        "input": [
+            "K"
+        ],
         "startup": 12,
         "active": 11,
         "recovery": 12,
@@ -784,7 +975,9 @@
     {
         "section": "Special Moves",
         "name": "Cannon Strike(Charged)",
-        "input": "K",
+        "input": [
+            "K"
+        ],
         "startup": 12,
         "active": 10,
         "recovery": 12,
@@ -801,7 +994,9 @@
     {
         "section": "Special Moves",
         "name": "OD Cannon Strike",
-        "input": "K",
+        "input": [
+            "K"
+        ],
         "startup": 12,
         "active": 10,
         "recovery": 12,
@@ -818,7 +1013,11 @@
     {
         "section": "Special Moves",
         "name": "Reverse Edge",
-        "input": "2+K",
+        "input": [
+            "2",
+            "+",
+            "K"
+        ],
         "startup": 17,
         "active": 4,
         "recovery": 13,
@@ -835,7 +1034,11 @@
     {
         "section": "Special Moves",
         "name": "Reverse Edge(Charged)",
-        "input": "2+K",
+        "input": [
+            "2",
+            "+",
+            "K"
+        ],
         "startup": 17,
         "active": 3901,
         "recovery": 13,
@@ -852,7 +1055,11 @@
     {
         "section": "Special Moves",
         "name": "OD Reverse Edge",
-        "input": "2+K",
+        "input": [
+            "2",
+            "+",
+            "K"
+        ],
         "startup": 17,
         "active": 3901,
         "recovery": 13,
@@ -869,7 +1076,10 @@
     {
         "section": "Special Moves",
         "name": "Fatal Leg Twister",
-        "input": "LPLK",
+        "input": [
+            "LP",
+            "LK"
+        ],
         "startup": 9,
         "active": 3,
         "recovery": 30,
@@ -886,7 +1096,10 @@
     {
         "section": "Special Moves",
         "name": "Fatal Leg Twister(Charged)",
-        "input": "LPLK",
+        "input": [
+            "LP",
+            "LK"
+        ],
         "startup": 9,
         "active": 3,
         "recovery": 30,
@@ -903,7 +1116,10 @@
     {
         "section": "Special Moves",
         "name": "OD Fatal Leg Twister",
-        "input": "LPLK",
+        "input": [
+            "LP",
+            "LK"
+        ],
         "startup": 9,
         "active": 3,
         "recovery": 30,
@@ -920,7 +1136,9 @@
     {
         "section": "Special Moves",
         "name": "Silent Step",
-        "input": "P",
+        "input": [
+            "P"
+        ],
         "startup": null,
         "active": null,
         "recovery": 10,
@@ -937,7 +1155,9 @@
     {
         "section": "Special Moves",
         "name": "Silent Step(Charged)",
-        "input": "P",
+        "input": [
+            "P"
+        ],
         "startup": null,
         "active": null,
         "recovery": 10,
@@ -954,7 +1174,9 @@
     {
         "section": "Special Moves",
         "name": "OD Silent Step",
-        "input": "P",
+        "input": [
+            "P"
+        ],
         "startup": null,
         "active": null,
         "recovery": 10,
@@ -971,7 +1193,16 @@
     {
         "section": "Super Arts",
         "name": "SA1 Spin Drive Smasher",
-        "input": "236236+K",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "K"
+        ],
         "startup": 8,
         "active": 11,
         "recovery": 38,
@@ -988,7 +1219,16 @@
     {
         "section": "Super Arts",
         "name": "SA2 Killer Bee Spin",
-        "input": "214214+K",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "2",
+            "1",
+            "4",
+            "+",
+            "K"
+        ],
         "startup": 12,
         "active": 9,
         "recovery": 37,
@@ -1005,7 +1245,16 @@
     {
         "section": "Super Arts",
         "name": "SA2 Aerial Killer Bee Spin",
-        "input": "214214+K",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "2",
+            "1",
+            "4",
+            "+",
+            "K"
+        ],
         "startup": 13,
         "active": "13-until landing",
         "recovery": 37,
@@ -1022,7 +1271,16 @@
     {
         "section": "Super Arts",
         "name": "SA3 Delta Red Assault",
-        "input": "236236+P",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "P"
+        ],
         "startup": 8,
         "active": 15,
         "recovery": 4,
@@ -1039,7 +1297,16 @@
     {
         "section": "Super Arts",
         "name": "CA Delta Red Assault",
-        "input": "236236+P",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "P"
+        ],
         "startup": 8,
         "active": 15,
         "recovery": 4,
@@ -1056,7 +1323,14 @@
     {
         "section": "Throws",
         "name": "Rough Landing",
-        "input": "5/6+LPLK",
+        "input": [
+            "5",
+            "/",
+            "6",
+            "+",
+            "LP",
+            "LK"
+        ],
         "startup": 4,
         "active": 3,
         "recovery": 23,
@@ -1073,7 +1347,12 @@
     {
         "section": "Throws",
         "name": "Delta Throw",
-        "input": "4+LPLK",
+        "input": [
+            "4",
+            "+",
+            "LP",
+            "LK"
+        ],
         "startup": 4,
         "active": 3,
         "recovery": 23,
@@ -1090,7 +1369,10 @@
     {
         "section": "Throws",
         "name": "Leg Scissors Choke",
-        "input": "LPLK",
+        "input": [
+            "LP",
+            "LK"
+        ],
         "startup": 4,
         "active": 3,
         "recovery": 3,
@@ -1107,7 +1389,10 @@
     {
         "section": "Common Moves",
         "name": "Forward Dash",
-        "input": "66",
+        "input": [
+            "6",
+            "6"
+        ],
         "startup": null,
         "active": null,
         "recovery": 18,
@@ -1124,7 +1409,10 @@
     {
         "section": "Common Moves",
         "name": "Backward Dash",
-        "input": "44",
+        "input": [
+            "4",
+            "4"
+        ],
         "startup": null,
         "active": null,
         "recovery": 23,
@@ -1141,7 +1429,10 @@
     {
         "section": "Common Moves",
         "name": "Drive Impact: Spin Raider",
-        "input": "HPHK",
+        "input": [
+            "HP",
+            "HK"
+        ],
         "startup": 25,
         "active": 2,
         "recovery": 35,
@@ -1158,7 +1449,12 @@
     {
         "section": "Common Moves",
         "name": "Drive Reversal: Countersnipe",
-        "input": "6+HPHK",
+        "input": [
+            "6",
+            "+",
+            "HP",
+            "HK"
+        ],
         "startup": 19,
         "active": 3,
         "recovery": 26,
@@ -1175,7 +1471,10 @@
     {
         "section": "Common Moves",
         "name": "Drive Parry",
-        "input": "MPMK",
+        "input": [
+            "MP",
+            "MK"
+        ],
         "startup": null,
         "active": null,
         "recovery": 29,
@@ -1192,7 +1491,10 @@
     {
         "section": "Common Moves",
         "name": "Perfect Parry (strike)",
-        "input": "MPMK",
+        "input": [
+            "MP",
+            "MK"
+        ],
         "startup": 1,
         "active": null,
         "recovery": 1,
@@ -1209,7 +1511,10 @@
     {
         "section": "Common Moves",
         "name": "Perfect Parry (projectile)",
-        "input": "MPMK",
+        "input": [
+            "MP",
+            "MK"
+        ],
         "startup": 1,
         "active": null,
         "recovery": 10,
@@ -1226,7 +1531,10 @@
     {
         "section": "Common Moves",
         "name": "Parry Drive Rush",
-        "input": "66",
+        "input": [
+            "6",
+            "6"
+        ],
         "startup": null,
         "active": null,
         "recovery": 45,
@@ -1243,7 +1551,17 @@
     {
         "section": "Common Moves",
         "name": "Cancel Drive Rush",
-        "input": "66/5/6+MPMK",
+        "input": [
+            "6",
+            "6",
+            "/",
+            "5",
+            "/",
+            "6",
+            "+",
+            "MP",
+            "MK"
+        ],
         "startup": null,
         "active": null,
         "recovery": 46,

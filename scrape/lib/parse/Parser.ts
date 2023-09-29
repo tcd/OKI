@@ -244,10 +244,9 @@ const IMG_SRC_NAMES: Record<string, TInput> = {
     "/6/assets/images/common/controller/key-ul.png":     "7",
     "/6/assets/images/common/controller/key-u.png":      "8",
     "/6/assets/images/common/controller/key-ur.png":     "9",
+    "/6/assets/images/common/controller/key-circle.png": "360",
     "/6/assets/images/common/controller/key-dc.png":     "[2]",
     "/6/assets/images/common/controller/key-lc.png":     "[4]",
-
-    "/6/assets/images/common/controller/key-circle.png": "360",
 
     "/6/assets/images/common/controller/key-plus.png": "+",
     "/6/assets/images/common/controller/arrow_3.png":  ">",

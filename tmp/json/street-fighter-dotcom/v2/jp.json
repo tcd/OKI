@@ -2,7 +2,9 @@
     {
         "section": "Normal Moves",
         "name": "Standing Light Punch",
-        "input": "LP",
+        "input": [
+            "LP"
+        ],
         "startup": 5,
         "active": 3,
         "recovery": 10,
@@ -19,7 +21,9 @@
     {
         "section": "Normal Moves",
         "name": "Standing Light Kick",
-        "input": "LK",
+        "input": [
+            "LK"
+        ],
         "startup": 4,
         "active": 3,
         "recovery": 11,
@@ -36,7 +40,9 @@
     {
         "section": "Normal Moves",
         "name": "Standing Medium Punch",
-        "input": "MP",
+        "input": [
+            "MP"
+        ],
         "startup": 11,
         "active": 3,
         "recovery": 21,
@@ -53,7 +59,9 @@
     {
         "section": "Normal Moves",
         "name": "Standing Medium Kick",
-        "input": "MK",
+        "input": [
+            "MK"
+        ],
         "startup": 7,
         "active": 3,
         "recovery": 19,
@@ -70,7 +78,9 @@
     {
         "section": "Normal Moves",
         "name": "Standing Heavy Punch",
-        "input": "HP",
+        "input": [
+            "HP"
+        ],
         "startup": 11,
         "active": 2,
         "recovery": 22,
@@ -87,7 +97,9 @@
     {
         "section": "Normal Moves",
         "name": "Standing Heavy Kick",
-        "input": "HK",
+        "input": [
+            "HK"
+        ],
         "startup": 11,
         "active": 4,
         "recovery": 17,
@@ -104,7 +116,11 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Light Punch",
-        "input": "2+LP",
+        "input": [
+            "2",
+            "+",
+            "LP"
+        ],
         "startup": 3,
         "active": 2,
         "recovery": 11,
@@ -121,7 +137,11 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Light Kick",
-        "input": "2+LK",
+        "input": [
+            "2",
+            "+",
+            "LK"
+        ],
         "startup": 5,
         "active": 2,
         "recovery": 10,
@@ -138,7 +158,11 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Medium Punch",
-        "input": "2+MP",
+        "input": [
+            "2",
+            "+",
+            "MP"
+        ],
         "startup": 6,
         "active": 4,
         "recovery": 14,
@@ -155,7 +179,11 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Medium Kick",
-        "input": "2+MK",
+        "input": [
+            "2",
+            "+",
+            "MK"
+        ],
         "startup": 8,
         "active": 3,
         "recovery": 17,
@@ -172,7 +200,11 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Heavy Punch",
-        "input": "2+HP",
+        "input": [
+            "2",
+            "+",
+            "HP"
+        ],
         "startup": 8,
         "active": 6,
         "recovery": 20,
@@ -189,7 +221,11 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Heavy Kick",
-        "input": "2+HK",
+        "input": [
+            "2",
+            "+",
+            "HK"
+        ],
         "startup": 9,
         "active": 3,
         "recovery": 21,
@@ -206,7 +242,9 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Light Punch",
-        "input": "LP",
+        "input": [
+            "LP"
+        ],
         "startup": 4,
         "active": 10,
         "recovery": 3,
@@ -223,7 +261,9 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Light Kick",
-        "input": "LK",
+        "input": [
+            "LK"
+        ],
         "startup": 5,
         "active": 8,
         "recovery": 3,
@@ -240,7 +280,9 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Medium Punch",
-        "input": "MP",
+        "input": [
+            "MP"
+        ],
         "startup": 11,
         "active": 3,
         "recovery": 3,
@@ -257,7 +299,9 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Medium Kick",
-        "input": "MK",
+        "input": [
+            "MK"
+        ],
         "startup": 6,
         "active": 6,
         "recovery": 3,
@@ -274,7 +318,9 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Heavy Punch",
-        "input": "HP",
+        "input": [
+            "HP"
+        ],
         "startup": 8,
         "active": 5,
         "recovery": 3,
@@ -291,7 +337,9 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Heavy Kick",
-        "input": "HK",
+        "input": [
+            "HK"
+        ],
         "startup": 10,
         "active": 6,
         "recovery": 3,
@@ -308,7 +356,11 @@
     {
         "section": "Unique Attacks",
         "name": "Guillotinna",
-        "input": "6+MK",
+        "input": [
+            "6",
+            "+",
+            "MK"
+        ],
         "startup": 21,
         "active": 2,
         "recovery": 19,
@@ -325,7 +377,11 @@
     {
         "section": "Unique Attacks",
         "name": "Malice",
-        "input": "3+HP",
+        "input": [
+            "3",
+            "+",
+            "HP"
+        ],
         "startup": 15,
         "active": 3,
         "recovery": 31,
@@ -342,7 +398,11 @@
     {
         "section": "Unique Attacks",
         "name": "Bylina",
-        "input": "6+HK",
+        "input": [
+            "6",
+            "+",
+            "HK"
+        ],
         "startup": 10,
         "active": 1601,
         "recovery": 24,
@@ -359,7 +419,11 @@
     {
         "section": "Unique Attacks",
         "name": "Grom Strelka(1)",
-        "input": "4+MP",
+        "input": [
+            "4",
+            "+",
+            "MP"
+        ],
         "startup": 7,
         "active": 3,
         "recovery": 16,
@@ -376,7 +440,13 @@
     {
         "section": "Unique Attacks",
         "name": "Grom Strelka(2)",
-        "input": "4+MP>MP",
+        "input": [
+            "4",
+            "+",
+            "MP",
+            ">",
+            "MP"
+        ],
         "startup": 9,
         "active": 3,
         "recovery": 20,
@@ -393,7 +463,11 @@
     {
         "section": "Unique Attacks",
         "name": "Zilant",
-        "input": "HK>HP",
+        "input": [
+            "HK",
+            ">",
+            "HP"
+        ],
         "startup": 19,
         "active": 3,
         "recovery": 20,
@@ -410,7 +484,13 @@
     {
         "section": "Unique Attacks",
         "name": "Zilant Mid",
-        "input": "HK>HP>HP",
+        "input": [
+            "HK",
+            ">",
+            "HP",
+            ">",
+            "HP"
+        ],
         "startup": 20,
         "active": 3,
         "recovery": 22,
@@ -427,7 +507,13 @@
     {
         "section": "Unique Attacks",
         "name": "Zilant Low",
-        "input": "HK>HP>HK",
+        "input": [
+            "HK",
+            ">",
+            "HP",
+            ">",
+            "HK"
+        ],
         "startup": 20,
         "active": 3,
         "recovery": 22,
@@ -444,7 +530,12 @@
     {
         "section": "Special Moves",
         "name": "L Triglav",
-        "input": "22+LP",
+        "input": [
+            "2",
+            "2",
+            "+",
+            "LP"
+        ],
         "startup": 21,
         "active": 10,
         "recovery": 55,
@@ -461,7 +552,12 @@
     {
         "section": "Special Moves",
         "name": "M Triglav",
-        "input": "22+MP",
+        "input": [
+            "2",
+            "2",
+            "+",
+            "MP"
+        ],
         "startup": 21,
         "active": 10,
         "recovery": 55,
@@ -478,7 +574,12 @@
     {
         "section": "Special Moves",
         "name": "H Triglav",
-        "input": "22+HP",
+        "input": [
+            "2",
+            "2",
+            "+",
+            "HP"
+        ],
         "startup": 21,
         "active": 10,
         "recovery": 55,
@@ -495,7 +596,13 @@
     {
         "section": "Special Moves",
         "name": "OD L Triglav",
-        "input": "22+LPMP",
+        "input": [
+            "2",
+            "2",
+            "+",
+            "LP",
+            "MP"
+        ],
         "startup": 19,
         "active": 20,
         "recovery": 53,
@@ -512,7 +619,13 @@
     {
         "section": "Special Moves",
         "name": "OD M Triglav",
-        "input": "22+LPHP",
+        "input": [
+            "2",
+            "2",
+            "+",
+            "LP",
+            "HP"
+        ],
         "startup": 19,
         "active": 20,
         "recovery": 53,
@@ -529,7 +642,13 @@
     {
         "section": "Special Moves",
         "name": "OD H Triglav",
-        "input": "22+MPHP",
+        "input": [
+            "2",
+            "2",
+            "+",
+            "MP",
+            "HP"
+        ],
         "startup": 19,
         "active": 20,
         "recovery": 53,
@@ -546,7 +665,13 @@
     {
         "section": "Special Moves",
         "name": "L Stribog",
-        "input": "236+LP",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "LP"
+        ],
         "startup": 15,
         "active": 6,
         "recovery": 49,
@@ -563,7 +688,13 @@
     {
         "section": "Special Moves",
         "name": "M Stribog",
-        "input": "236+MP",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "MP"
+        ],
         "startup": 19,
         "active": 2601,
         "recovery": 53,
@@ -580,7 +711,13 @@
     {
         "section": "Special Moves",
         "name": "H Stribog",
-        "input": "236+HP",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "HP"
+        ],
         "startup": 27,
         "active": 4201,
         "recovery": 61,
@@ -597,7 +734,14 @@
     {
         "section": "Special Moves",
         "name": "OD Stribog",
-        "input": "236+PP",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "P",
+            "P"
+        ],
         "startup": 21,
         "active": 3301,
         "recovery": 55,
@@ -614,7 +758,13 @@
     {
         "section": "Special Moves",
         "name": "L Departure",
-        "input": "214+LP",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "LP"
+        ],
         "startup": 149,
         "active": 10,
         "recovery": 50,
@@ -631,7 +781,13 @@
     {
         "section": "Special Moves",
         "name": "M Departure",
-        "input": "214+MP",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "MP"
+        ],
         "startup": 149,
         "active": 10,
         "recovery": 50,
@@ -648,7 +804,13 @@
     {
         "section": "Special Moves",
         "name": "H Departure",
-        "input": "214+HP",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "HP"
+        ],
         "startup": 149,
         "active": 10,
         "recovery": 50,
@@ -665,7 +827,14 @@
     {
         "section": "Special Moves",
         "name": "OD L Departure",
-        "input": "214+LPMP",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "LP",
+            "MP"
+        ],
         "startup": 109,
         "active": 149001,
         "recovery": 40,
@@ -682,7 +851,14 @@
     {
         "section": "Special Moves",
         "name": "OD M Departure",
-        "input": "214+LPHP",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "LP",
+            "HP"
+        ],
         "startup": 109,
         "active": 149001,
         "recovery": 40,
@@ -699,7 +875,14 @@
     {
         "section": "Special Moves",
         "name": "OD H Departure",
-        "input": "214+MPHP",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "MP",
+            "HP"
+        ],
         "startup": 109,
         "active": 149001,
         "recovery": 40,
@@ -716,7 +899,15 @@
     {
         "section": "Special Moves",
         "name": "Departure: Window",
-        "input": "214+LP/MP",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "LP",
+            "/",
+            "MP"
+        ],
         "startup": null,
         "active": null,
         "recovery": 44,
@@ -733,7 +924,13 @@
     {
         "section": "Special Moves",
         "name": "Departure: Shadow",
-        "input": "214+HP",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "HP"
+        ],
         "startup": null,
         "active": null,
         "recovery": 40,
@@ -750,7 +947,12 @@
     {
         "section": "Special Moves",
         "name": "Amnesia",
-        "input": "22+K",
+        "input": [
+            "2",
+            "2",
+            "+",
+            "K"
+        ],
         "startup": 2,
         "active": 18,
         "recovery": 35,
@@ -767,7 +969,13 @@
     {
         "section": "Special Moves",
         "name": "OD Amnesia",
-        "input": "22+KK",
+        "input": [
+            "2",
+            "2",
+            "+",
+            "K",
+            "K"
+        ],
         "startup": 0,
         "active": 20,
         "recovery": 35,
@@ -784,7 +992,13 @@
     {
         "section": "Special Moves",
         "name": "L Torbalan",
-        "input": "236+LK",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "LK"
+        ],
         "startup": 22,
         "active": null,
         "recovery": 50,
@@ -801,7 +1015,13 @@
     {
         "section": "Special Moves",
         "name": "M Torbalan",
-        "input": "236+MK",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "MK"
+        ],
         "startup": 26,
         "active": null,
         "recovery": 50,
@@ -818,7 +1038,13 @@
     {
         "section": "Special Moves",
         "name": "H Torbalan",
-        "input": "236+HK",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "HK"
+        ],
         "startup": 26,
         "active": null,
         "recovery": 50,
@@ -835,7 +1061,14 @@
     {
         "section": "Special Moves",
         "name": "OD Torbalan",
-        "input": "236+KK",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "K",
+            "K"
+        ],
         "startup": 22,
         "active": null,
         "recovery": 50,
@@ -852,7 +1085,13 @@
     {
         "section": "Special Moves",
         "name": "Embrace",
-        "input": "214+K",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "K"
+        ],
         "startup": 26,
         "active": null,
         "recovery": 72,
@@ -869,7 +1108,14 @@
     {
         "section": "Special Moves",
         "name": "OD Embrace",
-        "input": "214+KK",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "K",
+            "K"
+        ],
         "startup": 26,
         "active": null,
         "recovery": 72,
@@ -886,7 +1132,16 @@
     {
         "section": "Super Arts",
         "name": "SA1 Chornobog",
-        "input": "236236+P",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "P"
+        ],
         "startup": 8,
         "active": null,
         "recovery": 84,
@@ -903,7 +1158,16 @@
     {
         "section": "Super Arts",
         "name": "SA2 Lovushka",
-        "input": "214214+P",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "2",
+            "1",
+            "4",
+            "+",
+            "P"
+        ],
         "startup": 29,
         "active": null,
         "recovery": 8,
@@ -920,7 +1184,16 @@
     {
         "section": "Super Arts",
         "name": "SA3 Interdiction",
-        "input": "236236+K",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "K"
+        ],
         "startup": 17,
         "active": 6,
         "recovery": 62,
@@ -937,7 +1210,16 @@
     {
         "section": "Super Arts",
         "name": "CA Interdiction",
-        "input": "236236+K",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "K"
+        ],
         "startup": 17,
         "active": 6,
         "recovery": 62,
@@ -954,7 +1236,14 @@
     {
         "section": "Throws",
         "name": "Ravina",
-        "input": "5/6+LPLK",
+        "input": [
+            "5",
+            "/",
+            "6",
+            "+",
+            "LP",
+            "LK"
+        ],
         "startup": 4,
         "active": 3,
         "recovery": 23,
@@ -971,7 +1260,12 @@
     {
         "section": "Throws",
         "name": "Uragan",
-        "input": "4+LPLK",
+        "input": [
+            "4",
+            "+",
+            "LP",
+            "LK"
+        ],
         "startup": 4,
         "active": 3,
         "recovery": 23,
@@ -988,7 +1282,10 @@
     {
         "section": "Throws",
         "name": "Tornado",
-        "input": "LPLK",
+        "input": [
+            "LP",
+            "LK"
+        ],
         "startup": 4,
         "active": 3,
         "recovery": 3,
@@ -1005,7 +1302,10 @@
     {
         "section": "Common Moves",
         "name": "Forward Dash",
-        "input": "66",
+        "input": [
+            "6",
+            "6"
+        ],
         "startup": null,
         "active": null,
         "recovery": 22,
@@ -1022,7 +1322,10 @@
     {
         "section": "Common Moves",
         "name": "Backward Dash",
-        "input": "44",
+        "input": [
+            "4",
+            "4"
+        ],
         "startup": null,
         "active": null,
         "recovery": 23,
@@ -1039,7 +1342,10 @@
     {
         "section": "Common Moves",
         "name": "Drive Impact: Espada",
-        "input": "HPHK",
+        "input": [
+            "HP",
+            "HK"
+        ],
         "startup": 25,
         "active": 2,
         "recovery": 35,
@@ -1056,7 +1362,12 @@
     {
         "section": "Common Moves",
         "name": "Drive Reversal: Exilio",
-        "input": "6+HPHK",
+        "input": [
+            "6",
+            "+",
+            "HP",
+            "HK"
+        ],
         "startup": 19,
         "active": 3,
         "recovery": 26,
@@ -1073,7 +1384,10 @@
     {
         "section": "Common Moves",
         "name": "Drive Parry",
-        "input": "MPMK",
+        "input": [
+            "MP",
+            "MK"
+        ],
         "startup": null,
         "active": null,
         "recovery": 29,
@@ -1090,7 +1404,10 @@
     {
         "section": "Common Moves",
         "name": "Perfect Parry (strike)",
-        "input": "MPMK",
+        "input": [
+            "MP",
+            "MK"
+        ],
         "startup": 1,
         "active": null,
         "recovery": 1,
@@ -1107,7 +1424,10 @@
     {
         "section": "Common Moves",
         "name": "Perfect Parry (projectile)",
-        "input": "MPMK",
+        "input": [
+            "MP",
+            "MK"
+        ],
         "startup": 1,
         "active": null,
         "recovery": 10,
@@ -1124,7 +1444,10 @@
     {
         "section": "Common Moves",
         "name": "Parry Drive Rush",
-        "input": "66",
+        "input": [
+            "6",
+            "6"
+        ],
         "startup": null,
         "active": null,
         "recovery": 45,
@@ -1141,7 +1464,17 @@
     {
         "section": "Common Moves",
         "name": "Cancel Drive Rush",
-        "input": "66/5/6+MPMK",
+        "input": [
+            "6",
+            "6",
+            "/",
+            "5",
+            "/",
+            "6",
+            "+",
+            "MP",
+            "MK"
+        ],
         "startup": null,
         "active": null,
         "recovery": 46,

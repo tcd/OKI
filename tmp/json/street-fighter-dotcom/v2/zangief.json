@@ -2,7 +2,9 @@
     {
         "section": "Normal Moves",
         "name": "Standing Light Punch",
-        "input": "LP",
+        "input": [
+            "LP"
+        ],
         "startup": 6,
         "active": 3,
         "recovery": 9,
@@ -19,7 +21,9 @@
     {
         "section": "Normal Moves",
         "name": "(Rapid cancel version)Standing Light Punch",
-        "input": "LP",
+        "input": [
+            "LP"
+        ],
         "startup": 3,
         "active": 3,
         "recovery": 9,
@@ -36,7 +40,9 @@
     {
         "section": "Normal Moves",
         "name": "Standing Light Kick",
-        "input": "LK",
+        "input": [
+            "LK"
+        ],
         "startup": 6,
         "active": 2,
         "recovery": 17,
@@ -53,7 +59,9 @@
     {
         "section": "Normal Moves",
         "name": "Standing Medium Punch",
-        "input": "MP",
+        "input": [
+            "MP"
+        ],
         "startup": 8,
         "active": 4,
         "recovery": 17,
@@ -70,7 +78,9 @@
     {
         "section": "Normal Moves",
         "name": "Standing Medium Kick",
-        "input": "MK",
+        "input": [
+            "MK"
+        ],
         "startup": 9,
         "active": 4,
         "recovery": 19,
@@ -87,7 +97,9 @@
     {
         "section": "Normal Moves",
         "name": "Standing Heavy Punch",
-        "input": "HP",
+        "input": [
+            "HP"
+        ],
         "startup": 15,
         "active": 3,
         "recovery": 22,
@@ -104,7 +116,9 @@
     {
         "section": "Normal Moves",
         "name": "Standing Heavy Punch(Charged)",
-        "input": "HP",
+        "input": [
+            "HP"
+        ],
         "startup": 31,
         "active": 3,
         "recovery": 22,
@@ -121,7 +135,9 @@
     {
         "section": "Normal Moves",
         "name": "Standing Heavy Kick",
-        "input": "HK",
+        "input": [
+            "HK"
+        ],
         "startup": 12,
         "active": 4,
         "recovery": 21,
@@ -138,7 +154,11 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Light Punch",
-        "input": "2+LP",
+        "input": [
+            "2",
+            "+",
+            "LP"
+        ],
         "startup": 5,
         "active": 2,
         "recovery": 8,
@@ -155,7 +175,11 @@
     {
         "section": "Normal Moves",
         "name": "(Rapid cancel version)Crouching Light Punch",
-        "input": "2+LP",
+        "input": [
+            "2",
+            "+",
+            "LP"
+        ],
         "startup": 2,
         "active": 2,
         "recovery": 8,
@@ -172,7 +196,11 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Light Kick",
-        "input": "2+LK",
+        "input": [
+            "2",
+            "+",
+            "LK"
+        ],
         "startup": 3,
         "active": 3,
         "recovery": 12,
@@ -189,7 +217,11 @@
     {
         "section": "Normal Moves",
         "name": "(Rapid cancel version)Crouching Light Kick",
-        "input": "2+LK",
+        "input": [
+            "2",
+            "+",
+            "LK"
+        ],
         "startup": 2,
         "active": 3,
         "recovery": 12,
@@ -206,7 +238,11 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Medium Punch",
-        "input": "2+MP",
+        "input": [
+            "2",
+            "+",
+            "MP"
+        ],
         "startup": 7,
         "active": 3,
         "recovery": 16,
@@ -223,7 +259,11 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Medium Kick",
-        "input": "2+MK",
+        "input": [
+            "2",
+            "+",
+            "MK"
+        ],
         "startup": 8,
         "active": 3,
         "recovery": 18,
@@ -240,7 +280,11 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Heavy Punch",
-        "input": "2+HP",
+        "input": [
+            "2",
+            "+",
+            "HP"
+        ],
         "startup": 11,
         "active": 8,
         "recovery": 35,
@@ -257,7 +301,11 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Heavy Kick",
-        "input": "2+HK",
+        "input": [
+            "2",
+            "+",
+            "HK"
+        ],
         "startup": 11,
         "active": 3,
         "recovery": 27,
@@ -274,7 +322,9 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Light Punch",
-        "input": "LP",
+        "input": [
+            "LP"
+        ],
         "startup": 4,
         "active": 7,
         "recovery": 3,
@@ -291,7 +341,9 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Light Kick",
-        "input": "LK",
+        "input": [
+            "LK"
+        ],
         "startup": 4,
         "active": 10,
         "recovery": 3,
@@ -308,7 +360,9 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Medium Punch",
-        "input": "MP",
+        "input": [
+            "MP"
+        ],
         "startup": 7,
         "active": 5,
         "recovery": 3,
@@ -325,7 +379,9 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Medium Kick",
-        "input": "MK",
+        "input": [
+            "MK"
+        ],
         "startup": 7,
         "active": 8,
         "recovery": 3,
@@ -342,7 +398,9 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Heavy Punch",
-        "input": "HP",
+        "input": [
+            "HP"
+        ],
         "startup": 8,
         "active": 6,
         "recovery": 3,
@@ -359,7 +417,9 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Heavy Kick",
-        "input": "HK",
+        "input": [
+            "HK"
+        ],
         "startup": 9,
         "active": 7,
         "recovery": 3,
@@ -376,7 +436,9 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Heavy Kick(Charged)",
-        "input": "HK",
+        "input": [
+            "HK"
+        ],
         "startup": 31,
         "active": 6,
         "recovery": 20,
@@ -393,7 +455,11 @@
     {
         "section": "Unique Attacks",
         "name": "Hellstab",
-        "input": "3+MP",
+        "input": [
+            "3",
+            "+",
+            "MP"
+        ],
         "startup": 6,
         "active": 3,
         "recovery": 21,
@@ -410,7 +476,11 @@
     {
         "section": "Unique Attacks",
         "name": "Knee Hammer",
-        "input": "6+MK",
+        "input": [
+            "6",
+            "+",
+            "MK"
+        ],
         "startup": 13,
         "active": 7,
         "recovery": 14,
@@ -427,7 +497,11 @@
     {
         "section": "Unique Attacks",
         "name": "Headbutt",
-        "input": "6+HP",
+        "input": [
+            "6",
+            "+",
+            "HP"
+        ],
         "startup": 13,
         "active": 5,
         "recovery": 15,
@@ -444,7 +518,11 @@
     {
         "section": "Unique Attacks",
         "name": "Cyclone Wheel Kick",
-        "input": "6+HK",
+        "input": [
+            "6",
+            "+",
+            "HK"
+        ],
         "startup": 21,
         "active": 7,
         "recovery": 25,
@@ -461,7 +539,11 @@
     {
         "section": "Unique Attacks",
         "name": "Smetana Dropkick",
-        "input": "3+HK",
+        "input": [
+            "3",
+            "+",
+            "HK"
+        ],
         "startup": 15,
         "active": 4,
         "recovery": 40,
@@ -478,7 +560,11 @@
     {
         "section": "Unique Attacks",
         "name": "Flying Body Press",
-        "input": "2+HP",
+        "input": [
+            "2",
+            "+",
+            "HP"
+        ],
         "startup": 8,
         "active": 9,
         "recovery": 8,
@@ -495,7 +581,11 @@
     {
         "section": "Unique Attacks",
         "name": "Flying Headbutt",
-        "input": "8+HP",
+        "input": [
+            "8",
+            "+",
+            "HP"
+        ],
         "startup": 7,
         "active": 4,
         "recovery": 3,
@@ -512,7 +602,11 @@
     {
         "section": "Unique Attacks",
         "name": "Machine Gun Chops(2)",
-        "input": "MP>MP",
+        "input": [
+            "MP",
+            ">",
+            "MP"
+        ],
         "startup": 8,
         "active": 4,
         "recovery": 20,
@@ -529,7 +623,13 @@
     {
         "section": "Unique Attacks",
         "name": "Machine Gun Chops(3)",
-        "input": "MP>MP>MP",
+        "input": [
+            "MP",
+            ">",
+            "MP",
+            ">",
+            "MP"
+        ],
         "startup": 14,
         "active": 3,
         "recovery": 32,
@@ -546,7 +646,12 @@
     {
         "section": "Unique Attacks",
         "name": "Power Stomps(1)",
-        "input": "22+MK",
+        "input": [
+            "2",
+            "2",
+            "+",
+            "MK"
+        ],
         "startup": 8,
         "active": 3,
         "recovery": 17,
@@ -563,7 +668,14 @@
     {
         "section": "Unique Attacks",
         "name": "Power Stomps(2)",
-        "input": "22+MK>MK",
+        "input": [
+            "2",
+            "2",
+            "+",
+            "MK",
+            ">",
+            "MK"
+        ],
         "startup": 8,
         "active": 3,
         "recovery": 19,
@@ -580,7 +692,16 @@
     {
         "section": "Unique Attacks",
         "name": "Power Stomps(3)",
-        "input": "22+MK>MK>MK",
+        "input": [
+            "2",
+            "2",
+            "+",
+            "MK",
+            ">",
+            "MK",
+            ">",
+            "MK"
+        ],
         "startup": 9,
         "active": 3,
         "recovery": 24,
@@ -597,7 +718,10 @@
     {
         "section": "Special Moves",
         "name": "Double Lariat",
-        "input": "PP",
+        "input": [
+            "P",
+            "P"
+        ],
         "startup": 14,
         "active": 4501,
         "recovery": 27,
@@ -614,7 +738,11 @@
     {
         "section": "Special Moves",
         "name": "OD Double Lariat",
-        "input": "LPMPHP",
+        "input": [
+            "LP",
+            "MP",
+            "HP"
+        ],
         "startup": 11,
         "active": 3601,
         "recovery": 26,
@@ -631,7 +759,11 @@
     {
         "section": "Special Moves",
         "name": "L Screw Piledriver",
-        "input": "360+LP",
+        "input": [
+            "360",
+            "+",
+            "LP"
+        ],
         "startup": 4,
         "active": 3,
         "recovery": 54,
@@ -648,7 +780,11 @@
     {
         "section": "Special Moves",
         "name": "M Screw Piledriver",
-        "input": "360+MP",
+        "input": [
+            "360",
+            "+",
+            "MP"
+        ],
         "startup": 4,
         "active": 3,
         "recovery": 54,
@@ -665,7 +801,11 @@
     {
         "section": "Special Moves",
         "name": "H Screw Piledriver",
-        "input": "360+HP",
+        "input": [
+            "360",
+            "+",
+            "HP"
+        ],
         "startup": 4,
         "active": 3,
         "recovery": 54,
@@ -682,7 +822,12 @@
     {
         "section": "Special Moves",
         "name": "OD Screw Piledriver",
-        "input": "360+PP",
+        "input": [
+            "360",
+            "+",
+            "P",
+            "P"
+        ],
         "startup": 4,
         "active": 3,
         "recovery": 54,
@@ -699,7 +844,11 @@
     {
         "section": "Special Moves",
         "name": "Borscht Dynamite",
-        "input": "360+K",
+        "input": [
+            "360",
+            "+",
+            "K"
+        ],
         "startup": 3,
         "active": 3,
         "recovery": 16,
@@ -716,7 +865,12 @@
     {
         "section": "Special Moves",
         "name": "OD Borscht Dynamite",
-        "input": "360+KK",
+        "input": [
+            "360",
+            "+",
+            "K",
+            "K"
+        ],
         "startup": 3,
         "active": 3,
         "recovery": 16,
@@ -733,7 +887,15 @@
     {
         "section": "Special Moves",
         "name": "Russian Suplex",
-        "input": "63214+K",
+        "input": [
+            "6",
+            "3",
+            "2",
+            "1",
+            "4",
+            "+",
+            "K"
+        ],
         "startup": 9,
         "active": 2,
         "recovery": 50,
@@ -750,7 +912,16 @@
     {
         "section": "Special Moves",
         "name": "OD Russian Suplex",
-        "input": "63214+KK",
+        "input": [
+            "6",
+            "3",
+            "2",
+            "1",
+            "4",
+            "+",
+            "K",
+            "K"
+        ],
         "startup": 9,
         "active": 2,
         "recovery": 50,
@@ -767,7 +938,15 @@
     {
         "section": "Special Moves",
         "name": "Siberian Express(Close range)",
-        "input": "63214+K",
+        "input": [
+            "6",
+            "3",
+            "2",
+            "1",
+            "4",
+            "+",
+            "K"
+        ],
         "startup": 27,
         "active": 2,
         "recovery": 41,
@@ -784,7 +963,16 @@
     {
         "section": "Special Moves",
         "name": "OD Siberian Express(Close range)",
-        "input": "63214+KK",
+        "input": [
+            "6",
+            "3",
+            "2",
+            "1",
+            "4",
+            "+",
+            "K",
+            "K"
+        ],
         "startup": 22,
         "active": 2,
         "recovery": 44,
@@ -801,7 +989,15 @@
     {
         "section": "Special Moves",
         "name": "Siberian Express(Far range)",
-        "input": "63214+K",
+        "input": [
+            "6",
+            "3",
+            "2",
+            "1",
+            "4",
+            "+",
+            "K"
+        ],
         "startup": 54,
         "active": 2,
         "recovery": 40,
@@ -818,7 +1014,16 @@
     {
         "section": "Special Moves",
         "name": "OD Siberian Express(Far range)",
-        "input": "63214+KK",
+        "input": [
+            "6",
+            "3",
+            "2",
+            "1",
+            "4",
+            "+",
+            "K",
+            "K"
+        ],
         "startup": 53,
         "active": 2,
         "recovery": 40,
@@ -835,7 +1040,12 @@
     {
         "section": "Special Moves",
         "name": "Tundra Storm",
-        "input": "22+HK",
+        "input": [
+            "2",
+            "2",
+            "+",
+            "HK"
+        ],
         "startup": 4,
         "active": 51,
         "recovery": 24,
@@ -852,7 +1062,16 @@
     {
         "section": "Super Arts",
         "name": "SA1 Aerial Russian Slam",
-        "input": "236236+K",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "K"
+        ],
         "startup": 10,
         "active": 7,
         "recovery": 60,
@@ -869,7 +1088,16 @@
     {
         "section": "Super Arts",
         "name": "SA2 Cyclone Lariat(Charged)",
-        "input": "236236+P",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "P"
+        ],
         "startup": null,
         "active": null,
         "recovery": 52,
@@ -886,7 +1114,16 @@
     {
         "section": "Super Arts",
         "name": "SA2 Cyclone Lariat(immediately)",
-        "input": "236236+P",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "P"
+        ],
         "startup": null,
         "active": null,
         "recovery": "",
@@ -903,7 +1140,16 @@
     {
         "section": "Super Arts",
         "name": "SA2 Cyclone Lariat(Movement)",
-        "input": "236236+P",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "P"
+        ],
         "startup": null,
         "active": null,
         "recovery": "",
@@ -920,7 +1166,12 @@
     {
         "section": "Super Arts",
         "name": "SA3 Bolshoi Storm Buster",
-        "input": "360360+P",
+        "input": [
+            "360",
+            "360",
+            "+",
+            "P"
+        ],
         "startup": 5,
         "active": 2,
         "recovery": 116,
@@ -937,7 +1188,12 @@
     {
         "section": "Super Arts",
         "name": "CA Bolshoi Storm Buster",
-        "input": "360360+P",
+        "input": [
+            "360",
+            "360",
+            "+",
+            "P"
+        ],
         "startup": 5,
         "active": 2,
         "recovery": 116,
@@ -954,7 +1210,12 @@
     {
         "section": "Throws",
         "name": "Bodyslam",
-        "input": "5+LPLK",
+        "input": [
+            "5",
+            "+",
+            "LP",
+            "LK"
+        ],
         "startup": 4,
         "active": 3,
         "recovery": 23,
@@ -971,7 +1232,12 @@
     {
         "section": "Throws",
         "name": "Capture Suplex",
-        "input": "4+LPLK",
+        "input": [
+            "4",
+            "+",
+            "LP",
+            "LK"
+        ],
         "startup": 4,
         "active": 3,
         "recovery": 23,
@@ -988,7 +1254,12 @@
     {
         "section": "Throws",
         "name": "German Suplex",
-        "input": "6+LPLK",
+        "input": [
+            "6",
+            "+",
+            "LP",
+            "LK"
+        ],
         "startup": 4,
         "active": 3,
         "recovery": 23,
@@ -1005,7 +1276,12 @@
     {
         "section": "Throws",
         "name": "Spinebuster",
-        "input": "3+LPLK",
+        "input": [
+            "3",
+            "+",
+            "LP",
+            "LK"
+        ],
         "startup": 4,
         "active": 3,
         "recovery": 23,
@@ -1022,7 +1298,12 @@
     {
         "section": "Throws",
         "name": "Russian Drop",
-        "input": "1+LPLK",
+        "input": [
+            "1",
+            "+",
+            "LP",
+            "LK"
+        ],
         "startup": 4,
         "active": 3,
         "recovery": 23,
@@ -1039,7 +1320,12 @@
     {
         "section": "Throws",
         "name": "Brain Buster",
-        "input": "2+LPLK",
+        "input": [
+            "2",
+            "+",
+            "LP",
+            "LK"
+        ],
         "startup": 4,
         "active": 3,
         "recovery": 23,
@@ -1056,7 +1342,10 @@
     {
         "section": "Common Moves",
         "name": "Forward Dash",
-        "input": "66",
+        "input": [
+            "6",
+            "6"
+        ],
         "startup": null,
         "active": null,
         "recovery": 22,
@@ -1073,7 +1362,10 @@
     {
         "section": "Common Moves",
         "name": "Backward Dash",
-        "input": "44",
+        "input": [
+            "4",
+            "4"
+        ],
         "startup": null,
         "active": null,
         "recovery": 25,
@@ -1090,7 +1382,10 @@
     {
         "section": "Common Moves",
         "name": "Drive Impact: Double Russian Chop",
-        "input": "HPHK",
+        "input": [
+            "HP",
+            "HK"
+        ],
         "startup": 25,
         "active": 2,
         "recovery": 35,
@@ -1107,7 +1402,12 @@
     {
         "section": "Common Moves",
         "name": "Drive Reversal: Reverse Russian Kick",
-        "input": "6+HPHK",
+        "input": [
+            "6",
+            "+",
+            "HP",
+            "HK"
+        ],
         "startup": 19,
         "active": 3,
         "recovery": 26,
@@ -1124,7 +1424,10 @@
     {
         "section": "Common Moves",
         "name": "Drive Parry",
-        "input": "MPMK",
+        "input": [
+            "MP",
+            "MK"
+        ],
         "startup": null,
         "active": null,
         "recovery": 29,
@@ -1141,7 +1444,10 @@
     {
         "section": "Common Moves",
         "name": "Perfect Parry (strike)",
-        "input": "MPMK",
+        "input": [
+            "MP",
+            "MK"
+        ],
         "startup": 1,
         "active": null,
         "recovery": 1,
@@ -1158,7 +1464,10 @@
     {
         "section": "Common Moves",
         "name": "Perfect Parry (projectile)",
-        "input": "MPMK",
+        "input": [
+            "MP",
+            "MK"
+        ],
         "startup": 1,
         "active": null,
         "recovery": 10,
@@ -1175,7 +1484,10 @@
     {
         "section": "Common Moves",
         "name": "Parry Drive Rush",
-        "input": "66",
+        "input": [
+            "6",
+            "6"
+        ],
         "startup": null,
         "active": null,
         "recovery": 45,
@@ -1192,7 +1504,17 @@
     {
         "section": "Common Moves",
         "name": "Cancel Drive Rush",
-        "input": "66/5/6+MPMK",
+        "input": [
+            "6",
+            "6",
+            "/",
+            "5",
+            "/",
+            "6",
+            "+",
+            "MP",
+            "MK"
+        ],
         "startup": null,
         "active": null,
         "recovery": 46,

@@ -2,7 +2,9 @@
     {
         "section": "Normal Moves",
         "name": "Standing Light Punch",
-        "input": "LP",
+        "input": [
+            "LP"
+        ],
         "startup": 3,
         "active": 4,
         "recovery": 7,
@@ -19,7 +21,9 @@
     {
         "section": "Normal Moves",
         "name": "[Chain combo]Standing Light Punch",
-        "input": "LP",
+        "input": [
+            "LP"
+        ],
         "startup": 3,
         "active": 4,
         "recovery": 7,
@@ -36,7 +40,9 @@
     {
         "section": "Normal Moves",
         "name": "Standing Light Kick",
-        "input": "LK",
+        "input": [
+            "LK"
+        ],
         "startup": 4,
         "active": 3,
         "recovery": 9,
@@ -53,7 +59,9 @@
     {
         "section": "Normal Moves",
         "name": "[Chain combo]Standing Light Kick",
-        "input": "LK",
+        "input": [
+            "LK"
+        ],
         "startup": 4,
         "active": 3,
         "recovery": 9,
@@ -70,7 +78,9 @@
     {
         "section": "Normal Moves",
         "name": "Standing Medium Punch",
-        "input": "MP",
+        "input": [
+            "MP"
+        ],
         "startup": 5,
         "active": 4,
         "recovery": 12,
@@ -87,7 +97,9 @@
     {
         "section": "Normal Moves",
         "name": "[Chain combo]Standing Medium Punch",
-        "input": "MP",
+        "input": [
+            "MP"
+        ],
         "startup": 5,
         "active": 4,
         "recovery": 12,
@@ -104,7 +116,9 @@
     {
         "section": "Normal Moves",
         "name": "Standing Medium Kick",
-        "input": "MK",
+        "input": [
+            "MK"
+        ],
         "startup": 4,
         "active": 101,
         "recovery": 17,
@@ -121,7 +135,9 @@
     {
         "section": "Normal Moves",
         "name": "[Chain combo]Standing Medium Kick",
-        "input": "MK",
+        "input": [
+            "MK"
+        ],
         "startup": 4,
         "active": 101,
         "recovery": 17,
@@ -138,7 +154,9 @@
     {
         "section": "Normal Moves",
         "name": "Standing Heavy Punch",
-        "input": "HP",
+        "input": [
+            "HP"
+        ],
         "startup": 9,
         "active": 3,
         "recovery": 24,
@@ -155,7 +173,9 @@
     {
         "section": "Normal Moves",
         "name": "[Chain combo]Standing Heavy Punch",
-        "input": "HP",
+        "input": [
+            "HP"
+        ],
         "startup": 9,
         "active": 3,
         "recovery": 24,
@@ -172,7 +192,9 @@
     {
         "section": "Normal Moves",
         "name": "Standing Heavy Kick",
-        "input": "HK",
+        "input": [
+            "HK"
+        ],
         "startup": 16,
         "active": 4,
         "recovery": 19,
@@ -189,7 +211,9 @@
     {
         "section": "Normal Moves",
         "name": "[Chain combo]Standing Heavy Kick",
-        "input": "HK",
+        "input": [
+            "HK"
+        ],
         "startup": 16,
         "active": 4,
         "recovery": 19,
@@ -206,7 +230,11 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Light Punch",
-        "input": "2+LP",
+        "input": [
+            "2",
+            "+",
+            "LP"
+        ],
         "startup": 3,
         "active": 3,
         "recovery": 8,
@@ -223,7 +251,11 @@
     {
         "section": "Normal Moves",
         "name": "[Chain combo]Crouching Light Punch",
-        "input": "2+LP",
+        "input": [
+            "2",
+            "+",
+            "LP"
+        ],
         "startup": 3,
         "active": 3,
         "recovery": 8,
@@ -240,7 +272,11 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Light Kick",
-        "input": "2+LK",
+        "input": [
+            "2",
+            "+",
+            "LK"
+        ],
         "startup": 4,
         "active": 3,
         "recovery": 8,
@@ -257,7 +293,11 @@
     {
         "section": "Normal Moves",
         "name": "[Chain combo]Crouching Light Kick",
-        "input": "2+LK",
+        "input": [
+            "2",
+            "+",
+            "LK"
+        ],
         "startup": 4,
         "active": 3,
         "recovery": 8,
@@ -274,7 +314,11 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Medium Punch",
-        "input": "2+MP",
+        "input": [
+            "2",
+            "+",
+            "MP"
+        ],
         "startup": 5,
         "active": 4,
         "recovery": 14,
@@ -291,7 +335,11 @@
     {
         "section": "Normal Moves",
         "name": "[Chain combo]Crouching Medium Punch",
-        "input": "2+MP",
+        "input": [
+            "2",
+            "+",
+            "MP"
+        ],
         "startup": 5,
         "active": 4,
         "recovery": 14,
@@ -308,7 +356,11 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Medium Kick",
-        "input": "2+MK",
+        "input": [
+            "2",
+            "+",
+            "MK"
+        ],
         "startup": 7,
         "active": 3,
         "recovery": 19,
@@ -325,7 +377,11 @@
     {
         "section": "Normal Moves",
         "name": "[Chain combo]Crouching Medium Kick",
-        "input": "2+MK",
+        "input": [
+            "2",
+            "+",
+            "MK"
+        ],
         "startup": 7,
         "active": 3,
         "recovery": 19,
@@ -342,7 +398,11 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Heavy Punch",
-        "input": "2+HP",
+        "input": [
+            "2",
+            "+",
+            "HP"
+        ],
         "startup": 7,
         "active": 4,
         "recovery": 23,
@@ -359,7 +419,11 @@
     {
         "section": "Normal Moves",
         "name": "[Chain combo]Crouching Heavy Punch",
-        "input": "2+HP",
+        "input": [
+            "2",
+            "+",
+            "HP"
+        ],
         "startup": 7,
         "active": 4,
         "recovery": 23,
@@ -376,7 +440,11 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Heavy Kick",
-        "input": "2+HK",
+        "input": [
+            "2",
+            "+",
+            "HK"
+        ],
         "startup": 9,
         "active": 3,
         "recovery": 23,
@@ -393,7 +461,11 @@
     {
         "section": "Normal Moves",
         "name": "[Chain combo]Crouching Heavy Kick",
-        "input": "2+HK",
+        "input": [
+            "2",
+            "+",
+            "HK"
+        ],
         "startup": 9,
         "active": 3,
         "recovery": 23,
@@ -410,7 +482,9 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Light Punch",
-        "input": "LP",
+        "input": [
+            "LP"
+        ],
         "startup": 4,
         "active": 6,
         "recovery": 3,
@@ -427,7 +501,9 @@
     {
         "section": "Normal Moves",
         "name": "[Chain combo]Jumping Light Punch",
-        "input": "LP",
+        "input": [
+            "LP"
+        ],
         "startup": 4,
         "active": 6,
         "recovery": 3,
@@ -444,7 +520,9 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Light Kick",
-        "input": "LK",
+        "input": [
+            "LK"
+        ],
         "startup": 3,
         "active": 6,
         "recovery": 3,
@@ -461,7 +539,9 @@
     {
         "section": "Normal Moves",
         "name": "[Chain combo]Jumping Light Kick",
-        "input": "LK",
+        "input": [
+            "LK"
+        ],
         "startup": 3,
         "active": 6,
         "recovery": 3,
@@ -478,7 +558,9 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Medium Punch",
-        "input": "MP",
+        "input": [
+            "MP"
+        ],
         "startup": 6,
         "active": 5,
         "recovery": 3,
@@ -495,7 +577,9 @@
     {
         "section": "Normal Moves",
         "name": "[Chain combo]Jumping Medium Punch",
-        "input": "MP",
+        "input": [
+            "MP"
+        ],
         "startup": 6,
         "active": 5,
         "recovery": 3,
@@ -512,7 +596,9 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Medium Kick",
-        "input": "MK",
+        "input": [
+            "MK"
+        ],
         "startup": 5,
         "active": 6,
         "recovery": 3,
@@ -529,7 +615,9 @@
     {
         "section": "Normal Moves",
         "name": "[Chain combo]Jumping Medium Kick",
-        "input": "MK",
+        "input": [
+            "MK"
+        ],
         "startup": 5,
         "active": 6,
         "recovery": 3,
@@ -546,7 +634,9 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Heavy Punch",
-        "input": "HP",
+        "input": [
+            "HP"
+        ],
         "startup": 11,
         "active": 6,
         "recovery": 3,
@@ -563,7 +653,9 @@
     {
         "section": "Normal Moves",
         "name": "[Chain combo]Neutral Jumping Heavy Kick",
-        "input": "HP",
+        "input": [
+            "HP"
+        ],
         "startup": 11,
         "active": 6,
         "recovery": 3,
@@ -580,7 +672,9 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Heavy Kick",
-        "input": "HK",
+        "input": [
+            "HK"
+        ],
         "startup": 9,
         "active": 6,
         "recovery": 3,
@@ -597,7 +691,9 @@
     {
         "section": "Normal Moves",
         "name": "[Chain combo]Jumping Heavy Kick",
-        "input": "HK",
+        "input": [
+            "HK"
+        ],
         "startup": 9,
         "active": 6,
         "recovery": 3,
@@ -614,7 +710,9 @@
     {
         "section": "Normal Moves",
         "name": "Neutral Jumping Heavy Kick",
-        "input": "HK",
+        "input": [
+            "HK"
+        ],
         "startup": 9,
         "active": 4,
         "recovery": 3,
@@ -631,7 +729,9 @@
     {
         "section": "Normal Moves",
         "name": "[Chain combo]Neutral Jumping Heavy Kick",
-        "input": "HK",
+        "input": [
+            "HK"
+        ],
         "startup": 9,
         "active": 4,
         "recovery": 3,
@@ -648,7 +748,11 @@
     {
         "section": "Unique Attacks",
         "name": "Kyosesho",
-        "input": "6+MP",
+        "input": [
+            "6",
+            "+",
+            "MP"
+        ],
         "startup": 7,
         "active": 3,
         "recovery": 17,
@@ -665,7 +769,11 @@
     {
         "section": "Unique Attacks",
         "name": "[Chain combo]Kyosesho",
-        "input": "6+MP",
+        "input": [
+            "6",
+            "+",
+            "MP"
+        ],
         "startup": 7,
         "active": 3,
         "recovery": 17,
@@ -682,7 +790,11 @@
     {
         "section": "Unique Attacks",
         "name": "Senkai Kick",
-        "input": "6+MK",
+        "input": [
+            "6",
+            "+",
+            "MK"
+        ],
         "startup": 20,
         "active": 2,
         "recovery": null,
@@ -699,7 +811,11 @@
     {
         "section": "Unique Attacks",
         "name": "[Chain combo]Senkai Kick",
-        "input": "6+MK",
+        "input": [
+            "6",
+            "+",
+            "MK"
+        ],
         "startup": 20,
         "active": 2,
         "recovery": null,
@@ -716,7 +832,11 @@
     {
         "section": "Unique Attacks",
         "name": "Renko Kicks",
-        "input": "6+HP",
+        "input": [
+            "6",
+            "+",
+            "HP"
+        ],
         "startup": 14,
         "active": 2501,
         "recovery": 20,
@@ -733,7 +853,11 @@
     {
         "section": "Unique Attacks",
         "name": "[Chain combo]Renko Kicks",
-        "input": "6+HP",
+        "input": [
+            "6",
+            "+",
+            "HP"
+        ],
         "startup": 14,
         "active": 2501,
         "recovery": 20,
@@ -750,7 +874,11 @@
     {
         "section": "Unique Attacks",
         "name": "Korenzan",
-        "input": "4+HK",
+        "input": [
+            "4",
+            "+",
+            "HK"
+        ],
         "startup": 9,
         "active": 2101,
         "recovery": 19,
@@ -767,7 +895,11 @@
     {
         "section": "Unique Attacks",
         "name": "[Chain combo]Korenzan",
-        "input": "4+HK",
+        "input": [
+            "4",
+            "+",
+            "HK"
+        ],
         "startup": 9,
         "active": 2101,
         "recovery": 19,
@@ -784,7 +916,13 @@
     {
         "section": "Unique Attacks",
         "name": "Death Crest(2)",
-        "input": "MP>4+HP",
+        "input": [
+            "MP",
+            ">",
+            "4",
+            "+",
+            "HP"
+        ],
         "startup": 11,
         "active": 3,
         "recovery": 19,
@@ -801,7 +939,15 @@
     {
         "section": "Unique Attacks",
         "name": "Death Crest(3)",
-        "input": "MP>4+HP>HP",
+        "input": [
+            "MP",
+            ">",
+            "4",
+            "+",
+            "HP",
+            ">",
+            "HP"
+        ],
         "startup": 16,
         "active": 3,
         "recovery": 27,
@@ -818,7 +964,13 @@
     {
         "section": "Special Moves",
         "name": "L Fuhajin",
-        "input": "214+LK",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "LK"
+        ],
         "startup": 9,
         "active": 4,
         "recovery": null,
@@ -835,7 +987,13 @@
     {
         "section": "Special Moves",
         "name": "M Fuhajin",
-        "input": "214+MK",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "MK"
+        ],
         "startup": 12,
         "active": 4,
         "recovery": 21,
@@ -852,7 +1010,13 @@
     {
         "section": "Special Moves",
         "name": "H Fuhajin",
-        "input": "214+HK",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "HK"
+        ],
         "startup": 24,
         "active": 4,
         "recovery": 20,
@@ -869,7 +1033,14 @@
     {
         "section": "Special Moves",
         "name": "OD Fuhajin",
-        "input": "214+KK",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "K",
+            "K"
+        ],
         "startup": 15,
         "active": 4,
         "recovery": 23,
@@ -886,7 +1057,13 @@
     {
         "section": "Special Moves",
         "name": "Saihasho",
-        "input": "236+LK",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "LK"
+        ],
         "startup": 16,
         "active": null,
         "recovery": 45,
@@ -903,7 +1080,13 @@
     {
         "section": "Special Moves",
         "name": "[Boosted]Saihasho",
-        "input": "236+LK",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "LK"
+        ],
         "startup": 16,
         "active": null,
         "recovery": 45,
@@ -920,7 +1103,14 @@
     {
         "section": "Special Moves",
         "name": "OD Saihasho",
-        "input": "236+LKMK",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "LK",
+            "MK"
+        ],
         "startup": 11,
         "active": null,
         "recovery": 38,
@@ -937,7 +1127,13 @@
     {
         "section": "Special Moves",
         "name": "Ankensatsu",
-        "input": "236+MK",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "MK"
+        ],
         "startup": 23,
         "active": 4,
         "recovery": 19,
@@ -954,7 +1150,13 @@
     {
         "section": "Special Moves",
         "name": "[Boosted]Ankensatsu",
-        "input": "236+MK",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "MK"
+        ],
         "startup": 23,
         "active": 4,
         "recovery": 19,
@@ -971,7 +1173,14 @@
     {
         "section": "Special Moves",
         "name": "OD Ankensatsu",
-        "input": "236+LKHK",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "LK",
+            "HK"
+        ],
         "startup": 23,
         "active": 4,
         "recovery": 19,
@@ -988,7 +1197,13 @@
     {
         "section": "Special Moves",
         "name": "Go Ohsatsu",
-        "input": "236+HK",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "HK"
+        ],
         "startup": 17,
         "active": 4,
         "recovery": 27,
@@ -1005,7 +1220,13 @@
     {
         "section": "Special Moves",
         "name": "[Boosted]Go Ohsatsu",
-        "input": "236+HK",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "HK"
+        ],
         "startup": 17,
         "active": 3601,
         "recovery": 27,
@@ -1022,7 +1243,14 @@
     {
         "section": "Special Moves",
         "name": "OD Go Ohsatsu",
-        "input": "236+MKHK",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "MK",
+            "HK"
+        ],
         "startup": 17,
         "active": 6901,
         "recovery": 28,
@@ -1039,7 +1267,13 @@
     {
         "section": "Special Moves",
         "name": "L Tensenrin",
-        "input": "623+LP",
+        "input": [
+            "6",
+            "2",
+            "3",
+            "+",
+            "LP"
+        ],
         "startup": 10,
         "active": 1701,
         "recovery": 22,
@@ -1056,7 +1290,13 @@
     {
         "section": "Special Moves",
         "name": "M Tensenrin",
-        "input": "623+MP",
+        "input": [
+            "6",
+            "2",
+            "3",
+            "+",
+            "MP"
+        ],
         "startup": 4,
         "active": 241,
         "recovery": 14,
@@ -1073,7 +1313,13 @@
     {
         "section": "Special Moves",
         "name": "H Tensenrin",
-        "input": "623+HP",
+        "input": [
+            "6",
+            "2",
+            "3",
+            "+",
+            "HP"
+        ],
         "startup": 4,
         "active": 241,
         "recovery": 14,
@@ -1090,7 +1336,14 @@
     {
         "section": "Special Moves",
         "name": "OD Tensenrin",
-        "input": "623+PP",
+        "input": [
+            "6",
+            "2",
+            "3",
+            "+",
+            "P",
+            "P"
+        ],
         "startup": 5,
         "active": 241,
         "recovery": 19,
@@ -1107,7 +1360,13 @@
     {
         "section": "Special Moves",
         "name": "Shiku-sen",
-        "input": "214+K",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "K"
+        ],
         "startup": 18,
         "active": "18-until landing",
         "recovery": 18,
@@ -1124,7 +1383,14 @@
     {
         "section": "Special Moves",
         "name": "OD Shiku-sen",
-        "input": "214+KK",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "K",
+            "K"
+        ],
         "startup": 16,
         "active": "16-until landing",
         "recovery": 18,
@@ -1141,7 +1407,9 @@
     {
         "section": "Special Moves",
         "name": "Shiren-sen",
-        "input": "K",
+        "input": [
+            "K"
+        ],
         "startup": 5,
         "active": 381,
         "recovery": 12,
@@ -1158,7 +1426,9 @@
     {
         "section": "Special Moves",
         "name": "OD Shiren-sen",
-        "input": "K",
+        "input": [
+            "K"
+        ],
         "startup": 5,
         "active": 381,
         "recovery": 7,
@@ -1175,7 +1445,16 @@
     {
         "section": "Super Arts",
         "name": "SA1 Sakkai Fuhazan",
-        "input": "236236+K",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "K"
+        ],
         "startup": 7,
         "active": null,
         "recovery": 201,
@@ -1192,7 +1471,16 @@
     {
         "section": "Super Arts",
         "name": "SA2 Feng Shui Engine",
-        "input": "214214+P",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "2",
+            "1",
+            "4",
+            "+",
+            "P"
+        ],
         "startup": null,
         "active": null,
         "recovery": 7,
@@ -1209,7 +1497,9 @@
     {
         "section": "Super Arts",
         "name": "SA2 Feng Shui Engine(Rush)",
-        "input": "P",
+        "input": [
+            "P"
+        ],
         "startup": 8,
         "active": 11,
         "recovery": 26,
@@ -1226,7 +1516,16 @@
     {
         "section": "Super Arts",
         "name": "SA3 Kaisen Dankai Raku",
-        "input": "214214+K",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "2",
+            "1",
+            "4",
+            "+",
+            "K"
+        ],
         "startup": 9,
         "active": 4,
         "recovery": 52,
@@ -1243,7 +1542,16 @@
     {
         "section": "Super Arts",
         "name": "CA Kaisen Dankai Raku",
-        "input": "214214+K",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "2",
+            "1",
+            "4",
+            "+",
+            "K"
+        ],
         "startup": 9,
         "active": 4,
         "recovery": 52,
@@ -1260,7 +1568,14 @@
     {
         "section": "Throws",
         "name": "Spider Fang Throw",
-        "input": "5/6+LPLK",
+        "input": [
+            "5",
+            "/",
+            "6",
+            "+",
+            "LP",
+            "LK"
+        ],
         "startup": 4,
         "active": 3,
         "recovery": 23,
@@ -1277,7 +1592,12 @@
     {
         "section": "Throws",
         "name": "Shadow Kick Throw",
-        "input": "4+LPLK",
+        "input": [
+            "4",
+            "+",
+            "LP",
+            "LK"
+        ],
         "startup": 4,
         "active": 3,
         "recovery": 23,
@@ -1294,7 +1614,10 @@
     {
         "section": "Throws",
         "name": "Zanka-sen",
-        "input": "LPLK",
+        "input": [
+            "LP",
+            "LK"
+        ],
         "startup": 4,
         "active": 3,
         "recovery": 3,
@@ -1311,7 +1634,10 @@
     {
         "section": "Common Moves",
         "name": "Forward Dash",
-        "input": "66",
+        "input": [
+            "6",
+            "6"
+        ],
         "startup": null,
         "active": null,
         "recovery": 22,
@@ -1328,7 +1654,10 @@
     {
         "section": "Common Moves",
         "name": "Backward Dash",
-        "input": "44",
+        "input": [
+            "4",
+            "4"
+        ],
         "startup": null,
         "active": null,
         "recovery": 23,
@@ -1345,7 +1674,10 @@
     {
         "section": "Common Moves",
         "name": "Drive Impact: Sekkan Kick",
-        "input": "HPHK",
+        "input": [
+            "HP",
+            "HK"
+        ],
         "startup": 25,
         "active": 2,
         "recovery": 35,
@@ -1362,7 +1694,12 @@
     {
         "section": "Common Moves",
         "name": "Drive Reversal: Kaita Raid",
-        "input": "6+HPHK",
+        "input": [
+            "6",
+            "+",
+            "HP",
+            "HK"
+        ],
         "startup": 19,
         "active": 3,
         "recovery": 26,
@@ -1379,7 +1716,10 @@
     {
         "section": "Common Moves",
         "name": "Drive Parry",
-        "input": "MPMK",
+        "input": [
+            "MP",
+            "MK"
+        ],
         "startup": null,
         "active": null,
         "recovery": 29,
@@ -1396,7 +1736,10 @@
     {
         "section": "Common Moves",
         "name": "Perfect Parry (strike)",
-        "input": "MPMK",
+        "input": [
+            "MP",
+            "MK"
+        ],
         "startup": 1,
         "active": null,
         "recovery": 1,
@@ -1413,7 +1756,10 @@
     {
         "section": "Common Moves",
         "name": "Perfect Parry (projectile)",
-        "input": "MPMK",
+        "input": [
+            "MP",
+            "MK"
+        ],
         "startup": 1,
         "active": null,
         "recovery": 10,
@@ -1430,7 +1776,10 @@
     {
         "section": "Common Moves",
         "name": "Parry Drive Rush",
-        "input": "66",
+        "input": [
+            "6",
+            "6"
+        ],
         "startup": null,
         "active": null,
         "recovery": 45,
@@ -1447,7 +1796,17 @@
     {
         "section": "Common Moves",
         "name": "Cancel Drive Rush",
-        "input": "66/5/6+MPMK",
+        "input": [
+            "6",
+            "6",
+            "/",
+            "5",
+            "/",
+            "6",
+            "+",
+            "MP",
+            "MK"
+        ],
         "startup": null,
         "active": null,
         "recovery": 46,

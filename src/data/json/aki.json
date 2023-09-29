@@ -2,7 +2,9 @@
     {
         "section": "Normal Moves",
         "name": "Standing Light Punch",
-        "input": "LP",
+        "input": [
+            "LP"
+        ],
         "startup": 4,
         "active": 2,
         "recovery": 7,
@@ -19,7 +21,9 @@
     {
         "section": "Normal Moves",
         "name": "Standing Light Kick",
-        "input": "LK",
+        "input": [
+            "LK"
+        ],
         "startup": 4,
         "active": 3,
         "recovery": 11,
@@ -36,7 +40,9 @@
     {
         "section": "Normal Moves",
         "name": "Standing Medium Punch",
-        "input": "MP",
+        "input": [
+            "MP"
+        ],
         "startup": 5,
         "active": 3,
         "recovery": 16,
@@ -53,7 +59,9 @@
     {
         "section": "Normal Moves",
         "name": "Standing Medium Kick",
-        "input": "MK",
+        "input": [
+            "MK"
+        ],
         "startup": 8,
         "active": 3,
         "recovery": 15,
@@ -70,7 +78,9 @@
     {
         "section": "Normal Moves",
         "name": "Standing Heavy Punch",
-        "input": "HP",
+        "input": [
+            "HP"
+        ],
         "startup": 11,
         "active": 3,
         "recovery": 21,
@@ -87,7 +97,9 @@
     {
         "section": "Normal Moves",
         "name": "Standing Heavy Kick",
-        "input": "HK",
+        "input": [
+            "HK"
+        ],
         "startup": 8,
         "active": 4,
         "recovery": 19,
@@ -104,7 +116,11 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Light Punch",
-        "input": "2+LP",
+        "input": [
+            "2",
+            "+",
+            "LP"
+        ],
         "startup": 3,
         "active": 2,
         "recovery": 9,
@@ -121,7 +137,11 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Light Kick",
-        "input": "2+LK",
+        "input": [
+            "2",
+            "+",
+            "LK"
+        ],
         "startup": 4,
         "active": 3,
         "recovery": 8,
@@ -138,7 +158,11 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Medium Punch",
-        "input": "2+MP",
+        "input": [
+            "2",
+            "+",
+            "MP"
+        ],
         "startup": 7,
         "active": 3,
         "recovery": 21,
@@ -155,7 +179,11 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Medium Kick",
-        "input": "2+MK",
+        "input": [
+            "2",
+            "+",
+            "MK"
+        ],
         "startup": 6,
         "active": 3,
         "recovery": 16,
@@ -172,7 +200,11 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Heavy Punch",
-        "input": "2+HP",
+        "input": [
+            "2",
+            "+",
+            "HP"
+        ],
         "startup": 9,
         "active": 3,
         "recovery": 28,
@@ -189,7 +221,11 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Heavy Kick",
-        "input": "2+HK",
+        "input": [
+            "2",
+            "+",
+            "HK"
+        ],
         "startup": 9,
         "active": 5,
         "recovery": 21,
@@ -206,7 +242,9 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Light Punch",
-        "input": "LP",
+        "input": [
+            "LP"
+        ],
         "startup": 4,
         "active": 9,
         "recovery": 3,
@@ -223,7 +261,9 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Light Kick",
-        "input": "LK",
+        "input": [
+            "LK"
+        ],
         "startup": 4,
         "active": 6,
         "recovery": 3,
@@ -240,7 +280,9 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Medium Punch",
-        "input": "MP",
+        "input": [
+            "MP"
+        ],
         "startup": 6,
         "active": 4,
         "recovery": 3,
@@ -257,7 +299,9 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Medium Kick",
-        "input": "MK",
+        "input": [
+            "MK"
+        ],
         "startup": 6,
         "active": 6,
         "recovery": 3,
@@ -274,7 +318,9 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Heavy Punch",
-        "input": "HP",
+        "input": [
+            "HP"
+        ],
         "startup": 10,
         "active": 6,
         "recovery": 3,
@@ -291,7 +337,9 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Heavy Kick",
-        "input": "HK",
+        "input": [
+            "HK"
+        ],
         "startup": 7,
         "active": 5,
         "recovery": 3,
@@ -308,7 +356,11 @@
     {
         "section": "Unique Attacks",
         "name": "Pu Lao",
-        "input": "3+MP",
+        "input": [
+            "3",
+            "+",
+            "MP"
+        ],
         "startup": 23,
         "active": 3,
         "recovery": 18,
@@ -325,7 +377,11 @@
     {
         "section": "Unique Attacks",
         "name": "Chi Wen",
-        "input": "6+HP",
+        "input": [
+            "6",
+            "+",
+            "HP"
+        ],
         "startup": 15,
         "active": 3,
         "recovery": 21,
@@ -342,7 +398,11 @@
     {
         "section": "Unique Attacks",
         "name": "Qiu Niu",
-        "input": "6+HK",
+        "input": [
+            "6",
+            "+",
+            "HK"
+        ],
         "startup": 13,
         "active": 2401,
         "recovery": 16,
@@ -359,7 +419,11 @@
     {
         "section": "Unique Attacks",
         "name": "Gong Fu",
-        "input": "2+HP",
+        "input": [
+            "2",
+            "+",
+            "HP"
+        ],
         "startup": 8,
         "active": 5,
         "recovery": 3,
@@ -376,7 +440,11 @@
     {
         "section": "Unique Attacks",
         "name": "Hun Dun(2)",
-        "input": "LP>LP",
+        "input": [
+            "LP",
+            ">",
+            "LP"
+        ],
         "startup": 7,
         "active": 2,
         "recovery": 14,
@@ -393,7 +461,11 @@
     {
         "section": "Unique Attacks",
         "name": "Qiong Qi (2)",
-        "input": "HP>HP",
+        "input": [
+            "HP",
+            ">",
+            "HP"
+        ],
         "startup": 13,
         "active": 3,
         "recovery": 24,
@@ -410,7 +482,13 @@
     {
         "section": "Special Moves",
         "name": "Nightshade Pulse",
-        "input": "214+LP",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "LP"
+        ],
         "startup": 17,
         "active": null,
         "recovery": 52,
@@ -427,7 +505,11 @@
     {
         "section": "Special Moves",
         "name": "Nightshade Chaser",
-        "input": "6+P",
+        "input": [
+            "6",
+            "+",
+            "P"
+        ],
         "startup": 12,
         "active": 2,
         "recovery": 34,
@@ -444,7 +526,14 @@
     {
         "section": "Special Moves",
         "name": "OD Nightshade Pulse",
-        "input": "214+PP",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "P",
+            "P"
+        ],
         "startup": 16,
         "active": null,
         "recovery": 44,
@@ -461,7 +550,11 @@
     {
         "section": "Special Moves",
         "name": "OD Nightshade Chaser",
-        "input": "6+P",
+        "input": [
+            "6",
+            "+",
+            "P"
+        ],
         "startup": 12,
         "active": 5,
         "recovery": 28,
@@ -478,7 +571,7 @@
     {
         "section": "Special Moves",
         "name": "Nightshade Chaser (Burst)",
-        "input": "",
+        "input": [],
         "startup": null,
         "active": null,
         "recovery": "",
@@ -495,7 +588,7 @@
     {
         "section": "Special Moves",
         "name": "OD Nightshade Chaser (Burst)",
-        "input": "",
+        "input": [],
         "startup": null,
         "active": null,
         "recovery": "",
@@ -512,7 +605,13 @@
     {
         "section": "Special Moves",
         "name": "Orchid Spring",
-        "input": "214+MP",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "MP"
+        ],
         "startup": 26,
         "active": "*",
         "recovery": 46,
@@ -529,7 +628,13 @@
     {
         "section": "Special Moves",
         "name": "Toxic Wreath",
-        "input": "214+HP",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "HP"
+        ],
         "startup": 12,
         "active": 3601,
         "recovery": 15,
@@ -546,7 +651,13 @@
     {
         "section": "Special Moves",
         "name": "L Serpent Lash",
-        "input": "236+LP",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "LP"
+        ],
         "startup": 13,
         "active": 3,
         "recovery": 26,
@@ -563,7 +674,13 @@
     {
         "section": "Special Moves",
         "name": "M Serpent Lash",
-        "input": "236+MP",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "MP"
+        ],
         "startup": 16,
         "active": 6,
         "recovery": 24,
@@ -580,7 +697,13 @@
     {
         "section": "Special Moves",
         "name": "H Serpent Lash",
-        "input": "236+HP",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "HP"
+        ],
         "startup": 10,
         "active": 6,
         "recovery": 32,
@@ -597,7 +720,14 @@
     {
         "section": "Special Moves",
         "name": "OD Serpent Lash",
-        "input": "236+PP",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "P",
+            "P"
+        ],
         "startup": 20,
         "active": 5,
         "recovery": 25,
@@ -614,7 +744,13 @@
     {
         "section": "Special Moves",
         "name": "L Cruel Fate",
-        "input": "214+LK",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "LK"
+        ],
         "startup": 23,
         "active": 4501,
         "recovery": 18,
@@ -631,7 +767,13 @@
     {
         "section": "Special Moves",
         "name": "M Cruel Fate",
-        "input": "214+MK",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "MK"
+        ],
         "startup": 27,
         "active": 4901,
         "recovery": 18,
@@ -648,7 +790,13 @@
     {
         "section": "Special Moves",
         "name": "H Cruel Fate",
-        "input": "214+HK",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "HK"
+        ],
         "startup": 32,
         "active": 5401,
         "recovery": 18,
@@ -665,7 +813,14 @@
     {
         "section": "Special Moves",
         "name": "OD Cruel Fate",
-        "input": "214+KK",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "K",
+            "K"
+        ],
         "startup": 27,
         "active": 4901,
         "recovery": 18,
@@ -682,7 +837,13 @@
     {
         "section": "Special Moves",
         "name": "L Snake Step",
-        "input": "236+LK",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "LK"
+        ],
         "startup": null,
         "active": null,
         "recovery": 37,
@@ -699,7 +860,13 @@
     {
         "section": "Special Moves",
         "name": "M Snake Step",
-        "input": "236+MK",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "MK"
+        ],
         "startup": null,
         "active": null,
         "recovery": 39,
@@ -716,7 +883,13 @@
     {
         "section": "Special Moves",
         "name": "H Snake Step",
-        "input": "236+HK",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "HK"
+        ],
         "startup": null,
         "active": null,
         "recovery": null,
@@ -733,7 +906,14 @@
     {
         "section": "Special Moves",
         "name": "OD Snake Step",
-        "input": "236+KK",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "K",
+            "K"
+        ],
         "startup": null,
         "active": null,
         "recovery": null,
@@ -750,7 +930,12 @@
     {
         "section": "Special Moves",
         "name": "Sinister Slide",
-        "input": "2+PP",
+        "input": [
+            "2",
+            "+",
+            "P",
+            "P"
+        ],
         "startup": null,
         "active": null,
         "recovery": 216,
@@ -767,7 +952,9 @@
     {
         "section": "Special Moves",
         "name": "Venomous Fang",
-        "input": "P",
+        "input": [
+            "P"
+        ],
         "startup": 18,
         "active": 15,
         "recovery": 30,
@@ -784,7 +971,9 @@
     {
         "section": "Special Moves",
         "name": "Heel Strike",
-        "input": "K",
+        "input": [
+            "K"
+        ],
         "startup": 10,
         "active": 2501,
         "recovery": 20,
@@ -801,7 +990,10 @@
     {
         "section": "Special Moves",
         "name": "Entrapment",
-        "input": "LPLK",
+        "input": [
+            "LP",
+            "LK"
+        ],
         "startup": 22,
         "active": 3,
         "recovery": 55,
@@ -818,7 +1010,16 @@
     {
         "section": "Super Arts",
         "name": "SA1 Deadly Implication",
-        "input": "236236+K",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "K"
+        ],
         "startup": 9,
         "active": 3,
         "recovery": 68,
@@ -835,7 +1036,16 @@
     {
         "section": "Super Arts",
         "name": "SA2 Tainted Talons",
-        "input": "214214+P",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "2",
+            "1",
+            "4",
+            "+",
+            "P"
+        ],
         "startup": 7,
         "active": "*",
         "recovery": 65,
@@ -852,7 +1062,16 @@
     {
         "section": "Super Arts",
         "name": "SA3 Claws of Ya Zi",
-        "input": "236236+P",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "P"
+        ],
         "startup": 9,
         "active": 3,
         "recovery": 58,
@@ -869,7 +1088,16 @@
     {
         "section": "Super Arts",
         "name": "CA Claws of Ya Zi",
-        "input": "236236+P",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "P"
+        ],
         "startup": 9,
         "active": 3,
         "recovery": 58,
@@ -886,7 +1114,14 @@
     {
         "section": "Throws",
         "name": "Whisper",
-        "input": "5/6+LPLK",
+        "input": [
+            "5",
+            "/",
+            "6",
+            "+",
+            "LP",
+            "LK"
+        ],
         "startup": 4,
         "active": 3,
         "recovery": 23,
@@ -903,7 +1138,12 @@
     {
         "section": "Throws",
         "name": "Gluttony",
-        "input": "4+LPLK",
+        "input": [
+            "4",
+            "+",
+            "LP",
+            "LK"
+        ],
         "startup": 4,
         "active": 3,
         "recovery": 23,
@@ -920,7 +1160,10 @@
     {
         "section": "Common Moves",
         "name": "Forward Dash",
-        "input": "66",
+        "input": [
+            "6",
+            "6"
+        ],
         "startup": null,
         "active": null,
         "recovery": 19,
@@ -937,7 +1180,10 @@
     {
         "section": "Common Moves",
         "name": "Backward Dash",
-        "input": "44",
+        "input": [
+            "4",
+            "4"
+        ],
         "startup": null,
         "active": null,
         "recovery": 23,
@@ -954,7 +1200,10 @@
     {
         "section": "Common Moves",
         "name": "Drive Impact: Zao Chi",
-        "input": "HPHK",
+        "input": [
+            "HP",
+            "HK"
+        ],
         "startup": 25,
         "active": 2,
         "recovery": 35,
@@ -971,7 +1220,12 @@
     {
         "section": "Common Moves",
         "name": "Drive Reversal: Feng Shi",
-        "input": "6+HPHK",
+        "input": [
+            "6",
+            "+",
+            "HP",
+            "HK"
+        ],
         "startup": 19,
         "active": 3,
         "recovery": 26,
@@ -988,7 +1242,10 @@
     {
         "section": "Common Moves",
         "name": "Drive Parry",
-        "input": "MPMK",
+        "input": [
+            "MP",
+            "MK"
+        ],
         "startup": null,
         "active": null,
         "recovery": 30,
@@ -1005,7 +1262,10 @@
     {
         "section": "Common Moves",
         "name": "Perfect Parry (strike)",
-        "input": "MPMK",
+        "input": [
+            "MP",
+            "MK"
+        ],
         "startup": 1,
         "active": null,
         "recovery": 1,
@@ -1022,7 +1282,10 @@
     {
         "section": "Common Moves",
         "name": "Perfect Parry (projectile)",
-        "input": "MPMK",
+        "input": [
+            "MP",
+            "MK"
+        ],
         "startup": 1,
         "active": null,
         "recovery": 10,
@@ -1039,7 +1302,10 @@
     {
         "section": "Common Moves",
         "name": "Parry Drive Rush",
-        "input": "66",
+        "input": [
+            "6",
+            "6"
+        ],
         "startup": null,
         "active": null,
         "recovery": 45,
@@ -1056,7 +1322,17 @@
     {
         "section": "Common Moves",
         "name": "Cancel Drive Rush",
-        "input": "66/5/6+MPMK",
+        "input": [
+            "6",
+            "6",
+            "/",
+            "5",
+            "/",
+            "6",
+            "+",
+            "MP",
+            "MK"
+        ],
         "startup": null,
         "active": null,
         "recovery": 46,

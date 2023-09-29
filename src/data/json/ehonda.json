@@ -2,7 +2,9 @@
     {
         "section": "Normal Moves",
         "name": "Standing Light Punch",
-        "input": "LP",
+        "input": [
+            "LP"
+        ],
         "startup": 4,
         "active": 3,
         "recovery": 10,
@@ -19,7 +21,9 @@
     {
         "section": "Normal Moves",
         "name": "Standing Light Kick",
-        "input": "LK",
+        "input": [
+            "LK"
+        ],
         "startup": 3,
         "active": 2,
         "recovery": 9,
@@ -36,7 +40,9 @@
     {
         "section": "Normal Moves",
         "name": "Standing Medium Punch",
-        "input": "MP",
+        "input": [
+            "MP"
+        ],
         "startup": 9,
         "active": 4,
         "recovery": 13,
@@ -53,7 +59,9 @@
     {
         "section": "Normal Moves",
         "name": "Standing Medium Kick",
-        "input": "MK",
+        "input": [
+            "MK"
+        ],
         "startup": 9,
         "active": 4,
         "recovery": 16,
@@ -70,7 +78,9 @@
     {
         "section": "Normal Moves",
         "name": "Standing Heavy Punch",
-        "input": "HP",
+        "input": [
+            "HP"
+        ],
         "startup": 7,
         "active": 7,
         "recovery": 20,
@@ -87,7 +97,9 @@
     {
         "section": "Normal Moves",
         "name": "Standing Heavy Kick",
-        "input": "HK",
+        "input": [
+            "HK"
+        ],
         "startup": 7,
         "active": 141,
         "recovery": 22,
@@ -104,7 +116,11 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Light Punch",
-        "input": "2+LP",
+        "input": [
+            "2",
+            "+",
+            "LP"
+        ],
         "startup": 3,
         "active": 3,
         "recovery": 10,
@@ -121,7 +137,11 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Light Kick",
-        "input": "2+LK",
+        "input": [
+            "2",
+            "+",
+            "LK"
+        ],
         "startup": 4,
         "active": 2,
         "recovery": 9,
@@ -138,7 +158,11 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Medium Punch",
-        "input": "2+MP",
+        "input": [
+            "2",
+            "+",
+            "MP"
+        ],
         "startup": 7,
         "active": 4,
         "recovery": 16,
@@ -155,7 +179,11 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Medium Kick",
-        "input": "2+MK",
+        "input": [
+            "2",
+            "+",
+            "MK"
+        ],
         "startup": 8,
         "active": 3,
         "recovery": 17,
@@ -172,7 +200,11 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Heavy Punch",
-        "input": "2+HP",
+        "input": [
+            "2",
+            "+",
+            "HP"
+        ],
         "startup": 10,
         "active": 4,
         "recovery": null,
@@ -189,7 +221,11 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Heavy Kick",
-        "input": "2+HK",
+        "input": [
+            "2",
+            "+",
+            "HK"
+        ],
         "startup": 10,
         "active": 2401,
         "recovery": 14,
@@ -206,7 +242,9 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Light Punch",
-        "input": "LP",
+        "input": [
+            "LP"
+        ],
         "startup": 4,
         "active": 6,
         "recovery": 3,
@@ -223,7 +261,9 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Light Kick",
-        "input": "LK",
+        "input": [
+            "LK"
+        ],
         "startup": 5,
         "active": 6,
         "recovery": 3,
@@ -240,7 +280,9 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Medium Punch",
-        "input": "MP",
+        "input": [
+            "MP"
+        ],
         "startup": 5,
         "active": 8,
         "recovery": 3,
@@ -257,7 +299,9 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Medium Kick",
-        "input": "MK",
+        "input": [
+            "MK"
+        ],
         "startup": 8,
         "active": 6,
         "recovery": 3,
@@ -274,7 +318,9 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Heavy Punch",
-        "input": "HP",
+        "input": [
+            "HP"
+        ],
         "startup": 8,
         "active": 4,
         "recovery": 3,
@@ -291,7 +337,9 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Heavy Kick",
-        "input": "HK",
+        "input": [
+            "HK"
+        ],
         "startup": 9,
         "active": 8,
         "recovery": 3,
@@ -308,7 +356,9 @@
     {
         "section": "Normal Moves",
         "name": "Neutral Jumping Heavy Punch",
-        "input": "HP",
+        "input": [
+            "HP"
+        ],
         "startup": 9,
         "active": 8,
         "recovery": 3,
@@ -325,7 +375,11 @@
     {
         "section": "Unique Attacks",
         "name": "Harai Kick",
-        "input": "6+HK",
+        "input": [
+            "6",
+            "+",
+            "HK"
+        ],
         "startup": 13,
         "active": 3,
         "recovery": 21,
@@ -342,7 +396,11 @@
     {
         "section": "Unique Attacks",
         "name": "Power Stomp",
-        "input": "3+HK",
+        "input": [
+            "3",
+            "+",
+            "HK"
+        ],
         "startup": 21,
         "active": 6,
         "recovery": 18,
@@ -359,7 +417,11 @@
     {
         "section": "Unique Attacks",
         "name": "Flying Sumo Press",
-        "input": "2+MK",
+        "input": [
+            "2",
+            "+",
+            "MK"
+        ],
         "startup": 10,
         "active": 9,
         "recovery": 3,
@@ -376,7 +438,11 @@
     {
         "section": "Unique Attacks",
         "name": "Double Slaps",
-        "input": "LP>MP",
+        "input": [
+            "LP",
+            ">",
+            "MP"
+        ],
         "startup": 3,
         "active": 4,
         "recovery": 20,
@@ -393,7 +459,13 @@
     {
         "section": "Unique Attacks",
         "name": "Toko Shizume",
-        "input": "MP>3+HK",
+        "input": [
+            "MP",
+            ">",
+            "3",
+            "+",
+            "HK"
+        ],
         "startup": 21,
         "active": 6,
         "recovery": 18,
@@ -410,7 +482,13 @@
     {
         "section": "Special Moves",
         "name": "L Hundred Hand Slap",
-        "input": "214+LP",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "LP"
+        ],
         "startup": 11,
         "active": 3101,
         "recovery": 14,
@@ -427,7 +505,13 @@
     {
         "section": "Special Moves",
         "name": "[Sumo Spirit]L Hundred Hand Slap",
-        "input": "214+LP",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "LP"
+        ],
         "startup": 11,
         "active": 3101,
         "recovery": 14,
@@ -444,7 +528,13 @@
     {
         "section": "Special Moves",
         "name": "M Hundred Hand Slap",
-        "input": "214+MP",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "MP"
+        ],
         "startup": 17,
         "active": 4901,
         "recovery": 17,
@@ -461,7 +551,13 @@
     {
         "section": "Special Moves",
         "name": "[Sumo Spirit]M Hundred Hand Slap",
-        "input": "214+MP",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "MP"
+        ],
         "startup": 17,
         "active": 4901,
         "recovery": 17,
@@ -478,7 +574,13 @@
     {
         "section": "Special Moves",
         "name": "H Hundred Hand Slap",
-        "input": "214+HP",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "HP"
+        ],
         "startup": 20,
         "active": 6401,
         "recovery": 17,
@@ -495,7 +597,13 @@
     {
         "section": "Special Moves",
         "name": "[Sumo Spirit]H Hundred Hand Slap",
-        "input": "214+HP",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "HP"
+        ],
         "startup": 20,
         "active": 6401,
         "recovery": 17,
@@ -512,7 +620,14 @@
     {
         "section": "Special Moves",
         "name": "OD Hundred Hand Slap",
-        "input": "214+PP",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "P",
+            "P"
+        ],
         "startup": 18,
         "active": 6101,
         "recovery": 12,
@@ -529,7 +644,14 @@
     {
         "section": "Special Moves",
         "name": "[Sumo Spirit]OD Hundred Hand Slap",
-        "input": "214+PP",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "P",
+            "P"
+        ],
         "startup": 18,
         "active": 6101,
         "recovery": 12,
@@ -546,7 +668,12 @@
     {
         "section": "Special Moves",
         "name": "L Sumo Headbutt",
-        "input": "[4]6+LP",
+        "input": [
+            "[4]",
+            "6",
+            "+",
+            "LP"
+        ],
         "startup": 9,
         "active": 22,
         "recovery": 20,
@@ -563,7 +690,12 @@
     {
         "section": "Special Moves",
         "name": "M Sumo Headbutt",
-        "input": "[4]6+MP",
+        "input": [
+            "[4]",
+            "6",
+            "+",
+            "MP"
+        ],
         "startup": 9,
         "active": 24,
         "recovery": 20,
@@ -580,7 +712,12 @@
     {
         "section": "Special Moves",
         "name": "H Sumo Headbutt",
-        "input": "[4]6+HP",
+        "input": [
+            "[4]",
+            "6",
+            "+",
+            "HP"
+        ],
         "startup": 13,
         "active": 23,
         "recovery": 20,
@@ -597,7 +734,13 @@
     {
         "section": "Special Moves",
         "name": "OD Sumo Headbutt",
-        "input": "[4]6+PP",
+        "input": [
+            "[4]",
+            "6",
+            "+",
+            "P",
+            "P"
+        ],
         "startup": 8,
         "active": 561,
         "recovery": 20,
@@ -614,7 +757,12 @@
     {
         "section": "Special Moves",
         "name": "L Sumo Smash",
-        "input": "[2]8+LK",
+        "input": [
+            "[2]",
+            "8",
+            "+",
+            "LK"
+        ],
         "startup": 10,
         "active": 4801,
         "recovery": 17,
@@ -631,7 +779,12 @@
     {
         "section": "Special Moves",
         "name": "M Sumo Smash",
-        "input": "[2]8+MK",
+        "input": [
+            "[2]",
+            "8",
+            "+",
+            "MK"
+        ],
         "startup": 10,
         "active": 4501,
         "recovery": 17,
@@ -648,7 +801,12 @@
     {
         "section": "Special Moves",
         "name": "H Sumo Smash",
-        "input": "[2]8+HK",
+        "input": [
+            "[2]",
+            "8",
+            "+",
+            "HK"
+        ],
         "startup": 10,
         "active": 4201,
         "recovery": 17,
@@ -665,7 +823,13 @@
     {
         "section": "Special Moves",
         "name": "OD Sumo Smash",
-        "input": "[2]8+KK",
+        "input": [
+            "[2]",
+            "8",
+            "+",
+            "K",
+            "K"
+        ],
         "startup": 5,
         "active": 491,
         "recovery": 17,
@@ -682,7 +846,15 @@
     {
         "section": "Special Moves",
         "name": "L Oicho Throw",
-        "input": "63214+LK",
+        "input": [
+            "6",
+            "3",
+            "2",
+            "1",
+            "4",
+            "+",
+            "LK"
+        ],
         "startup": 6,
         "active": 3,
         "recovery": 52,
@@ -699,7 +871,15 @@
     {
         "section": "Special Moves",
         "name": "M Oicho Throw",
-        "input": "63214+MK",
+        "input": [
+            "6",
+            "3",
+            "2",
+            "1",
+            "4",
+            "+",
+            "MK"
+        ],
         "startup": 6,
         "active": 3,
         "recovery": 52,
@@ -716,7 +896,15 @@
     {
         "section": "Special Moves",
         "name": "H Oicho Throw",
-        "input": "63214+HK",
+        "input": [
+            "6",
+            "3",
+            "2",
+            "1",
+            "4",
+            "+",
+            "HK"
+        ],
         "startup": 6,
         "active": 3,
         "recovery": 52,
@@ -733,7 +921,16 @@
     {
         "section": "Special Moves",
         "name": "OD Oicho Throw",
-        "input": "63214+KK",
+        "input": [
+            "6",
+            "3",
+            "2",
+            "1",
+            "4",
+            "+",
+            "K",
+            "K"
+        ],
         "startup": 6,
         "active": 3,
         "recovery": 52,
@@ -750,7 +947,13 @@
     {
         "section": "Special Moves",
         "name": "Sumo Dash",
-        "input": "236+K",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "K"
+        ],
         "startup": null,
         "active": null,
         "recovery": 51,
@@ -767,7 +970,14 @@
     {
         "section": "Special Moves",
         "name": "OD Sumo Dash",
-        "input": "236+KK",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "K",
+            "K"
+        ],
         "startup": null,
         "active": null,
         "recovery": 34,
@@ -784,7 +994,9 @@
     {
         "section": "Special Moves",
         "name": "Teppo Triple Slap(1)",
-        "input": "P",
+        "input": [
+            "P"
+        ],
         "startup": 8,
         "active": 271,
         "recovery": 22,
@@ -801,7 +1013,11 @@
     {
         "section": "Special Moves",
         "name": "Teppo Triple Slap(2)",
-        "input": "P>P",
+        "input": [
+            "P",
+            ">",
+            "P"
+        ],
         "startup": 13,
         "active": 3,
         "recovery": 38,
@@ -818,7 +1034,9 @@
     {
         "section": "Special Moves",
         "name": "OD Teppo Triple Slap(1)",
-        "input": "P",
+        "input": [
+            "P"
+        ],
         "startup": 8,
         "active": 271,
         "recovery": 17,
@@ -835,7 +1053,11 @@
     {
         "section": "Special Moves",
         "name": "OD Teppo Triple Slap(2)",
-        "input": "P>P",
+        "input": [
+            "P",
+            ">",
+            "P"
+        ],
         "startup": 13,
         "active": 3,
         "recovery": 38,
@@ -852,7 +1074,11 @@
     {
         "section": "Special Moves",
         "name": "Taiho Cannon Lift",
-        "input": "2+P",
+        "input": [
+            "2",
+            "+",
+            "P"
+        ],
         "startup": 11,
         "active": 3301,
         "recovery": 32,
@@ -869,7 +1095,11 @@
     {
         "section": "Special Moves",
         "name": "OD Taiho Cannon Lift",
-        "input": "2+P",
+        "input": [
+            "2",
+            "+",
+            "P"
+        ],
         "startup": 11,
         "active": 3301,
         "recovery": 32,
@@ -886,7 +1116,12 @@
     {
         "section": "Special Moves",
         "name": "Neko Damashi",
-        "input": "22+P",
+        "input": [
+            "2",
+            "2",
+            "+",
+            "P"
+        ],
         "startup": 10,
         "active": 5,
         "recovery": 14,
@@ -903,7 +1138,12 @@
     {
         "section": "Special Moves",
         "name": "Sumo Spirit",
-        "input": "22+K",
+        "input": [
+            "2",
+            "2",
+            "+",
+            "K"
+        ],
         "startup": null,
         "active": null,
         "recovery": 52,
@@ -920,7 +1160,16 @@
     {
         "section": "Super Arts",
         "name": "SA1 Show of Force",
-        "input": "236236+P",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "P"
+        ],
         "startup": 6,
         "active": 5,
         "recovery": 48,
@@ -937,7 +1186,14 @@
     {
         "section": "Super Arts",
         "name": "SA2 Ultimate Killer Head Ram",
-        "input": "[4]646+K",
+        "input": [
+            "[4]",
+            "6",
+            "4",
+            "6",
+            "+",
+            "K"
+        ],
         "startup": 11,
         "active": 3601,
         "recovery": 45,
@@ -954,7 +1210,16 @@
     {
         "section": "Super Arts",
         "name": "SA3 The Final Bout",
-        "input": "214214+P",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "2",
+            "1",
+            "4",
+            "+",
+            "P"
+        ],
         "startup": 8,
         "active": 221,
         "recovery": 51,
@@ -971,7 +1236,16 @@
     {
         "section": "Super Arts",
         "name": "CA The Final Bout",
-        "input": "214214+P",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "2",
+            "1",
+            "4",
+            "+",
+            "P"
+        ],
         "startup": 8,
         "active": 221,
         "recovery": 51,
@@ -988,7 +1262,14 @@
     {
         "section": "Throws",
         "name": "Saba Ori",
-        "input": "5/6+LPLK",
+        "input": [
+            "5",
+            "/",
+            "6",
+            "+",
+            "LP",
+            "LK"
+        ],
         "startup": 4,
         "active": 3,
         "recovery": 23,
@@ -1005,7 +1286,12 @@
     {
         "section": "Throws",
         "name": "Tawara Throw",
-        "input": "4+LPLK",
+        "input": [
+            "4",
+            "+",
+            "LP",
+            "LK"
+        ],
         "startup": 4,
         "active": 3,
         "recovery": 23,
@@ -1022,7 +1308,10 @@
     {
         "section": "Common Moves",
         "name": "Forward Dash",
-        "input": "66",
+        "input": [
+            "6",
+            "6"
+        ],
         "startup": null,
         "active": null,
         "recovery": 19,
@@ -1039,7 +1328,10 @@
     {
         "section": "Common Moves",
         "name": "Backward Dash",
-        "input": "44",
+        "input": [
+            "4",
+            "4"
+        ],
         "startup": null,
         "active": null,
         "recovery": 23,
@@ -1056,7 +1348,10 @@
     {
         "section": "Common Moves",
         "name": "Drive Impact: Sumo Crunch",
-        "input": "HPHK",
+        "input": [
+            "HP",
+            "HK"
+        ],
         "startup": 25,
         "active": 2,
         "recovery": 35,
@@ -1073,7 +1368,12 @@
     {
         "section": "Common Moves",
         "name": "Drive Reversal: Raiden-Ho",
-        "input": "6+HPHK",
+        "input": [
+            "6",
+            "+",
+            "HP",
+            "HK"
+        ],
         "startup": 19,
         "active": 3,
         "recovery": 26,
@@ -1090,7 +1390,10 @@
     {
         "section": "Common Moves",
         "name": "Drive Parry",
-        "input": "MPMK",
+        "input": [
+            "MP",
+            "MK"
+        ],
         "startup": null,
         "active": null,
         "recovery": 29,
@@ -1107,7 +1410,10 @@
     {
         "section": "Common Moves",
         "name": "Perfect Parry (strike)",
-        "input": "MPMK",
+        "input": [
+            "MP",
+            "MK"
+        ],
         "startup": 1,
         "active": null,
         "recovery": 1,
@@ -1124,7 +1430,10 @@
     {
         "section": "Common Moves",
         "name": "Perfect Parry (projectile)",
-        "input": "MPMK",
+        "input": [
+            "MP",
+            "MK"
+        ],
         "startup": 1,
         "active": null,
         "recovery": 10,
@@ -1141,7 +1450,10 @@
     {
         "section": "Common Moves",
         "name": "Parry Drive Rush",
-        "input": "66",
+        "input": [
+            "6",
+            "6"
+        ],
         "startup": null,
         "active": null,
         "recovery": 45,
@@ -1158,7 +1470,17 @@
     {
         "section": "Common Moves",
         "name": "Cancel Drive Rush",
-        "input": "66/5/6+MPMK",
+        "input": [
+            "6",
+            "6",
+            "/",
+            "5",
+            "/",
+            "6",
+            "+",
+            "MP",
+            "MK"
+        ],
         "startup": null,
         "active": null,
         "recovery": 46,

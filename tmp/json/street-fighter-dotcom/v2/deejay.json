@@ -2,7 +2,9 @@
     {
         "section": "Normal Moves",
         "name": "Standing Light Punch",
-        "input": "LP",
+        "input": [
+            "LP"
+        ],
         "startup": 3,
         "active": 3,
         "recovery": 6,
@@ -19,7 +21,9 @@
     {
         "section": "Normal Moves",
         "name": "Standing Light Kick",
-        "input": "LK",
+        "input": [
+            "LK"
+        ],
         "startup": 4,
         "active": 2,
         "recovery": 12,
@@ -36,7 +40,9 @@
     {
         "section": "Normal Moves",
         "name": "Standing Medium Punch",
-        "input": "MP",
+        "input": [
+            "MP"
+        ],
         "startup": 6,
         "active": 2,
         "recovery": 13,
@@ -53,7 +59,9 @@
     {
         "section": "Normal Moves",
         "name": "Standing Medium Kick",
-        "input": "MK",
+        "input": [
+            "MK"
+        ],
         "startup": 8,
         "active": 3,
         "recovery": 16,
@@ -70,7 +78,9 @@
     {
         "section": "Normal Moves",
         "name": "Standing Heavy Punch",
-        "input": "HP",
+        "input": [
+            "HP"
+        ],
         "startup": 8,
         "active": 6,
         "recovery": 18,
@@ -87,7 +97,9 @@
     {
         "section": "Normal Moves",
         "name": "Standing Heavy Kick",
-        "input": "HK",
+        "input": [
+            "HK"
+        ],
         "startup": 11,
         "active": 3,
         "recovery": null,
@@ -104,7 +116,11 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Light Punch",
-        "input": "2+LP",
+        "input": [
+            "2",
+            "+",
+            "LP"
+        ],
         "startup": 4,
         "active": 3,
         "recovery": 8,
@@ -121,7 +137,11 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Light Kick",
-        "input": "2+LK",
+        "input": [
+            "2",
+            "+",
+            "LK"
+        ],
         "startup": 4,
         "active": 2,
         "recovery": 10,
@@ -138,7 +158,11 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Medium Punch",
-        "input": "2+MP",
+        "input": [
+            "2",
+            "+",
+            "MP"
+        ],
         "startup": 5,
         "active": 4,
         "recovery": 14,
@@ -155,7 +179,11 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Medium Kick",
-        "input": "2+MK",
+        "input": [
+            "2",
+            "+",
+            "MK"
+        ],
         "startup": 7,
         "active": 4,
         "recovery": 19,
@@ -172,7 +200,11 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Heavy Punch",
-        "input": "2+HP",
+        "input": [
+            "2",
+            "+",
+            "HP"
+        ],
         "startup": 7,
         "active": 2,
         "recovery": 20,
@@ -189,7 +221,11 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Heavy Kick",
-        "input": "2+HK",
+        "input": [
+            "2",
+            "+",
+            "HK"
+        ],
         "startup": 13,
         "active": 10,
         "recovery": 15,
@@ -206,7 +242,9 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Light Punch",
-        "input": "LP",
+        "input": [
+            "LP"
+        ],
         "startup": 3,
         "active": 7,
         "recovery": 3,
@@ -223,7 +261,9 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Light Kick",
-        "input": "LK",
+        "input": [
+            "LK"
+        ],
         "startup": 3,
         "active": 6,
         "recovery": 3,
@@ -240,7 +280,9 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Medium Punch",
-        "input": "MP",
+        "input": [
+            "MP"
+        ],
         "startup": 5,
         "active": 4,
         "recovery": 3,
@@ -257,7 +299,9 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Medium Kick",
-        "input": "MK",
+        "input": [
+            "MK"
+        ],
         "startup": 7,
         "active": 6,
         "recovery": 3,
@@ -274,7 +318,9 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Heavy Punch",
-        "input": "HP",
+        "input": [
+            "HP"
+        ],
         "startup": 8,
         "active": 6,
         "recovery": 3,
@@ -291,7 +337,9 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Heavy Kick",
-        "input": "HK",
+        "input": [
+            "HK"
+        ],
         "startup": 9,
         "active": 5,
         "recovery": 3,
@@ -308,7 +356,11 @@
     {
         "section": "Unique Attacks",
         "name": "Knee Shot",
-        "input": "2+LK",
+        "input": [
+            "2",
+            "+",
+            "LK"
+        ],
         "startup": 6,
         "active": "6-until landing",
         "recovery": 3,
@@ -325,7 +377,11 @@
     {
         "section": "Unique Attacks",
         "name": "Sunrise Heel",
-        "input": "6+MK",
+        "input": [
+            "6",
+            "+",
+            "MK"
+        ],
         "startup": 18,
         "active": 5,
         "recovery": 16,
@@ -342,7 +398,11 @@
     {
         "section": "Unique Attacks",
         "name": "Face Breaker",
-        "input": "4+HK",
+        "input": [
+            "4",
+            "+",
+            "HK"
+        ],
         "startup": 6,
         "active": 121,
         "recovery": 20,
@@ -359,7 +419,11 @@
     {
         "section": "Unique Attacks",
         "name": "Threebeat Combo (2)",
-        "input": "LP>MK",
+        "input": [
+            "LP",
+            ">",
+            "MK"
+        ],
         "startup": 8,
         "active": 3,
         "recovery": 18,
@@ -376,7 +440,13 @@
     {
         "section": "Unique Attacks",
         "name": "Threebeat Combo (3)",
-        "input": "LP>MK>MK",
+        "input": [
+            "LP",
+            ">",
+            "MK",
+            ">",
+            "MK"
+        ],
         "startup": 13,
         "active": 3,
         "recovery": 21,
@@ -393,7 +463,11 @@
     {
         "section": "Unique Attacks",
         "name": "Dee Jay Special (2)",
-        "input": "MP>HP",
+        "input": [
+            "MP",
+            ">",
+            "HP"
+        ],
         "startup": 10,
         "active": 7,
         "recovery": 24,
@@ -410,7 +484,13 @@
     {
         "section": "Unique Attacks",
         "name": "Dee Jay Special (3)",
-        "input": "MP>HP>HK",
+        "input": [
+            "MP",
+            ">",
+            "HP",
+            ">",
+            "HK"
+        ],
         "startup": 12,
         "active": 3,
         "recovery": 30,
@@ -427,7 +507,11 @@
     {
         "section": "Unique Attacks",
         "name": "Funky Dance (2)",
-        "input": "MP>MP",
+        "input": [
+            "MP",
+            ">",
+            "MP"
+        ],
         "startup": 11,
         "active": 2,
         "recovery": 17,
@@ -444,7 +528,13 @@
     {
         "section": "Unique Attacks",
         "name": "Funky Dance (3)",
-        "input": "MP>MP>HP",
+        "input": [
+            "MP",
+            ">",
+            "MP",
+            ">",
+            "HP"
+        ],
         "startup": 19,
         "active": 2,
         "recovery": 24,
@@ -461,7 +551,15 @@
     {
         "section": "Unique Attacks",
         "name": "Funky Dance Feint",
-        "input": "MP>MP>4+HP",
+        "input": [
+            "MP",
+            ">",
+            "MP",
+            ">",
+            "4",
+            "+",
+            "HP"
+        ],
         "startup": null,
         "active": null,
         "recovery": 23,
@@ -478,7 +576,11 @@
     {
         "section": "Unique Attacks",
         "name": "Party in the Air",
-        "input": "MP>HP",
+        "input": [
+            "MP",
+            ">",
+            "HP"
+        ],
         "startup": 7,
         "active": 7,
         "recovery": 3,
@@ -495,7 +597,13 @@
     {
         "section": "Unique Attacks",
         "name": "Speedy Maracas",
-        "input": "22+PP",
+        "input": [
+            "2",
+            "2",
+            "+",
+            "P",
+            "P"
+        ],
         "startup": null,
         "active": null,
         "recovery": 65,
@@ -512,7 +620,12 @@
     {
         "section": "Special Moves",
         "name": "L Air Slasher",
-        "input": "[4]6+LP",
+        "input": [
+            "[4]",
+            "6",
+            "+",
+            "LP"
+        ],
         "startup": null,
         "active": null,
         "recovery": 21,
@@ -529,7 +642,12 @@
     {
         "section": "Special Moves",
         "name": "M Air Slasher",
-        "input": "[4]6+MP",
+        "input": [
+            "[4]",
+            "6",
+            "+",
+            "MP"
+        ],
         "startup": 17,
         "active": null,
         "recovery": 44,
@@ -546,7 +664,12 @@
     {
         "section": "Special Moves",
         "name": "H Air Slasher",
-        "input": "[4]6+HP",
+        "input": [
+            "[4]",
+            "6",
+            "+",
+            "HP"
+        ],
         "startup": 17,
         "active": null,
         "recovery": 60,
@@ -563,7 +686,13 @@
     {
         "section": "Special Moves",
         "name": "OD Air Slasher",
-        "input": "[4]6+PP",
+        "input": [
+            "[4]",
+            "6",
+            "+",
+            "P",
+            "P"
+        ],
         "startup": 10,
         "active": null,
         "recovery": 46,
@@ -580,7 +709,13 @@
     {
         "section": "Special Moves",
         "name": "OD Air Slasher (projectile)",
-        "input": "[4]6+PP",
+        "input": [
+            "[4]",
+            "6",
+            "+",
+            "P",
+            "P"
+        ],
         "startup": 22,
         "active": null,
         "recovery": 46,
@@ -597,7 +732,12 @@
     {
         "section": "Special Moves",
         "name": "L Jackknife Maximum",
-        "input": "[2]8+LK",
+        "input": [
+            "[2]",
+            "8",
+            "+",
+            "LK"
+        ],
         "startup": null,
         "active": null,
         "recovery": 6,
@@ -614,7 +754,12 @@
     {
         "section": "Special Moves",
         "name": "M Jackknife Maximum",
-        "input": "[2]8+MK",
+        "input": [
+            "[2]",
+            "8",
+            "+",
+            "MK"
+        ],
         "startup": 5,
         "active": 221,
         "recovery": 22,
@@ -631,7 +776,12 @@
     {
         "section": "Special Moves",
         "name": "H Jackknife Maximum",
-        "input": "[2]8+HK",
+        "input": [
+            "[2]",
+            "8",
+            "+",
+            "HK"
+        ],
         "startup": 5,
         "active": 341,
         "recovery": 17,
@@ -648,7 +798,13 @@
     {
         "section": "Special Moves",
         "name": "OD Jackknife Maximum",
-        "input": "[2]8+KK",
+        "input": [
+            "[2]",
+            "8",
+            "+",
+            "K",
+            "K"
+        ],
         "startup": 5,
         "active": 641,
         "recovery": 29,
@@ -665,7 +821,13 @@
     {
         "section": "Special Moves",
         "name": "Roll Through Feint",
-        "input": "236+LK",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "LK"
+        ],
         "startup": null,
         "active": null,
         "recovery": 26,
@@ -682,7 +844,13 @@
     {
         "section": "Special Moves",
         "name": "Quick Rolling Sobat",
-        "input": "236+MK",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "MK"
+        ],
         "startup": 11,
         "active": 3,
         "recovery": 23,
@@ -699,7 +867,13 @@
     {
         "section": "Special Moves",
         "name": "Double Rolling Sobat",
-        "input": "236+HK",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "HK"
+        ],
         "startup": 14,
         "active": 3901,
         "recovery": 24,
@@ -716,7 +890,14 @@
     {
         "section": "Special Moves",
         "name": "OD Double Rolling Sobat",
-        "input": "236+KK",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "K",
+            "K"
+        ],
         "startup": 18,
         "active": 3201,
         "recovery": 19,
@@ -733,7 +914,13 @@
     {
         "section": "Special Moves",
         "name": "L Machine Gun Uppercut",
-        "input": "214+LP",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "LP"
+        ],
         "startup": 14,
         "active": 4,
         "recovery": 35,
@@ -750,7 +937,13 @@
     {
         "section": "Special Moves",
         "name": "M Machine Gun Uppercut",
-        "input": "214+MP",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "MP"
+        ],
         "startup": 21,
         "active": 4,
         "recovery": 35,
@@ -767,7 +960,13 @@
     {
         "section": "Special Moves",
         "name": "H Machine Gun Uppercut",
-        "input": "214+HP",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "HP"
+        ],
         "startup": 27,
         "active": 4,
         "recovery": 35,
@@ -784,7 +983,14 @@
     {
         "section": "Special Moves",
         "name": "OD Machine Gun Uppercut",
-        "input": "214+PP",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "P",
+            "P"
+        ],
         "startup": 27,
         "active": 4,
         "recovery": 35,
@@ -801,7 +1007,13 @@
     {
         "section": "Special Moves",
         "name": "Jus Cool",
-        "input": "214+K",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "K"
+        ],
         "startup": null,
         "active": null,
         "recovery": 37,
@@ -818,7 +1030,14 @@
     {
         "section": "Special Moves",
         "name": "OD Jus Cool",
-        "input": "214+KK",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "K",
+            "K"
+        ],
         "startup": 7,
         "active": 5,
         "recovery": 36,
@@ -835,7 +1054,9 @@
     {
         "section": "Special Moves",
         "name": "Funky Slicer",
-        "input": "LK",
+        "input": [
+            "LK"
+        ],
         "startup": 11,
         "active": 3,
         "recovery": null,
@@ -852,7 +1073,9 @@
     {
         "section": "Special Moves",
         "name": "OD Funky Slicer",
-        "input": "LK",
+        "input": [
+            "LK"
+        ],
         "startup": 8,
         "active": 3,
         "recovery": null,
@@ -869,7 +1092,9 @@
     {
         "section": "Special Moves",
         "name": "Waning Moon",
-        "input": "MK",
+        "input": [
+            "MK"
+        ],
         "startup": 24,
         "active": 3,
         "recovery": 16,
@@ -886,7 +1111,9 @@
     {
         "section": "Special Moves",
         "name": "OD Waning Moon",
-        "input": "MK",
+        "input": [
+            "MK"
+        ],
         "startup": 18,
         "active": 5,
         "recovery": 17,
@@ -903,7 +1130,9 @@
     {
         "section": "Special Moves",
         "name": "Maximum Strike",
-        "input": "HK",
+        "input": [
+            "HK"
+        ],
         "startup": 14,
         "active": 5,
         "recovery": 25,
@@ -920,7 +1149,9 @@
     {
         "section": "Special Moves",
         "name": "OD Maximum Strike",
-        "input": "HK",
+        "input": [
+            "HK"
+        ],
         "startup": 10,
         "active": 5,
         "recovery": 21,
@@ -937,7 +1168,11 @@
     {
         "section": "Special Moves",
         "name": "Juggling Dash",
-        "input": "6+P",
+        "input": [
+            "6",
+            "+",
+            "P"
+        ],
         "startup": null,
         "active": null,
         "recovery": 27,
@@ -954,7 +1189,11 @@
     {
         "section": "Special Moves",
         "name": "OD Juggling Dash",
-        "input": "6+P",
+        "input": [
+            "6",
+            "+",
+            "P"
+        ],
         "startup": null,
         "active": null,
         "recovery": 22,
@@ -971,7 +1210,11 @@
     {
         "section": "Special Moves",
         "name": "Juggling Sway",
-        "input": "4+P",
+        "input": [
+            "4",
+            "+",
+            "P"
+        ],
         "startup": null,
         "active": null,
         "recovery": 29,
@@ -988,7 +1231,11 @@
     {
         "section": "Special Moves",
         "name": "OD Juggling Sway",
-        "input": "4+P",
+        "input": [
+            "4",
+            "+",
+            "P"
+        ],
         "startup": null,
         "active": null,
         "recovery": 22,
@@ -1005,7 +1252,16 @@
     {
         "section": "Super Arts",
         "name": "SA1 The Greatest Sobat",
-        "input": "236236+K",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "K"
+        ],
         "startup": 6,
         "active": 4,
         "recovery": 45,
@@ -1022,7 +1278,16 @@
     {
         "section": "Super Arts",
         "name": "SA2 Lowkey Sunrise Festival",
-        "input": "236236+LP",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "LP"
+        ],
         "startup": 11,
         "active": 5,
         "recovery": 46,
@@ -1039,7 +1304,18 @@
     {
         "section": "Super Arts",
         "name": "SA2 Lowkey Sunrise Festival (2)",
-        "input": "236236+LP>LP",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "LP",
+            ">",
+            "LP"
+        ],
         "startup": 10,
         "active": 4,
         "recovery": 24,
@@ -1056,7 +1332,20 @@
     {
         "section": "Super Arts",
         "name": "SA2 Lowkey Sunrise Festival (3)",
-        "input": "236236+LP>LP>MP",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "LP",
+            ">",
+            "LP",
+            ">",
+            "MP"
+        ],
         "startup": 9,
         "active": 2,
         "recovery": 23,
@@ -1073,7 +1362,22 @@
     {
         "section": "Super Arts",
         "name": "SA2 Lowkey Sunrise Festival (4)",
-        "input": "236236+LP>LP>MP>HP",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "LP",
+            ">",
+            "LP",
+            ">",
+            "MP",
+            ">",
+            "HP"
+        ],
         "startup": 11,
         "active": 3,
         "recovery": 23,
@@ -1090,7 +1394,24 @@
     {
         "section": "Super Arts",
         "name": "SA2 Lowkey Sunrise Festival (5)",
-        "input": "236236+LP>LP>MP>HP>LK",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "LP",
+            ">",
+            "LP",
+            ">",
+            "MP",
+            ">",
+            "HP",
+            ">",
+            "LK"
+        ],
         "startup": 14,
         "active": 4,
         "recovery": 35,
@@ -1107,7 +1428,26 @@
     {
         "section": "Super Arts",
         "name": "SA2 Lowkey Sunrise Festival (6)",
-        "input": "236236+LP>LP>MP>HP>LK>MK",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "LP",
+            ">",
+            "LP",
+            ">",
+            "MP",
+            ">",
+            "HP",
+            ">",
+            "LK",
+            ">",
+            "MK"
+        ],
         "startup": 16,
         "active": 3,
         "recovery": 45,
@@ -1124,7 +1464,28 @@
     {
         "section": "Super Arts",
         "name": "SA2 Lowkey Sunrise Festival (7)",
-        "input": "236236+LP>LP>MP>HP>LK>MK>HK",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "LP",
+            ">",
+            "LP",
+            ">",
+            "MP",
+            ">",
+            "HP",
+            ">",
+            "LK",
+            ">",
+            "MK",
+            ">",
+            "HK"
+        ],
         "startup": 17,
         "active": 2801,
         "recovery": 79,
@@ -1141,7 +1502,16 @@
     {
         "section": "Super Arts",
         "name": "SA2 Marvelous Sunrise Festival",
-        "input": "236236+MP",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "MP"
+        ],
         "startup": 11,
         "active": 5,
         "recovery": 46,
@@ -1158,7 +1528,18 @@
     {
         "section": "Super Arts",
         "name": "SA2 Marvelous Sunrise Festival (2)",
-        "input": "236236+MP>LP",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "MP",
+            ">",
+            "LP"
+        ],
         "startup": 10,
         "active": 4,
         "recovery": 24,
@@ -1175,7 +1556,20 @@
     {
         "section": "Super Arts",
         "name": "SA2 Marvelous Sunrise Festival (3)",
-        "input": "236236+MP>LP>MP",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "MP",
+            ">",
+            "LP",
+            ">",
+            "MP"
+        ],
         "startup": 9,
         "active": 2,
         "recovery": 23,
@@ -1192,7 +1586,22 @@
     {
         "section": "Super Arts",
         "name": "SA2 Marvelous Sunrise Festival (4)",
-        "input": "236236+MP>LP>MP>HP",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "MP",
+            ">",
+            "LP",
+            ">",
+            "MP",
+            ">",
+            "HP"
+        ],
         "startup": 11,
         "active": 3,
         "recovery": 23,
@@ -1209,7 +1618,24 @@
     {
         "section": "Super Arts",
         "name": "SA2 Marvelous Sunrise Festival (5)",
-        "input": "236236+MP>LP>MP>HP>LK",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "MP",
+            ">",
+            "LP",
+            ">",
+            "MP",
+            ">",
+            "HP",
+            ">",
+            "LK"
+        ],
         "startup": 14,
         "active": 4,
         "recovery": 35,
@@ -1226,7 +1652,26 @@
     {
         "section": "Super Arts",
         "name": "SA2 Marvelous Sunrise Festival (6)",
-        "input": "236236+MP>LP>MP>HP>LK>MK",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "MP",
+            ">",
+            "LP",
+            ">",
+            "MP",
+            ">",
+            "HP",
+            ">",
+            "LK",
+            ">",
+            "MK"
+        ],
         "startup": 16,
         "active": 3,
         "recovery": 45,
@@ -1243,7 +1688,28 @@
     {
         "section": "Super Arts",
         "name": "SA2 Marvelous Sunrise Festival (7)",
-        "input": "236236+MP>LP>MP>HP>LK>MK>HK",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "MP",
+            ">",
+            "LP",
+            ">",
+            "MP",
+            ">",
+            "HP",
+            ">",
+            "LK",
+            ">",
+            "MK",
+            ">",
+            "HK"
+        ],
         "startup": 17,
         "active": 2801,
         "recovery": 64,
@@ -1260,7 +1726,16 @@
     {
         "section": "Super Arts",
         "name": "SA2 Headliner Sunrise Festival",
-        "input": "236236+HP",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "HP"
+        ],
         "startup": 11,
         "active": 5,
         "recovery": 46,
@@ -1277,7 +1752,18 @@
     {
         "section": "Super Arts",
         "name": "SA2 Headliner Sunrise Festival (2)",
-        "input": "236236+HP>LP",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "HP",
+            ">",
+            "LP"
+        ],
         "startup": 10,
         "active": 4,
         "recovery": 24,
@@ -1294,7 +1780,20 @@
     {
         "section": "Super Arts",
         "name": "SA2 Headliner Sunrise Festival (3)",
-        "input": "236236+HP>LP>MP",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "HP",
+            ">",
+            "LP",
+            ">",
+            "MP"
+        ],
         "startup": 9,
         "active": 2,
         "recovery": 23,
@@ -1311,7 +1810,22 @@
     {
         "section": "Super Arts",
         "name": "SA2 Headliner Sunrise Festival (4)",
-        "input": "236236+HP>LP>MP>HP",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "HP",
+            ">",
+            "LP",
+            ">",
+            "MP",
+            ">",
+            "HP"
+        ],
         "startup": 11,
         "active": 3,
         "recovery": 23,
@@ -1328,7 +1842,24 @@
     {
         "section": "Super Arts",
         "name": "SA2 Headliner Sunrise Festival (5)",
-        "input": "236236+HP>LP>MP>HP>LK",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "HP",
+            ">",
+            "LP",
+            ">",
+            "MP",
+            ">",
+            "HP",
+            ">",
+            "LK"
+        ],
         "startup": 14,
         "active": 4,
         "recovery": 35,
@@ -1345,7 +1876,26 @@
     {
         "section": "Super Arts",
         "name": "SA2 Headliner Sunrise Festival (6)",
-        "input": "236236+HP>LP>MP>HP>LK>MK",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "HP",
+            ">",
+            "LP",
+            ">",
+            "MP",
+            ">",
+            "HP",
+            ">",
+            "LK",
+            ">",
+            "MK"
+        ],
         "startup": 16,
         "active": 3,
         "recovery": 45,
@@ -1362,7 +1912,28 @@
     {
         "section": "Super Arts",
         "name": "SA2 Headliner Sunrise Festival (7)",
-        "input": "236236+HP>LP>MP>HP>LK>MK>HK",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "HP",
+            ">",
+            "LP",
+            ">",
+            "MP",
+            ">",
+            "HP",
+            ">",
+            "LK",
+            ">",
+            "MK",
+            ">",
+            "HK"
+        ],
         "startup": 17,
         "active": 2801,
         "recovery": 64,
@@ -1379,7 +1950,9 @@
     {
         "section": "Super Arts",
         "name": "SA2 Climactic Strike (Marvelous)",
-        "input": "HP",
+        "input": [
+            "HP"
+        ],
         "startup": 10,
         "active": 9701,
         "recovery": 84,
@@ -1396,7 +1969,9 @@
     {
         "section": "Super Arts",
         "name": "SA2 Climactic Strike (Headliner)",
-        "input": "HP",
+        "input": [
+            "HP"
+        ],
         "startup": 10,
         "active": 9701,
         "recovery": 84,
@@ -1413,7 +1988,9 @@
     {
         "section": "Super Arts",
         "name": "SA2 Encore Beat (Marvelous)",
-        "input": "HK",
+        "input": [
+            "HK"
+        ],
         "startup": 32,
         "active": 7,
         "recovery": 112,
@@ -1430,7 +2007,9 @@
     {
         "section": "Super Arts",
         "name": "SA2 Encore Beat (Headliner)",
-        "input": "HK",
+        "input": [
+            "HK"
+        ],
         "startup": 32,
         "active": 7,
         "recovery": 112,
@@ -1447,7 +2026,18 @@
     {
         "section": "Super Arts",
         "name": "(Failed version) SA2 Sunrise Festival (2)",
-        "input": "236236+LP>LP",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "LP",
+            ">",
+            "LP"
+        ],
         "startup": 10,
         "active": 4,
         "recovery": 24,
@@ -1464,7 +2054,20 @@
     {
         "section": "Super Arts",
         "name": "(Failed version) SA2 Sunrise Festival (3)",
-        "input": "236236+LP>LP>MP",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "LP",
+            ">",
+            "LP",
+            ">",
+            "MP"
+        ],
         "startup": 9,
         "active": 2,
         "recovery": 23,
@@ -1481,7 +2084,22 @@
     {
         "section": "Super Arts",
         "name": "(Failed version) SA2 Sunrise Festival (4)",
-        "input": "236236+LP>LP>MP>HP",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "LP",
+            ">",
+            "LP",
+            ">",
+            "MP",
+            ">",
+            "HP"
+        ],
         "startup": 11,
         "active": 3,
         "recovery": 23,
@@ -1498,7 +2116,24 @@
     {
         "section": "Super Arts",
         "name": "(Failed version) SA2 Sunrise Festival (5)",
-        "input": "236236+LP>LP>MP>HP>LK",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "LP",
+            ">",
+            "LP",
+            ">",
+            "MP",
+            ">",
+            "HP",
+            ">",
+            "LK"
+        ],
         "startup": 14,
         "active": 4,
         "recovery": 35,
@@ -1515,7 +2150,26 @@
     {
         "section": "Super Arts",
         "name": "(Failed version) SA2 Sunrise Festival (6)",
-        "input": "236236+LP>LP>MP>HP>LK>MK",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "LP",
+            ">",
+            "LP",
+            ">",
+            "MP",
+            ">",
+            "HP",
+            ">",
+            "LK",
+            ">",
+            "MK"
+        ],
         "startup": 16,
         "active": 3,
         "recovery": 45,
@@ -1532,7 +2186,28 @@
     {
         "section": "Super Arts",
         "name": "(Failed version) SA2 Sunrise Festival (7)",
-        "input": "236236+LP>LP>MP>HP>LK>MK>HK",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "LP",
+            ">",
+            "LP",
+            ">",
+            "MP",
+            ">",
+            "HP",
+            ">",
+            "LK",
+            ">",
+            "MK",
+            ">",
+            "HK"
+        ],
         "startup": 17,
         "active": 2801,
         "recovery": 64,
@@ -1549,7 +2224,16 @@
     {
         "section": "Super Arts",
         "name": "SA3 Weekend Pleasure",
-        "input": "214214+P",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "2",
+            "1",
+            "4",
+            "+",
+            "P"
+        ],
         "startup": 8,
         "active": 5,
         "recovery": 48,
@@ -1566,7 +2250,16 @@
     {
         "section": "Super Arts",
         "name": "CA Weekend Pleasure",
-        "input": "214214+P",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "2",
+            "1",
+            "4",
+            "+",
+            "P"
+        ],
         "startup": 8,
         "active": 5,
         "recovery": 48,
@@ -1583,7 +2276,14 @@
     {
         "section": "Throws",
         "name": "Diss Track",
-        "input": "5/6+LPLK",
+        "input": [
+            "5",
+            "/",
+            "6",
+            "+",
+            "LP",
+            "LK"
+        ],
         "startup": 4,
         "active": 3,
         "recovery": 23,
@@ -1600,7 +2300,12 @@
     {
         "section": "Throws",
         "name": "Flip Throw",
-        "input": "4+LPLK",
+        "input": [
+            "4",
+            "+",
+            "LP",
+            "LK"
+        ],
         "startup": 4,
         "active": 3,
         "recovery": 23,
@@ -1617,7 +2322,10 @@
     {
         "section": "Common Moves",
         "name": "Forward Dash",
-        "input": "66",
+        "input": [
+            "6",
+            "6"
+        ],
         "startup": null,
         "active": null,
         "recovery": 19,
@@ -1634,7 +2342,10 @@
     {
         "section": "Common Moves",
         "name": "Backward Dash",
-        "input": "44",
+        "input": [
+            "4",
+            "4"
+        ],
         "startup": null,
         "active": null,
         "recovery": 23,
@@ -1651,7 +2362,10 @@
     {
         "section": "Common Moves",
         "name": "Drive Impact: Wild Beat",
-        "input": "HPHK",
+        "input": [
+            "HP",
+            "HK"
+        ],
         "startup": 25,
         "active": 2,
         "recovery": 35,
@@ -1668,7 +2382,12 @@
     {
         "section": "Common Moves",
         "name": "Drive Reversal: Leg Scratch",
-        "input": "6+HPHK",
+        "input": [
+            "6",
+            "+",
+            "HP",
+            "HK"
+        ],
         "startup": 19,
         "active": 3,
         "recovery": 26,
@@ -1685,7 +2404,10 @@
     {
         "section": "Common Moves",
         "name": "Drive Parry",
-        "input": "MPMK",
+        "input": [
+            "MP",
+            "MK"
+        ],
         "startup": null,
         "active": null,
         "recovery": 29,
@@ -1702,7 +2424,10 @@
     {
         "section": "Common Moves",
         "name": "Perfect Parry (strike)",
-        "input": "MPMK",
+        "input": [
+            "MP",
+            "MK"
+        ],
         "startup": 1,
         "active": null,
         "recovery": 1,
@@ -1719,7 +2444,10 @@
     {
         "section": "Common Moves",
         "name": "Perfect Parry (projectile)",
-        "input": "MPMK",
+        "input": [
+            "MP",
+            "MK"
+        ],
         "startup": 1,
         "active": null,
         "recovery": 10,
@@ -1736,7 +2464,10 @@
     {
         "section": "Common Moves",
         "name": "Parry Drive Rush",
-        "input": "66",
+        "input": [
+            "6",
+            "6"
+        ],
         "startup": null,
         "active": null,
         "recovery": 55,
@@ -1753,7 +2484,17 @@
     {
         "section": "Common Moves",
         "name": "Cancel Drive Rush",
-        "input": "66/5/6+MPMK",
+        "input": [
+            "6",
+            "6",
+            "/",
+            "5",
+            "/",
+            "6",
+            "+",
+            "MP",
+            "MK"
+        ],
         "startup": null,
         "active": null,
         "recovery": 55,

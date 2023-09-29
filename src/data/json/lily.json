@@ -2,7 +2,9 @@
     {
         "section": "Normal Moves",
         "name": "Standing Light Punch",
-        "input": "LP",
+        "input": [
+            "LP"
+        ],
         "startup": 5,
         "active": 3,
         "recovery": 8,
@@ -19,7 +21,9 @@
     {
         "section": "Normal Moves",
         "name": "Standing Light Kick",
-        "input": "LK",
+        "input": [
+            "LK"
+        ],
         "startup": 3,
         "active": 3,
         "recovery": 12,
@@ -36,7 +40,9 @@
     {
         "section": "Normal Moves",
         "name": "Standing Medium Punch",
-        "input": "MP",
+        "input": [
+            "MP"
+        ],
         "startup": 8,
         "active": 4,
         "recovery": 17,
@@ -53,7 +59,9 @@
     {
         "section": "Normal Moves",
         "name": "Standing Medium Kick",
-        "input": "MK",
+        "input": [
+            "MK"
+        ],
         "startup": 6,
         "active": 3,
         "recovery": 15,
@@ -70,7 +78,9 @@
     {
         "section": "Normal Moves",
         "name": "Standing Heavy Punch",
-        "input": "HP",
+        "input": [
+            "HP"
+        ],
         "startup": 10,
         "active": 3,
         "recovery": 22,
@@ -87,7 +97,9 @@
     {
         "section": "Normal Moves",
         "name": "Standing Heavy Kick",
-        "input": "HK",
+        "input": [
+            "HK"
+        ],
         "startup": 13,
         "active": 4,
         "recovery": 21,
@@ -104,7 +116,11 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Light Punch",
-        "input": "2+LP",
+        "input": [
+            "2",
+            "+",
+            "LP"
+        ],
         "startup": 5,
         "active": 3,
         "recovery": 8,
@@ -121,7 +137,11 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Light Kick",
-        "input": "2+LK",
+        "input": [
+            "2",
+            "+",
+            "LK"
+        ],
         "startup": 4,
         "active": 2,
         "recovery": 12,
@@ -138,7 +158,11 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Medium Punch",
-        "input": "2+MP",
+        "input": [
+            "2",
+            "+",
+            "MP"
+        ],
         "startup": 7,
         "active": 3,
         "recovery": 18,
@@ -155,7 +179,11 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Medium Kick",
-        "input": "2+MK",
+        "input": [
+            "2",
+            "+",
+            "MK"
+        ],
         "startup": 9,
         "active": 3,
         "recovery": 18,
@@ -172,7 +200,11 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Heavy Punch",
-        "input": "2+HP",
+        "input": [
+            "2",
+            "+",
+            "HP"
+        ],
         "startup": 9,
         "active": 1501,
         "recovery": 22,
@@ -189,7 +221,11 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Heavy Kick",
-        "input": "2+HK",
+        "input": [
+            "2",
+            "+",
+            "HK"
+        ],
         "startup": 10,
         "active": 2001,
         "recovery": 24,
@@ -206,7 +242,9 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Light Punch",
-        "input": "LP",
+        "input": [
+            "LP"
+        ],
         "startup": 4,
         "active": 9,
         "recovery": 3,
@@ -223,7 +261,9 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Light Kick",
-        "input": "LK",
+        "input": [
+            "LK"
+        ],
         "startup": 5,
         "active": 6,
         "recovery": 3,
@@ -240,7 +280,9 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Medium Punch",
-        "input": "MP",
+        "input": [
+            "MP"
+        ],
         "startup": 8,
         "active": 4,
         "recovery": 3,
@@ -257,7 +299,9 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Medium Kick",
-        "input": "MK",
+        "input": [
+            "MK"
+        ],
         "startup": 7,
         "active": 5,
         "recovery": 3,
@@ -274,7 +318,9 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Heavy Punch",
-        "input": "HP",
+        "input": [
+            "HP"
+        ],
         "startup": 9,
         "active": 6,
         "recovery": 3,
@@ -291,7 +337,9 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Heavy Kick",
-        "input": "HK",
+        "input": [
+            "HK"
+        ],
         "startup": 10,
         "active": 6,
         "recovery": 3,
@@ -308,7 +356,11 @@
     {
         "section": "Unique Attacks",
         "name": "Ridge Thrust",
-        "input": "3+HP",
+        "input": [
+            "3",
+            "+",
+            "HP"
+        ],
         "startup": 24,
         "active": 3,
         "recovery": 18,
@@ -325,7 +377,11 @@
     {
         "section": "Unique Attacks",
         "name": "Horn Breaker",
-        "input": "4+HP",
+        "input": [
+            "4",
+            "+",
+            "HP"
+        ],
         "startup": 13,
         "active": 4,
         "recovery": 18,
@@ -342,7 +398,11 @@
     {
         "section": "Unique Attacks",
         "name": "Great Spin",
-        "input": "2+HP",
+        "input": [
+            "2",
+            "+",
+            "HP"
+        ],
         "startup": 8,
         "active": 11,
         "recovery": 3,
@@ -359,7 +419,11 @@
     {
         "section": "Unique Attacks",
         "name": "Double Arrow",
-        "input": "MP>MP",
+        "input": [
+            "MP",
+            ">",
+            "MP"
+        ],
         "startup": 9,
         "active": 3,
         "recovery": 3,
@@ -376,7 +440,11 @@
     {
         "section": "Unique Attacks",
         "name": "Desert Storm(1)",
-        "input": "6+HP",
+        "input": [
+            "6",
+            "+",
+            "HP"
+        ],
         "startup": 17,
         "active": 2,
         "recovery": 24,
@@ -393,7 +461,13 @@
     {
         "section": "Unique Attacks",
         "name": "Desert Storm(2)",
-        "input": "6+HP>HP",
+        "input": [
+            "6",
+            "+",
+            "HP",
+            ">",
+            "HP"
+        ],
         "startup": 19,
         "active": 2,
         "recovery": 27,
@@ -410,7 +484,15 @@
     {
         "section": "Unique Attacks",
         "name": "Desert Storm(3)",
-        "input": "6+HP>HP>HP",
+        "input": [
+            "6",
+            "+",
+            "HP",
+            ">",
+            "HP",
+            ">",
+            "HP"
+        ],
         "startup": 19,
         "active": 5,
         "recovery": 42,
@@ -427,7 +509,13 @@
     {
         "section": "Special Moves",
         "name": "L Condor Wind",
-        "input": "214+LP",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "LP"
+        ],
         "startup": null,
         "active": null,
         "recovery": 47,
@@ -444,7 +532,13 @@
     {
         "section": "Special Moves",
         "name": "M Condor Wind",
-        "input": "214+MP",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "MP"
+        ],
         "startup": 22,
         "active": 4,
         "recovery": 25,
@@ -461,7 +555,13 @@
     {
         "section": "Special Moves",
         "name": "H Condor Wind",
-        "input": "214+HP",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "HP"
+        ],
         "startup": 24,
         "active": 4,
         "recovery": 25,
@@ -478,7 +578,14 @@
     {
         "section": "Special Moves",
         "name": "OD Condor Wind",
-        "input": "214+PP",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "P",
+            "P"
+        ],
         "startup": 20,
         "active": 4,
         "recovery": 23,
@@ -495,7 +602,13 @@
     {
         "section": "Special Moves",
         "name": "L Condor Spire",
-        "input": "236+LK",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "LK"
+        ],
         "startup": 16,
         "active": 13,
         "recovery": 16,
@@ -512,7 +625,13 @@
     {
         "section": "Special Moves",
         "name": "M Condor Spire",
-        "input": "236+MK",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "MK"
+        ],
         "startup": 20,
         "active": 13,
         "recovery": 16,
@@ -529,7 +648,13 @@
     {
         "section": "Special Moves",
         "name": "H Condor Spire",
-        "input": "236+HK",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "HK"
+        ],
         "startup": 24,
         "active": 13,
         "recovery": 16,
@@ -546,7 +671,14 @@
     {
         "section": "Special Moves",
         "name": "OD Condor Spire",
-        "input": "236+KK",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "K",
+            "K"
+        ],
         "startup": 14,
         "active": 13,
         "recovery": 16,
@@ -563,7 +695,13 @@
     {
         "section": "Special Moves",
         "name": "[Windclad]L Condor Spire",
-        "input": "236+LK",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "LK"
+        ],
         "startup": 8,
         "active": 371,
         "recovery": 14,
@@ -580,7 +718,13 @@
     {
         "section": "Special Moves",
         "name": "[Windclad]M Condor Spire",
-        "input": "236+MK",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "MK"
+        ],
         "startup": 12,
         "active": 4101,
         "recovery": 14,
@@ -597,7 +741,13 @@
     {
         "section": "Special Moves",
         "name": "[Windclad]H Condor Spire",
-        "input": "236+HK",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "HK"
+        ],
         "startup": 16,
         "active": 4501,
         "recovery": 14,
@@ -614,7 +764,14 @@
     {
         "section": "Special Moves",
         "name": "[Windclad]OD Condor Spire",
-        "input": "236+KK",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "K",
+            "K"
+        ],
         "startup": 8,
         "active": 321,
         "recovery": 14,
@@ -631,7 +788,13 @@
     {
         "section": "Special Moves",
         "name": "L Tomahawk Buster",
-        "input": "623+LP",
+        "input": [
+            "6",
+            "2",
+            "3",
+            "+",
+            "LP"
+        ],
         "startup": 5,
         "active": 11,
         "recovery": 20,
@@ -648,7 +811,13 @@
     {
         "section": "Special Moves",
         "name": "M Tomahawk Buster",
-        "input": "623+MP",
+        "input": [
+            "6",
+            "2",
+            "3",
+            "+",
+            "MP"
+        ],
         "startup": 7,
         "active": 12,
         "recovery": 24,
@@ -665,7 +834,13 @@
     {
         "section": "Special Moves",
         "name": "H Tomahawk Buster",
-        "input": "623+HP",
+        "input": [
+            "6",
+            "2",
+            "3",
+            "+",
+            "HP"
+        ],
         "startup": 9,
         "active": 14,
         "recovery": 25,
@@ -682,7 +857,14 @@
     {
         "section": "Special Moves",
         "name": "OD Tomahawk Buster",
-        "input": "623+PP",
+        "input": [
+            "6",
+            "2",
+            "3",
+            "+",
+            "P",
+            "P"
+        ],
         "startup": 5,
         "active": 12,
         "recovery": 27,
@@ -699,7 +881,13 @@
     {
         "section": "Special Moves",
         "name": "[Windclad]L Tomahawk Buster",
-        "input": "623+LP",
+        "input": [
+            "6",
+            "2",
+            "3",
+            "+",
+            "LP"
+        ],
         "startup": 3,
         "active": 161,
         "recovery": 20,
@@ -716,7 +904,13 @@
     {
         "section": "Special Moves",
         "name": "[Windclad]M Tomahawk Buster",
-        "input": "623+MP",
+        "input": [
+            "6",
+            "2",
+            "3",
+            "+",
+            "MP"
+        ],
         "startup": 5,
         "active": 4,
         "recovery": 24,
@@ -733,7 +927,13 @@
     {
         "section": "Special Moves",
         "name": "[Windclad]H Tomahawk Buster",
-        "input": "623+HP",
+        "input": [
+            "6",
+            "2",
+            "3",
+            "+",
+            "HP"
+        ],
         "startup": 7,
         "active": 231,
         "recovery": 25,
@@ -750,7 +950,14 @@
     {
         "section": "Special Moves",
         "name": "[Windclad]OD Tomahawk Buster",
-        "input": "623+PP",
+        "input": [
+            "6",
+            "2",
+            "3",
+            "+",
+            "P",
+            "P"
+        ],
         "startup": 3,
         "active": 171,
         "recovery": 27,
@@ -767,7 +974,10 @@
     {
         "section": "Special Moves",
         "name": "Condor Dive",
-        "input": "PP",
+        "input": [
+            "P",
+            "P"
+        ],
         "startup": 12,
         "active": "12-until landing",
         "recovery": 24,
@@ -784,7 +994,11 @@
     {
         "section": "Special Moves",
         "name": "OD Condor Dive",
-        "input": "PPP",
+        "input": [
+            "P",
+            "P",
+            "P"
+        ],
         "startup": 12,
         "active": "12-until landing",
         "recovery": 24,
@@ -801,7 +1015,10 @@
     {
         "section": "Special Moves",
         "name": "[Windclad]Condor Dive",
-        "input": "PP",
+        "input": [
+            "P",
+            "P"
+        ],
         "startup": 12,
         "active": "12-until landing",
         "recovery": 24,
@@ -818,7 +1035,11 @@
     {
         "section": "Special Moves",
         "name": "[Windclad]OD Condor Dive",
-        "input": "PPP",
+        "input": [
+            "P",
+            "P",
+            "P"
+        ],
         "startup": 12,
         "active": "12-until landing",
         "recovery": 24,
@@ -835,7 +1056,11 @@
     {
         "section": "Special Moves",
         "name": "L Mexican Typhoon",
-        "input": "360+LP",
+        "input": [
+            "360",
+            "+",
+            "LP"
+        ],
         "startup": 4,
         "active": 3,
         "recovery": 53,
@@ -852,7 +1077,11 @@
     {
         "section": "Special Moves",
         "name": "M Mexican Typhoon",
-        "input": "360+MP",
+        "input": [
+            "360",
+            "+",
+            "MP"
+        ],
         "startup": 4,
         "active": 3,
         "recovery": 53,
@@ -869,7 +1098,11 @@
     {
         "section": "Special Moves",
         "name": "H Mexican Typhoon",
-        "input": "360+HP",
+        "input": [
+            "360",
+            "+",
+            "HP"
+        ],
         "startup": 4,
         "active": 3,
         "recovery": 53,
@@ -886,7 +1119,12 @@
     {
         "section": "Special Moves",
         "name": "OD Mexican Typhoon",
-        "input": "360+PP",
+        "input": [
+            "360",
+            "+",
+            "P",
+            "P"
+        ],
         "startup": 4,
         "active": 3,
         "recovery": 53,
@@ -903,7 +1141,16 @@
     {
         "section": "Super Arts",
         "name": "SA1 Breezing Hawk",
-        "input": "236236+P",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "P"
+        ],
         "startup": 12,
         "active": 5001,
         "recovery": 54,
@@ -920,7 +1167,16 @@
     {
         "section": "Super Arts",
         "name": "SA2 Thunderbird",
-        "input": "236236+K",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "K"
+        ],
         "startup": 8,
         "active": 411,
         "recovery": 39,
@@ -937,7 +1193,16 @@
     {
         "section": "Super Arts",
         "name": "[Windclad]SA2 Thunderbird",
-        "input": "236236+K",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "K"
+        ],
         "startup": 8,
         "active": 411,
         "recovery": 39,
@@ -954,7 +1219,16 @@
     {
         "section": "Super Arts",
         "name": "SA2 Soaring Thunderbird",
-        "input": "236236+K",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "K"
+        ],
         "startup": 8,
         "active": 411,
         "recovery": 25,
@@ -971,7 +1245,16 @@
     {
         "section": "Super Arts",
         "name": "[Windclad]SA2 Soaring Thunderbird",
-        "input": "236236+K",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "K"
+        ],
         "startup": 8,
         "active": 411,
         "recovery": 25,
@@ -988,7 +1271,16 @@
     {
         "section": "Super Arts",
         "name": "SA3 Raging Typhoon",
-        "input": "214214+P",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "2",
+            "1",
+            "4",
+            "+",
+            "P"
+        ],
         "startup": 6,
         "active": 2,
         "recovery": 106,
@@ -1005,7 +1297,16 @@
     {
         "section": "Super Arts",
         "name": "CA Raging Typhoon",
-        "input": "214214+P",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "2",
+            "1",
+            "4",
+            "+",
+            "P"
+        ],
         "startup": 6,
         "active": 2,
         "recovery": 106,
@@ -1022,7 +1323,14 @@
     {
         "section": "Throws",
         "name": "Canyon Throw",
-        "input": "5/6+LPLK",
+        "input": [
+            "5",
+            "/",
+            "6",
+            "+",
+            "LP",
+            "LK"
+        ],
         "startup": 4,
         "active": 3,
         "recovery": 23,
@@ -1039,7 +1347,12 @@
     {
         "section": "Throws",
         "name": "Falling Cliff",
-        "input": "4+LPLK",
+        "input": [
+            "4",
+            "+",
+            "LP",
+            "LK"
+        ],
         "startup": 4,
         "active": 3,
         "recovery": 23,
@@ -1056,7 +1369,10 @@
     {
         "section": "Common Moves",
         "name": "Forward Dash",
-        "input": "66",
+        "input": [
+            "6",
+            "6"
+        ],
         "startup": null,
         "active": null,
         "recovery": 21,
@@ -1073,7 +1389,10 @@
     {
         "section": "Common Moves",
         "name": "Backward Dash",
-        "input": "44",
+        "input": [
+            "4",
+            "4"
+        ],
         "startup": null,
         "active": null,
         "recovery": 24,
@@ -1090,7 +1409,10 @@
     {
         "section": "Common Moves",
         "name": "Drive Impact: Earth's Rage",
-        "input": "HPHK",
+        "input": [
+            "HP",
+            "HK"
+        ],
         "startup": 25,
         "active": 2,
         "recovery": 35,
@@ -1107,7 +1429,12 @@
     {
         "section": "Common Moves",
         "name": "Drive Reversal: Cross Hammer",
-        "input": "6+HPHK",
+        "input": [
+            "6",
+            "+",
+            "HP",
+            "HK"
+        ],
         "startup": 19,
         "active": 3,
         "recovery": 26,
@@ -1124,7 +1451,10 @@
     {
         "section": "Common Moves",
         "name": "Drive Parry",
-        "input": "MPMK",
+        "input": [
+            "MP",
+            "MK"
+        ],
         "startup": null,
         "active": null,
         "recovery": 29,
@@ -1141,7 +1471,10 @@
     {
         "section": "Common Moves",
         "name": "Perfect Parry (strike)",
-        "input": "MPMK",
+        "input": [
+            "MP",
+            "MK"
+        ],
         "startup": 1,
         "active": null,
         "recovery": 1,
@@ -1158,7 +1491,10 @@
     {
         "section": "Common Moves",
         "name": "Perfect Parry (projectile)",
-        "input": "MPMK",
+        "input": [
+            "MP",
+            "MK"
+        ],
         "startup": 1,
         "active": null,
         "recovery": 10,
@@ -1175,7 +1511,10 @@
     {
         "section": "Common Moves",
         "name": "Parry Drive Rush",
-        "input": "66",
+        "input": [
+            "6",
+            "6"
+        ],
         "startup": null,
         "active": null,
         "recovery": 45,
@@ -1192,7 +1531,17 @@
     {
         "section": "Common Moves",
         "name": "Cancel Drive Rush",
-        "input": "66/5/6+MPMK",
+        "input": [
+            "6",
+            "6",
+            "/",
+            "5",
+            "/",
+            "6",
+            "+",
+            "MP",
+            "MK"
+        ],
         "startup": 0,
         "active": "0",
         "recovery": 0,

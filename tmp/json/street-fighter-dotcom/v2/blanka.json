@@ -2,7 +2,9 @@
     {
         "section": "Normal Moves",
         "name": "Standing Light Punch",
-        "input": "LP",
+        "input": [
+            "LP"
+        ],
         "startup": 4,
         "active": 3,
         "recovery": 10,
@@ -19,7 +21,9 @@
     {
         "section": "Normal Moves",
         "name": "Standing Light Kick",
-        "input": "LK",
+        "input": [
+            "LK"
+        ],
         "startup": 3,
         "active": 4,
         "recovery": 7,
@@ -36,7 +40,9 @@
     {
         "section": "Normal Moves",
         "name": "Standing Medium Punch",
-        "input": "MP",
+        "input": [
+            "MP"
+        ],
         "startup": 9,
         "active": 3,
         "recovery": 15,
@@ -53,7 +59,9 @@
     {
         "section": "Normal Moves",
         "name": "Standing Medium Kick",
-        "input": "MK",
+        "input": [
+            "MK"
+        ],
         "startup": 7,
         "active": 3,
         "recovery": 17,
@@ -70,7 +78,9 @@
     {
         "section": "Normal Moves",
         "name": "Standing Heavy Punch",
-        "input": "HP",
+        "input": [
+            "HP"
+        ],
         "startup": 9,
         "active": 7,
         "recovery": 22,
@@ -87,7 +97,9 @@
     {
         "section": "Normal Moves",
         "name": "Standing Heavy Kick",
-        "input": "HK",
+        "input": [
+            "HK"
+        ],
         "startup": 6,
         "active": 9,
         "recovery": 18,
@@ -104,7 +116,11 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Light Punch",
-        "input": "2+LP",
+        "input": [
+            "2",
+            "+",
+            "LP"
+        ],
         "startup": 5,
         "active": 3,
         "recovery": 8,
@@ -121,7 +137,11 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Light Kick",
-        "input": "2+LK",
+        "input": [
+            "2",
+            "+",
+            "LK"
+        ],
         "startup": 4,
         "active": 2,
         "recovery": 10,
@@ -138,7 +158,11 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Medium Punch",
-        "input": "2+MP",
+        "input": [
+            "2",
+            "+",
+            "MP"
+        ],
         "startup": 8,
         "active": 5,
         "recovery": 16,
@@ -155,7 +179,11 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Medium Kick",
-        "input": "2+MK",
+        "input": [
+            "2",
+            "+",
+            "MK"
+        ],
         "startup": 7,
         "active": 3,
         "recovery": 16,
@@ -172,7 +200,11 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Heavy Punch",
-        "input": "2+HP",
+        "input": [
+            "2",
+            "+",
+            "HP"
+        ],
         "startup": 14,
         "active": 5,
         "recovery": 20,
@@ -189,7 +221,11 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Heavy Kick",
-        "input": "2+HK",
+        "input": [
+            "2",
+            "+",
+            "HK"
+        ],
         "startup": 10,
         "active": 4,
         "recovery": 23,
@@ -206,7 +242,9 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Light Punch",
-        "input": "LP",
+        "input": [
+            "LP"
+        ],
         "startup": 3,
         "active": 5,
         "recovery": 3,
@@ -223,7 +261,9 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Light Kick",
-        "input": "LK",
+        "input": [
+            "LK"
+        ],
         "startup": 4,
         "active": 6,
         "recovery": 3,
@@ -240,7 +280,9 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Medium Punch",
-        "input": "MP",
+        "input": [
+            "MP"
+        ],
         "startup": 6,
         "active": 7,
         "recovery": 3,
@@ -257,7 +299,9 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Medium Kick",
-        "input": "MK",
+        "input": [
+            "MK"
+        ],
         "startup": 6,
         "active": 6,
         "recovery": 3,
@@ -274,7 +318,9 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Heavy Punch",
-        "input": "HP",
+        "input": [
+            "HP"
+        ],
         "startup": 9,
         "active": "9",
         "recovery": 3,
@@ -291,7 +337,9 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Heavy Kick",
-        "input": "HK",
+        "input": [
+            "HK"
+        ],
         "startup": 10,
         "active": 6,
         "recovery": 3,
@@ -308,7 +356,9 @@
     {
         "section": "Normal Moves",
         "name": "Neutral Jumping Heavy Punch",
-        "input": "HP",
+        "input": [
+            "HP"
+        ],
         "startup": 6,
         "active": 3,
         "recovery": 3,
@@ -325,7 +375,11 @@
     {
         "section": "Unique Attacks",
         "name": "Rock Crusher",
-        "input": "6+MP",
+        "input": [
+            "6",
+            "+",
+            "MP"
+        ],
         "startup": 19,
         "active": 3,
         "recovery": 20,
@@ -342,7 +396,11 @@
     {
         "section": "Unique Attacks",
         "name": "Double Knee Bombs",
-        "input": "6+MK",
+        "input": [
+            "6",
+            "+",
+            "MK"
+        ],
         "startup": 8,
         "active": 201,
         "recovery": 18,
@@ -359,7 +417,11 @@
     {
         "section": "Unique Attacks",
         "name": "Wild Edge",
-        "input": "4+MK",
+        "input": [
+            "4",
+            "+",
+            "MK"
+        ],
         "startup": 8,
         "active": 6,
         "recovery": 12,
@@ -376,7 +438,11 @@
     {
         "section": "Unique Attacks",
         "name": "Wild Nail",
-        "input": "6+HP",
+        "input": [
+            "6",
+            "+",
+            "HP"
+        ],
         "startup": 17,
         "active": 4,
         "recovery": 31,
@@ -393,7 +459,11 @@
     {
         "section": "Unique Attacks",
         "name": "Amazon River Run",
-        "input": "3+HP",
+        "input": [
+            "3",
+            "+",
+            "HP"
+        ],
         "startup": 13,
         "active": 10,
         "recovery": 22,
@@ -410,7 +480,12 @@
     {
         "section": "Unique Attacks",
         "name": "Coward Crouch",
-        "input": "2+PP",
+        "input": [
+            "2",
+            "+",
+            "P",
+            "P"
+        ],
         "startup": null,
         "active": null,
         "recovery": 98,
@@ -427,7 +502,9 @@
     {
         "section": "Unique Attacks",
         "name": "Wild Lift",
-        "input": "P",
+        "input": [
+            "P"
+        ],
         "startup": 7,
         "active": 7,
         "recovery": 31,
@@ -444,7 +521,9 @@
     {
         "section": "Unique Attacks",
         "name": "Raid Jump",
-        "input": "K",
+        "input": [
+            "K"
+        ],
         "startup": null,
         "active": null,
         "recovery": 43,
@@ -461,7 +540,13 @@
     {
         "section": "Unique Attacks",
         "name": "Surprise Forward Hop",
-        "input": "6+KKK",
+        "input": [
+            "6",
+            "+",
+            "K",
+            "K",
+            "K"
+        ],
         "startup": null,
         "active": null,
         "recovery": 27,
@@ -478,7 +563,13 @@
     {
         "section": "Unique Attacks",
         "name": "Surprise Back Hop",
-        "input": "4+KKK",
+        "input": [
+            "4",
+            "+",
+            "K",
+            "K",
+            "K"
+        ],
         "startup": null,
         "active": null,
         "recovery": 32,
@@ -495,7 +586,13 @@
     {
         "section": "Special Moves",
         "name": "Electric Thunder",
-        "input": "214+P",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "P"
+        ],
         "startup": 9,
         "active": 2101,
         "recovery": 17,
@@ -512,7 +609,13 @@
     {
         "section": "Special Moves",
         "name": "[Lightning Beast] Electric Thunder",
-        "input": "214+P",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "P"
+        ],
         "startup": 9,
         "active": 2101,
         "recovery": 17,
@@ -529,7 +632,14 @@
     {
         "section": "Special Moves",
         "name": "OD Electric Thunder",
-        "input": "214+PP",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "P",
+            "P"
+        ],
         "startup": 9,
         "active": 1801,
         "recovery": 17,
@@ -546,7 +656,14 @@
     {
         "section": "Special Moves",
         "name": "[Lightning Beast]OD Electric Thunder",
-        "input": "214+PP",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "P",
+            "P"
+        ],
         "startup": 9,
         "active": 1801,
         "recovery": 17,
@@ -563,7 +680,12 @@
     {
         "section": "Special Moves",
         "name": "L Rolling Attack",
-        "input": "[4]6+LP",
+        "input": [
+            "[4]",
+            "6",
+            "+",
+            "LP"
+        ],
         "startup": 9,
         "active": 11,
         "recovery": 11,
@@ -580,7 +702,12 @@
     {
         "section": "Special Moves",
         "name": "[Lightning Beast] L Rolling Attack",
-        "input": "[4]6+LP",
+        "input": [
+            "[4]",
+            "6",
+            "+",
+            "LP"
+        ],
         "startup": 9,
         "active": 11,
         "recovery": 11,
@@ -597,7 +724,12 @@
     {
         "section": "Special Moves",
         "name": "M Rolling Attack",
-        "input": "[4]6+MP",
+        "input": [
+            "[4]",
+            "6",
+            "+",
+            "MP"
+        ],
         "startup": 11,
         "active": 19,
         "recovery": 11,
@@ -614,7 +746,12 @@
     {
         "section": "Special Moves",
         "name": "[Lightning Beast] M Rolling Attack",
-        "input": "[4]6+MP",
+        "input": [
+            "[4]",
+            "6",
+            "+",
+            "MP"
+        ],
         "startup": 11,
         "active": 19,
         "recovery": 11,
@@ -631,7 +768,12 @@
     {
         "section": "Special Moves",
         "name": "H Rolling Attack",
-        "input": "[4]6+HP",
+        "input": [
+            "[4]",
+            "6",
+            "+",
+            "HP"
+        ],
         "startup": 21,
         "active": 20,
         "recovery": 26,
@@ -648,7 +790,12 @@
     {
         "section": "Special Moves",
         "name": "[Lightning Beast] H Rolling Attack",
-        "input": "[4]6+HP",
+        "input": [
+            "[4]",
+            "6",
+            "+",
+            "HP"
+        ],
         "startup": 21,
         "active": 20,
         "recovery": 26,
@@ -665,7 +812,13 @@
     {
         "section": "Special Moves",
         "name": "OD Rolling Attack",
-        "input": "[4]6+PP",
+        "input": [
+            "[4]",
+            "6",
+            "+",
+            "P",
+            "P"
+        ],
         "startup": 17,
         "active": 22,
         "recovery": 17,
@@ -682,7 +835,13 @@
     {
         "section": "Special Moves",
         "name": "[Lightning Beast] OD Rolling Attack",
-        "input": "[4]6+PP",
+        "input": [
+            "[4]",
+            "6",
+            "+",
+            "P",
+            "P"
+        ],
         "startup": 17,
         "active": 22,
         "recovery": 17,
@@ -699,7 +858,12 @@
     {
         "section": "Special Moves",
         "name": "L Vertical Rolling Attack",
-        "input": "[2]8+LK",
+        "input": [
+            "[2]",
+            "8",
+            "+",
+            "LK"
+        ],
         "startup": 7,
         "active": 20,
         "recovery": 31,
@@ -716,7 +880,12 @@
     {
         "section": "Special Moves",
         "name": "[Lightning Beast] L Vertical Rolling Attack",
-        "input": "[2]8+LK",
+        "input": [
+            "[2]",
+            "8",
+            "+",
+            "LK"
+        ],
         "startup": 7,
         "active": 20,
         "recovery": 31,
@@ -733,7 +902,12 @@
     {
         "section": "Special Moves",
         "name": "M Vertical Rolling Attack",
-        "input": "[2]8+MK",
+        "input": [
+            "[2]",
+            "8",
+            "+",
+            "MK"
+        ],
         "startup": 7,
         "active": 20,
         "recovery": 31,
@@ -750,7 +924,12 @@
     {
         "section": "Special Moves",
         "name": "[Lightning Beast] M Vertical Rolling Attack",
-        "input": "[2]8+MK",
+        "input": [
+            "[2]",
+            "8",
+            "+",
+            "MK"
+        ],
         "startup": 7,
         "active": 20,
         "recovery": 31,
@@ -767,7 +946,12 @@
     {
         "section": "Special Moves",
         "name": "H Vertical Rolling Attack",
-        "input": "[2]8+HK",
+        "input": [
+            "[2]",
+            "8",
+            "+",
+            "HK"
+        ],
         "startup": 7,
         "active": 20,
         "recovery": 31,
@@ -784,7 +968,12 @@
     {
         "section": "Special Moves",
         "name": "[Lightning Beast] H Vertical Rolling Attack",
-        "input": "[2]8+HK",
+        "input": [
+            "[2]",
+            "8",
+            "+",
+            "HK"
+        ],
         "startup": 7,
         "active": 20,
         "recovery": 31,
@@ -801,7 +990,13 @@
     {
         "section": "Special Moves",
         "name": "OD Vertical Rolling Attack",
-        "input": "[2]8+KK",
+        "input": [
+            "[2]",
+            "8",
+            "+",
+            "K",
+            "K"
+        ],
         "startup": 6,
         "active": 221,
         "recovery": 31,
@@ -818,7 +1013,13 @@
     {
         "section": "Special Moves",
         "name": "[Lightning Beast] OD Vertical Rolling Attack",
-        "input": "[2]8+KK",
+        "input": [
+            "[2]",
+            "8",
+            "+",
+            "K",
+            "K"
+        ],
         "startup": 6,
         "active": 221,
         "recovery": 31,
@@ -835,7 +1036,15 @@
     {
         "section": "Special Moves",
         "name": "L Backstep Rolling Attack",
-        "input": "63214+LK",
+        "input": [
+            "6",
+            "3",
+            "2",
+            "1",
+            "4",
+            "+",
+            "LK"
+        ],
         "startup": 41,
         "active": "41-until landing",
         "recovery": 5,
@@ -852,7 +1061,15 @@
     {
         "section": "Special Moves",
         "name": "[Lightning Beast] L Backstep Rolling Attack",
-        "input": "63214+LK",
+        "input": [
+            "6",
+            "3",
+            "2",
+            "1",
+            "4",
+            "+",
+            "LK"
+        ],
         "startup": 41,
         "active": "41-until landing",
         "recovery": 5,
@@ -869,7 +1086,15 @@
     {
         "section": "Special Moves",
         "name": "M Backstep Rolling Attack",
-        "input": "63214+MK",
+        "input": [
+            "6",
+            "3",
+            "2",
+            "1",
+            "4",
+            "+",
+            "MK"
+        ],
         "startup": 41,
         "active": "41-until landing",
         "recovery": 5,
@@ -886,7 +1111,15 @@
     {
         "section": "Special Moves",
         "name": "[Lightning Beast] M Backstep Rolling Attack",
-        "input": "63214+MK",
+        "input": [
+            "6",
+            "3",
+            "2",
+            "1",
+            "4",
+            "+",
+            "MK"
+        ],
         "startup": 41,
         "active": "41-until landing",
         "recovery": 5,
@@ -903,7 +1136,15 @@
     {
         "section": "Special Moves",
         "name": "H Backstep Rolling Attack",
-        "input": "63214+HK",
+        "input": [
+            "6",
+            "3",
+            "2",
+            "1",
+            "4",
+            "+",
+            "HK"
+        ],
         "startup": 41,
         "active": "41-until landing",
         "recovery": 5,
@@ -920,7 +1161,15 @@
     {
         "section": "Special Moves",
         "name": "[Lightning Beast] H Backstep Rolling Attack",
-        "input": "63214+HK",
+        "input": [
+            "6",
+            "3",
+            "2",
+            "1",
+            "4",
+            "+",
+            "HK"
+        ],
         "startup": 41,
         "active": "41-until landing",
         "recovery": 5,
@@ -937,7 +1186,16 @@
     {
         "section": "Special Moves",
         "name": "OD Backstep Rolling Attack",
-        "input": "63214+KK",
+        "input": [
+            "6",
+            "3",
+            "2",
+            "1",
+            "4",
+            "+",
+            "K",
+            "K"
+        ],
         "startup": 7,
         "active": 661,
         "recovery": 4,
@@ -954,7 +1212,16 @@
     {
         "section": "Special Moves",
         "name": "[Lightning Beast] OD Backstep Rolling Attack",
-        "input": "63214+KK",
+        "input": [
+            "6",
+            "3",
+            "2",
+            "1",
+            "4",
+            "+",
+            "K",
+            "K"
+        ],
         "startup": 7,
         "active": 661,
         "recovery": 4,
@@ -971,7 +1238,12 @@
     {
         "section": "Special Moves",
         "name": "L Aerial Rolling Attack",
-        "input": "[4]6+LP",
+        "input": [
+            "[4]",
+            "6",
+            "+",
+            "LP"
+        ],
         "startup": 13,
         "active": "13-until landing",
         "recovery": 17,
@@ -988,7 +1260,12 @@
     {
         "section": "Special Moves",
         "name": "[Lightning Beast] L Aerial Rolling Attack",
-        "input": "[4]6+LP",
+        "input": [
+            "[4]",
+            "6",
+            "+",
+            "LP"
+        ],
         "startup": 13,
         "active": "13-until landing",
         "recovery": 17,
@@ -1005,7 +1282,12 @@
     {
         "section": "Special Moves",
         "name": "M Aerial Rolling Attack",
-        "input": "[4]6+MP",
+        "input": [
+            "[4]",
+            "6",
+            "+",
+            "MP"
+        ],
         "startup": 13,
         "active": "13-until landing",
         "recovery": 17,
@@ -1022,7 +1304,12 @@
     {
         "section": "Special Moves",
         "name": "[Lightning Beast] M Aerial Rolling Attack",
-        "input": "[4]6+MP",
+        "input": [
+            "[4]",
+            "6",
+            "+",
+            "MP"
+        ],
         "startup": 13,
         "active": "13-until landing",
         "recovery": 17,
@@ -1039,7 +1326,12 @@
     {
         "section": "Special Moves",
         "name": "H Aerial Rolling Attack",
-        "input": "[4]6+HP",
+        "input": [
+            "[4]",
+            "6",
+            "+",
+            "HP"
+        ],
         "startup": 13,
         "active": "13-until landing",
         "recovery": 17,
@@ -1056,7 +1348,12 @@
     {
         "section": "Special Moves",
         "name": "[Lightning Beast] H Aerial Rolling Attack",
-        "input": "[4]6+HP",
+        "input": [
+            "[4]",
+            "6",
+            "+",
+            "HP"
+        ],
         "startup": 13,
         "active": "13-until landing",
         "recovery": 17,
@@ -1073,7 +1370,13 @@
     {
         "section": "Special Moves",
         "name": "OD Aerial Rolling Attack",
-        "input": "[4]6+PP",
+        "input": [
+            "[4]",
+            "6",
+            "+",
+            "P",
+            "P"
+        ],
         "startup": 13,
         "active": "13-until landing",
         "recovery": 10,
@@ -1090,7 +1393,13 @@
     {
         "section": "Special Moves",
         "name": "[Lightning Beast] OD Aerial Rolling Attack",
-        "input": "[4]6+PP",
+        "input": [
+            "[4]",
+            "6",
+            "+",
+            "P",
+            "P"
+        ],
         "startup": 13,
         "active": "13-until landing",
         "recovery": 10,
@@ -1107,7 +1416,13 @@
     {
         "section": "Special Moves",
         "name": "L Wild Hunt",
-        "input": "236+LK",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "LK"
+        ],
         "startup": 33,
         "active": 3,
         "recovery": 57,
@@ -1124,7 +1439,13 @@
     {
         "section": "Special Moves",
         "name": "M Wild Hunt",
-        "input": "236+MK",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "MK"
+        ],
         "startup": 38,
         "active": 3,
         "recovery": 57,
@@ -1141,7 +1462,13 @@
     {
         "section": "Special Moves",
         "name": "H Wild Hunt",
-        "input": "236+HK",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "HK"
+        ],
         "startup": 42,
         "active": 3,
         "recovery": 57,
@@ -1158,7 +1485,14 @@
     {
         "section": "Special Moves",
         "name": "OD Wild Hunt",
-        "input": "236+KK",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "K",
+            "K"
+        ],
         "startup": 31,
         "active": 3,
         "recovery": 57,
@@ -1175,7 +1509,12 @@
     {
         "section": "Special Moves",
         "name": "Blanka-chan Bomb",
-        "input": "22+P",
+        "input": [
+            "2",
+            "2",
+            "+",
+            "P"
+        ],
         "startup": null,
         "active": null,
         "recovery": 50,
@@ -1192,7 +1531,10 @@
     {
         "section": "Special Moves",
         "name": "Rolling Cannon",
-        "input": "+P",
+        "input": [
+            "+",
+            "P"
+        ],
         "startup": 2,
         "active": 25,
         "recovery": 9,
@@ -1209,7 +1551,16 @@
     {
         "section": "Super Arts",
         "name": "SA1 Shout of Earth",
-        "input": "236236+P",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "P"
+        ],
         "startup": 7,
         "active": 9,
         "recovery": 78,
@@ -1226,7 +1577,16 @@
     {
         "section": "Super Arts",
         "name": "[Lightning Beast] SA1 Shout of Earth",
-        "input": "236236+P",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "P"
+        ],
         "startup": 7,
         "active": 9,
         "recovery": 78,
@@ -1243,7 +1603,16 @@
     {
         "section": "Super Arts",
         "name": "SA2 Lightning Beast",
-        "input": "214214+P",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "2",
+            "1",
+            "4",
+            "+",
+            "P"
+        ],
         "startup": null,
         "active": null,
         "recovery": 10,
@@ -1260,7 +1629,16 @@
     {
         "section": "Super Arts",
         "name": "SA3 Ground Shave Cannonball",
-        "input": "236236+K",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "K"
+        ],
         "startup": 9,
         "active": 3,
         "recovery": 61,
@@ -1277,7 +1655,16 @@
     {
         "section": "Super Arts",
         "name": "CA Ground Shave Cannonball",
-        "input": "236236+K",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "K"
+        ],
         "startup": 9,
         "active": 3,
         "recovery": 61,
@@ -1294,7 +1681,14 @@
     {
         "section": "Throws",
         "name": "Wild Fang",
-        "input": "5/6+LPLK",
+        "input": [
+            "5",
+            "/",
+            "6",
+            "+",
+            "LP",
+            "LK"
+        ],
         "startup": 4,
         "active": 3,
         "recovery": 23,
@@ -1311,7 +1705,12 @@
     {
         "section": "Throws",
         "name": "Jungle Flip",
-        "input": "4+LPLK",
+        "input": [
+            "4",
+            "+",
+            "LP",
+            "LK"
+        ],
         "startup": 4,
         "active": 3,
         "recovery": 23,
@@ -1328,7 +1727,10 @@
     {
         "section": "Throws",
         "name": "Wild Bites",
-        "input": "LPLK",
+        "input": [
+            "LP",
+            "LK"
+        ],
         "startup": 4,
         "active": 3,
         "recovery": "",
@@ -1345,7 +1747,10 @@
     {
         "section": "Common Moves",
         "name": "Forward Dash",
-        "input": "66",
+        "input": [
+            "6",
+            "6"
+        ],
         "startup": null,
         "active": null,
         "recovery": 19,
@@ -1362,7 +1767,10 @@
     {
         "section": "Common Moves",
         "name": "Backward Dash",
-        "input": "44",
+        "input": [
+            "4",
+            "4"
+        ],
         "startup": null,
         "active": null,
         "recovery": 23,
@@ -1379,7 +1787,10 @@
     {
         "section": "Common Moves",
         "name": "Drive Impact: Wild Scratch",
-        "input": "HPHK",
+        "input": [
+            "HP",
+            "HK"
+        ],
         "startup": 25,
         "active": 2,
         "recovery": 35,
@@ -1396,7 +1807,12 @@
     {
         "section": "Common Moves",
         "name": "Drive Reversal: Quick Rolling Attack",
-        "input": "6+HPHK",
+        "input": [
+            "6",
+            "+",
+            "HP",
+            "HK"
+        ],
         "startup": 19,
         "active": 3,
         "recovery": 26,
@@ -1413,7 +1829,10 @@
     {
         "section": "Common Moves",
         "name": "Drive Parry",
-        "input": "MPMK",
+        "input": [
+            "MP",
+            "MK"
+        ],
         "startup": null,
         "active": null,
         "recovery": 29,
@@ -1430,7 +1849,10 @@
     {
         "section": "Common Moves",
         "name": "Perfect Parry (strike)",
-        "input": "MPMK",
+        "input": [
+            "MP",
+            "MK"
+        ],
         "startup": 1,
         "active": null,
         "recovery": 1,
@@ -1447,7 +1869,10 @@
     {
         "section": "Common Moves",
         "name": "Perfect Parry (projectile)",
-        "input": "MPMK",
+        "input": [
+            "MP",
+            "MK"
+        ],
         "startup": 1,
         "active": null,
         "recovery": 10,
@@ -1464,7 +1889,10 @@
     {
         "section": "Common Moves",
         "name": "Parry Drive Rush",
-        "input": "66",
+        "input": [
+            "6",
+            "6"
+        ],
         "startup": null,
         "active": null,
         "recovery": 55,
@@ -1481,7 +1909,17 @@
     {
         "section": "Common Moves",
         "name": "Cancel Drive Rush",
-        "input": "66/5/6+MPMK",
+        "input": [
+            "6",
+            "6",
+            "/",
+            "5",
+            "/",
+            "6",
+            "+",
+            "MP",
+            "MK"
+        ],
         "startup": null,
         "active": null,
         "recovery": 55,

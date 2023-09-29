@@ -53,7 +53,7 @@ class _Converter {
         this.result = {
             section: this.rawData["section"],
             name: this.rawData["Move Name"],
-            input: this.rawData["input"].join(""),
+            input: this.rawData["input"],
             startup: null,
             active: null,
             recovery: null,

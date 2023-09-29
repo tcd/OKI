@@ -2,7 +2,9 @@
     {
         "section": "Normal Moves",
         "name": "Standing Light Punch",
-        "input": "LP",
+        "input": [
+            "LP"
+        ],
         "startup": 3,
         "active": 3,
         "recovery": 8,
@@ -19,7 +21,9 @@
     {
         "section": "Normal Moves",
         "name": "Standing Light Kick",
-        "input": "LK",
+        "input": [
+            "LK"
+        ],
         "startup": 8,
         "active": 4,
         "recovery": 11,
@@ -36,7 +40,9 @@
     {
         "section": "Normal Moves",
         "name": "Standing Medium Punch",
-        "input": "MP",
+        "input": [
+            "MP"
+        ],
         "startup": 13,
         "active": 3,
         "recovery": 19,
@@ -53,7 +59,9 @@
     {
         "section": "Normal Moves",
         "name": "Standing Medium Kick",
-        "input": "MK",
+        "input": [
+            "MK"
+        ],
         "startup": 11,
         "active": 3,
         "recovery": 18,
@@ -70,7 +78,9 @@
     {
         "section": "Normal Moves",
         "name": "Standing Heavy Punch",
-        "input": "HP",
+        "input": [
+            "HP"
+        ],
         "startup": 15,
         "active": 4,
         "recovery": 27,
@@ -87,7 +97,9 @@
     {
         "section": "Normal Moves",
         "name": "Standing Heavy Kick",
-        "input": "HK",
+        "input": [
+            "HK"
+        ],
         "startup": 16,
         "active": 3,
         "recovery": 20,
@@ -104,7 +116,11 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Light Punch",
-        "input": "2+LP",
+        "input": [
+            "2",
+            "+",
+            "LP"
+        ],
         "startup": 4,
         "active": 3,
         "recovery": 9,
@@ -121,7 +137,11 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Light Kick",
-        "input": "2+LK",
+        "input": [
+            "2",
+            "+",
+            "LK"
+        ],
         "startup": 3,
         "active": 7,
         "recovery": 16,
@@ -138,7 +158,11 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Medium Punch",
-        "input": "2+MP",
+        "input": [
+            "2",
+            "+",
+            "MP"
+        ],
         "startup": 11,
         "active": 3,
         "recovery": 16,
@@ -155,7 +179,11 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Medium Kick",
-        "input": "2+MK",
+        "input": [
+            "2",
+            "+",
+            "MK"
+        ],
         "startup": 9,
         "active": 13,
         "recovery": 14,
@@ -172,7 +200,11 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Heavy Punch",
-        "input": "2+HP",
+        "input": [
+            "2",
+            "+",
+            "HP"
+        ],
         "startup": 18,
         "active": 4,
         "recovery": 24,
@@ -189,7 +221,11 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Heavy Kick",
-        "input": "2+HK",
+        "input": [
+            "2",
+            "+",
+            "HK"
+        ],
         "startup": 11,
         "active": 16,
         "recovery": 20,
@@ -206,7 +242,9 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Light Punch",
-        "input": "LP",
+        "input": [
+            "LP"
+        ],
         "startup": 3,
         "active": 4,
         "recovery": 3,
@@ -223,7 +261,9 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Light Kick",
-        "input": "LK",
+        "input": [
+            "LK"
+        ],
         "startup": 5,
         "active": 4,
         "recovery": 3,
@@ -240,7 +280,9 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Medium Punch",
-        "input": "MP",
+        "input": [
+            "MP"
+        ],
         "startup": 8,
         "active": 6,
         "recovery": 3,
@@ -257,7 +299,9 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Medium Kick",
-        "input": "MK",
+        "input": [
+            "MK"
+        ],
         "startup": 10,
         "active": 6,
         "recovery": 3,
@@ -274,7 +318,9 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Heavy Punch",
-        "input": "HP",
+        "input": [
+            "HP"
+        ],
         "startup": 12,
         "active": 4,
         "recovery": 3,
@@ -291,7 +337,9 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Heavy Kick",
-        "input": "HK",
+        "input": [
+            "HK"
+        ],
         "startup": 9,
         "active": 10,
         "recovery": 3,
@@ -308,7 +356,11 @@
     {
         "section": "Unique Attacks",
         "name": "Yoga Uppercut",
-        "input": "4+MP",
+        "input": [
+            "4",
+            "+",
+            "MP"
+        ],
         "startup": 7,
         "active": 6,
         "recovery": 16,
@@ -325,7 +377,11 @@
     {
         "section": "Unique Attacks",
         "name": "Yoga Lance",
-        "input": "4+HP",
+        "input": [
+            "4",
+            "+",
+            "HP"
+        ],
         "startup": 13,
         "active": 7,
         "recovery": 29,
@@ -342,7 +398,11 @@
     {
         "section": "Unique Attacks",
         "name": "Nirvana Punch",
-        "input": "1+HP",
+        "input": [
+            "1",
+            "+",
+            "HP"
+        ],
         "startup": 9,
         "active": 4,
         "recovery": 20,
@@ -359,7 +419,11 @@
     {
         "section": "Unique Attacks",
         "name": "Agile Kick",
-        "input": "1+LK",
+        "input": [
+            "1",
+            "+",
+            "LK"
+        ],
         "startup": 4,
         "active": 3,
         "recovery": 10,
@@ -376,7 +440,11 @@
     {
         "section": "Unique Attacks",
         "name": "Divine Kick",
-        "input": "4+MK",
+        "input": [
+            "4",
+            "+",
+            "MK"
+        ],
         "startup": 6,
         "active": 4,
         "recovery": 17,
@@ -393,7 +461,11 @@
     {
         "section": "Unique Attacks",
         "name": "Thrust Kick",
-        "input": "1+MK",
+        "input": [
+            "1",
+            "+",
+            "MK"
+        ],
         "startup": 7,
         "active": 3,
         "recovery": 20,
@@ -410,7 +482,11 @@
     {
         "section": "Unique Attacks",
         "name": "Yoga Mountain",
-        "input": "4+HK",
+        "input": [
+            "4",
+            "+",
+            "HK"
+        ],
         "startup": 13,
         "active": 6,
         "recovery": 20,
@@ -427,7 +503,11 @@
     {
         "section": "Unique Attacks",
         "name": "Karma Kick",
-        "input": "1+HK",
+        "input": [
+            "1",
+            "+",
+            "HK"
+        ],
         "startup": 8,
         "active": 3,
         "recovery": 22,
@@ -444,7 +524,11 @@
     {
         "section": "Unique Attacks",
         "name": "Yoga Mummy",
-        "input": "2+LP",
+        "input": [
+            "2",
+            "+",
+            "LP"
+        ],
         "startup": 10,
         "active": "10-until landing",
         "recovery": 9,
@@ -461,7 +545,11 @@
     {
         "section": "Unique Attacks",
         "name": "L Drill Kick",
-        "input": "2+LK",
+        "input": [
+            "2",
+            "+",
+            "LK"
+        ],
         "startup": 9,
         "active": "9-until landing",
         "recovery": 11,
@@ -478,7 +566,11 @@
     {
         "section": "Unique Attacks",
         "name": "M Drill Kick",
-        "input": "2+MK",
+        "input": [
+            "2",
+            "+",
+            "MK"
+        ],
         "startup": 9,
         "active": "9-until landing",
         "recovery": 11,
@@ -495,7 +587,11 @@
     {
         "section": "Unique Attacks",
         "name": "H Drill Kick",
-        "input": "2+HK",
+        "input": [
+            "2",
+            "+",
+            "HK"
+        ],
         "startup": 9,
         "active": "9-until landing",
         "recovery": 11,
@@ -512,7 +608,13 @@
     {
         "section": "Special Moves",
         "name": "L Yoga Fire",
-        "input": "236+LP",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "LP"
+        ],
         "startup": 15,
         "active": null,
         "recovery": 48,
@@ -529,7 +631,13 @@
     {
         "section": "Special Moves",
         "name": "M Yoga Fire",
-        "input": "236+MP",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "MP"
+        ],
         "startup": 15,
         "active": null,
         "recovery": 48,
@@ -546,7 +654,13 @@
     {
         "section": "Special Moves",
         "name": "H Yoga Fire",
-        "input": "236+HP",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "HP"
+        ],
         "startup": 15,
         "active": null,
         "recovery": 48,
@@ -563,7 +677,14 @@
     {
         "section": "Special Moves",
         "name": "OD L Yoga Fire",
-        "input": "236+LPMP",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "LP",
+            "MP"
+        ],
         "startup": 13,
         "active": null,
         "recovery": 45,
@@ -580,7 +701,14 @@
     {
         "section": "Special Moves",
         "name": "OD M Yoga Fire",
-        "input": "236+LPHP",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "LP",
+            "HP"
+        ],
         "startup": 13,
         "active": null,
         "recovery": 45,
@@ -597,7 +725,14 @@
     {
         "section": "Special Moves",
         "name": "OD H Yoga Fire",
-        "input": "236+MPHP",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "MP",
+            "HP"
+        ],
         "startup": 13,
         "active": null,
         "recovery": 45,
@@ -614,7 +749,13 @@
     {
         "section": "Special Moves",
         "name": "L Yoga Arch",
-        "input": "236+LK",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "LK"
+        ],
         "startup": 18,
         "active": null,
         "recovery": 45,
@@ -631,7 +772,13 @@
     {
         "section": "Special Moves",
         "name": "M Yoga Arch",
-        "input": "236+MK",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "MK"
+        ],
         "startup": 18,
         "active": null,
         "recovery": 45,
@@ -648,7 +795,13 @@
     {
         "section": "Special Moves",
         "name": "H Yoga Arch",
-        "input": "236+HK",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "HK"
+        ],
         "startup": 18,
         "active": null,
         "recovery": 45,
@@ -665,7 +818,14 @@
     {
         "section": "Special Moves",
         "name": "OD L Yoga Arch",
-        "input": "236+LKMK",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "LK",
+            "MK"
+        ],
         "startup": 18,
         "active": null,
         "recovery": 45,
@@ -682,7 +842,14 @@
     {
         "section": "Special Moves",
         "name": "OD M Yoga Arch",
-        "input": "236+LKHK",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "LK",
+            "HK"
+        ],
         "startup": 18,
         "active": null,
         "recovery": 45,
@@ -699,7 +866,14 @@
     {
         "section": "Special Moves",
         "name": "OD H Yoga Arch",
-        "input": "236+MKHK",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "MK",
+            "HK"
+        ],
         "startup": 18,
         "active": null,
         "recovery": 45,
@@ -716,7 +890,15 @@
     {
         "section": "Special Moves",
         "name": "L Yoga Flame",
-        "input": "63214+LP",
+        "input": [
+            "6",
+            "3",
+            "2",
+            "1",
+            "4",
+            "+",
+            "LP"
+        ],
         "startup": 15,
         "active": 15,
         "recovery": 45,
@@ -733,7 +915,15 @@
     {
         "section": "Special Moves",
         "name": "M Yoga Flame",
-        "input": "63214+MP",
+        "input": [
+            "6",
+            "3",
+            "2",
+            "1",
+            "4",
+            "+",
+            "MP"
+        ],
         "startup": 18,
         "active": 16,
         "recovery": 51,
@@ -750,7 +940,15 @@
     {
         "section": "Special Moves",
         "name": "H Yoga Flame",
-        "input": "63214+HP",
+        "input": [
+            "6",
+            "3",
+            "2",
+            "1",
+            "4",
+            "+",
+            "HP"
+        ],
         "startup": 25,
         "active": 17,
         "recovery": 58,
@@ -767,7 +965,16 @@
     {
         "section": "Special Moves",
         "name": "OD Yoga Flame",
-        "input": "63214+PP",
+        "input": [
+            "6",
+            "3",
+            "2",
+            "1",
+            "4",
+            "+",
+            "P",
+            "P"
+        ],
         "startup": 17,
         "active": 25,
         "recovery": 66,
@@ -784,7 +991,15 @@
     {
         "section": "Special Moves",
         "name": "L Yoga Blast",
-        "input": "63214+LK",
+        "input": [
+            "6",
+            "3",
+            "2",
+            "1",
+            "4",
+            "+",
+            "LK"
+        ],
         "startup": 11,
         "active": 10,
         "recovery": 44,
@@ -801,7 +1016,15 @@
     {
         "section": "Special Moves",
         "name": "M Yoga Blast",
-        "input": "63214+MK",
+        "input": [
+            "6",
+            "3",
+            "2",
+            "1",
+            "4",
+            "+",
+            "MK"
+        ],
         "startup": 14,
         "active": 10,
         "recovery": 44,
@@ -818,7 +1041,15 @@
     {
         "section": "Special Moves",
         "name": "H Yoga Blast",
-        "input": "63214+HK",
+        "input": [
+            "6",
+            "3",
+            "2",
+            "1",
+            "4",
+            "+",
+            "HK"
+        ],
         "startup": 14,
         "active": 10,
         "recovery": 44,
@@ -835,7 +1066,16 @@
     {
         "section": "Special Moves",
         "name": "OD Yoga Blast",
-        "input": "63214+KK",
+        "input": [
+            "6",
+            "3",
+            "2",
+            "1",
+            "4",
+            "+",
+            "K",
+            "K"
+        ],
         "startup": 11,
         "active": 10,
         "recovery": 41,
@@ -852,7 +1092,15 @@
     {
         "section": "Special Moves",
         "name": "L Yoga Comet",
-        "input": "63214+LP",
+        "input": [
+            "6",
+            "3",
+            "2",
+            "1",
+            "4",
+            "+",
+            "LP"
+        ],
         "startup": 30,
         "active": null,
         "recovery": 8,
@@ -869,7 +1117,15 @@
     {
         "section": "Special Moves",
         "name": "M Yoga Comet",
-        "input": "63214+MP",
+        "input": [
+            "6",
+            "3",
+            "2",
+            "1",
+            "4",
+            "+",
+            "MP"
+        ],
         "startup": 30,
         "active": null,
         "recovery": 8,
@@ -886,7 +1142,15 @@
     {
         "section": "Special Moves",
         "name": "H Yoga Comet",
-        "input": "63214+HP",
+        "input": [
+            "6",
+            "3",
+            "2",
+            "1",
+            "4",
+            "+",
+            "HP"
+        ],
         "startup": 30,
         "active": null,
         "recovery": 8,
@@ -903,7 +1167,16 @@
     {
         "section": "Special Moves",
         "name": "OD Yoga Comet",
-        "input": "63214+PP",
+        "input": [
+            "6",
+            "3",
+            "2",
+            "1",
+            "4",
+            "+",
+            "P",
+            "P"
+        ],
         "startup": 30,
         "active": null,
         "recovery": 3,
@@ -920,7 +1193,12 @@
     {
         "section": "Special Moves",
         "name": "Yoga Float(immediately)",
-        "input": "2+KK",
+        "input": [
+            "2",
+            "+",
+            "K",
+            "K"
+        ],
         "startup": null,
         "active": null,
         "recovery": 35,
@@ -937,7 +1215,12 @@
     {
         "section": "Special Moves",
         "name": "Yoga Float(Forward)",
-        "input": "3+KK",
+        "input": [
+            "3",
+            "+",
+            "K",
+            "K"
+        ],
         "startup": null,
         "active": null,
         "recovery": 35,
@@ -954,7 +1237,12 @@
     {
         "section": "Special Moves",
         "name": "Aerial Yoga Float",
-        "input": "2+KK",
+        "input": [
+            "2",
+            "+",
+            "K",
+            "K"
+        ],
         "startup": null,
         "active": null,
         "recovery": 15,
@@ -971,7 +1259,13 @@
     {
         "section": "Special Moves",
         "name": "P Yoga Teleport (Forward)",
-        "input": "6+PPP",
+        "input": [
+            "6",
+            "+",
+            "P",
+            "P",
+            "P"
+        ],
         "startup": null,
         "active": null,
         "recovery": 39,
@@ -988,7 +1282,13 @@
     {
         "section": "Special Moves",
         "name": "K Yoga Teleport (Forward)",
-        "input": "6+KKK",
+        "input": [
+            "6",
+            "+",
+            "K",
+            "K",
+            "K"
+        ],
         "startup": null,
         "active": null,
         "recovery": 39,
@@ -1005,7 +1305,13 @@
     {
         "section": "Special Moves",
         "name": "P Aerial Yoga Teleport (Forward)",
-        "input": "6+PPP",
+        "input": [
+            "6",
+            "+",
+            "P",
+            "P",
+            "P"
+        ],
         "startup": null,
         "active": null,
         "recovery": 29,
@@ -1022,7 +1328,13 @@
     {
         "section": "Special Moves",
         "name": "K Aerial Yoga Teleport (Forward)",
-        "input": "6+KKK",
+        "input": [
+            "6",
+            "+",
+            "K",
+            "K",
+            "K"
+        ],
         "startup": null,
         "active": null,
         "recovery": 29,
@@ -1039,7 +1351,19 @@
     {
         "section": "Special Moves",
         "name": "Yoga Teleport (Backward)",
-        "input": "4+PPP/4+KKK",
+        "input": [
+            "4",
+            "+",
+            "P",
+            "P",
+            "P",
+            "/",
+            "4",
+            "+",
+            "K",
+            "K",
+            "K"
+        ],
         "startup": null,
         "active": null,
         "recovery": 46,
@@ -1056,7 +1380,13 @@
     {
         "section": "Special Moves",
         "name": "P Aerial Yoga Teleport (Backward)",
-        "input": "4+PPP",
+        "input": [
+            "4",
+            "+",
+            "P",
+            "P",
+            "P"
+        ],
         "startup": null,
         "active": null,
         "recovery": 34,
@@ -1073,7 +1403,13 @@
     {
         "section": "Special Moves",
         "name": "K Aerial Yoga Teleport (Backward)",
-        "input": "4+KKK",
+        "input": [
+            "4",
+            "+",
+            "K",
+            "K",
+            "K"
+        ],
         "startup": null,
         "active": null,
         "recovery": 34,
@@ -1090,7 +1426,16 @@
     {
         "section": "Super Arts",
         "name": "SA1 L Yoga Inferno",
-        "input": "236236+LP",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "LP"
+        ],
         "startup": 9,
         "active": 84,
         "recovery": 133,
@@ -1107,7 +1452,16 @@
     {
         "section": "Super Arts",
         "name": "SA1 M Yoga Inferno",
-        "input": "236236+MP",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "MP"
+        ],
         "startup": 9,
         "active": 84,
         "recovery": 133,
@@ -1124,7 +1478,16 @@
     {
         "section": "Super Arts",
         "name": "SA1 H Yoga Inferno",
-        "input": "236236+HP",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "HP"
+        ],
         "startup": 9,
         "active": 84,
         "recovery": 133,
@@ -1141,7 +1504,16 @@
     {
         "section": "Super Arts",
         "name": "SA2 Yoga Sunburst(Lv1)",
-        "input": "214214+K",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "2",
+            "1",
+            "4",
+            "+",
+            "K"
+        ],
         "startup": 7,
         "active": null,
         "recovery": 67,
@@ -1158,7 +1530,16 @@
     {
         "section": "Super Arts",
         "name": "SA2 Yoga Sunburst(Lv2)",
-        "input": "214214+K",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "2",
+            "1",
+            "4",
+            "+",
+            "K"
+        ],
         "startup": 7,
         "active": null,
         "recovery": 80,
@@ -1175,7 +1556,16 @@
     {
         "section": "Super Arts",
         "name": "SA2 Yoga Sunburst(Lv3)",
-        "input": "214214+K",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "2",
+            "1",
+            "4",
+            "+",
+            "K"
+        ],
         "startup": 7,
         "active": null,
         "recovery": 128,
@@ -1192,7 +1582,16 @@
     {
         "section": "Super Arts",
         "name": "SA3 Merciless Yoga",
-        "input": "236236+K",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "K"
+        ],
         "startup": 9,
         "active": 5,
         "recovery": 75,
@@ -1209,7 +1608,16 @@
     {
         "section": "Super Arts",
         "name": "CA Merciless Yoga",
-        "input": "236236+K",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "K"
+        ],
         "startup": 9,
         "active": 5,
         "recovery": 75,
@@ -1226,7 +1634,14 @@
     {
         "section": "Throws",
         "name": "Yoga Smash",
-        "input": "5/6+LPLK",
+        "input": [
+            "5",
+            "/",
+            "6",
+            "+",
+            "LP",
+            "LK"
+        ],
         "startup": 4,
         "active": 3,
         "recovery": 23,
@@ -1243,7 +1658,12 @@
     {
         "section": "Throws",
         "name": "Yoga Throw",
-        "input": "4+LPLK",
+        "input": [
+            "4",
+            "+",
+            "LP",
+            "LK"
+        ],
         "startup": 4,
         "active": 3,
         "recovery": 23,
@@ -1260,7 +1680,12 @@
     {
         "section": "Throws",
         "name": "Yoga Splash",
-        "input": "2+LPLK",
+        "input": [
+            "2",
+            "+",
+            "LP",
+            "LK"
+        ],
         "startup": 4,
         "active": 3,
         "recovery": 23,
@@ -1277,7 +1702,10 @@
     {
         "section": "Common Moves",
         "name": "Forward Dash",
-        "input": "66",
+        "input": [
+            "6",
+            "6"
+        ],
         "startup": null,
         "active": null,
         "recovery": 25,
@@ -1294,7 +1722,10 @@
     {
         "section": "Common Moves",
         "name": "Backward Dash",
-        "input": "44",
+        "input": [
+            "4",
+            "4"
+        ],
         "startup": null,
         "active": null,
         "recovery": 23,
@@ -1311,7 +1742,10 @@
     {
         "section": "Common Moves",
         "name": "Drive Impact: Yoga Rise",
-        "input": "HPHK",
+        "input": [
+            "HP",
+            "HK"
+        ],
         "startup": 25,
         "active": 2,
         "recovery": 35,
@@ -1328,7 +1762,12 @@
     {
         "section": "Common Moves",
         "name": "Drive Reversal: Yoga Illusion",
-        "input": "6+HPHK",
+        "input": [
+            "6",
+            "+",
+            "HP",
+            "HK"
+        ],
         "startup": 19,
         "active": 3101,
         "recovery": 26,
@@ -1345,7 +1784,10 @@
     {
         "section": "Common Moves",
         "name": "Drive Parry",
-        "input": "MPMK",
+        "input": [
+            "MP",
+            "MK"
+        ],
         "startup": null,
         "active": null,
         "recovery": 29,
@@ -1362,7 +1804,10 @@
     {
         "section": "Common Moves",
         "name": "Perfect Parry (strike)",
-        "input": "MPMK",
+        "input": [
+            "MP",
+            "MK"
+        ],
         "startup": 1,
         "active": null,
         "recovery": 1,
@@ -1379,7 +1824,10 @@
     {
         "section": "Common Moves",
         "name": "Perfect Parry (projectile)",
-        "input": "MPMK",
+        "input": [
+            "MP",
+            "MK"
+        ],
         "startup": 1,
         "active": null,
         "recovery": 10,
@@ -1396,7 +1844,10 @@
     {
         "section": "Common Moves",
         "name": "Parry Drive Rush",
-        "input": "66",
+        "input": [
+            "6",
+            "6"
+        ],
         "startup": null,
         "active": null,
         "recovery": 45,
@@ -1413,7 +1864,17 @@
     {
         "section": "Common Moves",
         "name": "Cancel Drive Rush",
-        "input": "66/5/6+MPMK",
+        "input": [
+            "6",
+            "6",
+            "/",
+            "5",
+            "/",
+            "6",
+            "+",
+            "MP",
+            "MK"
+        ],
         "startup": null,
         "active": null,
         "recovery": 46,

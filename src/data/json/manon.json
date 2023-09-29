@@ -2,7 +2,9 @@
     {
         "section": "Normal Moves",
         "name": "Standing Light Punch",
-        "input": "LP",
+        "input": [
+            "LP"
+        ],
         "startup": 3,
         "active": 3,
         "recovery": 10,
@@ -19,7 +21,9 @@
     {
         "section": "Normal Moves",
         "name": "Standing Light Kick",
-        "input": "LK",
+        "input": [
+            "LK"
+        ],
         "startup": 4,
         "active": 2,
         "recovery": 12,
@@ -36,7 +40,9 @@
     {
         "section": "Normal Moves",
         "name": "Standing Medium Punch",
-        "input": "MP",
+        "input": [
+            "MP"
+        ],
         "startup": 6,
         "active": 4,
         "recovery": 14,
@@ -53,7 +59,9 @@
     {
         "section": "Normal Moves",
         "name": "Standing Medium Kick",
-        "input": "MK",
+        "input": [
+            "MK"
+        ],
         "startup": 9,
         "active": 3,
         "recovery": 18,
@@ -70,7 +78,9 @@
     {
         "section": "Normal Moves",
         "name": "Standing Heavy Punch",
-        "input": "HP",
+        "input": [
+            "HP"
+        ],
         "startup": 9,
         "active": 4,
         "recovery": 20,
@@ -87,7 +97,9 @@
     {
         "section": "Normal Moves",
         "name": "Standing Heavy Kick",
-        "input": "HK",
+        "input": [
+            "HK"
+        ],
         "startup": 14,
         "active": 3,
         "recovery": 26,
@@ -104,7 +116,11 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Light Punch",
-        "input": "2+LP",
+        "input": [
+            "2",
+            "+",
+            "LP"
+        ],
         "startup": 3,
         "active": 2,
         "recovery": 11,
@@ -121,7 +137,11 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Light Kick",
-        "input": "2+LK",
+        "input": [
+            "2",
+            "+",
+            "LK"
+        ],
         "startup": 4,
         "active": 2,
         "recovery": 13,
@@ -138,7 +158,11 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Medium Punch",
-        "input": "2+MP",
+        "input": [
+            "2",
+            "+",
+            "MP"
+        ],
         "startup": 6,
         "active": 3,
         "recovery": 11,
@@ -155,7 +179,11 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Medium Kick",
-        "input": "2+MK",
+        "input": [
+            "2",
+            "+",
+            "MK"
+        ],
         "startup": 7,
         "active": 4,
         "recovery": 16,
@@ -172,7 +200,11 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Heavy Punch",
-        "input": "2+HP",
+        "input": [
+            "2",
+            "+",
+            "HP"
+        ],
         "startup": 9,
         "active": 5,
         "recovery": 21,
@@ -189,7 +221,11 @@
     {
         "section": "Normal Moves",
         "name": "Crouching Heavy Kick",
-        "input": "2+HK",
+        "input": [
+            "2",
+            "+",
+            "HK"
+        ],
         "startup": 10,
         "active": 2,
         "recovery": 27,
@@ -206,7 +242,9 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Light Punch",
-        "input": "LP",
+        "input": [
+            "LP"
+        ],
         "startup": 4,
         "active": 10,
         "recovery": 3,
@@ -223,7 +261,9 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Light Kick",
-        "input": "LK",
+        "input": [
+            "LK"
+        ],
         "startup": 5,
         "active": 9,
         "recovery": 3,
@@ -240,7 +280,9 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Medium Punch",
-        "input": "MP",
+        "input": [
+            "MP"
+        ],
         "startup": 7,
         "active": 4,
         "recovery": 3,
@@ -257,7 +299,9 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Medium Kick",
-        "input": "MK",
+        "input": [
+            "MK"
+        ],
         "startup": 6,
         "active": 6,
         "recovery": 3,
@@ -274,7 +318,9 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Heavy Punch",
-        "input": "HP",
+        "input": [
+            "HP"
+        ],
         "startup": 8,
         "active": 4,
         "recovery": 3,
@@ -291,7 +337,9 @@
     {
         "section": "Normal Moves",
         "name": "Jumping Heavy Kick",
-        "input": "HK",
+        "input": [
+            "HK"
+        ],
         "startup": 10,
         "active": 5,
         "recovery": 3,
@@ -308,7 +356,11 @@
     {
         "section": "Unique Attacks",
         "name": "Révérence",
-        "input": "4+HP",
+        "input": [
+            "4",
+            "+",
+            "HP"
+        ],
         "startup": 7,
         "active": 6,
         "recovery": 17,
@@ -325,7 +377,11 @@
     {
         "section": "Unique Attacks",
         "name": "Tomoe Derrière",
-        "input": "3+HK",
+        "input": [
+            "3",
+            "+",
+            "HK"
+        ],
         "startup": 10,
         "active": 9,
         "recovery": 32,
@@ -342,7 +398,11 @@
     {
         "section": "Unique Attacks",
         "name": "À Terre",
-        "input": "MP>MK",
+        "input": [
+            "MP",
+            ">",
+            "MK"
+        ],
         "startup": 9,
         "active": 2,
         "recovery": 17,
@@ -359,7 +419,11 @@
     {
         "section": "Unique Attacks",
         "name": "En Haut(1)",
-        "input": "4+MK",
+        "input": [
+            "4",
+            "+",
+            "MK"
+        ],
         "startup": 9,
         "active": 4,
         "recovery": 19,
@@ -376,7 +440,13 @@
     {
         "section": "Unique Attacks",
         "name": "En Haut(2)",
-        "input": "4+MK>MK",
+        "input": [
+            "4",
+            "+",
+            "MK",
+            ">",
+            "MK"
+        ],
         "startup": 13,
         "active": 7,
         "recovery": 21,
@@ -393,7 +463,11 @@
     {
         "section": "Unique Attacks",
         "name": "Temps Lié",
-        "input": "HP>HP",
+        "input": [
+            "HP",
+            ">",
+            "HP"
+        ],
         "startup": 4,
         "active": 2,
         "recovery": null,
@@ -410,7 +484,13 @@
     {
         "section": "Unique Attacks",
         "name": "Allongé",
-        "input": "2+HP>HP",
+        "input": [
+            "2",
+            "+",
+            "HP",
+            ">",
+            "HP"
+        ],
         "startup": 3,
         "active": 4,
         "recovery": 26,
@@ -427,7 +507,15 @@
     {
         "section": "Special Moves",
         "name": "L Manège Doré(Attack changes according to Medal level)",
-        "input": "63214+LP",
+        "input": [
+            "6",
+            "3",
+            "2",
+            "1",
+            "4",
+            "+",
+            "LP"
+        ],
         "startup": 9,
         "active": 2,
         "recovery": 49,
@@ -444,7 +532,15 @@
     {
         "section": "Special Moves",
         "name": "M Manège Doré(Attack changes according to Medal level)",
-        "input": "63214+MP",
+        "input": [
+            "6",
+            "3",
+            "2",
+            "1",
+            "4",
+            "+",
+            "MP"
+        ],
         "startup": 7,
         "active": 2,
         "recovery": 51,
@@ -461,7 +557,15 @@
     {
         "section": "Special Moves",
         "name": "H Manège Doré(Attack changes according to Medal level)",
-        "input": "63214+HP",
+        "input": [
+            "6",
+            "3",
+            "2",
+            "1",
+            "4",
+            "+",
+            "HP"
+        ],
         "startup": 4,
         "active": 2,
         "recovery": 54,
@@ -478,7 +582,16 @@
     {
         "section": "Special Moves",
         "name": "OD Manège Doré(Attack changes according to Medal level)",
-        "input": "63214+PP",
+        "input": [
+            "6",
+            "3",
+            "2",
+            "1",
+            "4",
+            "+",
+            "P",
+            "P"
+        ],
         "startup": 7,
         "active": 2,
         "recovery": 51,
@@ -495,7 +608,13 @@
     {
         "section": "Special Moves",
         "name": "L Rond-point",
-        "input": "236+LK",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "LK"
+        ],
         "startup": 8,
         "active": 151,
         "recovery": 29,
@@ -512,7 +631,13 @@
     {
         "section": "Special Moves",
         "name": "M Rond-point",
-        "input": "236+MK",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "MK"
+        ],
         "startup": 10,
         "active": 1901,
         "recovery": 27,
@@ -529,7 +654,13 @@
     {
         "section": "Special Moves",
         "name": "H Rond-point",
-        "input": "236+HK",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "HK"
+        ],
         "startup": 13,
         "active": 2201,
         "recovery": 24,
@@ -546,7 +677,14 @@
     {
         "section": "Special Moves",
         "name": "OD Rond-point",
-        "input": "236+KK",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "K",
+            "K"
+        ],
         "startup": 7,
         "active": 161,
         "recovery": 30,
@@ -563,7 +701,13 @@
     {
         "section": "Special Moves",
         "name": "L Dégagé",
-        "input": "214+LK",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "LK"
+        ],
         "startup": 15,
         "active": 3101,
         "recovery": 36,
@@ -580,7 +724,13 @@
     {
         "section": "Special Moves",
         "name": "M Dégagé",
-        "input": "214+MK",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "MK"
+        ],
         "startup": 15,
         "active": 3901,
         "recovery": 22,
@@ -597,7 +747,13 @@
     {
         "section": "Special Moves",
         "name": "H  Dégagé",
-        "input": "214+HK",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "HK"
+        ],
         "startup": 19,
         "active": 3,
         "recovery": 24,
@@ -614,7 +770,14 @@
     {
         "section": "Special Moves",
         "name": "OD Dégagé",
-        "input": "214+KK",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "+",
+            "K",
+            "K"
+        ],
         "startup": 21,
         "active": 3,
         "recovery": 22,
@@ -631,7 +794,13 @@
     {
         "section": "Special Moves",
         "name": "L Renversé(Attack changes according to Medal level)",
-        "input": "236+LP",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "LP"
+        ],
         "startup": 21,
         "active": 2,
         "recovery": 37,
@@ -648,7 +817,13 @@
     {
         "section": "Special Moves",
         "name": "M Renversé(Attack changes according to Medal level)",
-        "input": "236+MP",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "MP"
+        ],
         "startup": 24,
         "active": 2,
         "recovery": 34,
@@ -665,7 +840,13 @@
     {
         "section": "Special Moves",
         "name": "H Renversé(Attack changes according to Medal level)",
-        "input": "236+HP",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "HP"
+        ],
         "startup": 28,
         "active": 2,
         "recovery": 30,
@@ -682,7 +863,14 @@
     {
         "section": "Special Moves",
         "name": "OD Renversé(Attack changes according to Medal level)",
-        "input": "236+PP",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "+",
+            "P",
+            "P"
+        ],
         "startup": 24,
         "active": 2,
         "recovery": 34,
@@ -699,7 +887,9 @@
     {
         "section": "Special Moves",
         "name": "Grand Fouetté",
-        "input": "K",
+        "input": [
+            "K"
+        ],
         "startup": 10,
         "active": 6,
         "recovery": 22,
@@ -716,7 +906,9 @@
     {
         "section": "Special Moves",
         "name": "OD Grand Fouetté",
-        "input": "K",
+        "input": [
+            "K"
+        ],
         "startup": 10,
         "active": 6,
         "recovery": 22,
@@ -733,7 +925,16 @@
     {
         "section": "Super Arts",
         "name": "SA1 Arabesque",
-        "input": "236236+K",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "K"
+        ],
         "startup": 9,
         "active": 4,
         "recovery": 65,
@@ -750,7 +951,16 @@
     {
         "section": "Super Arts",
         "name": "SA2 Étoile",
-        "input": "214214+K",
+        "input": [
+            "2",
+            "1",
+            "4",
+            "2",
+            "1",
+            "4",
+            "+",
+            "K"
+        ],
         "startup": 6,
         "active": 801,
         "recovery": 38,
@@ -767,7 +977,16 @@
     {
         "section": "Super Arts",
         "name": "SA3 Pas de Deux",
-        "input": "236236+P",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "P"
+        ],
         "startup": 6,
         "active": 2,
         "recovery": 72,
@@ -784,7 +1003,16 @@
     {
         "section": "Super Arts",
         "name": "CA Pas de Deux",
-        "input": "236236+P",
+        "input": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "3",
+            "6",
+            "+",
+            "P"
+        ],
         "startup": 6,
         "active": 2,
         "recovery": 72,
@@ -801,7 +1029,14 @@
     {
         "section": "Throws",
         "name": "Ouchi Gari",
-        "input": "5/6+LPLK",
+        "input": [
+            "5",
+            "/",
+            "6",
+            "+",
+            "LP",
+            "LK"
+        ],
         "startup": 4,
         "active": 3,
         "recovery": 23,
@@ -818,7 +1053,12 @@
     {
         "section": "Throws",
         "name": "Uchi Mata",
-        "input": "4+LPLK",
+        "input": [
+            "4",
+            "+",
+            "LP",
+            "LK"
+        ],
         "startup": 4,
         "active": 3,
         "recovery": 23,
@@ -835,7 +1075,10 @@
     {
         "section": "Common Moves",
         "name": "Forward Dash",
-        "input": "66",
+        "input": [
+            "6",
+            "6"
+        ],
         "startup": null,
         "active": null,
         "recovery": 21,
@@ -852,7 +1095,10 @@
     {
         "section": "Common Moves",
         "name": "Backward Dash",
-        "input": "44",
+        "input": [
+            "4",
+            "4"
+        ],
         "startup": null,
         "active": null,
         "recovery": 25,
@@ -869,7 +1115,10 @@
     {
         "section": "Common Moves",
         "name": "Drive Impact: Glissade",
-        "input": "HPHK",
+        "input": [
+            "HP",
+            "HK"
+        ],
         "startup": 25,
         "active": 2,
         "recovery": 35,
@@ -886,7 +1135,12 @@
     {
         "section": "Common Moves",
         "name": "Drive Reversal: Écarté",
-        "input": "6+HPHK",
+        "input": [
+            "6",
+            "+",
+            "HP",
+            "HK"
+        ],
         "startup": 19,
         "active": 3,
         "recovery": 26,
@@ -903,7 +1157,10 @@
     {
         "section": "Common Moves",
         "name": "Drive Parry",
-        "input": "MPMK",
+        "input": [
+            "MP",
+            "MK"
+        ],
         "startup": null,
         "active": null,
         "recovery": 29,
@@ -920,7 +1177,10 @@
     {
         "section": "Common Moves",
         "name": "Perfect Parry (strike)",
-        "input": "MPMK",
+        "input": [
+            "MP",
+            "MK"
+        ],
         "startup": 1,
         "active": null,
         "recovery": 1,
@@ -937,7 +1197,10 @@
     {
         "section": "Common Moves",
         "name": "Perfect Parry (projectile)",
-        "input": "MPMK",
+        "input": [
+            "MP",
+            "MK"
+        ],
         "startup": 1,
         "active": null,
         "recovery": 10,
@@ -954,7 +1217,10 @@
     {
         "section": "Common Moves",
         "name": "Parry Drive Rush",
-        "input": "66",
+        "input": [
+            "6",
+            "6"
+        ],
         "startup": null,
         "active": null,
         "recovery": 45,
@@ -971,7 +1237,17 @@
     {
         "section": "Common Moves",
         "name": "Cancel Drive Rush",
-        "input": "66/5/6+MPMK",
+        "input": [
+            "6",
+            "6",
+            "/",
+            "5",
+            "/",
+            "6",
+            "+",
+            "MP",
+            "MK"
+        ],
         "startup": null,
         "active": null,
         "recovery": 46,
