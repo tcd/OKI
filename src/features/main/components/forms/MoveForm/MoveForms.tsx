@@ -18,7 +18,7 @@ export const MoveForms = (): JSX.Element => {
     ))
 
     return (
-        <Stack direction="column" spacing={3}>
+        <Stack direction="row" spacing={3}>
             {$forms}
         </Stack>
     )
