@@ -38,4 +38,5 @@ const sx: SxProps = {
     display: "flex",
     flexFlow: "column nowrap",
     ml: 1,
+    mr: 2,
 }
