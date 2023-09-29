@@ -12,6 +12,10 @@ export const Input = (props: InputProps): JSX.Element => {
 
     const { input } = props
 
+    if (input == "+") {
+        return null
+    }
+
     const inputSrc = INPUT_URLS[input]
 
     return (
