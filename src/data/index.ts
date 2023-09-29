@@ -20,24 +20,30 @@ import ryu      from "./json/ryu.json"
 import zangief  from "./json/zangief.json"
 
 export const FRAME_DATA: Record<SF6.CharacterNameClean, SF6.ICharacterFrameData[]> = {
-    aki,
-    blanka,
-    cammy,
-    chunli,
-    deejay,
-    dhalsim,
-    ehonda,
-    guile,
-    jamie,
-    jp,
-    juri,
-    ken,
-    kimberly,
-    lily,
-    luke,
-    manon,
-    marisa,
-    rashid,
-    ryu,
-    zangief,
+    aki:      aki as SF6.ICharacterFrameData[],
+    blanka:   blanka as SF6.ICharacterFrameData[],
+    cammy:    cammy as SF6.ICharacterFrameData[],
+    chunli:   chunli as SF6.ICharacterFrameData[],
+    deejay:   deejay as SF6.ICharacterFrameData[],
+    dhalsim:  dhalsim as SF6.ICharacterFrameData[],
+    ehonda:   ehonda as SF6.ICharacterFrameData[],
+    guile:    guile as SF6.ICharacterFrameData[],
+    jamie:    jamie as SF6.ICharacterFrameData[],
+    jp:       jp as SF6.ICharacterFrameData[],
+    juri:     juri as SF6.ICharacterFrameData[],
+    ken:      ken as SF6.ICharacterFrameData[],
+    kimberly: kimberly as SF6.ICharacterFrameData[],
+    lily:     lily as SF6.ICharacterFrameData[],
+    luke:     luke as SF6.ICharacterFrameData[],
+    manon:    manon as SF6.ICharacterFrameData[],
+    marisa:   marisa as SF6.ICharacterFrameData[],
+    rashid:   rashid as SF6.ICharacterFrameData[],
+    ryu:      ryu as SF6.ICharacterFrameData[],
+    zangief:  zangief as SF6.ICharacterFrameData[],
+}
+
+export const getCharacterFrameData = (character: SF6.CharacterNameClean): SF6.ICharacterFrameData[] => FRAME_DATA[character]
+
+export const getMoveFrameData = (character: SF6.CharacterNameClean, moveName: string): SF6.ICharacterFrameData => {
+    return getCharacterFrameData(character).find((move) => move.name == moveName)
 }

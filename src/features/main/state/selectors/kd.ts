@@ -19,6 +19,6 @@ const rowDataPlus = (s: RootState): SF6.IOkiRow => {
 // =============================================================================
 
 export default {
-    // rowData,
+    rowData,
     rowDataPlus,
 }

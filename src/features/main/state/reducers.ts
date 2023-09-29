@@ -46,10 +46,6 @@ export const reducers = {
         state.activeRow = payload.rowNumber
         state[`oki${payload.rowNumber}`].startFrame = payload.frame
     },
-    kDFrameClick: (state: MainState, { payload }: PayloadAction<IFrameClickPayload>) => {
-        state.activeRow = payload.rowNumber
-        state[`oki${payload.rowNumber}`].startFrame = payload.frame
-    },
     clickMove: (state: MainState, { payload }: PayloadAction<string>) => {
         const activeRow = state.activeRow
         state[`oki${activeRow}`].name = payload

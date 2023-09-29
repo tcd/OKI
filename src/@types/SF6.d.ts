@@ -70,7 +70,7 @@ export declare global {
             section?: string
             name?: string
             input?: TInput[]
-            inputString?: TInput
+            inputString?: string
             startup?: any
             active?: any
             recovery?: any
