@@ -22,6 +22,7 @@ export const FramePicker = (): JSX.Element => {
             }}
             sx={{ width: 300 }}
             renderInput={(params) => <TextField {...params} label="Start Frame" />}
+            getOptionLabel={(option) => `${option}`}
         />
     )
 }
