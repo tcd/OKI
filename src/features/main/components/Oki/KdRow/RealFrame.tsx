@@ -21,6 +21,7 @@ export const RealFrame = (props: RealFrameProps): JSX.Element => {
     } = props
 
     const startFrame = kd?.startFrame ?? 0
+    let absoluteFrame: number = frame
 
     const handleClick = () => {
         dispatch(Actions.Main.setKdFrame(frame))
@@ -36,14 +37,13 @@ export const RealFrame = (props: RealFrameProps): JSX.Element => {
 
     if (frame >= startFrame) {
         if (kd?.frameData?.total != null) {
-            const relativeFrame = (frame - startFrame)
+            const relativeFrame = (startFrame == 1) ? frame : (frame - startFrame)
             const activeLimit = (kd.frameData.startup + kd.frameData.active)
             const plusRange = range(activeLimit, activeLimit + kd.frameData.hitAdvantage)
 
-
             if (plusRange.includes(relativeFrame)) {
                 if (relativeFrame == 1) {
-                    debugger
+                    // debugger
                 }
                 const numbers = (plusRange[0] + relativeFrame).toString().split("")
                 $content = numbers[numbers.length - 1]
@@ -58,6 +58,7 @@ export const RealFrame = (props: RealFrameProps): JSX.Element => {
             component="span"
             onClick={handleClick}
             sx={sx}
+            title={`${absoluteFrame}`}
         >
             {$content}
         </Box>

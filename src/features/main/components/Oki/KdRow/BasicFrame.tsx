@@ -22,6 +22,7 @@ export const BasicFrame = ({ frame }: BasicFrameProps): JSX.Element => {
                 color: undefined,
                 backgroundColor: undefined,
             }}
+            title={frame.toString()}
         >
             {OkiConstants.DOT}
         </Box>
