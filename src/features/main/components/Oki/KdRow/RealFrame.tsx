@@ -20,7 +20,7 @@ export const RealFrame = (props: RealFrameProps): JSX.Element => {
         kd,
     } = props
 
-    const startFrame = kd?.startFrame ?? 1
+    const startFrame = kd?.startFrame ?? 0
 
     const handleClick = () => {
         dispatch(Actions.Main.setKdFrame(frame))
@@ -45,9 +45,9 @@ export const RealFrame = (props: RealFrameProps): JSX.Element => {
                 if (relativeFrame == 1) {
                     debugger
                 }
-                // const numbers = (plusRange[0] + relativeFrame).toString().split("")
-                // $content = numbers[numbers.length - 1]
-                $content = relativeFrame
+                const numbers = (plusRange[0] + relativeFrame).toString().split("")
+                $content = numbers[numbers.length - 1]
+                // $content = relativeFrame
                 sx.color = "#CCFFCC"
             }
         }

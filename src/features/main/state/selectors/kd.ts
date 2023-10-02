@@ -22,6 +22,17 @@ const knockdownMoves = (s: RootState) => {
     return knockdowns
 }
 
+const safeFrames = (s: RootState): number[] => {
+    let result: number[] = []
+
+    const move = rowDataPlus(s)
+    if (!!!move?.frameData?.hitAdvantage) {
+        return result
+    }
+
+    return result
+}
+
 // =============================================================================
 
 export default {

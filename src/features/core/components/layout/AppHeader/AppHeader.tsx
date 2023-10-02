@@ -2,6 +2,7 @@ import { useDispatch } from "react-redux"
 
 import { Link, type LinkProps } from "@app/features/shared"
 import { Actions } from "@app/state"
+import { InternalLink } from "./InternalLink"
 
 export const AppHeader = (): JSX.Element => {
 
@@ -15,9 +16,10 @@ export const AppHeader = (): JSX.Element => {
         <>
             <ul>
                 {$links}
-                <li onClick={() => dispatch(Actions.Core.openModal("help"))}>
-                    Help
-                </li>
+                <InternalLink
+                    text="Help"
+                    onClick={() => dispatch(Actions.Core.openModal("help"))}
+                />
             </ul>
         </>
     )
