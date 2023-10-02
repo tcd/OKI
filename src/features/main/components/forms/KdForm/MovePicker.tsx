@@ -5,6 +5,7 @@ import {
 } from "@mui/material"
 
 import { Actions, Selectors } from "@app/state"
+import { useRenderMove } from "./use-render-move"
 
 export const MovePicker = (): JSX.Element => {
 
@@ -12,6 +13,9 @@ export const MovePicker = (): JSX.Element => {
 
     const kd = useSelector(Selectors.Main.kd.rowData)
     const moves = useSelector(Selectors.Main.kd.knockdownMoves)
+    const character = useSelector(Selectors.Main.character1)
+
+    const renderOption = useRenderMove(character)
 
     const options = moves.map((move) => {
         return move.name
@@ -28,6 +32,7 @@ export const MovePicker = (): JSX.Element => {
             onChange={handleClick}
             sx={{ width: 300 }}
             renderInput={(params) => <TextField {...params} label="Move" />}
+            renderOption={renderOption}
         />
     )
 }
