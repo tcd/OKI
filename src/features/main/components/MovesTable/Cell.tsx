@@ -28,10 +28,14 @@ export const Cell = (props: CellProps): JSX.Element => {
         $content = <InputDisplay inputs={value} />
     }
 
+    const sx = {
+        ...buildSx(row, column, value),
+    }
+
     return (
         <Box
             component="td"
-            sx={buildSx(row, column, value)}
+            sx={sx}
         >
             <>{$content}</>
         </Box>
@@ -41,21 +45,23 @@ export const Cell = (props: CellProps): JSX.Element => {
 // =============================================================================
 
 const buildSx = (row: SF6.ICharacterFrameData, column: keyof SF6.ICharacterFrameData, value): SxProps => {
-    if (column == "hitAdvantage" || column == "blockAdvantage") {
-        if (row?.hardKnockdown == true) {
-            return {
-                color: "green",
-                textDecoration: "underline",
-            }
+    const PLUS_COLOR = "green"
+    const MINUS_COLOR = "indianred"
+    if (column == "hitAdvantage" && row?.hardKnockdown == true) {
+        return {
+            color: PLUS_COLOR,
+            textDecoration: "underline",
         }
+    }
+    if (column == "hitAdvantage" || column == "blockAdvantage") {
         const intValue = tryParseInt(value)
         if (intValue == null || intValue > 0) {
             return {
-                color: "green",
+                color: PLUS_COLOR,
             }
         } else if (intValue < 0) {
             return {
-                color: "indianred",
+                color: MINUS_COLOR,
             }
         }
     }
