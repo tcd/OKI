@@ -60,6 +60,7 @@ export interface ICharacterFrameData {
     superGain?: any
     properties?: string[]
     notes?: any
+    hardKnockdown?: boolean
 }
 
 export type TInput =

@@ -86,6 +86,7 @@ export declare global {
             superGain?: any
             properties?: string[]
             notes?: any
+            hardKnockdown?: boolean
         }
 
         export interface IColumns {

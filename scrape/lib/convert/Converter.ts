@@ -61,6 +61,7 @@ class _Converter {
             total: null,
             hitAdvantage: this.rawData["Recovery.Hit"],
             blockAdvantage: this.rawData["Recovery.Block"],
+            hardKnockdown: this.rawData["Recovery.Hit"] == "D",
             cancel: null,
             damage: null,
             // scaling?: any
