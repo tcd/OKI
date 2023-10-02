@@ -31,7 +31,7 @@ export const Cell = (props: CellProps): JSX.Element => {
     return (
         <Box
             component="td"
-            sx={buildSx(column, value)}
+            sx={buildSx(row, column, value)}
         >
             <>{$content}</>
         </Box>
@@ -40,8 +40,14 @@ export const Cell = (props: CellProps): JSX.Element => {
 
 // =============================================================================
 
-const buildSx = (column: keyof SF6.ICharacterFrameData, value): SxProps => {
+const buildSx = (row: SF6.ICharacterFrameData, column: keyof SF6.ICharacterFrameData, value): SxProps => {
     if (column == "hitAdvantage" || column == "blockAdvantage") {
+        if (row?.hardKnockdown == true) {
+            return {
+                color: "green",
+                textDecoration: "underline",
+            }
+        }
         const intValue = tryParseInt(value)
         if (intValue == null || intValue > 0) {
             return {
