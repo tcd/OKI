@@ -54,6 +54,19 @@ export const reducers = {
         state.activeRow = payload.rowNumber
         state[`oki${payload.rowNumber}`].name = payload.move
     },
+    clickSortColumn: (state: MainState, { payload }: PayloadAction<keyof SF6.ICharacterFrameData>) => {
+        if (state.tableSortColumn == payload) {
+            if (state.tableSortDirection == "asc") {
+                state.tableSortColumn = null
+                state.tableSortDirection = null
+            } else {
+                state.tableSortDirection = "asc"
+            }
+        } else {
+            state.tableSortColumn = payload
+            state.tableSortDirection = "desc"
+        }
+    },
     // =========================================================================
     // KD
     // =========================================================================

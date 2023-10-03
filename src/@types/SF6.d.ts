@@ -1,6 +1,8 @@
 export declare global {
     export namespace SF6 {
 
+        export type TSortDirection = "asc" | "desc"
+
         export type T_ASTERISK_I_GUESS = "※"
 
         export type TPlayerNumber =
