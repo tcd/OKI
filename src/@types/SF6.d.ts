@@ -1,7 +1,9 @@
 export declare global {
     export namespace SF6 {
 
-        export type TPlayerNumber = "1" | "2"
+        export type TPlayerNumber =
+            | "1"
+            | "2"
 
         export type TInput =
             | "1"
@@ -50,6 +52,13 @@ export declare global {
             | "ryu"
             | "zangief"
 
+        export type TMoveCancel =
+            | "C"
+            | "SA"
+            | "SA2"
+            | "SA3"
+            | "*"
+
         export type OkiRowNumber =
             | "1"
             | "2"
@@ -77,7 +86,7 @@ export declare global {
             total?: any
             hitAdvantage?: any
             blockAdvantage?: any
-            cancel?: any
+            cancel?: TMoveCancel
             damage?: any
             scaling?: any
             driveGain_hit?: any

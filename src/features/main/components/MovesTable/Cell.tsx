@@ -2,7 +2,7 @@ import { Box } from "@mui/material"
 
 import { type ISxProps as SxProps } from "@app/theme"
 import { tryParseInt } from "@app/util"
-import { InputDisplay } from "@app/features/shared"
+import * as Cells from "./cells"
 
 export type CellProps = {
     player: SF6.TPlayerNumber
@@ -25,7 +25,9 @@ export const Cell = (props: CellProps): JSX.Element => {
     let $content: React.ReactNode = <>{value ?? ""}</>
 
     if (column == "input") {
-        $content = <InputDisplay inputs={value} />
+        $content = <Cells.InputCell row={row} />
+    } else if (column == "cancel") {
+        $content = <Cells.CancelCell row={row} />
     }
 
     const sx = {
