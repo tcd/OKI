@@ -61,6 +61,7 @@ export declare global {
             | "SA3"
             | "*"
             | T_ASTERISK_I_GUESS
+            | null
 
         export type OkiRowNumber =
             | "1"

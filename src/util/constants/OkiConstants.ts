@@ -21,4 +21,5 @@ export const OkiConstants = {
     FRAMES_RANGE,
     ROWS_RANGE,
     ASTERISK_I_GUESS,
+    CANCEL_TRANSLATIONS,
 }
