@@ -1,6 +1,8 @@
 export declare global {
     export namespace SF6 {
 
+        export type T_ASTERISK_I_GUESS = "※"
+
         export type TPlayerNumber =
             | "1"
             | "2"
@@ -58,6 +60,7 @@ export declare global {
             | "SA2"
             | "SA3"
             | "*"
+            | T_ASTERISK_I_GUESS
 
         export type OkiRowNumber =
             | "1"

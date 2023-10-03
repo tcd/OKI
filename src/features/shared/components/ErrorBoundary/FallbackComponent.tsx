@@ -1,4 +1,3 @@
-import { useNavigate } from "react-router-dom"
 import {
     Alert,
     AlertTitle,
@@ -20,10 +19,8 @@ export const FallbackComponent = (props: FallbackComponentProps): JSX.Element =>
         message = null,
     } = props
 
-    const navigate = useNavigate()
-
     const handleClick = () => {
-        navigate(0)
+        window.location.reload()
     }
 
     return (
