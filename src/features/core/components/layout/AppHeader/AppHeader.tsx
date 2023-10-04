@@ -20,6 +20,10 @@ export const AppHeader = (): JSX.Element => {
                     text="Help"
                     onClick={() => dispatch(Actions.Core.openModal("help"))}
                 />
+                <InternalLink
+                    text="OKI"
+                    onClick={() => dispatch(Actions.Core.openModal("oki"))}
+                />
             </ul>
         </>
     )
