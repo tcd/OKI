@@ -1,8 +1,4 @@
-import {
-    Box,
-    Paper,
-    Stack,
-} from "@mui/material"
+import Grid from "@mui/material/Unstable_Grid2/Grid2"
 
 import { OkiConstants } from "@app/util"
 import { MoveForm } from "./MoveForm"
@@ -11,20 +7,24 @@ import { KdForm } from "./KdForm"
 export const MoveForms = (): JSX.Element => {
 
     const $forms = OkiConstants.ROWS_RANGE.map((row) => (
-        <MoveForm
+        <Grid
             key={row}
-            row={row}
-            player="1"
-        />
+            mobile={12}
+            tablet={4}
+        >
+            <MoveForm
+                row={row}
+                player="1"
+            />
+        </Grid>
     ))
 
     return (
-        <>
-            <KdForm />
-            <br />
-            <Stack direction="row" spacing={3}>
-                {$forms}
-            </Stack>
-        </>
+        <Grid container>
+            <Grid mobile={12}>
+                <KdForm />
+            </Grid>
+            {$forms}
+        </Grid>
     )
 }
