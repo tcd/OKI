@@ -4,7 +4,6 @@ import type { ISxProps as SxProps } from "@app/theme"
 
 import { AboveTable } from "./AboveTable"
 import { Oki } from "./Oki"
-import { MoveForms } from "./forms"
 import { MovesTable } from "./MovesTable"
 import { AppPage } from "@app/features/shared"
 
@@ -14,7 +13,6 @@ export const MainPage = (): JSX.Element => {
             <Box sx={rootSx}>
                 <AboveTable />
                 <Oki />
-                <MoveForms />
                 <MovesTable player="1" />
             </Box>
         </AppPage>

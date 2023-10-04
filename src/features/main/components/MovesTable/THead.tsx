@@ -22,8 +22,8 @@ export const THead = (props: THeadProps): JSX.Element => {
     const $headers = columns.map((col, i) => (
         <td
             key={i}
-            // onClick={() => { dispatch(Actions.Main.clickTableHeader({ player, column: col }))}}
-            style={{ padding: "5px 10px 5px 10px" }}
+            onClick={() => { dispatch(Actions.Main.clickSortColumn(col))}}
+            style={{ padding: "5px 10px 5px 10px", cursor: "pointer" }}
         >
             {titleCase(col)}
         </td>
