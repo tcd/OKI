@@ -24,10 +24,6 @@ export const InternalLink = (props: InternalLinkProps): JSX.Element => {
 // =============================================================================
 
 const sx: SxProps = {
-    // flexGrow: 0,
-    // backgroundColor: "cyan",
-    // width: "auto",
-    // display: "block",
     "&:hover": {
         cursor: "pointer",
         textDecoration: "underline",
