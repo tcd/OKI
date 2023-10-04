@@ -2,7 +2,7 @@ import { Box } from "@mui/material"
 
 import type { ISxProps as SxProps } from "@app/theme"
 
-export const Help = (): JSX.Element => {
+export const Content = (): JSX.Element => {
     return (
         <Box
             id="help"

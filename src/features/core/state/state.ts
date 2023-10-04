@@ -10,6 +10,7 @@ export interface CoreState {
     darkModeEnabled: boolean
     openModals: {
         help: boolean
+        oki: boolean
     }
 }
 
@@ -20,6 +21,7 @@ export const INITIAL_CORE_STATE: CoreState = {
     darkModeEnabled: true,
     openModals: {
         help: false,
+        oki: false,
     },
 }
 
