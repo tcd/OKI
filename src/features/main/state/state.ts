@@ -29,6 +29,7 @@ export const INITIAL_GAME_STATE: MainState = {
     activeRow: "1",
     tableSortColumn: null,
     tableSortDirection: null,
+    kd:   { startFrame: 1, name: "Crouching Heavy Kick" },
     oki1: { startFrame: 1 },
     oki2: { startFrame: 1 },
     oki3: { startFrame: 1 },

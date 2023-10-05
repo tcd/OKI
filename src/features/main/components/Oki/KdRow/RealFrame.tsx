@@ -20,7 +20,7 @@ export const RealFrame = (props: RealFrameProps): JSX.Element => {
         kd,
     } = props
 
-    const startFrame = kd?.startFrame ?? 0
+    const startFrame = kd?.startFrame ?? 1
     let absoluteFrame: number = frame
 
     const handleClick = () => {
@@ -38,14 +38,17 @@ export const RealFrame = (props: RealFrameProps): JSX.Element => {
     if (frame >= startFrame) {
         if (kd?.frameData?.total != null) {
             const relativeFrame = (startFrame == 1) ? frame : (frame - startFrame)
-            const activeLimit = (kd.frameData.startup + kd.frameData.active)
-            const plusRange = range(activeLimit, activeLimit + kd.frameData.hitAdvantage)
+            const okiRangeStart = (kd.frameData.total)
+            const okiRange = range(okiRangeStart, okiRangeStart + 10)
+            // const activeLimit = (kd.frameData.startup + kd.frameData.active)
+            // const plusRange = range(activeLimit, activeLimit + kd.frameData.hitAdvantage)
 
-            if (plusRange.includes(relativeFrame)) {
+            if (okiRange.includes(frame)) {
                 if (relativeFrame == 1) {
                     // debugger
                 }
-                const numbers = (plusRange[0] + relativeFrame).toString().split("")
+                const frameI = Math.abs(okiRangeStart - frame) + 1
+                const numbers = frameI.toString().split("")
                 $content = numbers[numbers.length - 1]
                 // $content = relativeFrame
                 sx.color = "#CCFFCC"
